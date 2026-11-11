@@ -1,0 +1,55 @@
+case_id,source,group,term,role,pre_mean,pre_zero_share,excess_0_3,z_0_3,post_mean,excess_0_7,z_0_7,excess_8_21,z_8_21,ratio_0_7,peak_day,peak_value,share_pre,share_0_7
+taylor_nb550,google_trends,nb_siblings,New Balance 550,focal,65.36,0.0,8.62,1.1,71.38,4.16,0.53,-7.57,-0.97,1.09,1,86.0,0.328,0.332
+taylor_nb550,google_trends,nb_siblings,New Balance 9060,sibling,60.07,0.0,4.25,0.7,63.5,2.75,0.45,7.14,1.18,1.06,0,77.0,0.301,0.296
+taylor_nb550,google_trends,nb_siblings,New Balance 530,sibling,19.14,0.0,-1.81,-0.84,18.0,-1.56,-0.72,-1.43,-0.66,0.94,7,21.0,0.096,0.084
+taylor_nb550,google_trends,nb_siblings,New Balance 990,sibling,20.0,0.0,-3.56,-0.95,18.5,-2.03,-0.54,-2.36,-0.63,0.93,7,24.0,0.1,0.086
+taylor_nb550,google_trends,nb_siblings,New Balance 327,sibling,34.68,0.0,11.0,2.22,43.38,7.69,1.55,3.82,0.77,1.25,0,51.0,0.174,0.202
+taylor_nb550,google_trends,competitors,New Balance 550,focal,59.54,0.0,8.12,1.15,65.25,4.0,0.57,-6.96,-0.99,1.1,1,79.0,0.232,0.242
+taylor_nb550,google_trends,competitors,Nike Dunk Low,competitor,61.89,0.0,-0.06,-0.01,63.75,0.41,0.05,-3.46,-0.45,1.03,6,70.0,0.241,0.236
+taylor_nb550,google_trends,competitors,Adidas Samba,competitor,69.0,0.0,5.62,0.68,74.25,4.47,0.54,-3.57,-0.43,1.08,0,91.0,0.268,0.275
+taylor_nb550,google_trends,competitors,Nike Air Force 1,competitor,53.96,0.0,-2.69,-0.61,54.5,-0.69,-0.16,-5.68,-1.29,1.01,7,64.0,0.21,0.202
+taylor_nb550,google_trends,competitors,Converse Chuck Taylor,competitor,12.68,0.0,-2.25,-0.93,12.12,-0.97,-0.4,-0.46,-0.19,0.96,6,15.0,0.049,0.045
+taylor_nb550,google_trends,celebrity_link,Taylor Swift New Balance,focal_link,1.07,0.96,56.75,11.56,44.25,43.31,8.82,6.5,1.32,41.3,2,100.0,0.11,0.695
+taylor_nb550,google_trends,celebrity_link,Taylor Swift Nike,competitor_link,7.29,0.79,34.75,2.69,19.38,13.0,1.0,9.86,0.76,2.66,1,58.0,0.747,0.305
+taylor_nb550,google_trends,celebrity_link,Taylor Swift Adidas,competitor_link,0.0,1.0,0.0,,0.0,0.0,,0.0,,,0,0.0,0.0,0.0
+taylor_nb550,google_trends,celebrity_link,Taylor Swift Converse,competitor_link,1.39,0.96,-2.44,-0.38,0.0,-1.22,-0.19,0.89,0.14,0.0,0,0.0,0.143,0.0
+taylor_nb550,wikipedia_pageviews,brand_pages,New_Balance,focal_brand,1191.29,0.0,-126.69,-1.05,1103.38,-112.88,-0.93,183.43,1.52,0.93,7,1228.0,,
+taylor_nb550,wikipedia_pageviews,brand_pages,Adidas,competitor_brand,5129.36,0.0,-797.5,-1.97,4201.75,-1001.28,-2.47,-1004.5,-2.48,0.82,1,4614.0,,
+taylor_nb550,wikipedia_pageviews,brand_pages,"Nike,_Inc.",competitor_brand,6658.43,0.0,350.69,0.82,6834.0,140.03,0.33,26.64,0.06,1.03,1,7391.0,,
+kanye_energy_boost,google_trends,boost_siblings,Energy Boost,focal,25.5,0.0,14.75,2.62,46.5,21.22,3.77,-0.86,-0.15,1.82,5,76.0,0.149,0.226
+kanye_energy_boost,google_trends,boost_siblings,Pure Boost,sibling,7.82,0.5,-8.5,-1.49,11.12,3.28,0.58,0.68,0.12,1.42,5,23.0,0.046,0.054
+kanye_energy_boost,google_trends,boost_siblings,Ultra Boost,sibling,4.25,0.71,3.12,0.58,21.12,16.41,3.07,41.39,7.74,4.97,5,44.0,0.025,0.103
+kanye_energy_boost,google_trends,boost_siblings,Adidas Superstar,sibling,62.61,0.0,-2.56,-0.29,59.38,-4.5,-0.51,-7.04,-0.8,0.95,1,75.0,0.366,0.289
+kanye_energy_boost,google_trends,boost_siblings,Stan Smith,sibling,70.93,0.0,0.06,0.01,67.62,-3.91,-0.49,5.79,0.73,0.95,1,77.0,0.415,0.329
+kanye_energy_boost,google_trends,competitors,Energy Boost,focal,5.79,0.0,3.5,2.53,10.62,4.84,3.5,-0.29,-0.21,1.84,5,17.0,0.03,0.053
+kanye_energy_boost,google_trends,competitors,Nike Free,competitor,72.57,0.0,-2.75,-0.49,71.25,-2.41,-0.43,-6.57,-1.17,0.98,0,85.0,0.375,0.355
+kanye_energy_boost,google_trends,competitors,Nike Flyknit,competitor,32.89,0.0,2.88,0.73,34.62,1.62,0.42,-1.89,-0.48,1.05,0,43.0,0.17,0.173
+kanye_energy_boost,google_trends,competitors,Nike Roshe,competitor,55.39,0.0,1.12,0.37,58.0,2.06,0.68,-1.46,-0.48,1.05,1,73.0,0.286,0.289
+kanye_energy_boost,google_trends,competitors,Asics Gel,competitor,26.89,0.0,-4.62,-1.68,26.0,-1.72,-0.63,0.96,0.35,0.97,7,36.0,0.139,0.13
+kanye_energy_boost,google_trends,celebrity_link,Kanye Adidas,focal_link,4.57,0.61,2.38,0.52,10.75,6.0,1.32,4.93,1.08,2.35,5,19.0,0.337,0.577
+kanye_energy_boost,google_trends,celebrity_link,Kanye Nike,competitor_link,0.79,0.93,2.56,1.01,1.62,0.94,0.37,-0.79,-0.31,2.07,3,13.0,0.058,0.087
+kanye_energy_boost,google_trends,celebrity_link,Kanye shoes,generic_link,8.21,0.32,-0.81,-0.15,6.25,-1.75,-0.32,-3.93,-0.72,0.76,3,16.0,0.605,0.336
+meghan_outland,google_trends,au_competitors,Outland Denim,focal,0.0,1.0,40.25,,20.88,20.88,,0.57,,,0,100.0,0.0,0.87
+meghan_outland,google_trends,au_competitors,Nobody Denim,competitor,0.54,0.93,1.25,0.72,2.25,1.78,1.02,0.61,0.35,4.2,7,11.0,0.172,0.094
+meghan_outland,google_trends,au_competitors,Ksubi,competitor,0.79,0.89,-1.0,-0.47,0.0,-0.88,-0.41,1.21,0.57,0.0,0,0.0,0.253,0.0
+meghan_outland,google_trends,au_competitors,Levi's,competitor,0.61,0.93,-0.44,-0.22,0.88,0.34,0.17,0.32,0.16,1.44,4,7.0,0.195,0.036
+meghan_outland,google_trends,au_competitors,Nudie Jeans,competitor,1.18,0.86,-1.19,-0.43,0.0,-1.38,-0.5,-1.18,-0.43,0.0,0,0.0,0.379,0.0
+meghan_outland,google_trends,us_competitors,Outland Denim,focal,0.0,1.0,0.25,,0.12,0.12,,0.36,,,0,1.0,0.0,0.002
+meghan_outland,google_trends,us_competitors,Madewell,competitor,32.18,0.0,1.12,0.53,31.88,-0.12,-0.06,-3.82,-1.8,0.99,4,37.0,0.653,0.62
+meghan_outland,google_trends,us_competitors,AG Jeans,competitor,2.5,0.0,0.44,1.04,2.75,0.25,0.59,-0.29,-0.68,1.1,4,4.0,0.051,0.054
+meghan_outland,google_trends,us_competitors,Mother Denim,competitor,0.18,0.82,0.19,0.6,0.38,0.22,0.7,-0.11,-0.34,2.1,0,1.0,0.004,0.007
+meghan_outland,google_trends,us_competitors,Everlane,competitor,14.39,0.0,1.62,1.87,16.25,1.97,2.26,0.96,1.11,1.13,7,20.0,0.292,0.316
+meghan_outland,google_trends,au_category,Outland Denim,focal,0.0,1.0,40.25,,20.88,20.88,,0.57,,,0,100.0,0.0,0.642
+meghan_outland,google_trends,au_category,black jeans,category,11.82,0.0,2.75,1.27,11.62,-0.16,-0.07,-2.32,-1.07,0.98,3,22.0,1.0,0.358
+meghan_outland,google_trends,au_category,ethical fashion,category,0.0,1.0,0.0,,0.0,0.0,,0.36,,,0,0.0,0.0,0.0
+meghan_outland,wikipedia_pageviews,brand_pages,"Meghan,_Duchess_of_Sussex",celebrity,21263.25,0.0,31708.0,0.87,37018.88,17145.66,0.47,-2563.18,-0.07,1.74,0,54464.0,,
+bieber_crocs,google_trends,competitors,Crocs,focal,19.61,0.0,1.0,0.07,18.62,-2.88,-0.19,-5.11,-0.33,0.95,0,36.0,0.337,0.312
+bieber_crocs,google_trends,competitors,Birkenstock,competitor_brand,3.29,0.0,0.0,,3.25,0.0,,-0.21,,0.99,4,4.0,0.057,0.054
+bieber_crocs,google_trends,competitors,Yeezy Slide,competitor,0.0,1.0,0.0,,0.0,0.0,,0.0,,,0,0.0,0.0,0.0
+bieber_crocs,google_trends,competitors,Vans,competitor,22.36,0.0,1.0,1.04,22.62,0.44,0.45,-1.29,-1.33,1.01,5,27.0,0.385,0.379
+bieber_crocs,google_trends,competitors,Ugg,competitor,12.86,0.0,2.44,1.62,15.25,2.5,1.66,4.71,3.13,1.19,5,19.0,0.221,0.255
+bieber_crocs,google_trends,celebrity_link,Justin Bieber Crocs,focal_link,0.25,0.79,5.5,11.2,3.12,2.91,5.92,-0.25,-0.51,12.5,0,17.0,0.029,0.625
+bieber_crocs,google_trends,celebrity_link,Bad Bunny Crocs,sibling_link,8.39,0.36,-8.38,-0.48,1.88,-8.72,-0.5,-7.39,-0.42,0.22,0,3.0,0.967,0.375
+bieber_crocs,google_trends,celebrity_link,Post Malone Crocs,sibling_link,0.04,0.96,-0.06,-0.38,0.0,-0.06,-0.38,-0.04,-0.22,0.0,0,0.0,0.004,0.0
+bieber_crocs,wikipedia_pageviews,brand_pages,Crocs,focal,655.36,0.0,201.5,1.98,868.38,219.41,2.16,-31.29,-0.31,1.33,6,1157.0,,
+bieber_crocs,wikipedia_pageviews,brand_pages,Birkenstock,competitor_brand,279.71,0.0,-31.19,-1.37,244.75,-38.28,-1.68,-38.29,-1.68,0.88,5,276.0,,

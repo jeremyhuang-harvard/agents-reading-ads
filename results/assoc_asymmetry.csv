@@ -1,0 +1,4 @@
+measure,pairs_with_both_directions,share_pairs_celebrity_to_brand_stronger,median_pair_asymmetry,slope_on_log_size_ratio_pageviews,slope_se,cells
+embed_st-baai-bge-base-en-v1-5,23,0.3478,-0.1366,0.157,0.0166,660
+embed_st-suproteem-representlm-v2,23,0.4783,-0.2176,0.2297,0.0394,660
+llm_qwen3-8b-4bit,23,0.5652,1.1126,2.0809,0.1107,660

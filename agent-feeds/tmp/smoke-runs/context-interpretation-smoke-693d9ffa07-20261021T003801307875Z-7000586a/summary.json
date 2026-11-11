@@ -1,0 +1,35 @@
+{
+  "cell_count": 64,
+  "context_summaries": [
+    {
+      "mean_purchase_probability": 80.4375,
+      "n": 16,
+      "price_context": "favorable_contrast",
+      "price_first_share": 0.5,
+      "quality_context": "favorable_contrast"
+    },
+    {
+      "mean_purchase_probability": 70.0625,
+      "n": 16,
+      "price_context": "favorable_contrast",
+      "price_first_share": 1,
+      "quality_context": "near_benchmark"
+    },
+    {
+      "mean_purchase_probability": 69.8125,
+      "n": 16,
+      "price_context": "near_benchmark",
+      "price_first_share": 0.0625,
+      "quality_context": "favorable_contrast"
+    },
+    {
+      "mean_purchase_probability": 59.75,
+      "n": 16,
+      "price_context": "near_benchmark",
+      "price_first_share": 0.5,
+      "quality_context": "near_benchmark"
+    }
+  ],
+  "response_count": 64,
+  "warning": "Mock outputs validate plumbing only and carry no substantive behavioral meaning."
+}

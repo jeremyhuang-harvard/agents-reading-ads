@@ -1,0 +1,31 @@
+{
+  "version": "2026-10-20-snap-fr-sports-betting-5x1000-v1",
+  "purpose": "Targeted Snapchat competitor panel for the French online sports-betting market: collect up to 1,000 disclosed ad records for each of five directly competing advertiser identities. If an advertiser has fewer than 1,000 retrievable records, exhaust its pagination and preserve the shortfall rather than backfilling from another firm.",
+  "market": {
+    "country": "fr",
+    "category": "online_sports_betting",
+    "regulator_frame_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "frame_checked_date": "2026-10-20"
+  },
+  "target": 5000,
+  "storage_cap_gib": 30,
+  "per_file_max_mib": 512,
+  "per_advertiser_target": 1000,
+  "strata": [
+    {"category": "sports_betting", "advertiser": "Winamax", "country": "fr", "quota": 1000, "company_label": "Winamax", "observed_payer": "Winamax "},
+    {"category": "sports_betting", "advertiser": "PMU", "country": "fr", "quota": 1000, "company_label": "PMU", "observed_payer": "PMU"},
+    {"category": "sports_betting", "advertiser": "Kindred London Ltd", "country": "fr", "quota": 1000, "company_label": "Unibet / Kindred", "observed_payer": "Kindred London Ltd"},
+    {"category": "sports_betting", "advertiser": "Betsson France SA", "country": "fr", "quota": 1000, "company_label": "Betsson", "observed_payer": "Betsson France SA"},
+    {"category": "sports_betting", "advertiser": "bet365", "country": "fr", "quota": 1000, "company_label": "bet365", "observed_payer": "bet365"}
+  ],
+  "interpretation": {
+    "sampling_unit": "Snap Ads Gallery ad record",
+    "creative_unit": "downloaded creative identified by SHA-256",
+    "coverage": "All records selected by the frozen country and payer-name queries up to the per-advertiser cap; pagination exhaustion is recorded for advertiser shortfalls.",
+    "not_claimed": [
+      "population representation of all French betting advertising",
+      "delivered exposure or unique reach",
+      "causal strategic response by one advertiser to another"
+    ]
+  }
+}

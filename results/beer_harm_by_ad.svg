@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="222" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect width="780" height="222" fill="white"/>
+<text x="20" y="28" font-size="16" font-weight="bold">Same drink-driving images, opposite effects on how safe the beer looks</text>
+<text x="290" y="66" text-anchor="end">Heineken pint (regular)</text>
+<rect x="369.2" y="50" width="180.8" height="22" fill="#c0392b"/>
+<text x="363.2" y="66" text-anchor="end">-1.81</text>
+<text x="290" y="98" text-anchor="end">Heineken Oranje fan kit (regular)</text>
+<rect x="341.7" y="82" width="208.3" height="22" fill="#c0392b"/>
+<text x="335.7" y="98" text-anchor="end">-2.08</text>
+<text x="290" y="130" text-anchor="end">Heineken 0.0 drinker</text>
+<rect x="550.0" y="114" width="35.5" height="22" fill="#2e86c1"/>
+<text x="591.5" y="130" text-anchor="start">+0.36</text>
+<text x="290" y="162" text-anchor="end">Heineken 0.0 &quot;Ultimate&quot; can</text>
+<rect x="550.0" y="146" width="125.2" height="22" fill="#2e86c1"/>
+<text x="681.2" y="162" text-anchor="start">+1.25</text>
+<line x1="550.0" y1="44" x2="550.0" y2="178" stroke="#333" stroke-width="1"/>
+<text x="20" y="208" font-size="11" fill="#555">Qwen3-VL-8B, batch 2: change in 'how safe' (1-5) after 5 drink-driving images vs 5 neutral images. Red = regular beer, blue = alcohol-free.</text>
+</svg>

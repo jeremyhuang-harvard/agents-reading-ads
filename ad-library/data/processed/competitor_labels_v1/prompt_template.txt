@@ -1,0 +1,79 @@
+You are coding a French online sports-betting advertisement from Snapchat for an academic study of how advertisements create associations in memory.
+
+Read the file(s): {files}
+{video_note}
+Describe only what is observable. Report a brand only if it is visible or audible. Transcribe French text verbatim.
+
+BORROWED-MEANING CATEGORIES. Rate each on prominence (0 = absent; 1 = present but minor or background; 2 = clearly present, secondary; 3 = dominant or central). Give short quoted or visual evidence when prominence > 0, otherwise "".
+- "club_fandom_rivalry": Club fandom and rivalry: club shirts, club identity, derbies, named club fixtures.
+- "national_pride": National pride: national teams, national colours, 'Les Bleus', international tournaments framed as country vs country.
+- "big_event_prestige": Big-event prestige and spectacle: finals, World Cup, Champions League, Arc de Triomphe, grand stadium imagery.
+- "star_athlete_glamour": Star-athlete glamour: named or recognisable star players, drivers, fighters as focal attractions.
+- "expertise_prediction": Expertise and informed prediction: tips, statistics, analysis, pundits, curated or ready-made bets, 'informed pick'.
+- "humour_wordplay": Humour and wordplay: puns, jokes, comic situations, ironic captions.
+- "street_youth_culture": Street or youth culture: graffiti, slang or colloquial French, urban styling, youth codes.
+- "creator_authenticity": Creator or influencer authenticity: a person speaking to camera in creator/streamer/podcast format.
+- "sociability_community": Sociability and community: friends, watching together, belonging to a group of fans.
+- "safety_risk_reduction": Safety and risk reduction: refunded, guaranteed, insured, cashback, abandonment protection, 'sans risque'.
+- "money_wealth_jackpot": Money, wealth and jackpot: large cash figures, gold, treasure, luxury, prize pools.
+- "official_legitimacy": Official legitimacy and sponsorship: official partner status, stadium boards, regulator or trusted-operator cues.
+- "tradition_heritage": Tradition and heritage: historic races or events, heritage of the sport, long-standing institutions.
+- "play_games_collectibles": Play, games and collectibles: trading-card frames, video-game or arcade style, prediction contests.
+- "product_features": Product features and convenience: cash out, fast withdrawal, bet builder, app functionality.
+- "leisure_occasion": Leisure occasion: summer, holidays, festive celebrations, weekends, relaxation.
+- "strength_masculinity": Strength and masculinity: fighting, power, toughness imagery or language.
+
+REGULATORY FIELDS. Booleans are true/false; ratings are integers 0-100 using the anchors. Use blank plus unknown_reason only when the construct cannot be observed. Zero means observable absence. When value is null, give unknown_reason.
+- "gambling_ad_present" (boolean): The creative promotes wagering, sportsbook, casino, lottery, poker, odds, prediction-market trading, or a gambling-linked offer.
+- "financial_inducement_present" (boolean): A bonus, free bet, odds boost, cashback, matched deposit, bonus credit, prize, or similar wagering-linked incentive is visibly or audibly offered.
+- "risk_minimization_claim" (boolean): The creative frames wagering or an offer as risk-free, no-sweat, protected, money-back, safe, or otherwise downplays potential loss.
+- "social_normalization_present" (boolean): The creative explicitly presents gambling as common, routine, expected, socially approved, or integral to ordinary participation.
+- "fandom_identity_present" (boolean): The creative links wagering to team loyalty, supporter identity, or fuller participation in a sporting event.
+- "celebrity_endorsement_present" (boolean): A recognizable public figure endorses, recommends, demonstrates, narrates, or normalizes the promoted product. Mere appearance without an endorsing role is not enough.
+- "urgency_scarcity" (rating_0_100): How strongly the creative pressures the viewer to act soon through deadlines, countdowns, live-event timing, scarcity, or loss of opportunity. Anchors: 0 = No urgency or scarcity.; 25 = Weak generic action prompt.; 50 = Explicit time-limited or live-event framing, not dominant.; 75 = Prominent or repeated deadline, countdown, or imminent-event pressure.; 100 = The creative is organized around immediate action and loss of opportunity.
+- "betting_actionability" (rating_0_100): How directly a viewer can translate the creative into a wager using visible selections, odds, promo code, direct CTA, or procedural clarity. For non-gambling ads, rate observable betting actionability as zero. Anchors: 0 = No path to a wager.; 25 = Brand or product shown with little procedural direction.; 50 = Clear CTA or offer but limited wager detail.; 75 = Direct CTA plus useful offer, odds, or selection information.; 100 = A nearly complete, immediate path from creative to a specific wager.
+- "sensory_salience" (rating_0_100): Visual and auditory intensity from contrast, motion, typography, editing pace, sound, repetition, and foreground prominence. Anchors: 0 = Visually and aurally minimal.; 25 = Some contrast or motion but subdued.; 50 = Moderately attention-grabbing.; 75 = Strong motion, contrast, sound, or emphatic typography.; 100 = Extremely intense and continuously attention-demanding.
+- "arousal_excitement" (rating_0_100): Suspense, celebration, crowd energy, rapid pacing, emphatic voice or music, and emotional intensity. Anchors: 0 = No excitement or arousal.; 25 = Mildly upbeat.; 50 = Clearly energetic or suspenseful.; 75 = Strong excitement, celebration, or rapid pacing.; 100 = Extreme sustained arousal dominates the creative.
+- "positive_affect" (rating_0_100): Joy, humor, triumph, anticipation, pleasure, or other positive feeling connected to the promoted product or action. Anchors: 0 = No positive affect.; 25 = Mild pleasant tone.; 50 = Clearly positive or enjoyable.; 75 = Strong joy, humor, triumph, or anticipation.; 100 = Intense positive emotion dominates the creative.
+- "social_proof_normalization" (rating_0_100): How strongly the creative portrays gambling as common, socially approved, routine, or integral to ordinary social participation. For non-gambling ads, rate gambling normalization as zero. Anchors: 0 = No gambling normalization.; 25 = Weak contextual suggestion of normality.; 50 = Gambling is clearly presented as ordinary or socially embedded.; 75 = Strong social approval or participation framing.; 100 = The central message is that gambling is expected or universally shared.
+- "sport_fandom_linkage" (rating_0_100): How strongly wagering is fused with team loyalty, supporter identity, event enjoyment, or being a real fan. For non-gambling ads, rate wagering–fandom linkage as zero. Anchors: 0 = No wagering–fandom linkage.; 25 = Sport appears but identity linkage is weak.; 50 = Wagering is connected to following or enjoying sport.; 75 = Strong fan-identity or team-loyalty framing.; 100 = Wagering is portrayed as essential to authentic fandom.
+- "responsible_gambling_prominence" (rating_0_100): Perceptual prominence and comprehensibility of safer-gambling messaging, considering size, contrast, duration, placement, and audibility. For creatives with no such message, rate zero. Anchors: 0 = No observable safer-gambling message.; 25 = Present but difficult to notice or understand.; 50 = Noticeable with moderate clarity.; 75 = Prominent, legible or audible, and easy to understand.; 100 = Safer-gambling messaging is a dominant element.
+- "terms_prominence" (rating_0_100): Perceptual prominence and comprehensibility of material offer terms, considering legibility, audibility, duration, contrast, placement, and speech speed. If no offer terms are relevant or observable, use zero and explain when needed. Anchors: 0 = No observable material terms.; 25 = Terms are present but difficult to notice or understand.; 50 = Terms are moderately visible or audible.; 75 = Terms are prominent and comprehensible.; 100 = Material terms are a dominant element.
+- "age_restriction_prominence" (rating_0_100): Perceptual prominence and comprehensibility of an age eligibility or exclusion message. If absent, rate zero. Anchors: 0 = No observable age restriction.; 25 = Present but difficult to notice.; 50 = Moderately visible or audible.; 75 = Prominent and clear.; 100 = Age restriction is a dominant element.
+
+ALLOWED VALUES
+- sports (list): ['football', 'horse_racing', 'tennis', 'basketball', 'motorsport', 'combat_sports', 'cycling', 'rugby', 'poker_casino', 'other', 'none']
+- competition_level: ['national_team_or_major_tournament', 'european_club_competition', 'domestic_league', 'other_single_fixture', 'racing_event', 'poker_tournament', 'other', 'none']
+- occasion: ['match_day_or_live', 'weekend', 'holiday_or_festive', 'summer_leisure', 'other', 'none']
+- primary_framing: ['companion_to_watching_sport', 'skill_or_prediction_contest', 'low_risk_trial_or_deal', 'reward_or_money_making', 'social_or_community_activity', 'product_or_service_utility', 'competition_entry', 'not_shown']
+- offer_type: ['first_bet_refund_or_guarantee', 'cash_bonus', 'boosted_odds', 'no_deposit_bonus', 'prize_pool_or_jackpot', 'product_feature', 'odds_display_only', 'other', 'none']
+- most_prominent_element, first_noticed_element: ['offer_amount', 'match_or_teams', 'person', 'headline', 'odds', 'logo', 'product_interface', 'scene', 'other']
+- template: ['match_card', 'offer_banner', 'person_to_camera', 'scenic_photograph', 'app_screenshot', 'poster_or_illustration', 'other']
+
+Return JSON only, no prose and no code fences, with exactly these keys:
+{
+  "visible_text_verbatim": ["each distinct text element, verbatim, in reading order"],
+  "text_english": "faithful English translation of all visible text and speech",
+  "scene_description": "2-4 sentences: setting, objects, layout, colours, photo vs graphic vs app screenshot",
+  "people": "who appears (count, apparent age group, gender presentation, role), or 'none'",
+  "entities": {"competitions_or_events": [], "teams_or_national_sides": [], "named_athletes_or_celebrities": [], "brands_visible": []},
+  "sports": ["allowed values"],
+  "competition_level": "allowed value",
+  "occasion": "allowed value",
+  "cues_linked_to_brand": [{"cue": "specific context tied to the brand", "cue_type": "event | team | sport | time | place | social_setting | emotion | identity | activity | other", "evidence": ""}],
+  "borrowed_meaning": {"club_fandom_rivalry": {"prominence": 0, "evidence": ""}, "national_pride": {"prominence": 0, "evidence": ""}, "big_event_prestige": {"prominence": 0, "evidence": ""}, "star_athlete_glamour": {"prominence": 0, "evidence": ""}, "expertise_prediction": {"prominence": 0, "evidence": ""}, "humour_wordplay": {"prominence": 0, "evidence": ""}, "street_youth_culture": {"prominence": 0, "evidence": ""}, "creator_authenticity": {"prominence": 0, "evidence": ""}, "sociability_community": {"prominence": 0, "evidence": ""}, "safety_risk_reduction": {"prominence": 0, "evidence": ""}, "money_wealth_jackpot": {"prominence": 0, "evidence": ""}, "official_legitimacy": {"prominence": 0, "evidence": ""}, "tradition_heritage": {"prominence": 0, "evidence": ""}, "play_games_collectibles": {"prominence": 0, "evidence": ""}, "product_features": {"prominence": 0, "evidence": ""}, "leisure_occasion": {"prominence": 0, "evidence": ""}, "strength_masculinity": {"prominence": 0, "evidence": ""}},
+  "other_borrowed_meaning": "any important borrowed meaning not covered above, or empty string",
+  "primary_framing": "allowed value",
+  "offer": {"type": "allowed value", "amount_eur": null, "description": "", "prominence": 0, "deadline_or_urgency": null, "guaranteed_or_risk_free_language": false},
+  "payoff_depiction": "how winning or gains are depicted, or 'none'",
+  "winning_scenario_shown": false,
+  "risk_or_probability_information": "verbatim or described, or 'none'",
+  "most_prominent_element": "allowed value",
+  "first_noticed_element": "allowed value",
+  "template": "allowed value",
+  "brand_prominence": 0,
+  "tone": "a few words",
+  "intended_association": "one sentence: what the ad wants viewers to link the brand with",
+  "regulatory": {"gambling_ad_present": {"value": null, "evidence": "", "unknown_reason": null}, "financial_inducement_present": {"value": null, "evidence": "", "unknown_reason": null}, "risk_minimization_claim": {"value": null, "evidence": "", "unknown_reason": null}, "social_normalization_present": {"value": null, "evidence": "", "unknown_reason": null}, "fandom_identity_present": {"value": null, "evidence": "", "unknown_reason": null}, "celebrity_endorsement_present": {"value": null, "evidence": "", "unknown_reason": null}, "urgency_scarcity": {"value": null, "evidence": "", "unknown_reason": null}, "betting_actionability": {"value": null, "evidence": "", "unknown_reason": null}, "sensory_salience": {"value": null, "evidence": "", "unknown_reason": null}, "arousal_excitement": {"value": null, "evidence": "", "unknown_reason": null}, "positive_affect": {"value": null, "evidence": "", "unknown_reason": null}, "social_proof_normalization": {"value": null, "evidence": "", "unknown_reason": null}, "sport_fandom_linkage": {"value": null, "evidence": "", "unknown_reason": null}, "responsible_gambling_prominence": {"value": null, "evidence": "", "unknown_reason": null}, "terms_prominence": {"value": null, "evidence": "", "unknown_reason": null}, "age_restriction_prominence": {"value": null, "evidence": "", "unknown_reason": null}},
+  "coder_notes": "ambiguity or quality issues, or empty string"
+}

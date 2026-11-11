@@ -1,0 +1,109 @@
+case_id,query,series,date,value,norm
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-20,0,190494
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-21,0,171085
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-22,0,178163
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-23,0,124795
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-24,0,142852
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-25,3,173426
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-26,8,182311
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-27,4,154549
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-28,1,199824
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-29,0,160465
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-09-30,0,149281
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-01,6,135610
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-02,0,154452
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-03,1,171328
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-04,8,186699
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-05,3,216375
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-06,1,173083
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-07,0,91076
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-08,2,91899
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-09,0,115533
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-10,3,126608
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-11,2,130540
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-12,1,169262
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-13,0,146885
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-14,0,95863
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-15,0,78624
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-16,0,132815
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-17,0,187328
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-18,2,169905
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-19,0,176409
+taylor_nb550,"""Taylor Swift"" ""New Balance""",Article Count,2023-10-20,1,114128
+meghan_outland,"""Outland Denim""",Article Count,2018-10-15,0,556079
+meghan_outland,"""Outland Denim""",Article Count,2018-10-16,0,611801
+meghan_outland,"""Outland Denim""",Article Count,2018-10-17,188,615778
+meghan_outland,"""Outland Denim""",Article Count,2018-10-18,71,612712
+meghan_outland,"""Outland Denim""",Article Count,2018-10-19,28,585372
+meghan_outland,"""Outland Denim""",Article Count,2018-10-20,3,364543
+meghan_outland,"""Outland Denim""",Article Count,2018-10-21,5,347745
+meghan_outland,"""Outland Denim""",Article Count,2018-10-22,4,565276
+meghan_outland,"""Outland Denim""",Article Count,2018-10-23,9,620841
+meghan_outland,"""Outland Denim""",Article Count,2018-10-24,3,630996
+meghan_outland,"""Outland Denim""",Article Count,2018-10-25,5,641129
+meghan_outland,"""Outland Denim""",Article Count,2018-10-26,2,596941
+meghan_outland,"""Outland Denim""",Article Count,2018-10-27,49,371209
+meghan_outland,"""Outland Denim""",Article Count,2018-10-28,11,351218
+meghan_outland,"""Outland Denim""",Article Count,2018-10-29,46,581207
+meghan_outland,"""Outland Denim""",Article Count,2018-10-30,11,613542
+meghan_outland,"""Outland Denim""",Article Count,2018-10-31,15,623679
+meghan_outland,"""Outland Denim""",Article Count,2018-11-01,9,596429
+meghan_outland,"""Outland Denim""",Article Count,2018-11-02,9,573265
+meghan_outland,"""Outland Denim""",Article Count,2018-11-03,2,373881
+meghan_outland,"""Outland Denim""",Article Count,2018-11-04,2,337037
+meghan_outland,"""Outland Denim""",Article Count,2018-11-05,3,559787
+meghan_outland,"""Outland Denim""",Article Count,2018-11-06,1,604838
+meghan_outland,"""Outland Denim""",Article Count,2018-11-07,3,627872
+meghan_outland,"""Outland Denim""",Article Count,2018-11-08,4,618066
+meghan_outland,"""Outland Denim""",Article Count,2018-11-09,4,591230
+meghan_outland,"""Outland Denim""",Article Count,2018-11-10,0,378528
+meghan_outland,"""Outland Denim""",Article Count,2018-11-11,0,345053
+meghan_outland,"""Outland Denim""",Article Count,2018-11-12,0,545671
+meghan_outland,"""Outland Denim""",Article Count,2018-11-13,4,620976
+meghan_outland,"""Outland Denim""",Article Count,2018-11-14,8,628939
+meghan_outland,"""Outland Denim""",Article Count,2018-11-15,3,636329
+meghan_outland,"""Outland Denim""",Article Count,2018-11-16,20,590677
+meghan_outland,"""Outland Denim""",Article Count,2018-11-17,0,378415
+meghan_outland,"""Outland Denim""",Article Count,2018-11-18,0,335717
+meghan_outland,"""Outland Denim""",Article Count,2018-11-19,0,549638
+meghan_outland,"""Outland Denim""",Article Count,2018-11-20,1,601238
+meghan_outland,"""Outland Denim""",Article Count,2018-11-21,0,608585
+meghan_outland,"""Outland Denim""",Article Count,2018-11-22,0,554027
+meghan_outland,"""Outland Denim""",Article Count,2018-11-23,1,532334
+meghan_outland,"""Outland Denim""",Article Count,2018-11-24,1,363532
+meghan_outland,"""Outland Denim""",Article Count,2018-11-25,1,341608
+meghan_outland,"""Outland Denim""",Article Count,2018-11-26,1,563793
+meghan_outland,"""Outland Denim""",Article Count,2018-11-27,1,606893
+meghan_outland,"""Outland Denim""",Article Count,2018-11-28,0,619751
+meghan_outland,"""Outland Denim""",Article Count,2018-11-29,0,619323
+meghan_outland,"""Outland Denim""",Article Count,2018-11-30,0,584655
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-01,9,409202
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-02,17,364205
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-03,1,189612
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-04,0,193400
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-05,1,306294
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-06,2,342434
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-07,23,338152
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-08,62,355434
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-09,6,139836
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-10,2,279311
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-11,4,227376
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-12,9,291710
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-13,23,318111
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-14,83,295346
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-15,1,268774
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-16,0,120244
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-17,2,199788
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-18,0,190519
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-19,0,111249
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-21,1,252439
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-22,0,218535
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-23,0,95334
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-24,0,93479
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-25,0,141061
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-26,0,228806
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-27,1,223872
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-28,2,245728
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-29,1,190672
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-30,0,115063
+bieber_crocs,"""Justin Bieber"" Crocs",Article Count,2020-10-31,0,69573

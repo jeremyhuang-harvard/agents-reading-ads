@@ -1,0 +1,56 @@
+case_id,product_key,role,n_pre,n_post_0_21,last_pre,post_0_21,any_depleted_post,any_depleted_pre
+taylor_nb550,BB550STF,sibling,0,4,,d0: InStock 22/22; d1: InStock 22/22; d2: InStock 22/22; d7: InStock 22/22,False,
+taylor_nb550,GSB550CD,sibling,1,1,d-4: InStock 8/8,d0: InStock 8/8,False,False
+taylor_nb550,PSB550CD,sibling,0,1,,d0: InStock 12/12,False,
+taylor_nb550,IHB550WW,sibling,0,1,,d1: InStock 14/14,False,
+taylor_nb550,BB550HSB,sibling,1,0,d-1: InStock 0/1,,,True
+taylor_nb550,BB550PWD,sibling,0,2,,d1: InStock 14/14; d7: InStock 12/14,False,
+taylor_nb550,BBW550ST,sibling,0,1,,d1: InStock 13/13,False,
+taylor_nb550,BBW550DI,sibling,1,2,d-3: InStock 13/13,d1: InStock 13/13; d7: InStock 13/13,False,False
+taylor_nb550,BBW550BR,sibling,0,2,,d1: InStock 13/13; d5: InStock 13/13,False,
+taylor_nb550,BBW550WW,sibling,0,2,,d1: InStock 13/13; d8: InStock 13/13,False,
+taylor_nb550,IHB550WB,sibling,0,1,,d2: InStock 14/14,False,
+taylor_nb550,IHB550TF,sibling,0,1,,d2: InStock 13/14,False,
+taylor_nb550,BB550SE1,focal,0,3,,d2: InStock 19/20; d3: InStock 18/20; d7: InStock 18/20,False,
+taylor_nb550,BB550LSB,sibling,1,1,d-2: InStock 11/22,d10: InStock 3/22,True,False
+taylor_nb550,BB550WWW,sibling,1,0,d-2: InStock 19/22,,,False
+taylor_nb550,BBW550BB,sibling,1,0,d-2: InStock 13/13,,,False
+taylor_nb550,GSB550TF,sibling,0,1,,d2: InStock 8/8,False,
+taylor_nb550,PSB550TA,sibling,0,1,,d2: InStock 12/12,False,
+taylor_nb550,BB550STG,sibling,2,1,d-49: InStock 11/22,d4: InStock 16/22,False,False
+taylor_nb550,GSB550TA,sibling,0,1,,d4: InStock 1/8,True,
+taylor_nb550,BBW550NP,sibling,1,1,d-49: InStock 13/13,d7: InStock 13/13,False,False
+taylor_nb550,BB550STA,sibling,2,0,d-8: InStock 17/22,,,True
+taylor_nb550,GSB550WW,sibling,0,1,,d9: InStock 8/8,False,
+taylor_nb550,PSB550WW,sibling,0,1,,d9: InStock 12/12,False,
+taylor_nb550,GSB550WB,sibling,0,1,,d10: InStock 8/8,False,
+taylor_nb550,PSB550WB,sibling,0,1,,d10: InStock 12/12,False,
+taylor_nb550,BB550WCA,sibling,0,0,,,,
+taylor_nb550,BB550VNA,sibling,1,0,d-47: InStock 0/14,,,True
+taylor_nb550,BB550VNB,sibling,1,0,d-47: InStock 10/14,,,False
+taylor_nb550,BB550VND,sibling,1,0,d-47: InStock 0/14,,,True
+taylor_nb550,GSB550NB,sibling,1,0,d-47: InStock 2/8,,,True
+taylor_nb550,GSB550CG,sibling,1,0,d-47: InStock 8/8,,,False
+taylor_nb550,BBW550BG,sibling,1,0,d-49: InStock 2/13,,,True
+kanye_energy_boost,B44283,focal,10,5,d-5: in_stock,d5: in_stock; d6: out_of_stock; d7: out_of_stock; d9: out_of_stock; d10: out_of_stock,True,False
+kanye_energy_boost,B44285,sibling,6,2,d-4: in_stock,d15: in_stock; d17: in_stock,False,False
+kanye_energy_boost,B40900,sibling,6,0,d-5: in_stock,,,False
+kanye_energy_boost,B40904,sibling,6,1,d-5: in_stock,d6: in_stock,False,False
+kanye_energy_boost,B44281,sibling,4,1,d-5: in_stock,d7: in_stock,False,False
+kanye_energy_boost,B44280,sibling,5,2,d-7: in_stock,d6: in_stock; d13: in_stock,False,False
+kanye_energy_boost,B23155,sibling,0,0,,,,
+kanye_energy_boost,B23152,sibling,0,0,,,,
+kanye_energy_boost,S77551,sibling,0,0,,,,
+kanye_energy_boost,S77553,sibling,0,0,,,,
+meghan_outland,harriet-in-black,focal,0,4,,d1: preorder_capable 5/26; d4: preorder_capable 26/26; d14: preorder_capable 26/26; d15: preorder_capable 26/26,True,
+kanye_ultraboost,S77416,focal,0,4,,d1: coming_soon; d2: coming_soon; d4: out_of_stock; d6: out_of_stock,True,
+kanye_ultraboost,B27172,sibling,4,2,d-10: in_stock,d0: in_stock; d2: in_stock,False,False
+kanye_ultraboost,B34048,sibling,3,3,d-12: in_stock,d0: in_stock; d2: in_stock; d3: in_stock,False,False
+kanye_ultraboost,B34027,sibling,4,1,d-12: in_stock,d1: in_stock,False,False
+kanye_ultraboost,B34051,sibling,6,1,d-1: in_stock,d5: in_stock,False,False
+kanye_ultraboost,S77417,sibling,0,8,,d2: in_stock; d3: in_stock; d5: in_stock; d6: in_stock; d8: in_stock; d10: in_stock; d11: in_stock; d12: in_stock,False,
+kanye_ultraboost,S77513,sibling,0,1,,d2: in_stock,False,
+kanye_ultraboost,B27171,sibling,8,0,d-4: in_stock,,,False
+kanye_ultraboost,S77514,sibling,0,1,,d4: in_stock,False,
+kanye_ultraboost,B34050,sibling,4,1,d-5: in_stock,d7: in_stock,False,False
+kanye_ultraboost,B34053,sibling,3,0,d-12: in_stock,,,False

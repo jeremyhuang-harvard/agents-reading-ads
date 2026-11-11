@@ -1,0 +1,16 @@
+firm,rank,feature,representativeness_ratio
+Winamax,1,lvl:poker_tournament,5.6
+Winamax,2,of:prize_pool_or_jackpot,5.4
+Winamax,3,bm:humour_wordplay,4.0
+PMU,1,lvl:racing_event,18.7
+PMU,2,sp:horse_racing,11.8
+PMU,3,of:cash_bonus,7.0
+Unibet,1,of:no_deposit_bonus,46.4
+Unibet,2,sp:combat_sports,10.1
+Unibet,3,fr:not_shown,3.4
+Betsson,1,lvl:other_single_fixture,3.6
+Betsson,2,of:first_bet_refund_or_guarantee,2.6
+Betsson,3,fr:product_or_service_utility,2.1
+bet365,1,lvl:national_team_or_major_tournament,5.1
+bet365,2,bm:national_pride,3.8
+bet365,3,of:boosted_odds,3.0

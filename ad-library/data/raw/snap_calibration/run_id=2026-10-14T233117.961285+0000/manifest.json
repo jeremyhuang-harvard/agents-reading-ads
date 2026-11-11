@@ -1,0 +1,146 @@
+{
+  "source": "Snap Ads Gallery API",
+  "search_endpoint": "https://adsapi.snapchat.com/v1/ads_library/ads/search",
+  "detail_endpoint_template": "https://adsapi.snapchat.com/v1/ads_library/ads/{ad_id}",
+  "captured_at_utc": "2026-10-14T23:31:17.961285+00:00",
+  "target": 100,
+  "ad_count": 100,
+  "unique_media_count": 65,
+  "no_media_count": 33,
+  "media_error_count": 1,
+  "max_bytes": 5368709120,
+  "stored_bytes": 35594012,
+  "budget_exhausted": false,
+  "per_file_max": 262144000,
+  "records_path": "records.jsonl",
+  "strata": [
+    {
+      "category": "betting",
+      "advertiser": "Winamax",
+      "country": "fr",
+      "quota": 15,
+      "selected": 15,
+      "pages_fetched": 2
+    },
+    {
+      "category": "betting",
+      "advertiser": "PMU",
+      "country": "fr",
+      "quota": 15,
+      "selected": 15,
+      "pages_fetched": 2
+    },
+    {
+      "category": "betting",
+      "advertiser": "bet365",
+      "country": "de",
+      "quota": 15,
+      "selected": 15,
+      "pages_fetched": 2
+    },
+    {
+      "category": "alcohol",
+      "advertiser": "Pernod Ricard",
+      "country": "fr",
+      "quota": 10,
+      "selected": 10,
+      "pages_fetched": 1
+    },
+    {
+      "category": "alcohol",
+      "advertiser": "Heineken",
+      "country": "nl",
+      "quota": 10,
+      "selected": 10,
+      "pages_fetched": 1
+    },
+    {
+      "category": "control",
+      "advertiser": "Nike",
+      "country": "fr",
+      "quota": 10,
+      "selected": 10,
+      "pages_fetched": 1
+    },
+    {
+      "category": "control",
+      "advertiser": "Adidas",
+      "country": "de",
+      "quota": 10,
+      "selected": 10,
+      "pages_fetched": 1
+    },
+    {
+      "category": "control",
+      "advertiser": "Coca-Cola",
+      "country": "fr",
+      "quota": 10,
+      "selected": 10,
+      "pages_fetched": 1
+    },
+    {
+      "category": "control",
+      "advertiser": "McDonald's",
+      "country": "fr",
+      "quota": 5,
+      "selected": 5,
+      "pages_fetched": 1
+    }
+  ],
+  "roster": [
+    {
+      "category": "betting",
+      "advertiser": "Winamax",
+      "country": "fr",
+      "quota": 15
+    },
+    {
+      "category": "betting",
+      "advertiser": "PMU",
+      "country": "fr",
+      "quota": 15
+    },
+    {
+      "category": "betting",
+      "advertiser": "bet365",
+      "country": "de",
+      "quota": 15
+    },
+    {
+      "category": "alcohol",
+      "advertiser": "Pernod Ricard",
+      "country": "fr",
+      "quota": 10
+    },
+    {
+      "category": "alcohol",
+      "advertiser": "Heineken",
+      "country": "nl",
+      "quota": 10
+    },
+    {
+      "category": "control",
+      "advertiser": "Nike",
+      "country": "fr",
+      "quota": 10
+    },
+    {
+      "category": "control",
+      "advertiser": "Adidas",
+      "country": "de",
+      "quota": 10
+    },
+    {
+      "category": "control",
+      "advertiser": "Coca-Cola",
+      "country": "fr",
+      "quota": 10
+    },
+    {
+      "category": "control",
+      "advertiser": "McDonald's",
+      "country": "fr",
+      "quota": 5
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+{
+  "version": "2026-11-09",
+  "notes": "Demo cases for the end-to-end celebrity-product chain. Each regex in `identification` is matched case-insensitively against article titles and text. `reported_outcomes` are company/press claims and are always labeled `reported`; collectors produce `observed` evidence.",
+  "cases": [
+    {
+      "case_id": "taylor_nb550",
+      "label": "Taylor Swift × New Balance 550",
+      "role": "primary",
+      "event_date": "2023-09-24",
+      "event_time": "2023-09-24T19:47:43-05:00",
+      "event_label": "Postgame video leaving Arrowhead (Chiefs–Bears)",
+      "relationship": {
+        "status": "none_found",
+        "detail": "No located New Balance contract or campaign before the appearance; prior formal footwear partner was Keds (2012–2013). New Balance declined comment.",
+        "sources": [
+          "https://www.prnewswire.com/news-releases/keds-announces-multi-year-partnership-with-taylor-swift-173682701.html",
+          "https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales"
+        ]
+      },
+      "focal": {
+        "brand": "New Balance",
+        "model": "550",
+        "sku": "BB550SE1",
+        "retail_price_usd": 109.99,
+        "colorway": "White/Team Red"
+      },
+      "identification": {
+        "celebrity": [
+          "taylor swift"
+        ],
+        "brand": [
+          "new balance"
+        ],
+        "model": [
+          "\\b550s?\\b"
+        ],
+        "exact": [
+          "bb550se1",
+          "550\\W{1,3}(\\w+\\W{1,3}){0,3}(white|team)\\W{1,3}(and\\W)?(team\\W)?red"
+        ]
+      },
+      "archive": {
+        "prefixes": [
+          "newbalance.com/pd/550/*"
+        ],
+        "from": "20230801",
+        "to": "20231031",
+        "sku_regex": "BB550[A-Z0-9]{3,4}",
+        "parser": "newbalance",
+        "max_fetches": 80
+      },
+      "trends": [
+        {
+          "name": "nb_siblings",
+          "geo": "US",
+          "from": "2023-08-15",
+          "to": "2023-10-31",
+          "terms": [
+            "New Balance 550",
+            "New Balance 9060",
+            "New Balance 530",
+            "New Balance 990",
+            "New Balance 327"
+          ]
+        },
+        {
+          "name": "competitors",
+          "geo": "US",
+          "from": "2023-08-15",
+          "to": "2023-10-31",
+          "terms": [
+            "New Balance 550",
+            "Nike Dunk Low",
+            "Adidas Samba",
+            "Nike Air Force 1",
+            "Converse Chuck Taylor"
+          ]
+        },
+        {
+          "name": "celebrity_link",
+          "geo": "US",
+          "from": "2023-08-15",
+          "to": "2023-10-31",
+          "terms": [
+            "Taylor Swift New Balance",
+            "Taylor Swift Nike",
+            "Taylor Swift Adidas",
+            "Taylor Swift Converse"
+          ]
+        }
+      ],
+      "pageviews": {
+        "articles": [
+          "New_Balance",
+          "Adidas",
+          "Nike,_Inc."
+        ],
+        "from": "2023-08-15",
+        "to": "2023-10-31"
+      },
+      "coverage": {
+        "from": "2023-09-20",
+        "to": "2023-10-20",
+        "gdelt_queries": [
+          "\"Taylor Swift\" \"New Balance\""
+        ],
+        "archive_discovery": [
+          {
+            "prefix": "complex.com/sneakers/a/*",
+            "regex": ".*taylor-swift.*"
+          },
+          {
+            "prefix": "highsnobiety.com/p/*",
+            "regex": ".*taylor-swift.*"
+          },
+          {
+            "prefix": "pagesix.com/2023/09/*",
+            "regex": ".*new-balance.*"
+          },
+          {
+            "prefix": "si.com/fannation/sneakers/*",
+            "regex": ".*taylor-swift.*"
+          },
+          {
+            "prefix": "hypebeast.com/2023/9/*",
+            "regex": ".*taylor-swift.*"
+          },
+          {
+            "prefix": "sneakernews.com/2023/09/*",
+            "regex": ".*taylor-swift.*"
+          }
+        ],
+        "seed_urls": [
+          "https://touchdownwire.usatoday.com/2023/09/24/walter-paytons-son-jarrett-captures-video-of-taylor-swift-and-travis-kelce-leaving-arrowhead-together/",
+          "https://www.taylorswiftstyle.com/post-grid/kansascity-092423",
+          "https://pagesix.com/2023/09/25/taylor-swift-travis-kelce-new-balance-sneakers-chiefs-game/",
+          "https://www.hollywoodreporter.com/lifestyle/shopping/taylor-swift-travis-kelce-new-balance-shoes-sneakers-1235598735/",
+          "https://www.si.com/fannation/sneakers/news/taylor-swift-wears-new-balance-550s-to-chiefs-game",
+          "https://www.complex.com/sneakers/a/victor-deng/taylor-swift-viral-new-balance-550-how-to-buy",
+          "https://www.highsnobiety.com/p/taylor-swift-new-balance-550-shoes/",
+          "https://www.actionnetwork.com/nfl/how-taylor-swift-travis-kelce-partnership-has-affected-sports-business",
+          "https://www.bostonglobe.com/2023/09/27/business/taylor-swift-travis-kelce-ocean-spray-new-balance/",
+          "https://marketingbrew.com/stories/2023/09/29/social-media-trends-it-s-taylor-s-world-we-re-just-marketing-in-it",
+          "https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales",
+          "https://wgntv.com/news/deans-list/travis-kelce-taylor-swift-spotted-leaving-arrowhead-stadium-after-sundays-game/",
+          "https://www.harperbazaar.com/fashion/trends/a43062623/new-balance-550-sneakers/"
+        ]
+      },
+      "reported_outcomes": [
+        {
+          "metric": "newbalance.com 550 revenue",
+          "value": "+25%",
+          "window": "week after appearance",
+          "provenance": "internal New Balance presentation viewed by Complex",
+          "source": "https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales"
+        },
+        {
+          "metric": "newbalance.com 550 units",
+          "value": "+22%",
+          "window": "week after appearance",
+          "provenance": "internal New Balance presentation viewed by Complex",
+          "source": "https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales"
+        },
+        {
+          "metric": "newbalance.com 550 traffic",
+          "value": "+30%",
+          "window": "week after appearance",
+          "provenance": "internal New Balance presentation viewed by Complex",
+          "source": "https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales"
+        },
+        {
+          "metric": "StockX BB550SE1 trades",
+          "value": ">100 on 2023-09-25 vs 18/day August average; +347% week volume; +8% price",
+          "window": "day and week after",
+          "provenance": "StockX merchandising director via Complex",
+          "source": "https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales"
+        },
+        {
+          "metric": "Postgame video views on X",
+          "value": "2.4M (night of) → 15.8M (next morning)",
+          "window": "first ~15 hours",
+          "provenance": "media snapshots of platform counters",
+          "source": "https://wgntv.com/news/deans-list/travis-kelce-taylor-swift-spotted-leaving-arrowhead-stadium-after-sundays-game/"
+        }
+      ],
+      "roles": {
+        "New Balance 550": "focal",
+        "New Balance 9060": "sibling",
+        "New Balance 530": "sibling",
+        "New Balance 990": "sibling",
+        "New Balance 327": "sibling",
+        "Nike Dunk Low": "competitor",
+        "Adidas Samba": "competitor",
+        "Nike Air Force 1": "competitor",
+        "Converse Chuck Taylor": "competitor",
+        "Taylor Swift New Balance": "focal_link",
+        "Taylor Swift Nike": "competitor_link",
+        "Taylor Swift Adidas": "competitor_link",
+        "Taylor Swift Converse": "competitor_link",
+        "New_Balance": "focal_brand",
+        "Adidas": "competitor_brand",
+        "Nike,_Inc.": "competitor_brand"
+      },
+      "mentions": {
+        "sibling": {
+          "NB 990": "\\b990s?\\b",
+          "NB 9060": "\\b9060s?\\b",
+          "NB 530": "\\b530s?\\b",
+          "NB 327": "\\b327s?\\b",
+          "NB 1906": "\\b1906r?\\b",
+          "NB 2002R": "\\b2002r\\b",
+          "NB 574": "\\b574s?\\b"
+        },
+        "competitor": {
+          "Nike": "\\bnike\\b",
+          "Adidas": "\\badidas\\b",
+          "Jordan": "\\bair jordan|\\bjordan 1\\b",
+          "Converse": "\\bconverse\\b",
+          "Vans": "\\bvans\\b",
+          "Keds": "\\bkeds\\b",
+          "Reebok": "\\breebok\\b"
+        }
+      },
+      "short_label": "Taylor Swift × New Balance 550 (Sep 24, 2023)",
+      "other_events": [
+        {
+          "day": 28,
+          "label": "Swift wears Nike AF1 (Chiefs–Chargers)"
+        }
+      ]
+    },
+    {
+      "case_id": "kanye_energy_boost",
+      "label": "Kanye West × Adidas Energy Boost ESM",
+      "role": "primary",
+      "event_date": "2015-05-09",
+      "event_time": null,
+      "event_label": "Wango Tango (May 9) and Bulls–Cavaliers (May 10)",
+      "relationship": {
+        "status": "announced_ambassador_off_campaign",
+        "detail": "Adidas announced its partnership with Kanye West in December 2013; Energy Boost ESM was an ordinary running product, not a Yeezy.",
+        "sources": [
+          "https://www.adidas-group.com/en/media/press-releases/adidas-confirms-new-partnership-with-kanye-west"
+        ]
+      },
+      "focal": {
+        "brand": "Adidas",
+        "model": "Energy Boost ESM",
+        "sku": "B44283",
+        "retail_price_usd": 160,
+        "colorway": "all white"
+      },
+      "identification": {
+        "celebrity": [
+          "kanye",
+          "yeezy"
+        ],
+        "brand": [
+          "adidas"
+        ],
+        "model": [
+          "energy\\W?boost",
+          "\\besm\\b"
+        ],
+        "exact": [
+          "b44283",
+          "energy\\W?boost\\W+esm\\W+(\\w+\\W+){0,2}white"
+        ]
+      },
+      "archive": {
+        "prefixes": [
+          "adidas.com/us/energy-boost-esm-shoes/*"
+        ],
+        "from": "20150101",
+        "to": "20150731",
+        "sku_regex": "[A-Z]\\d{5}",
+        "parser": "adidas",
+        "max_fetches": 60
+      },
+      "trends": [
+        {
+          "name": "boost_siblings",
+          "geo": "US",
+          "from": "2015-04-01",
+          "to": "2015-06-30",
+          "terms": [
+            "Energy Boost",
+            "Pure Boost",
+            "Ultra Boost",
+            "Adidas Superstar",
+            "Stan Smith"
+          ]
+        },
+        {
+          "name": "competitors",
+          "geo": "US",
+          "from": "2015-04-01",
+          "to": "2015-06-30",
+          "terms": [
+            "Energy Boost",
+            "Nike Free",
+            "Nike Flyknit",
+            "Nike Roshe",
+            "Asics Gel"
+          ]
+        },
+        {
+          "name": "celebrity_link",
+          "geo": "US",
+          "from": "2015-04-01",
+          "to": "2015-06-30",
+          "terms": [
+            "Kanye Adidas",
+            "Kanye Nike",
+            "Kanye shoes"
+          ]
+        }
+      ],
+      "pageviews": null,
+      "coverage": {
+        "from": "2015-05-01",
+        "to": "2015-06-15",
+        "gdelt_queries": [],
+        "archive_discovery": [
+          {
+            "prefix": "complex.com/sneakers/2015/05/*",
+            "regex": ".*kanye.*"
+          },
+          {
+            "prefix": "hypebeast.com/2015/5/*",
+            "regex": ".*(kanye|energy-boost).*"
+          },
+          {
+            "prefix": "sneakernews.com/2015/05/*",
+            "regex": ".*kanye.*"
+          },
+          {
+            "prefix": "nicekicks.com/kanye*",
+            "regex": ".*boost.*"
+          },
+          {
+            "prefix": "weartesters.com/*",
+            "regex": ".*energy-boost.*"
+          }
+        ],
+        "seed_urls": [
+          "https://www.complex.com/sneakers/a/rajah-allarey/kanye-takes-wango-tango-stage-not-wearing-his-yeezy-boosts",
+          "https://www.complex.com/sneakers/a/brandon-richard/kanye-west-adidas-energy-boost-esm-white-wango-tango",
+          "https://weartesters.com/the-all-white-adidas-energy-boost-esm-that-kanye-west-wore-over-the-weekend-is-available-now",
+          "https://www.nicekicks.com/kanye-wore-this-adidas-energy-boost-esm-on-sunday-and-now-theyre-sold-out",
+          "https://www.complex.com/sneakers/a/matt-welty/white-adidas-esm-boost-ebay-prices",
+          "https://hypebeast.com/2015/4/adidas-running-energy-boost-esm-all-white",
+          "https://hypebeast.com/2015/7/the-adidas-energy-boosts-get-upgraded-with-a-dash-of-green"
+        ],
+        "relevance_min_level": "model",
+        "relevance_note": "Kanye is an adidas partner; brand-level co-mention is not evidence of this appearance."
+      },
+      "reported_outcomes": [
+        {
+          "metric": "Retail availability",
+          "value": "full size run reported May 10; sold out reported May 13",
+          "window": "days 1–4",
+          "provenance": "Complex, Nice Kicks",
+          "source": "https://www.nicekicks.com/kanye-wore-this-adidas-energy-boost-esm-on-sunday-and-now-theyre-sold-out"
+        },
+        {
+          "metric": "eBay asks vs completed sales",
+          "value": "asks $400–$1,150 unsold; highest completed auction $153 vs $160 retail",
+          "window": "day 4",
+          "provenance": "Complex eBay review",
+          "source": "https://www.complex.com/sneakers/a/matt-welty/white-adidas-esm-boost-ebay-prices"
+        }
+      ],
+      "roles": {
+        "Energy Boost": "focal",
+        "Pure Boost": "sibling",
+        "Ultra Boost": "sibling",
+        "Adidas Superstar": "sibling",
+        "Stan Smith": "sibling",
+        "Nike Free": "competitor",
+        "Nike Flyknit": "competitor",
+        "Nike Roshe": "competitor",
+        "Asics Gel": "competitor",
+        "Kanye Adidas": "focal_link",
+        "Kanye Nike": "competitor_link",
+        "Kanye shoes": "generic_link"
+      },
+      "mentions": {
+        "sibling": {
+          "Ultra Boost": "ultra\\W?boost",
+          "Pure Boost": "pure\\W?boost",
+          "Yeezy": "yeezy",
+          "Superstar": "superstar",
+          "Stan Smith": "stan smith",
+          "NMD": "\\bnmd\\b"
+        },
+        "competitor": {
+          "Nike": "\\bnike\\b",
+          "Jordan": "\\bjordan",
+          "Asics": "\\basics\\b",
+          "New Balance": "new balance",
+          "Reebok": "\\breebok\\b"
+        }
+      },
+      "inventory_siblings": "same Energy Boost ESM model, other colorways (archived adidas.com product pages)",
+      "short_label": "Kanye × Adidas Energy Boost ESM (May 9–10, 2015)",
+      "other_events": [
+        {
+          "day": 7,
+          "label": "Kanye wears Ultra Boost (Powerhouse May 16, BBMAs May 17)"
+        }
+      ]
+    },
+    {
+      "case_id": "meghan_outland",
+      "label": "Meghan Markle × Outland Denim Harriet",
+      "role": "primary",
+      "event_date": "2018-10-17",
+      "event_time": null,
+      "event_label": "Arrival in Dubbo, Australia",
+      "relationship": {
+        "status": "seeded_unpaid",
+        "detail": "A modest selection was provided to a representative; the brand did not know she would wear it. Royal rules preclude paid endorsement.",
+        "sources": [
+          "https://fashionmagazine.com/flare/celebrity/meghan-markle-effect-outland-denim"
+        ]
+      },
+      "focal": {
+        "brand": "Outland Denim",
+        "model": "Harriet",
+        "sku": "harriet-in-black",
+        "retail_price_usd": 195,
+        "colorway": "black"
+      },
+      "identification": {
+        "celebrity": [
+          "meghan",
+          "duchess of sussex",
+          "markle"
+        ],
+        "brand": [
+          "\\boutland(?!er)\\b"
+        ],
+        "model": [
+          "harriet"
+        ],
+        "exact": [
+          "harriet\\W+(\\w+\\W+){0,4}black",
+          "black\\W+harriet"
+        ]
+      },
+      "archive": {
+        "prefixes": [
+          "outlanddenim.com/products/*",
+          "outlanddenim.com.au/products/*"
+        ],
+        "from": "20180601",
+        "to": "20190331",
+        "sku_regex": "[a-z0-9-]+",
+        "parser": "shopify",
+        "max_fetches": 60
+      },
+      "trends": [
+        {
+          "name": "au_competitors",
+          "geo": "AU",
+          "from": "2018-09-15",
+          "to": "2018-11-30",
+          "terms": [
+            "Outland Denim",
+            "Nobody Denim",
+            "Ksubi",
+            "Levi's",
+            "Nudie Jeans"
+          ]
+        },
+        {
+          "name": "us_competitors",
+          "geo": "US",
+          "from": "2018-09-15",
+          "to": "2018-11-30",
+          "terms": [
+            "Outland Denim",
+            "Madewell",
+            "AG Jeans",
+            "Mother Denim",
+            "Everlane"
+          ]
+        },
+        {
+          "name": "au_category",
+          "geo": "AU",
+          "from": "2018-09-15",
+          "to": "2018-11-30",
+          "terms": [
+            "Outland Denim",
+            "black jeans",
+            "ethical fashion"
+          ]
+        }
+      ],
+      "pageviews": {
+        "articles": [
+          "Meghan,_Duchess_of_Sussex"
+        ],
+        "from": "2018-09-15",
+        "to": "2018-11-30"
+      },
+      "coverage": {
+        "from": "2018-10-15",
+        "to": "2018-11-30",
+        "gdelt_queries": [
+          "\"Outland Denim\""
+        ],
+        "archive_discovery": [
+          {
+            "prefix": "townandcountrymag.com/style/*",
+            "regex": ".*outland.*"
+          },
+          {
+            "prefix": "people.com/royals/*",
+            "regex": ".*(outland|jeans).*"
+          },
+          {
+            "prefix": "harpersbazaar.com/*",
+            "regex": ".*outland.*"
+          },
+          {
+            "prefix": "dailymail.co.uk/femail/*",
+            "regex": ".*outland.*"
+          }
+        ],
+        "seed_urls": [
+          "https://fashionmagazine.com/flare/celebrity/meghan-markle-effect-outland-denim",
+          "https://www.townandcountrymag.com/style/fashion-trends/a28198319/meghan-markle-outland-denim-jeans-interview"
+        ]
+      },
+      "reported_outcomes": [
+        {
+          "metric": "Site traffic",
+          "value": "+3,000% Australia; +948% global",
+          "window": "initial days",
+          "provenance": "brand via press",
+          "source": "https://fashionmagazine.com/flare/celebrity/meghan-markle-effect-outland-denim"
+        },
+        {
+          "metric": "Sales",
+          "value": "+640% following week; +2,374% global online over 16 days",
+          "window": "1–16 days",
+          "provenance": "brand via press",
+          "source": "https://www.townandcountrymag.com/style/fashion-trends/a28198319/meghan-markle-outland-denim-jeans-interview"
+        },
+        {
+          "metric": "Inventory/operations",
+          "value": "sold out AU and US in 24–48h; backordered twice; 46 seamstresses hired",
+          "window": "days 1–60",
+          "provenance": "brand via press",
+          "source": "https://fashionmagazine.com/flare/celebrity/meghan-markle-effect-outland-denim"
+        }
+      ],
+      "roles": {
+        "Outland Denim": "focal",
+        "Nobody Denim": "competitor",
+        "Ksubi": "competitor",
+        "Levi's": "competitor",
+        "Nudie Jeans": "competitor",
+        "Madewell": "competitor",
+        "AG Jeans": "competitor",
+        "Mother Denim": "competitor",
+        "Everlane": "competitor",
+        "black jeans": "category",
+        "ethical fashion": "category",
+        "Meghan,_Duchess_of_Sussex": "celebrity"
+      },
+      "mentions": {
+        "sibling": {
+          "Outland other styles": "outland\\W+(\\w+\\W+){0,3}(jacket|shirt|abigail|isabelle|ivy|ruby)"
+        },
+        "competitor": {
+          "Levi's": "\\blevi'?s\\b",
+          "Ksubi": "\\bksubi\\b",
+          "Nobody Denim": "nobody denim",
+          "J Brand": "\\bj brand\\b",
+          "Mother": "\\bmother denim|\\bmother\\b jeans",
+          "AG": "\\bag jeans\\b",
+          "Paige": "\\bpaige\\b",
+          "Frame": "\\bframe\\b denim|\\bframe\\b jeans"
+        },
+        "co_worn": {
+          "Serena Williams line": "serena",
+          "Martin Grant": "martin grant",
+          "Sarah Flint": "sarah flint",
+          "Givenchy": "givenchy",
+          "Club Monaco": "club monaco"
+        }
+      },
+      "short_label": "Meghan × Outland Denim Harriet (Oct 17, 2018)"
+    },
+    {
+      "case_id": "kanye_ultraboost",
+      "label": "Kanye West × Adidas Ultra Boost (benchmark: scheduled launch)",
+      "role": "benchmark",
+      "event_date": "2015-05-16",
+      "event_time": null,
+      "event_label": "Powerhouse (May 16) and Billboard Music Awards (May 17)",
+      "relationship": {
+        "status": "announced_ambassador_scheduled_launch",
+        "detail": "Adidas US page showed S77416 'Coming Soon' with a countdown to ~June 1 during the appearances.",
+        "sources": [
+          "https://web.archive.org/web/20150517232107id_/http://www.adidas.com/us/ultra-boost-shoes/S77416.html"
+        ]
+      },
+      "focal": {
+        "brand": "Adidas",
+        "model": "Ultra Boost",
+        "sku": "S77416",
+        "retail_price_usd": 180,
+        "colorway": "triple white"
+      },
+      "identification": {
+        "celebrity": [
+          "kanye",
+          "yeezy"
+        ],
+        "brand": [
+          "adidas"
+        ],
+        "model": [
+          "ultra\\W?boost"
+        ],
+        "exact": [
+          "s77416",
+          "(triple|all)\\W+white\\W+(adidas\\W+)?ultra\\W?boost",
+          "ultra\\W?boost\\W+(\\w+\\W+){0,2}(triple|all)\\W+white"
+        ]
+      },
+      "archive": {
+        "prefixes": [
+          "adidas.com/us/ultra-boost-shoes/*"
+        ],
+        "from": "20150401",
+        "to": "20150731",
+        "sku_regex": "[A-Z]\\d{5}",
+        "parser": "adidas",
+        "max_fetches": 60
+      },
+      "trends": [],
+      "pageviews": null,
+      "coverage": {
+        "from": "2015-05-14",
+        "to": "2015-06-15",
+        "gdelt_queries": [],
+        "archive_discovery": [],
+        "seed_urls": [
+          "https://hypebeast.com/2015/5/kanye-west-rocks-the-new-adidas-ultra-boost-triple-white-during-bbma-performance",
+          "https://sneakernews.com/2015/05/21/adidas-getting-exactly-wanted-kanye-ultra-boost-proof",
+          "https://sneakernews.com/2015/05/22/heres-a-breakdown-of-all-three-all-white-adidas-ultra-boost-releases"
+        ],
+        "relevance_min_level": "model",
+        "relevance_note": "Kanye is an adidas partner; brand-level co-mention is not evidence of this appearance."
+      },
+      "reported_outcomes": [],
+      "short_label": "Kanye × Ultra Boost (May 16–17, 2015)",
+      "other_events": [
+        {
+          "day": -7,
+          "label": "Energy Boost appearances"
+        }
+      ]
+    },
+    {
+      "case_id": "bieber_crocs",
+      "label": "Justin Bieber × Crocs (benchmark: announced collaboration)",
+      "role": "benchmark",
+      "event_date": "2020-10-13",
+      "event_time": null,
+      "event_label": "Collaboration launch (announced Oct 7)",
+      "relationship": {
+        "status": "explicit_collaboration",
+        "detail": "Crocs announced the collaboration on October 7, 2020 for an October 13 launch.",
+        "sources": [
+          "https://investors.crocs.com/news-and-events/press-releases/press-release-details/2020/Just-Drop-It-Already-Crocs-and-Justin-Bieber-Turn-Up-for-the-Biggest-Croctober-Launch-to-Date/default.aspx"
+        ]
+      },
+      "focal": {
+        "brand": "Crocs",
+        "model": "Classic Clog × drew house",
+        "sku": null,
+        "retail_price_usd": 60
+      },
+      "identification": {
+        "celebrity": [
+          "bieber"
+        ],
+        "brand": [
+          "crocs"
+        ],
+        "model": [
+          "clog"
+        ],
+        "exact": [
+          "drew\\W?house"
+        ]
+      },
+      "archive": null,
+      "trends": [
+        {
+          "name": "competitors",
+          "geo": "US",
+          "from": "2020-09-01",
+          "to": "2020-11-15",
+          "terms": [
+            "Crocs",
+            "Birkenstock",
+            "Yeezy Slide",
+            "Vans",
+            "Ugg"
+          ]
+        },
+        {
+          "name": "celebrity_link",
+          "geo": "US",
+          "from": "2020-09-01",
+          "to": "2020-11-15",
+          "terms": [
+            "Justin Bieber Crocs",
+            "Bad Bunny Crocs",
+            "Post Malone Crocs"
+          ]
+        }
+      ],
+      "pageviews": {
+        "articles": [
+          "Crocs",
+          "Birkenstock",
+          "Ugg_(brand)"
+        ],
+        "from": "2020-09-01",
+        "to": "2020-11-15"
+      },
+      "coverage": {
+        "from": "2020-10-01",
+        "to": "2020-10-31",
+        "max_articles": 40,
+        "gdelt_queries": [
+          "\"Justin Bieber\" Crocs"
+        ],
+        "archive_discovery": [],
+        "seed_urls": [
+          "https://abc7ny.com/post/justin-bieber-crocs-shoes-fashion-launches-design/7018173",
+          "https://www.businessinsider.com/justin-bieber-x-crocs-drew-house-sold-out-resold-grailed-stockx-2020-10"
+        ]
+      },
+      "reported_outcomes": [
+        {
+          "metric": "Sellout",
+          "value": "sold out in ~90 minutes; site disruption",
+          "window": "launch day",
+          "provenance": "press",
+          "source": "https://abc7ny.com/post/justin-bieber-crocs-shoes-fashion-launches-design/7018173"
+        }
+      ],
+      "roles": {
+        "Crocs": "focal",
+        "Birkenstock": "competitor_brand",
+        "Yeezy Slide": "competitor",
+        "Vans": "competitor",
+        "Ugg": "competitor",
+        "Justin Bieber Crocs": "focal_link",
+        "Bad Bunny Crocs": "sibling_link",
+        "Post Malone Crocs": "sibling_link",
+        "Ugg_(brand)": "competitor_brand"
+      },
+      "mentions": {
+        "sibling": {
+          "Bad Bunny Crocs": "bad bunny",
+          "Post Malone Crocs": "post malone",
+          "Jibbitz": "jibbitz"
+        },
+        "competitor": {
+          "Birkenstock": "birkenstock",
+          "Yeezy": "yeezy",
+          "Ugg": "\\bugg",
+          "Nike": "\\bnike\\b"
+        }
+      },
+      "short_label": "Bieber × Crocs collab, benchmark (Oct 2020)"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "source": "TikTok Commercial Content Library",
+  "captured_at_utc": "2026-10-08T20:36:58Z",
+  "selection_method": "Deliberate convenience sample of three France-targeted Winamax betting ads and two Spain-targeted Pernod Ricard alcohol ads found through advertiser searches; only viewable creatives with distinct video hashes were retained.",
+  "searches": [
+    {
+      "country": "France",
+      "query": "Winamax",
+      "category": "betting"
+    },
+    {
+      "country": "Spain",
+      "query": "Pernod Ricard",
+      "category": "alcohol"
+    }
+  ],
+  "ad_count": 5,
+  "ads": [
+    {
+      "ad_id": "1875142511830242",
+      "sin_category": "betting",
+      "source": "TikTok Commercial Content Library",
+      "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1875142511830242",
+      "captured_at_utc": "2026-10-08T20:37:34.484201+00:00",
+      "first_shown": "09/01/2026",
+      "last_shown": "10/07/2026",
+      "advertising_objective": "App promotion",
+      "unique_users_seen": "700K-800K",
+      "advertiser_name": "WINAMAX",
+      "paid_for_by": "WINAMAX",
+      "registered_location": "France",
+      "title": "Les meilleures cotes sur Winamax",
+      "description": "Les meilleures cotes sur Winamax",
+      "call_to_action": "Go to App Store",
+      "destination_url": "https://apps.apple.com/fr/app/winamax-paris-sportifs-poker/id385720307",
+      "ad_category": "Games",
+      "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1875142511830242.txt",
+      "video_media": {
+        "source_url": "https://library.tiktok.com/api/v1/cdn/1791491845/video/aHR0cHM6Ly92NTgudGlrdG9rY2RuLmNvbS92aWRlby90b3MvdXNlYXN0MmEvdG9zLXVzZWFzdDJhLXZlLTAwNTFjNzk5LWV1dHRwL284QnJBMXJsM0Y2QjNEdFFJcUVEczVmZUVBYXZnZGdNQlFXOU1OLw==/6ba8b3ff-2b7e-4634-b51b-45eccb096855?VExpiration=1791513461&VSignature=msOFwLdGa3GOHV72vr_6Qw&a=475769&bt=500&btag=e000b8000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThQXUnGXq8Zmo&l=2026100904372549531125A0348CE2E77C&mime_type=video_mp4&rc=NTw4aDNmOmkzN2czNWdpNkBpamQ8PHg5cnNnZDMzODYzNEAwNDExXzMzXzExYGA1LWIyYSNpLW4xMmQ0Zl9hLS1kMDFzcw%3D%3D&signature=pXRMJQ5xJQI2eOHGkwEBIXakQjbcUHdgRVZ8O1UKLYo%3D&vvpl=1",
+        "content_type": "video/mp4",
+        "byte_length": 1063860,
+        "sha256": "4787fa9069da948a081d5d5d466bdfaabd6af9ae4a565ce7747753f145dd2b86",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1875142511830242_4787fa9069da948a081d5d5d466bdfaabd6af9ae4a565ce7747753f145dd2b86.mp4"
+      },
+      "representative_media": {
+        "selection": "middle decoded video frame",
+        "content_type": "image/png",
+        "byte_length": 218558,
+        "sha256": "d74ef3e1757904a7d530d8c5b4bb6c4cfabf0964896c23f5e3ba14d36c7c9bf4",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1875142511830242_d74ef3e1757904a7d530d8c5b4bb6c4cfabf0964896c23f5e3ba14d36c7c9bf4.png"
+      }
+    },
+    {
+      "ad_id": "1877909455644690",
+      "sin_category": "betting",
+      "source": "TikTok Commercial Content Library",
+      "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1877909455644690",
+      "captured_at_utc": "2026-10-08T20:39:51.391730+00:00",
+      "first_shown": "10/02/2026",
+      "last_shown": "10/07/2026",
+      "advertising_objective": "App promotion",
+      "unique_users_seen": "10K-100K",
+      "advertiser_name": "WINAMAX",
+      "paid_for_by": "WINAMAX",
+      "registered_location": "France",
+      "title": "Les meilleures cotes sur Winamax",
+      "description": "Les meilleures cotes sur Winamax",
+      "call_to_action": "Go to Google Play",
+      "destination_url": "https://play.google.com/store/apps/details?id=com.winamax.winajs&hl=fr&gl=FR",
+      "ad_category": "News & Entertainment",
+      "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1877909455644690.txt",
+      "video_media": {
+        "source_url": "https://library.tiktok.com/api/v1/cdn/1791491981/video/aHR0cHM6Ly92NzcudGlrdG9rY2RuLmNvbS8zMTY1NTUyYzNkZDJhZDkxNTFjZjFiM2ExOWMyZmNkOS82YWM4NTQwMS92aWRlby90b3MvdXNlYXN0MmEvdG9zLXVzZWFzdDJhLXZlLTAwNTFjNzk5LWV1dHRwL29FOFdXcHdTZkFJbENsNklRQm0xWHJBcTBpQW9pQk9VVjJCRTg4Lw==/89baa3de-13ba-4de3-92ce-32033489fb79?a=475769&bt=503&btag=e000b8000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThEsUnGXq8Zmo&l=202610090439419111217AEF1550DD50C9&mime_type=video_mp4&rc=ODozNWgzaTM3ZThkNDppaEBpMzM3cWw5cnlnZDMzODYzNEBgNjZhM18xNl8xLjRhNDZiYSMtaS0xMmRrXl9hLS1kMDFzcw%3D%3D&signature=kSo9CJs%2FsM0fhUpbqH9JyYwU42ncJCSm6D0t7aUXFsc%3D&vvpl=1",
+        "content_type": "video/mp4",
+        "byte_length": 1292882,
+        "sha256": "6d36b4f0bd5aa9cdd0bcee9cc91e4c01dbd7176153a078527b703669fdb19e33",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1877909455644690_6d36b4f0bd5aa9cdd0bcee9cc91e4c01dbd7176153a078527b703669fdb19e33.mp4"
+      },
+      "representative_media": {
+        "selection": "middle decoded video frame",
+        "content_type": "image/png",
+        "byte_length": 197860,
+        "sha256": "85f7f685e56dedfde3e5247cf270c95d51ceebf6e8fe6b1f2bb8617afcf82846",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1877909455644690_85f7f685e56dedfde3e5247cf270c95d51ceebf6e8fe6b1f2bb8617afcf82846.png"
+      }
+    },
+    {
+      "ad_id": "1876356852465730",
+      "sin_category": "betting",
+      "source": "TikTok Commercial Content Library",
+      "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1876356852465730",
+      "captured_at_utc": "2026-10-08T20:42:22.121000+00:00",
+      "first_shown": "09/15/2026",
+      "last_shown": "10/07/2026",
+      "advertising_objective": "App promotion",
+      "unique_users_seen": "10K-100K",
+      "advertiser_name": "WINAMAX",
+      "paid_for_by": "WINAMAX",
+      "registered_location": "France",
+      "title": "Les meilleures cotes sur Winamax",
+      "description": "Les meilleures cotes sur Winamax",
+      "call_to_action": "Go to Google Play",
+      "destination_url": "https://play.google.com/store/apps/details?id=com.winamax.winajs&hl=fr&gl=FR",
+      "ad_category": "News & Entertainment",
+      "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1876356852465730.txt",
+      "video_media": {
+        "source_url": "https://library.tiktok.com/api/v1/cdn/1791492129/video/aHR0cHM6Ly92NTgudGlrdG9rY2RuLmNvbS92aWRlby90b3MvdXNlYXN0MmEvdG9zLXVzZWFzdDJhLXZlLTAwNTFjNzk5LWV1dHRwL29ZSGxEZm1WREV6UUllb2hJZ3FnRkJIdFFjTnRBQWxpRUJ6Q3o5Lw==/6a12bd99-6809-4360-ac1c-6fa4089c2fe7?VExpiration=1791513746&VSignature=XnrxkHIvasBYZVkkoBfndA&a=475769&bt=480&btag=e000b8000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThOZmXGXq8Zmo&l=20261009044209EA76A4B4E4FDB0D88066&mime_type=video_mp4&rc=NTxpaDc3Nzw7OTc4ODNoPEBpajU4bnU5cnlnZDMzODYzNEBiY18xMC4tNmAxMS8uX2AuYSNeLmhxMmRrXl9hLS1kMDFzcw%3D%3D&signature=O2DUZJK1STUY616FQbP%2BrccZRNIZ808No3sCv7BLWwY%3D&vvpl=1",
+        "content_type": "video/mp4",
+        "byte_length": 1049341,
+        "sha256": "4338329ea51043526bf864104a1d18b077bded6fd62bb4ea7a5498ed6113571b",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1876356852465730_4338329ea51043526bf864104a1d18b077bded6fd62bb4ea7a5498ed6113571b.mp4"
+      },
+      "representative_media": {
+        "selection": "middle decoded video frame",
+        "content_type": "image/png",
+        "byte_length": 203271,
+        "sha256": "6d1fc3a307b247dce0f0c147ad729ed8fc9935318ca31df2732cd9360689cb6c",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1876356852465730_6d1fc3a307b247dce0f0c147ad729ed8fc9935318ca31df2732cd9360689cb6c.png"
+      }
+    },
+    {
+      "ad_id": "1875911993674481",
+      "sin_category": "alcohol",
+      "source": "TikTok Commercial Content Library",
+      "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1875911993674481",
+      "captured_at_utc": "2026-10-08T20:40:13.579907+00:00",
+      "first_shown": "09/10/2026",
+      "last_shown": "10/07/2026",
+      "advertising_objective": "Video views",
+      "unique_users_seen": "600K-700K",
+      "advertiser_name": "PERNOD RICARD ESPAÑA SA",
+      "paid_for_by": "ENGAGE 2021 SL.",
+      "registered_location": "Spain",
+      "title": "No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.",
+      "description": "No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.",
+      "call_to_action": "-",
+      "destination_url": "-",
+      "ad_category": "Food & Beverage",
+      "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1875911993674481.txt",
+      "video_media": {
+        "source_url": "https://library.tiktok.com/api/v1/cdn/1791492003/video/aHR0cHM6Ly92NzcudGlrdG9rY2RuLmNvbS9iY2JhMjY1ZDA5YjNiMTMzM2UwMDEwNmE0NTI2YTUzOS82YWM4NTQwZC92aWRlby90b3MvdXNlYXN0MmEvdG9zLXVzZWFzdDJhLXZlLTAwNTEtZXV0dHAvb2NYR0xDV01WR1k4WVliZVFUbTNJZXFkZ3FQeVVJQVpIRGZiQUQv/62a5afc3-9f13-4f87-a925-e3c353f4b2e6?a=475769&bt=501&btag=e000b0000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThFsUnGXq8Zmo&l=2026100904400349940FDED2D25398A1F6&mime_type=video_mp4&rc=NGRoMzhkODxmZjM8OzM5M0BpM3lqanc5cnFrZDMzODYzNEAzNWJhM2FjNjAxLjZfYGJiYSNfNS1nMmQ0L2RhLS1kMDFzcw%3D%3D&signature=KesT3ftO494MT3wDLZKIjP9RYdq%2Bid7xQItPWCcFuB4%3D&vvpl=1",
+        "content_type": "video/mp4",
+        "byte_length": 642531,
+        "sha256": "e9f031521fa187e41eb617213ac5f756119710eac6349bd05eccf1b172b63d00",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1875911993674481_e9f031521fa187e41eb617213ac5f756119710eac6349bd05eccf1b172b63d00.mp4"
+      },
+      "representative_media": {
+        "selection": "middle decoded video frame",
+        "content_type": "image/png",
+        "byte_length": 241383,
+        "sha256": "1fe4d79d3f97d15eaca9a8cd84cf3611ffa7543a1821ed520d7211b2efab683c",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1875911993674481_1fe4d79d3f97d15eaca9a8cd84cf3611ffa7543a1821ed520d7211b2efab683c.png"
+      }
+    },
+    {
+      "ad_id": "1875988017549681",
+      "sin_category": "alcohol",
+      "source": "TikTok Commercial Content Library",
+      "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1875988017549681",
+      "captured_at_utc": "2026-10-08T20:40:25.679401+00:00",
+      "first_shown": "09/10/2026",
+      "last_shown": "10/07/2026",
+      "advertising_objective": "Video views",
+      "unique_users_seen": "200K-300K",
+      "advertiser_name": "PERNOD RICARD ESPAÑA SA",
+      "paid_for_by": "ENGAGE 2021 SL.",
+      "registered_location": "Spain",
+      "title": "No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.",
+      "description": "No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.",
+      "call_to_action": "-",
+      "destination_url": "-",
+      "ad_category": "Food & Beverage",
+      "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1875988017549681.txt",
+      "video_media": {
+        "source_url": "https://library.tiktok.com/api/v1/cdn/1791492015/video/aHR0cHM6Ly92MTZtLnRpa3Rva2Nkbi5jb20vODcxMGQ4YjE3YzhiZGVlMjJlMmMzYjhmZDJhZTkwZmIvNmFjODU0MWQvdmlkZW8vdG9zL3VzZWFzdDJhL3Rvcy11c2Vhc3QyYS12ZS0wMDUxYzc5OS1ldXR0cC9vd0VJMUFFMGxOQk53dUFCSWtPQkFJbGh5b2lwbVVHaVhZemFmSy8=/385caaff-2326-4af8-ae7f-bd761bfbfc56?a=475769&bt=456&btag=e000b8000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThnsUnGXq8Zmo&l=20261009044014950BBDF762E91D81272E&mime_type=video_mp4&rc=aGU1ZTc4Omk8OWQ4NTg8PEBpanZ5PHg5cnhrZDMzODYzNEAwMWMyLV9fNi8xYzJhLjItYSNkcHIxMmQ0MmRhLS1kMDFzcw%3D%3D&signature=w77s8vi%2BO0aXaUXwb3louwyks3qRBu%2BdgGtAWuw3IiU%3D&vvpl=1",
+        "content_type": "video/mp4",
+        "byte_length": 876707,
+        "sha256": "b321883d4d1af888744a2ca5620b70aeaf21623aa6438e4c2c9e9b916c35cef9",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1875988017549681_b321883d4d1af888744a2ca5620b70aeaf21623aa6438e4c2c9e9b916c35cef9.mp4"
+      },
+      "representative_media": {
+        "selection": "middle decoded video frame",
+        "content_type": "image/png",
+        "byte_length": 249912,
+        "sha256": "f15c819fc0f1ca7b2cb27bbaebe99abce491203107c94a781aa54920e29c20f5",
+        "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1875988017549681_f15c819fc0f1ca7b2cb27bbaebe99abce491203107c94a781aa54920e29c20f5.png"
+      }
+    }
+  ]
+}

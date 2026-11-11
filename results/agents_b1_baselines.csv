@@ -1,0 +1,9 @@
+ad_id,category,appeal_alone,pressure_alone,appeal_neutral_feed,pressure_neutral_feed
+beer_heineken00_drinker,beer,3.78,1.88,3.0,1.35
+beer_heineken_glass,beer,3.83,4.29,3.61,1.1
+bet_bet365_firstbet,betting,3.22,4.94,2.39,4.46
+bet_betsson_100refund,betting,3.82,4.59,2.69,3.06
+bet_pmu_100cash,betting,3.8,4.97,2.59,4.53
+bet_unibet_10free,betting,3.57,4.97,2.19,4.68
+ctl_fanta_glass,control,4.02,1.4,3.27,1.04
+ctl_nike_track,control,4.0,1.05,4.04,1.02

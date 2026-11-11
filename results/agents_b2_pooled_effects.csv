@@ -1,0 +1,10 @@
+category,prime_set,risk,risk_ci90_excludes_0,safe,safe_ci90_excludes_0,pressure,pressure_ci90_excludes_0,respectful,respectful_ci90_excludes_0,norm,norm_ci90_excludes_0,appeal,appeal_ci90_excludes_0,try,try_ci90_excludes_0
+beer,social_drink,-0.2251,True,0.6484,True,0.0458,True,0.0975,True,0.5155,True,0.2252,True,0.1474,True
+beer,drink_harm,0.2675,True,-0.4613,True,1.1722,True,0.0441,True,-0.4827,True,0.0135,False,-0.0202,False
+beer,look_beer,0.0821,True,0.5728,True,-0.0172,False,-0.0329,True,0.1737,True,0.0785,True,0.0624,True
+betting,win,-0.027,True,0.0262,False,0.1317,True,-0.2141,True,-0.493,True,-0.0203,False,0.2281,True
+betting,loss,0.0008,False,0.1106,True,0.1924,True,-0.1032,True,0.0717,False,0.1799,True,0.3394,True
+betting,look_bet,-0.0007,False,0.039,True,0.1432,True,-0.095,True,0.1099,True,-0.0542,True,0.1249,True
+control,win,-0.0232,True,-0.0639,True,-0.0243,True,-0.175,True,-0.0665,False,0.0573,True,-0.0123,False
+control,loss,-0.0209,False,-0.3928,True,0.0016,False,0.0064,False,-0.3767,True,-0.0146,False,0.1188,True
+control,social_drink,0.0154,False,0.0054,False,0.0184,True,-0.1049,True,-0.3953,True,-0.0477,False,-0.1586,True

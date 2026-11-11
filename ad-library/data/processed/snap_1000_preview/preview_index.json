@@ -1,0 +1,112 @@
+[
+  {
+    "number": 1,
+    "ad_id": "e42daa1c-b053-4ad8-98d7-946f7eb7a566",
+    "category": "betting",
+    "advertiser": "Winamax",
+    "country": "fr",
+    "headline": "Le numéro 1 du Poker en ligne",
+    "content_type": "image/png",
+    "source_media_sha256": "a583db959e7c4ac43890d18e0960e18d5e52f271c67f5615fef840d1ad85849c",
+    "preview_file": "data/processed/snap_1000_preview/01_betting_Winamax.jpg"
+  },
+  {
+    "number": 2,
+    "ad_id": "e712df72-03a1-4012-ba9b-15b88453e1e7",
+    "category": "betting",
+    "advertiser": "Winamax",
+    "country": "fr",
+    "headline": "2-1 pour les Hawks ?",
+    "content_type": "image/jpeg",
+    "source_media_sha256": "30ee010231cb48512128cdf11d90f226832fcca4578fb93edcddc0b28f1b1d16",
+    "preview_file": "data/processed/snap_1000_preview/02_betting_Winamax.jpg"
+  },
+  {
+    "number": 3,
+    "ad_id": "f8fe97aa-b9bf-4d9f-93f9-a9d6591e8aa8",
+    "category": "betting",
+    "advertiser": "PMU",
+    "country": "fr",
+    "headline": "Parie sur le match ! ⚽️",
+    "content_type": "image/jpeg",
+    "source_media_sha256": "9f2faaa8274de677af129a068d13f6c8ed552d677a459f5a60409065d97ade08",
+    "preview_file": "data/processed/snap_1000_preview/03_betting_PMU.jpg"
+  },
+  {
+    "number": 4,
+    "ad_id": "ece1f3ac-4793-4b11-a7de-2bf432f3170b",
+    "category": "betting",
+    "advertiser": "bet365",
+    "country": "de",
+    "headline": "Anmelden & Bonus sichern",
+    "content_type": "image/jpeg",
+    "source_media_sha256": "fd0a9c2510d40a33c9a05653b11d21f727a85385f145aa22ba512ba3cd618d4a",
+    "preview_file": "data/processed/snap_1000_preview/04_betting_bet365.jpg"
+  },
+  {
+    "number": 5,
+    "ad_id": "db463f90-5289-4ae0-b806-edf6686aa602",
+    "category": "alcohol",
+    "advertiser": "Pernod Ricard",
+    "country": "fr",
+    "headline": "Absolut Tabasco, Fusion pimentée.",
+    "content_type": "video/mp4",
+    "source_media_sha256": "a42f128df5940db5cdd4e7db9960aa42d5eaef432efc976d3e6d7dfc213e9b2a",
+    "preview_file": "data/processed/snap_1000_preview/05_alcohol_Pernod_Ricard.jpg"
+  },
+  {
+    "number": 6,
+    "ad_id": "c90f4c69-d3bf-4467-a2ae-060a80a68a9e",
+    "category": "alcohol",
+    "advertiser": "Heineken",
+    "country": "nl",
+    "headline": "Die verfrissende smaak sinds 1873.",
+    "content_type": "video/mp4",
+    "source_media_sha256": "798c53791eb9752e6adbdcb3b6c7ec66990f2a78b2228d4c260d514ca1ca19ea",
+    "preview_file": "data/processed/snap_1000_preview/06_alcohol_Heineken.jpg"
+  },
+  {
+    "number": 7,
+    "ad_id": "d7ed3b53-ca1a-4e5b-9476-eac25be3e244",
+    "category": "alcohol",
+    "advertiser": "Grolsch",
+    "country": "nl",
+    "headline": "Noem een iconischer trio ✨",
+    "content_type": "video/mp4",
+    "source_media_sha256": "7960ee172152e6379061a7a1e75e1f89f92318c3384d5d55ed87c80a3028d74b",
+    "preview_file": "data/processed/snap_1000_preview/07_alcohol_Grolsch.jpg"
+  },
+  {
+    "number": 8,
+    "ad_id": "ed4119b4-b2ef-400a-8ee9-591bee8dc1d4",
+    "category": "control",
+    "advertiser": "Nike",
+    "country": "fr",
+    "headline": "AUCUN TERRAIN N'EST SÛR",
+    "content_type": "image/jpeg",
+    "source_media_sha256": "4a5bd9f80bfc5a629cd6b718f87e5da077e2afb2fe73794f751d7180f7580544",
+    "preview_file": "data/processed/snap_1000_preview/08_control_Nike.jpg"
+  },
+  {
+    "number": 9,
+    "ad_id": "fb3cb17d-f749-4e4c-8373-3b436e3b20bd",
+    "category": "control",
+    "advertiser": "Coca-Cola",
+    "country": "fr",
+    "headline": "C'est l'heure d'un Coca-Cola",
+    "content_type": "video/mp4",
+    "source_media_sha256": "e3f7aebf4e1f4f9f29fcf507a6be3af3afbf04e68df2af46f08b7d1c4d685305",
+    "preview_file": "data/processed/snap_1000_preview/09_control_Coca-Cola.jpg"
+  },
+  {
+    "number": 10,
+    "ad_id": "ea43dd30-e0d1-4998-bda8-2ab8cc28994b",
+    "category": "control",
+    "advertiser": "Adidas",
+    "country": "de",
+    "headline": "EARLY BIRD: BIS ZU 50 % RABATT ",
+    "content_type": "image/png",
+    "source_media_sha256": "a508228f87337a125c45b50fad5b72a61038e088caeeecf3faa63aa59134a49a",
+    "preview_file": "data/processed/snap_1000_preview/10_control_Adidas.jpg"
+  }
+]

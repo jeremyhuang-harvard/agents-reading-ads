@@ -1,0 +1,432 @@
+{
+  "sample_size": 3,
+  "seed": 2026101502,
+  "unique_media_hashes": 3,
+  "fields": [
+    {
+      "name": "gambling_ad_present",
+      "type": "boolean",
+      "definition": "The creative promotes wagering, sportsbook, casino, lottery, poker, odds, prediction-market trading, or a gambling-linked offer."
+    },
+    {
+      "name": "financial_inducement_present",
+      "type": "boolean",
+      "definition": "A bonus, free bet, odds boost, cashback, matched deposit, bonus credit, prize, or similar wagering-linked incentive is visibly or audibly offered."
+    },
+    {
+      "name": "risk_minimization_claim",
+      "type": "boolean",
+      "definition": "The creative frames wagering or an offer as risk-free, no-sweat, protected, money-back, safe, or otherwise downplays potential loss."
+    },
+    {
+      "name": "social_normalization_present",
+      "type": "boolean",
+      "definition": "The creative explicitly presents gambling as common, routine, expected, socially approved, or integral to ordinary participation."
+    },
+    {
+      "name": "fandom_identity_present",
+      "type": "boolean",
+      "definition": "The creative links wagering to team loyalty, supporter identity, or fuller participation in a sporting event."
+    },
+    {
+      "name": "celebrity_endorsement_present",
+      "type": "boolean",
+      "definition": "A recognizable public figure endorses, recommends, demonstrates, narrates, or normalizes the promoted product. Mere appearance without an endorsing role is not enough."
+    },
+    {
+      "name": "urgency_scarcity",
+      "type": "rating_0_100",
+      "definition": "How strongly the creative pressures the viewer to act soon through deadlines, countdowns, live-event timing, scarcity, or loss of opportunity.",
+      "anchors": {
+        "0": "No urgency or scarcity.",
+        "25": "Weak generic action prompt.",
+        "50": "Explicit time-limited or live-event framing, not dominant.",
+        "75": "Prominent or repeated deadline, countdown, or imminent-event pressure.",
+        "100": "The creative is organized around immediate action and loss of opportunity."
+      }
+    },
+    {
+      "name": "betting_actionability",
+      "type": "rating_0_100",
+      "definition": "How directly a viewer can translate the creative into a wager using visible selections, odds, promo code, direct CTA, or procedural clarity. For non-gambling ads, rate observable betting actionability as zero.",
+      "anchors": {
+        "0": "No path to a wager.",
+        "25": "Brand or product shown with little procedural direction.",
+        "50": "Clear CTA or offer but limited wager detail.",
+        "75": "Direct CTA plus useful offer, odds, or selection information.",
+        "100": "A nearly complete, immediate path from creative to a specific wager."
+      }
+    },
+    {
+      "name": "sensory_salience",
+      "type": "rating_0_100",
+      "definition": "Visual and auditory intensity from contrast, motion, typography, editing pace, sound, repetition, and foreground prominence.",
+      "anchors": {
+        "0": "Visually and aurally minimal.",
+        "25": "Some contrast or motion but subdued.",
+        "50": "Moderately attention-grabbing.",
+        "75": "Strong motion, contrast, sound, or emphatic typography.",
+        "100": "Extremely intense and continuously attention-demanding."
+      }
+    },
+    {
+      "name": "arousal_excitement",
+      "type": "rating_0_100",
+      "definition": "Suspense, celebration, crowd energy, rapid pacing, emphatic voice or music, and emotional intensity.",
+      "anchors": {
+        "0": "No excitement or arousal.",
+        "25": "Mildly upbeat.",
+        "50": "Clearly energetic or suspenseful.",
+        "75": "Strong excitement, celebration, or rapid pacing.",
+        "100": "Extreme sustained arousal dominates the creative."
+      }
+    },
+    {
+      "name": "positive_affect",
+      "type": "rating_0_100",
+      "definition": "Joy, humor, triumph, anticipation, pleasure, or other positive feeling connected to the promoted product or action.",
+      "anchors": {
+        "0": "No positive affect.",
+        "25": "Mild pleasant tone.",
+        "50": "Clearly positive or enjoyable.",
+        "75": "Strong joy, humor, triumph, or anticipation.",
+        "100": "Intense positive emotion dominates the creative."
+      }
+    },
+    {
+      "name": "social_proof_normalization",
+      "type": "rating_0_100",
+      "definition": "How strongly the creative portrays gambling as common, socially approved, routine, or integral to ordinary social participation. For non-gambling ads, rate gambling normalization as zero.",
+      "anchors": {
+        "0": "No gambling normalization.",
+        "25": "Weak contextual suggestion of normality.",
+        "50": "Gambling is clearly presented as ordinary or socially embedded.",
+        "75": "Strong social approval or participation framing.",
+        "100": "The central message is that gambling is expected or universally shared."
+      }
+    },
+    {
+      "name": "sport_fandom_linkage",
+      "type": "rating_0_100",
+      "definition": "How strongly wagering is fused with team loyalty, supporter identity, event enjoyment, or being a real fan. For non-gambling ads, rate wagering\u2013fandom linkage as zero.",
+      "anchors": {
+        "0": "No wagering\u2013fandom linkage.",
+        "25": "Sport appears but identity linkage is weak.",
+        "50": "Wagering is connected to following or enjoying sport.",
+        "75": "Strong fan-identity or team-loyalty framing.",
+        "100": "Wagering is portrayed as essential to authentic fandom."
+      }
+    },
+    {
+      "name": "responsible_gambling_prominence",
+      "type": "rating_0_100",
+      "definition": "Perceptual prominence and comprehensibility of safer-gambling messaging, considering size, contrast, duration, placement, and audibility. For creatives with no such message, rate zero.",
+      "anchors": {
+        "0": "No observable safer-gambling message.",
+        "25": "Present but difficult to notice or understand.",
+        "50": "Noticeable with moderate clarity.",
+        "75": "Prominent, legible or audible, and easy to understand.",
+        "100": "Safer-gambling messaging is a dominant element."
+      }
+    },
+    {
+      "name": "terms_prominence",
+      "type": "rating_0_100",
+      "definition": "Perceptual prominence and comprehensibility of material offer terms, considering legibility, audibility, duration, contrast, placement, and speech speed. If no offer terms are relevant or observable, use zero and explain when needed.",
+      "anchors": {
+        "0": "No observable material terms.",
+        "25": "Terms are present but difficult to notice or understand.",
+        "50": "Terms are moderately visible or audible.",
+        "75": "Terms are prominent and comprehensible.",
+        "100": "Material terms are a dominant element."
+      }
+    },
+    {
+      "name": "age_restriction_prominence",
+      "type": "rating_0_100",
+      "definition": "Perceptual prominence and comprehensibility of an age eligibility or exclusion message. If absent, rate zero.",
+      "anchors": {
+        "0": "No observable age restriction.",
+        "25": "Present but difficult to notice.",
+        "50": "Moderately visible or audible.",
+        "75": "Prominent and clear.",
+        "100": "Age restriction is a dominant element."
+      }
+    }
+  ],
+  "provenance": {
+    "source_records_sha256": "c74346e1e03c383549017e97ea5a82a2b5a7329a9160cfa23b3b7532106113bc",
+    "sampling_spec_sha256": "1f6c8198e2114a307f08c8b8c7a69618e920efe6f0a548a02cacaa97c682eecd",
+    "codebook_sha256": "53383396ef4ab86893d4698f015a4ab420d243e57aa9dcae2cc9f7e43fd7db2a",
+    "source_run_id": "2026-10-14T234838.202710+0000",
+    "sampling_spec_version": "snap_validation_sample_v1.0.0",
+    "codebook_version": "snap_validation_codebook_v1.0.0",
+    "selection_seed": 2026101501,
+    "coding_order_seed": 2026101502,
+    "selected_media_sha256": [
+      {
+        "coding_id": "SCV-001",
+        "sha256": "1bd6030408ef3fed1e9d341af54274737d36f8f6b176f2123271b2bca19b3a15"
+      },
+      {
+        "coding_id": "SCV-002",
+        "sha256": "ca3590715d61308e1ee42a01f85d3a8fd639c3994c29ad34f839f96fd3a18204"
+      },
+      {
+        "coding_id": "SCV-003",
+        "sha256": "b7f29eadb85454e6363d48f435a8c241103e8c3749e6c351a1fd35e386c21525"
+      },
+      {
+        "coding_id": "SCV-004",
+        "sha256": "e505654fc7f5db7dcefeb4e8f1716e5d3ac37341c3213da052fb5d1e4929e934"
+      },
+      {
+        "coding_id": "SCV-005",
+        "sha256": "5c8aa3ef3ac1bb20131b70a4fd6418b0f17246a15bf5060b1fc6d3bd5b9c5cef"
+      },
+      {
+        "coding_id": "SCV-006",
+        "sha256": "2e7327ef7feeed98fd6570b85a2db1186bbe68cbc8f13159a05f7ab5038fb0a6"
+      },
+      {
+        "coding_id": "SCV-007",
+        "sha256": "1944f0750eb7cd85ad8d35ea8f7e846bdb390b16081f47b3270afe3cf8157503"
+      },
+      {
+        "coding_id": "SCV-008",
+        "sha256": "2df5dcdc654215db68e03f934d9efc30d9c612df8fa5ee43c66cd26d4d5c6170"
+      },
+      {
+        "coding_id": "SCV-009",
+        "sha256": "75b0256b0d61e614f56b7b208fe7b6da3483720475377ed1300d7aa69b6b9b22"
+      },
+      {
+        "coding_id": "SCV-010",
+        "sha256": "3040a07c1fac2a44e72ee07fb695bb05173fe868058a72316d14a493aaf9457a"
+      },
+      {
+        "coding_id": "SCV-011",
+        "sha256": "ed001aff46a2648c2cfd29fe873e84dbd5cebc0c0de8248e8830bfb572e92213"
+      },
+      {
+        "coding_id": "SCV-012",
+        "sha256": "8f9d29ef327c5aef2be9a6d5b17da15786840244c532892fbf10f7fbdd616063"
+      },
+      {
+        "coding_id": "SCV-013",
+        "sha256": "fe106516c912d79e8f17075d83fa4dd3caabb770af2a4311cc488831f098212d"
+      },
+      {
+        "coding_id": "SCV-014",
+        "sha256": "aa2bf160fc800b3063cb1bf17b2a0ff8f16dbb66c2ffd96e75cb1fbed2e40662"
+      },
+      {
+        "coding_id": "SCV-015",
+        "sha256": "380d9223172af87508d7f31e7d8ef19e7ef65000a0e1be600a89b00a085b37a0"
+      },
+      {
+        "coding_id": "SCV-016",
+        "sha256": "b01da890538016fd91431e3b86b77483fccb168dd1262d98abc5f6bca9f2daa1"
+      },
+      {
+        "coding_id": "SCV-017",
+        "sha256": "5767fcd64d0b804afc833f5722f0d8c3c05a584ce905fe5a8177b6b0abe8f5ad"
+      },
+      {
+        "coding_id": "SCV-018",
+        "sha256": "e2c7e12d38c474961064840f6fca5de60fb39d7c47094fe9a4d8bae7e8215d89"
+      },
+      {
+        "coding_id": "SCV-019",
+        "sha256": "530b2bab1030033442f2c3f3ab359bd0afb3c0fd4b4da7d1402c113c474b8998"
+      },
+      {
+        "coding_id": "SCV-020",
+        "sha256": "6b4f03ed2a47abfaf02afe0cb91d73b19807af158f4ded1ef0f1c96e9ca7909e"
+      },
+      {
+        "coding_id": "SCV-021",
+        "sha256": "c95c69c0599fe1e1d5db1f4ad476f7617ddfa1c1b6708e71e2a6cf90175e93b7"
+      },
+      {
+        "coding_id": "SCV-022",
+        "sha256": "6eedb71a5b71df45a05f6fedac0f401e9b7aae9a40952a29d4850781b8221228"
+      },
+      {
+        "coding_id": "SCV-023",
+        "sha256": "f18d34706c66941d7289e18c8410d6998791dcebaff52813725870ab83263bfb"
+      },
+      {
+        "coding_id": "SCV-024",
+        "sha256": "b56aa8f20c8a47e78a03ec1612d6a0e9d2f9fa449cc6c1f1f1d1315d9664d68a"
+      },
+      {
+        "coding_id": "SCV-025",
+        "sha256": "de40a56a2930ec9ddb7c486c9eb36f7c19b1043af46e661ee8b37605a4911e6e"
+      },
+      {
+        "coding_id": "SCV-026",
+        "sha256": "1411b2bbf1bb2ca82285edaa290ae02a934693c73d772cb3f5d54b7a7e539d5a"
+      },
+      {
+        "coding_id": "SCV-027",
+        "sha256": "ca3e587aa6e7ad178879da5cef1c0bb96c0e6f17158ac8d3473e23e854ebabe9"
+      },
+      {
+        "coding_id": "SCV-028",
+        "sha256": "bd36115b44022f6feecbd20987a6aecee5c0f4b63842cc7aafff87281d40d562"
+      },
+      {
+        "coding_id": "SCV-029",
+        "sha256": "4999b04d5d145388b4c2bfe93d298c7aa2479f2ae46ab2070731fef15da60aa3"
+      },
+      {
+        "coding_id": "SCV-030",
+        "sha256": "f2b91154d97357a7d11300c4d04e47d053f08ee43dd3eefdfdcb00b1133c7770"
+      },
+      {
+        "coding_id": "SCV-031",
+        "sha256": "420301468a4d9165e3e024badc90874c1a53fdfef9e8605049913df176820e55"
+      },
+      {
+        "coding_id": "SCV-032",
+        "sha256": "c6b9a8394fad01727f5ba6a47dd7243c41b7ea99829630034b3091ad0f0b75fd"
+      },
+      {
+        "coding_id": "SCV-033",
+        "sha256": "ec7cade6391a607306fb8a38a431a192264a6f8274ddc599d977f64dc32894ee"
+      },
+      {
+        "coding_id": "SCV-034",
+        "sha256": "8839621d169a3d3f78c7be5cf85b649b7555af18171c715ff544ea3c99541ede"
+      },
+      {
+        "coding_id": "SCV-035",
+        "sha256": "cfc683f964ac8c5b54af9c407f62d2023e6b439465ce598aae0dfcfd47f583f2"
+      },
+      {
+        "coding_id": "SCV-036",
+        "sha256": "2186cd6b8a976760a180c9e6b7d289ef5d5b14c46f218b10a8dacf4f2d3abd92"
+      },
+      {
+        "coding_id": "SCV-037",
+        "sha256": "d79678cc1976d89c6853aa1ad05a40a1d9041dbef8a7caee1d81a3bc09f6d44e"
+      },
+      {
+        "coding_id": "SCV-038",
+        "sha256": "afeedd5add8b477f9335488676c14be884462b85f51cd7f54282ac2ab28d89d0"
+      },
+      {
+        "coding_id": "SCV-039",
+        "sha256": "41eb678616a4eba0f9378ade7ace0cc3188b5fd0a80f0e38b13604973746fcc0"
+      },
+      {
+        "coding_id": "SCV-040",
+        "sha256": "115b0b94daa6b6929b917b513d7e30ecbe29ad5d71a7c394cb6477f885b5f5d3"
+      },
+      {
+        "coding_id": "SCV-041",
+        "sha256": "e8afa1115ca895123647fced47f0a1062961153de76d982f69f7f7654e7a389a"
+      },
+      {
+        "coding_id": "SCV-042",
+        "sha256": "9032100909dec95b74f0fc162cb3b37ba81001cbf60794310c4adce9e693c3a9"
+      },
+      {
+        "coding_id": "SCV-043",
+        "sha256": "4c513e2129f322b574907e6a11ac7e957461344bf363de0af31663080c339881"
+      },
+      {
+        "coding_id": "SCV-044",
+        "sha256": "9b45decfb04080da61e7ab388c0f44b6f2788aff84cabeca25ae4e07fea1b279"
+      },
+      {
+        "coding_id": "SCV-045",
+        "sha256": "3028bc8c0ffd2dae027f19c5dc5b9409ef6dd99edb0da545bae40cb9deb50137"
+      },
+      {
+        "coding_id": "SCV-046",
+        "sha256": "58e9c4d506a3c1c55a7ab255b3526e61de9274f5697fe8473ffc257df630dc78"
+      },
+      {
+        "coding_id": "SCV-047",
+        "sha256": "d963e5165dafbdd80a15c187dcb00792306a6bf88115ef71b1108b98237e8f3b"
+      },
+      {
+        "coding_id": "SCV-048",
+        "sha256": "aa06378697744f738b0673c3fed4136bec45997f6c7513fb84cd7f02d3246a00"
+      },
+      {
+        "coding_id": "SCV-049",
+        "sha256": "5891d98537d846f3e3351f5e7269dcae2d2498b1968f7e119f6d4023ecef0dbd"
+      },
+      {
+        "coding_id": "SCV-050",
+        "sha256": "a6b3a75119bcb8f991fc06f933de468a283ba2f7c93c33176881e7300290c18b"
+      },
+      {
+        "coding_id": "SCV-051",
+        "sha256": "1e0608ac91df3bc470cc94fa694dec5c62b5dcc3773a368b7b4d1fe1c7659872"
+      },
+      {
+        "coding_id": "SCV-052",
+        "sha256": "8717aba7d1e194e417ff8a5ef47478782b5dc90d8d0cc0e1690ef193414fb263"
+      },
+      {
+        "coding_id": "SCV-053",
+        "sha256": "ae1a1e101b234f9a4c1d68a25baa3fe72a0154b490beaa5f9cbf697b3baf5241"
+      },
+      {
+        "coding_id": "SCV-054",
+        "sha256": "75b84d8149f23be0f4baa5b9b60b7b3f5cb6ba19ecb8f64c9d120c88c403e0eb"
+      },
+      {
+        "coding_id": "SCV-055",
+        "sha256": "6f947943c94b5a5cc5a4dd89653663f40032de97ddcbf74158edf13552b61ab1"
+      },
+      {
+        "coding_id": "SCV-056",
+        "sha256": "52c6258d7f7e1bcf568267d8100e19b4b0bb251b221ab34b793755eab7a4e820"
+      },
+      {
+        "coding_id": "SCV-057",
+        "sha256": "6ce2be447753328bbf8fc1fbf98e389af9139ea6caad5ba76bba7900aa9f907f"
+      },
+      {
+        "coding_id": "SCV-058",
+        "sha256": "dd8293542eecb38769cc9a41a9be8d6e9402c7c837f0d444f131d4c3fb205094"
+      },
+      {
+        "coding_id": "SCV-059",
+        "sha256": "13b1fb5de8ee148d469a66ca469adf2183fb2065b2f6b023dccdc687479e92ae"
+      },
+      {
+        "coding_id": "SCV-060",
+        "sha256": "08ed8108e51f0c5ccbaaf0b1fec9783530c2ea91272542ec47bb63beeece59d2"
+      }
+    ]
+  },
+  "files": {
+    "blinded_coding_sheet": "coding_sheet.csv",
+    "restricted_linkage_key": "linkage_key.csv",
+    "instructions": "coding_instructions.md",
+    "media_directory": "media"
+  },
+  "media": [
+    {
+      "coding_id": "SCV-003",
+      "media_file": "media/SCV-003.jpg",
+      "media_sha256": "b7f29eadb85454e6363d48f435a8c241103e8c3749e6c351a1fd35e386c21525"
+    },
+    {
+      "coding_id": "SCV-004",
+      "media_file": "media/SCV-004.jpg",
+      "media_sha256": "e505654fc7f5db7dcefeb4e8f1716e5d3ac37341c3213da052fb5d1e4929e934"
+    },
+    {
+      "coding_id": "SCV-007",
+      "media_file": "media/SCV-007.jpg",
+      "media_sha256": "1944f0750eb7cd85ad8d35ea8f7e846bdb390b16081f47b3270afe3cf8157503"
+    }
+  ]
+}

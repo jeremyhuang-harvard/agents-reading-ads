@@ -1,0 +1,44 @@
+[
+  {
+    "case_id": "taylor_new_balance_550",
+    "label": "Taylor Swift \u00d7 New Balance 550",
+    "query": "Taylor Swift New Balance",
+    "event_date": "2023-09-24",
+    "event_label": "Chiefs appearance",
+    "pre_14d_mean": 0.0,
+    "event_to_7d_mean": 44.25,
+    "day_8_to_21_mean": 7.571,
+    "post_pre_ratio": null,
+    "peak_date": "2023-09-26",
+    "peak_value": 100,
+    "peak_relative_day": 2
+  },
+  {
+    "case_id": "kanye_ultraboost",
+    "label": "Kanye West \u00d7 UltraBoost",
+    "query": "Kanye Ultra Boost",
+    "event_date": "2015-05-17",
+    "event_label": "Billboard Music Awards",
+    "pre_14d_mean": 0.0,
+    "event_to_7d_mean": 12.5,
+    "day_8_to_21_mean": 0.0,
+    "post_pre_ratio": null,
+    "peak_date": "2015-05-23",
+    "peak_value": 100,
+    "peak_relative_day": 6
+  },
+  {
+    "case_id": "bieber_crocs",
+    "label": "Justin Bieber \u00d7 Crocs",
+    "query": "Justin Bieber Crocs",
+    "event_date": "2020-10-13",
+    "event_label": "Collaboration launch",
+    "pre_14d_mean": 3.286,
+    "event_to_7d_mean": 18.625,
+    "day_8_to_21_mean": 1.357,
+    "post_pre_ratio": 5.668,
+    "peak_date": "2020-10-13",
+    "peak_value": 100,
+    "peak_relative_day": 0
+  }
+]

@@ -1,0 +1,20 @@
+[study]
+id = "context-interpretation-smoke"
+seed = 20261021
+persona_replicates = 2
+ad_id = "placeholder-headphones-v0"
+
+[design]
+preferences = ["price_first", "performance_first"]
+histories = ["budget_pressure", "product_failure"]
+price_contexts = ["near_benchmark", "favorable_contrast"]
+quality_contexts = ["near_benchmark", "favorable_contrast"]
+prompt_variants = ["response_v1a", "response_v1b"]
+models = ["deterministic-mock-v1"]
+
+[runner]
+engine = "mock"
+temperature = 0.0
+
+[outputs]
+root = "tmp/smoke-runs"

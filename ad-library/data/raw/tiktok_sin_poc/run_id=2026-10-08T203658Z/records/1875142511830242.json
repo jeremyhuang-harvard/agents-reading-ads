@@ -1,0 +1,27 @@
+{
+  "ad_id": "1875142511830242",
+  "sin_category": "betting",
+  "source": "TikTok Commercial Content Library",
+  "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1875142511830242",
+  "captured_at_utc": "2026-10-08T20:37:34.484201+00:00",
+  "first_shown": "09/01/2026",
+  "last_shown": "10/07/2026",
+  "advertising_objective": "App promotion",
+  "unique_users_seen": "700K-800K",
+  "advertiser_name": "WINAMAX",
+  "paid_for_by": "WINAMAX",
+  "registered_location": "France",
+  "title": "Les meilleures cotes sur Winamax",
+  "description": "Les meilleures cotes sur Winamax",
+  "call_to_action": "Go to App Store",
+  "destination_url": "https://apps.apple.com/fr/app/winamax-paris-sportifs-poker/id385720307",
+  "ad_category": "Games",
+  "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1875142511830242.txt",
+  "video_media": {
+    "source_url": "https://library.tiktok.com/api/v1/cdn/1791491845/video/aHR0cHM6Ly92NTgudGlrdG9rY2RuLmNvbS92aWRlby90b3MvdXNlYXN0MmEvdG9zLXVzZWFzdDJhLXZlLTAwNTFjNzk5LWV1dHRwL284QnJBMXJsM0Y2QjNEdFFJcUVEczVmZUVBYXZnZGdNQlFXOU1OLw==/6ba8b3ff-2b7e-4634-b51b-45eccb096855?VExpiration=1791513461&VSignature=msOFwLdGa3GOHV72vr_6Qw&a=475769&bt=500&btag=e000b8000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThQXUnGXq8Zmo&l=2026100904372549531125A0348CE2E77C&mime_type=video_mp4&rc=NTw4aDNmOmkzN2czNWdpNkBpamQ8PHg5cnNnZDMzODYzNEAwNDExXzMzXzExYGA1LWIyYSNpLW4xMmQ0Zl9hLS1kMDFzcw%3D%3D&signature=pXRMJQ5xJQI2eOHGkwEBIXakQjbcUHdgRVZ8O1UKLYo%3D&vvpl=1",
+    "content_type": "video/mp4",
+    "byte_length": 1063860,
+    "sha256": "4787fa9069da948a081d5d5d466bdfaabd6af9ae4a565ce7747753f145dd2b86",
+    "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1875142511830242_4787fa9069da948a081d5d5d466bdfaabd6af9ae4a565ce7747753f145dd2b86.mp4"
+  }
+}

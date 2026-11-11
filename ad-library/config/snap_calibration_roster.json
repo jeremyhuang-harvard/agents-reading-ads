@@ -1,0 +1,16 @@
+{
+  "version": "2026-10-14-calibration-v1",
+  "purpose": "Storage and access calibration only; not a representative analytical sample.",
+  "target": 100,
+  "strata": [
+    {"category": "betting", "advertiser": "Winamax", "country": "fr", "quota": 15},
+    {"category": "betting", "advertiser": "PMU", "country": "fr", "quota": 15},
+    {"category": "betting", "advertiser": "bet365", "country": "de", "quota": 15},
+    {"category": "alcohol", "advertiser": "Pernod Ricard", "country": "fr", "quota": 10},
+    {"category": "alcohol", "advertiser": "Heineken", "country": "nl", "quota": 10},
+    {"category": "control", "advertiser": "Nike", "country": "fr", "quota": 10},
+    {"category": "control", "advertiser": "Adidas", "country": "de", "quota": 10},
+    {"category": "control", "advertiser": "Coca-Cola", "country": "fr", "quota": 10},
+    {"category": "control", "advertiser": "McDonald's", "country": "fr", "quota": 5}
+  ]
+}

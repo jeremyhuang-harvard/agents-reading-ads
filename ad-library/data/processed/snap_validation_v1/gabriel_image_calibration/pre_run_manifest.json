@@ -1,0 +1,22 @@
+{
+  "fingerprint": "4480f50ca020aee0f2e0e6beb0861bc011e69d5ec7dc4181b317b11fc491ea6a",
+  "packet_manifest_sha256": "90ccfb2fb0779c43bdd5388972b493883516df423fbbe7fe0ffc7fef4a9c8597",
+  "actual_media_sha256": [
+    {
+      "coding_id": "SCV-003",
+      "sha256": "b7f29eadb85454e6363d48f435a8c241103e8c3749e6c351a1fd35e386c21525"
+    },
+    {
+      "coding_id": "SCV-004",
+      "sha256": "e505654fc7f5db7dcefeb4e8f1716e5d3ac37341c3213da052fb5d1e4929e934"
+    },
+    {
+      "coding_id": "SCV-007",
+      "sha256": "1944f0750eb7cd85ad8d35ea8f7e846bdb390b16081f47b3270afe3cf8157503"
+    }
+  ],
+  "prompt_sha256": "0a5ea7a0258bab2f6cc7868a91d03dfdd609893d778f3b27e223e459b9649b34",
+  "codebook_sha256": "53383396ef4ab86893d4698f015a4ab420d243e57aa9dcae2cc9f7e43fd7db2a",
+  "provider": "openai-codex",
+  "model": "gpt-5.6-sol"
+}

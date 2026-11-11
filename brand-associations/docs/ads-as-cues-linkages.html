@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Implicit Ads × Ads as Cues — linkages and public-data tests</title>
+<style>
+  :root {
+    --ink: #14171f; --muted: #5b6270; --rule: #e3e5ea; --paper: #fbfaf7; --panel: #f2f1ec;
+    --focal: #b91c1c; --sib: #1d4ed8; --comp: #4b5563; --pos: #15803d; --neg: #1d4ed8; --warn: #92400e;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 var(--sans); }
+  .wrap { display: grid; grid-template-columns: 230px minmax(0, 780px); gap: 56px; max-width: 1120px; margin: 0 auto; padding: 48px 28px 96px; }
+  nav { position: sticky; top: 32px; align-self: start; font-size: 14px; }
+  nav p { font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: 11px; color: var(--muted); margin: 0 0 10px; }
+  nav a { display: block; color: var(--muted); text-decoration: none; padding: 4px 0 4px 10px; border-left: 2px solid var(--rule); }
+  nav a:hover, nav a:focus { color: var(--ink); border-left-color: var(--focal); outline: none; }
+  @media (max-width: 920px) { .wrap { grid-template-columns: 1fr; gap: 24px; } nav { position: static; } }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text-wrap: balance; }
+  h1 { font-size: 38px; margin: 6px 0 8px; }
+  h2 { font-size: 27px; margin: 60px 0 12px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 20px; margin: 28px 0 8px; }
+  p, li { text-wrap: pretty; }
+  .kicker { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--focal); }
+  .meta { color: var(--muted); font-size: 14px; }
+  .lede { font-family: var(--serif); font-size: 21px; line-height: 1.5; margin: 22px 0; }
+  .bottom-line { background: var(--ink); color: #fff; padding: 22px 26px; margin: 28px 0; }
+  .bottom-line h3 { color: #fff; margin: 0 0 8px; font-size: 18px; }
+  .bottom-line ol { margin: 0; padding-left: 20px; } .bottom-line li { margin: 6px 0; }
+  .note { background: var(--panel); padding: 14px 18px; font-size: 15px; margin: 18px 0; }
+  .note b.lbl { display: block; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  blockquote { margin: 16px 0; padding: 4px 0 4px 18px; border-left: 3px solid var(--ink); font-family: var(--serif); font-size: 18px; }
+  blockquote cite { display: block; font-family: var(--sans); font-size: 13px; color: var(--muted); font-style: normal; margin-top: 4px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; margin: 14px 0 22px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+  code { font-size: 14px; background: var(--panel); padding: 1px 5px; }
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; vertical-align: 1px; }
+  .ready { background: #dcfce7; color: #14532d; } .partial { background: #fef3c7; color: #78350f; } .hard { background: #fee2e2; color: #7f1d1d; }
+  .obs { background: #dcfce7; color: #14532d; } .rep { background: #fef3c7; color: #78350f; }
+
+  /* model diagram */
+  .model { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; align-items: stretch; gap: 0; margin: 20px 0 8px; font-size: 14px; }
+  .model .box { background: #fff; border: 1px solid var(--rule); border-top: 4px solid var(--ink); padding: 10px 12px; }
+  .model .box b { display: block; font-size: 12px; letter-spacing: .05em; text-transform: uppercase; }
+  .model .box i { color: var(--muted); font-style: normal; font-size: 13px; display: block; margin-top: 6px; }
+  .model .arrow { display: flex; align-items: center; padding: 0 6px; font-size: 22px; color: var(--muted); }
+  @media (max-width: 760px) { .model { grid-template-columns: 1fr; } .model .arrow { justify-content: center; transform: rotate(90deg); } }
+  .formula { font-family: var(--serif); font-size: 20px; text-align: center; margin: 18px 0; }
+  .formula small { display: block; font-family: var(--sans); font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+  /* linkage blocks */
+  .link { border-top: 3px solid var(--ink); padding-top: 6px; margin-top: 40px; }
+  .link h3 { margin-top: 6px; }
+  .link .num { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--focal); }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0 26px; font-size: 15.5px; }
+  .pair h4 { font-size: 12px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px; }
+  .pair p { margin: 0 0 6px; }
+  @media (max-width: 760px) { .pair { grid-template-columns: 1fr; } }
+  .contrast { display: grid; grid-template-columns: 1fr 44px 1fr; gap: 0; margin: 16px 0 10px; font-size: 14px; }
+  .contrast .side { background: #fff; border: 1px solid var(--rule); padding: 10px 12px; }
+  .contrast .side b { display: block; font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  .contrast .vs { display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--muted); font-size: 13px; }
+  .contrast .pred { grid-column: 1 / -1; padding: 8px 12px; background: var(--ink); color: #fff; font-size: 14px; }
+  .contrast .pred b { color: #fde68a; }
+  .measures { font-size: 14.5px; margin: 8px 0 0; padding-left: 18px; }
+  .demo { font-size: 14.5px; background: var(--panel); padding: 10px 14px; margin-top: 10px; }
+  .demo b.lbl { font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); display: block; }
+
+  .steps { counter-reset: s; list-style: none; padding: 0; }
+  .steps > li { counter-increment: s; position: relative; padding: 14px 0 14px 52px; border-bottom: 1px solid var(--rule); }
+  .steps > li::before { content: counter(s); position: absolute; left: 0; top: 14px; width: 34px; height: 34px; border-radius: 50%; background: var(--ink); color: #fff; font: 700 15px/34px var(--sans); text-align: center; }
+  .steps .why { color: var(--muted); font-size: 15px; display: block; margin-top: 4px; }
+  .steps .cost { font-size: 13px; color: var(--warn); font-weight: 600; }
+  a { color: var(--sib); }
+  @media print { nav { display: none; } .wrap { display: block; } .link { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Contents">
+  <p>Contents</p>
+  <a href="#bottom">Bottom line</a>
+  <a href="#model">The model in one picture</a>
+  <a href="#map">Mapping the model to our setting</a>
+  <a href="#why">Why celebrity cues are a useful test</a>
+  <a href="#L1">1 · Cue → focal demand</a>
+  <a href="#L2">2 · Familiarity × cue</a>
+  <a href="#L3">3 · Re-representation spillovers</a>
+  <a href="#L4">4 · Category expansion</a>
+  <a href="#L5">5 · Outfit: similarity vs interference</a>
+  <a href="#L6">6 · Measuring similarity</a>
+  <a href="#L7">7 · Encoding, re-cueing, interference</a>
+  <a href="#L8">8 · Dynamics: building the database</a>
+  <a href="#data">Public data map</a>
+  <a href="#stockx">StockX probe</a>
+  <a href="#where">Where we extend the paper</a>
+  <a href="#plan">Proposed tests, in order</a>
+  <a href="#refs">Sources</a>
+</nav>
+
+<main>
+<div class="kicker">Implicit Ads · Theory linkage memo</div>
+<h1>Celebrity appearances as memory cues: linking Implicit Ads to “Ads as Cues”</h1>
+<div class="meta">Bordalo, Burro, Gennaioli, Nacamulli &amp; Shleifer (2025), NBER WP 34387 · memo of November 9, 2026 · page numbers refer to the paper’s printed pages</div>
+
+<p class="lede">“Ads as Cues” models demand as depending on what comes to mind: a cue retrieves past experiences of goods that are frequent in memory and similar to the cue, and those goods crowd out others. A celebrity wearing a product is a cue of exactly this kind, and one the authors themselves gesture at: “We spontaneously look at a billboard on the street or at a brand’s name on an athlete’s shirt” (p. 10).</p>
+
+<section id="bottom" class="bottom-line">
+  <h3>Bottom line</h3>
+  <ol>
+    <li><strong>Every core object in the model has a public-data analog</strong> in our setting: the cue (the appearance and its amplification), the memory database (prior familiarity with the brand or model), similarity (how close the cue is to focal, sibling and rival products), and demand (search, stockouts, resale volume).</li>
+    <li><strong>Eight testable linkages</strong> follow, from the direct effect of the cue to spillovers on siblings and rivals, spillovers to the rest of the outfit, and whether the appearance creates a lasting celebrity–product memory that later cues retrieve.</li>
+    <li><strong>The sharpest public-data test</strong> is a regional version of the paper’s exposure × habit design: Google Trends by US metro area gives exposure to the celebrity event, prior familiarity with the focal and rival brands, and the response, all from public data.</li>
+    <li><strong>Search is the wrong outcome for some predictions.</strong> The paper’s spillovers work because a cue reminds people of a product they already know; they rarely need to search for it. Those predictions need purchase-type outcomes. Archived StockX pages carry a “sales in the last 72 hours” count, which we verified for the NB 550.</li>
+    <li><strong>Our setting extends the paper in three ways</strong>: unscheduled cues (better identification than TV ad schedules), unfamiliar products (where the paper points to simulation rather than recall), and directional celebrity → product associations (the paper’s similarity is symmetric).</li>
+  </ol>
+</section>
+
+<h2 id="model">The model in one picture</h2>
+<p>A consumer buys a good only if its past pleasure comes to mind. What comes to mind depends on three things the paper measures with Nielsen data, and that we would measure with public data.</p>
+<div class="model">
+  <div class="box"><b>Cue <span style="font-weight:400;text-transform:none;font-family:var(--serif);font-size:14px">c</span></b>An ad, a craving, a context.<i>Ours: the celebrity appearance and its coverage.</i></div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="box"><b>Similarity <span style="font-weight:400;text-transform:none;font-family:var(--serif);font-size:14px">S(c, x)</span></b>Feature overlap between the cue and each good.<i>Ours: how close the worn item is to the focal SKU, siblings, rivals.</i></div>
+  <div class="arrow" aria-hidden="true">×</div>
+  <div class="box"><b>Database <span style="font-weight:400;text-transform:none;font-family:var(--serif);font-size:14px">f(x)</span></b>How often the consumer experienced each good.<i>Ours: prior familiarity with each brand or model.</i></div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="box"><b>Recall → demand</b>Recall share raises predicted utility; demand follows.<i>Ours: search, stockouts, resale volume.</i></div>
+</div>
+<div class="formula">r<sub>x</sub>(c) = S(c,x)·f<sub>x</sub> ⁄ Σ<sub>x′</sub> S(c,x′)·f<sub>x′</sub>
+  <small>Equation (1), p. 9. The numerator is association and frequency; the denominator is interference: other similar or frequent experiences compete for recall, including a large mass of “neutral” non-branded experiences, the “fog” ads must cut through (p. 7).</small></div>
+
+<p>Its three propositions are the backbone of the linkages below:</p>
+<table>
+  <thead><tr><th>Proposition</th><th>What it says (paper)</th><th>Celebrity-cue translation</th></tr></thead>
+  <tbody>
+    <tr><td><strong>1. Habits vs instability</strong> (pp. 11–13)</td><td>Ads raise demand for the advertised good, more for frequent buyers, but concavely: very frequent buyers already have it top of mind.</td><td>The appearance raises focal demand; the effect depends on prior familiarity and may be smallest for staples everyone already knows.</td></tr>
+    <tr><td><strong>2. Spillovers within a category</strong> (pp. 13–14)</td><td>A Pepsi ad raises Coke demand among habitual Coke drinkers; ads expand the category.</td><td>A celebrity in NB 550s may remind Dunk owners of their Dunks; the sneaker category may expand.</td></tr>
+    <tr><td><strong>3. Similarity vs interference across categories</strong> (p. 15)</td><td>Ads boost similar categories and depress dissimilar ones.</td><td>Co-worn items in the same look benefit; unrelated wants are crowded out.</td></tr>
+  </tbody>
+</table>
+
+<h2 id="map">Mapping the model to our setting</h2>
+<table>
+  <thead><tr><th>Model object</th><th>Paper’s measure</th><th>Our public-data analog</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td>Cue exposure e</td><td>Expected seconds of TV ads per household-week, by DMA (Nielsen Ad Intel), pp. 17–18</td><td>Appearance date and time; amplification dose (articles, GDELT volume, celebrity pageviews); regional exposure = abnormal search for the celebrity by metro area</td><td><span class="tag ready">have / easy</span></td></tr>
+    <tr><td>Database f</td><td>Prior-year shopping trips with the brand (Homescan), p. 18</td><td>Pre-period search level for the brand or model (nationally and by metro area); pre-period resale volume; Wikipedia pageviews</td><td><span class="tag partial">partial</span></td></tr>
+    <tr><td>Similarity S</td><td>Cosine similarity of word stems in 4–6-word ad descriptions, pp. 33–35</td><td>Text similarity of coverage to product descriptions; image similarity of products; Google “related queries”; shared attributes (silhouette, colorway, price tier)</td><td><span class="tag partial">to build</span></td></tr>
+    <tr><td>Demand d</td><td>Weekly household purchases (Homescan)</td><td>Search (attention/consideration); stock and size depletion on brand sites; StockX 72-hour sales and prices from archived pages; marketplace listings</td><td><span class="tag partial">partial</span></td></tr>
+    <tr><td>Interference</td><td>Negative cross-category spillovers, Table 4</td><td>Rival and unrelated-category responses; prior celebrity–brand links competing with a new one</td><td><span class="tag partial">partial</span></td></tr>
+  </tbody>
+</table>
+
+<h2 id="why">Why celebrity cues are a useful test of the theory</h2>
+<ul>
+  <li><strong>Timing is closer to random.</strong> TV ad schedules are chosen by firms, so the paper needs the Shapiro et al. (2021) strategy and many controls to deal with targeting (pp. 29–32). An unscheduled appearance (Taylor at a Chiefs game, Kanye courtside) is not timed to demand shocks, which makes a daily event study credible.</li>
+  <li><strong>One cue, sharp similarity contrasts.</strong> A single appearance has measurable similarity to the exact SKU, its sibling colorways, and rival models, so we can see whether the response follows similarity, the paper’s central new prediction.</li>
+  <li><strong>We can observe identification.</strong> Coverage tells us how precisely and how fast the cue was linked to a specific product. In model terms, exact identification concentrates similarity on the focal SKU.</li>
+  <li><strong>It reaches products the paper excludes.</strong> The paper studies the top two brands of 20 undifferentiated packaged-goods categories (p. 16). Fashion and sneakers are differentiated, often unfamiliar, and sold through resale markets, which tests where the theory travels.</li>
+</ul>
+
+<h2>Eight linkages, each with its exact contrast</h2>
+<p>Each linkage states the paper’s prediction, our translation, the comparison that tests it, the public measures, and what the demo already shows.</p>
+
+<!-- L1 -->
+<div class="link" id="L1">
+  <div class="num">Linkage 1 · Proposition 1(b)</div>
+  <h3>The appearance is a cue that raises demand for the focal product</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>More exposure to a brand’s ads raises its demand, even though ads carry no information (p. 12).</p></div>
+    <div><h4>Ours</h4><p>The appearance raises attention to and demand for the worn product, even with no paid placement.</p></div>
+  </div>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Focal SKU, days 0–7 after the appearance</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>Same SKU, weekday-matched pre-period (days −28 to −1)</div>
+    <div class="pred">Prediction: <b>positive</b> abnormal search, size depletion, and resale volume for the focal SKU</div>
+  </div>
+  <ul class="measures"><li>Google Trends (daily); brand product pages (stock, sizes); archived StockX pages (72-hour sales, last sale).</li></ul>
+  <div class="demo"><b class="lbl">Demo so far</b>Present in all cases. Cleanest: Kanye’s Energy Boost ESM out of stock on adidas.com days +6 to +10 <span class="tag obs">observed</span>; NB 550 StockX 72-hour sales 136 on day +2 <span class="tag obs">observed</span>.</div>
+</div>
+
+<!-- L2 -->
+<div class="link" id="L2">
+  <div class="num">Linkage 2 · Proposition 1(c)</div>
+  <h3>The cue works through familiarity, and concavely</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>Ads work better on frequent buyers, but the effect flattens for the most frequent, who “have the good already top of mind” (pp. 12–13). Coke: 166 seconds of ads for one extra can at average frequency, 44 seconds at the 95th percentile (p. 26).</p></div>
+    <div><h4>Ours</h4><p>Two versions. <em>Within an event</em>: regions more familiar with the brand respond more to the same appearance. <em>Across events</em>: an inverted U. Unknown brands have no memories to retrieve; staples (Air Force 1) are already top of mind; moderately familiar products gain most.</p></div>
+  </div>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Metro areas with high exposure to the appearance and high pre-period familiarity with the brand</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>Metro areas with the same exposure but low familiarity (and vice versa)</div>
+    <div class="pred">Prediction: <b>exposure × familiarity &gt; 0</b>, flattening at the top of the familiarity distribution</div>
+  </div>
+  <ul class="measures">
+    <li><strong>Exposure</strong>: abnormal search for the celebrity by metro area in the event window (Trends “interest by region”, DMA level).</li>
+    <li><strong>Familiarity</strong>: each metro’s pre-period search for the brand or model, in the same request.</li>
+    <li><strong>Response</strong>: post-minus-pre change in focal search by metro area.</li>
+  </ul>
+  <div class="demo"><b class="lbl">Caveat</b>The paper’s concavity is about individual purchase frequency; ours is about regional or product-level familiarity. That is an analogy to state plainly, not a direct replication. For unfamiliar brands (Outland, starting from zero searches) the paper points to <em>simulation</em> of future experiences rather than recall (footnote 2, p. 7), see the extensions section.</div>
+</div>
+
+<!-- L3 -->
+<div class="link" id="L3">
+  <div class="num">Linkage 3 · Proposition 2(d, e)</div>
+  <h3>Spillovers through re-representation: the cue reminds rival owners of their own shoe</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>“A Pepsi ad reminds a Pepsi drinker of Pepsi, but it reminds a Coke drinker of Coke” (p. 3). Rival ads raise demand for a brand among its habitual buyers; 80 seconds of Pepsi ads buy an extra Coke for a frequent Coke drinker (p. 5).</p></div>
+    <div><h4>Ours</h4><p>Taylor in white/red 550s may remind habitual Dunk or Air Force 1 buyers of their own white leather sneakers. Spillover should be larger where the rival is familiar, and smaller when the cue is exactly identified or visually distinctive, because exact identification concentrates similarity on the focal SKU.</p></div>
+  </div>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Rival model demand in metros where the rival is habitual, after the appearance</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>Same rival in metros where it is not habitual; and generically identified vs exactly identified appearances</div>
+    <div class="pred">Prediction: <b>positive</b> rival spillover, rising with rival familiarity and cue–rival similarity, <b>falling</b> with identification precision</div>
+  </div>
+  <ul class="measures"><li>Rival purchases are the right outcome, not rival search: people do not need to search for a shoe they already know. Use archived StockX pages for rival models (72-hour sales), marketplace listings, and metro-level search only as a weaker proxy.</li></ul>
+  <div class="demo"><b class="lbl">Demo so far</b>No rival search cleared 2 SD in any case. That is consistent with concentrated identification, but it is also what we would see if spillover runs through purchases rather than search, so the null is not yet informative.</div>
+</div>
+
+<!-- L4 -->
+<div class="link" id="L4">
+  <div class="num">Linkage 4 · Proposition 2(f)</div>
+  <h3>Category expansion: the cue makes the whole category salient</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>“Rather than ‘stealing business’, ads for a brand make the product category more popular” (p. 14).</p></div>
+    <div><h4>Ours</h4><p>An appearance can raise demand for the look (“retro court sneakers”, “black skinny jeans”) as well as for the item.</p></div>
+  </div>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Category terms and category-level sales after the appearance</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>Placebo categories of similar seasonality (e.g. running shoes, boots)</div>
+    <div class="pred">Prediction: <b>small positive</b> category effect, larger for familiar categories</div>
+  </div>
+  <div class="demo"><b class="lbl">Demo so far</b>Weak: Australian “black jeans” +1.3 SD over days 0–3; generic “Crocs” flat during the Bieber launch.</div>
+</div>
+
+<!-- L5 -->
+<div class="link" id="L5">
+  <div class="num">Linkage 5 · Proposition 3 and Section 6 on complements</div>
+  <h3>The outfit: similarity spreads demand to co-worn items; dissimilar wants are crowded out</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>Cues spill over positively to similar goods and negatively to dissimilar ones (pp. 15, 38–39). Similarity includes shared <em>context</em>, such as a party (p. 8); goods consumed together cue each other, like movies and popcorn (pp. 41–42).</p></div>
+    <div><h4>Ours</h4><p>Items worn together share the cue’s context, so the jacket and jeans in one look should both gain. Within a look, salience theory adds that attention goes to the item that contrasts most with what is expected, such as a $110 sneaker on a billionaire.</p></div>
+  </div>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Co-worn items in the identified look</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>Same-category items not worn; unrelated categories</div>
+    <div class="pred">Prediction: co-worn <b>positive</b>; unrelated categories <b>zero or negative</b>; the most contrasting item gets the largest share</div>
+  </div>
+  <div class="demo"><b class="lbl">Demo so far</b>Meghan: the Serena Williams jacket appears in 9 of 12 distinct stories about the jeans <span class="tag obs">observed</span>. Taylor: her New Era windbreaker reportedly sold out <span class="tag rep">reported</span>. Coverage of Taylor’s look stressed how “ordinary” the 550 was, a contrast frame we can code.</div>
+</div>
+
+<!-- L6 -->
+<div class="link" id="L6">
+  <div class="num">Linkage 6 · Section 5</div>
+  <h3>Measure similarity, then test whether spillovers follow it</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>Similarity is cosine similarity between word-stem counts of short ad descriptions; competitors average 0.46, all brands 0.25 (pp. 33–35). Higher similarity makes spillovers more positive (Table 4).</p></div>
+    <div><h4>Ours</h4><p>Build S(cue, product) for the focal SKU, siblings and rivals, then test whether each product’s abnormal response rises with it.</p></div>
+  </div>
+  <ul class="measures">
+    <li><strong>Text</strong>: embeddings of on-topic coverage vs product names and descriptions.</li>
+    <li><strong>Image</strong>: embeddings of product photos (silhouette and colorway; the white/red 550 is visually close to a white/red Dunk).</li>
+    <li><strong>Population co-retrieval</strong>: Google Trends “related queries” for the celebrity–brand term, which lists what people actually searched next.</li>
+    <li><strong>Attributes</strong>: brand, model, colorway, price tier, release year.</li>
+  </ul>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Products highly similar to the cue</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>Products of the same brand or category but low similarity</div>
+    <div class="pred">Prediction: spillover share <b>increases with similarity</b>, holding familiarity fixed</div>
+  </div>
+</div>
+
+<!-- L7 -->
+<div class="link" id="L7">
+  <div class="num">Linkage 7 · Section 6 and Conclusion</div>
+  <h3>Encoding: the appearance stores a distinct celebrity–product memory that later cues retrieve</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>Branding makes near-identical goods be “stored separately” in memory (p. 9); ads also promote a brand’s “separate encoding in memory” (p. 42), and a new entrant should “differentiate anyway you can”, drawing attention to high-contrast features so it is “encoded separately from the habitual product” (p. 47).</p></div>
+    <div><h4>Ours</h4><p>An identified appearance tags a generic product with a celebrity (“the Taylor Swift 550”). Later cues that share context retrieve that tag, and the stored link interferes with new links for the same celebrity.</p></div>
+  </div>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Taylor × Nike Air Force 1, Oct 22, 2023: same context (Chiefs game), staple rival shoe, after a stored Taylor–NB link</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>Taylor × NB 550, Sep 24, 2023: first appearance, no prior link</div>
+    <div class="pred">Prediction: <b>smaller</b> Nike response; Taylor–NB association <b>re-activated</b> by the later appearance</div>
+  </div>
+  <ul class="measures"><li>Persistence of celebrity–product searches; marketplace listing titles that add the celebrity’s name (eBay Browse API, public product nicknames); response to repeat appearances.</li></ul>
+  <div class="demo"><b class="lbl">Demo so far (suggestive)</b>“Taylor Swift New Balance” searches show a second cluster around day +28, when she wore Nike, not New Balance. Highsnobiety reported much less buzz for the Air Force 1 than for the 550 <span class="tag rep">reported</span>. Both search series are sparse, so treat this as a lead to test, not a finding.</div>
+</div>
+
+<!-- L8 -->
+<div class="link" id="L8">
+  <div class="num">Linkage 8 · Dynamics (pp. 42, 47)</div>
+  <h3>Does the appearance build a database that makes later cues stronger?</h3>
+  <div class="pair">
+    <div><h4>Paper</h4><p>Advertising’s main return may be dynamic: it keeps habitual buyers’ memories fresh and builds the database; brands that stopped advertising lost demand that was hard to recover (pp. 42, 47).</p></div>
+    <div><h4>Ours</h4><p>Purchases triggered by an appearance create new experiences. If so, the baseline should stay elevated, and later appearances of the same product should get larger responses.</p></div>
+  </div>
+  <div class="contrast">
+    <div class="side"><b>Treated</b>Repeat appearances of the same celebrity–product pair; months +1 to +6</div>
+    <div class="vs">vs</div>
+    <div class="side"><b>Comparison</b>First appearance; pre-period baseline</div>
+    <div class="pred">Prediction: <b>persistent baseline lift</b> and <b>larger responses to repeat cues</b> for products that sold</div>
+  </div>
+</div>
+
+<h2 id="data">Public data map</h2>
+<table>
+  <thead><tr><th>Source</th><th>What it gives</th><th>Linkages</th><th>Access</th></tr></thead>
+  <tbody>
+    <tr><td>Google Trends (time series)</td><td>Daily relative search, focal/sibling/rival/category terms</td><td>1, 3, 4, 7, 8</td><td><span class="tag ready">in pipeline</span></td></tr>
+    <tr><td>Google Trends (interest by region, DMA)</td><td>Metro-level exposure, familiarity and response</td><td>2, 3</td><td><span class="tag ready">easy add</span></td></tr>
+    <tr><td>Google Trends (related queries)</td><td>What people searched alongside the cue</td><td>6, 7</td><td><span class="tag ready">easy add</span></td></tr>
+    <tr><td>Wayback captures of brand product pages</td><td>Stock status, size availability, price</td><td>1, 3</td><td><span class="tag ready">in pipeline</span></td></tr>
+    <tr><td>Wayback captures of StockX product pages</td><td>Sales in the last 72 hours, last sale, bids and asks by size</td><td>1, 3, 8</td><td><span class="tag partial">verified; terms review needed</span></td></tr>
+    <tr><td>Coverage (seeds, Wayback, GDELT)</td><td>Identification precision and timing, co-mentions, framing</td><td>3, 5, 6</td><td><span class="tag ready">in pipeline</span></td></tr>
+    <tr><td>Product images and descriptions</td><td>Visual and text similarity</td><td>6</td><td><span class="tag partial">to build</span></td></tr>
+    <tr><td>eBay Browse API</td><td>Active listings and titles (celebrity tags), asking prices</td><td>7</td><td><span class="tag partial">key needed</span></td></tr>
+    <tr><td>Keepa (Amazon sales-rank history)</td><td>Daily sales-rank proxy for products sold on Amazon</td><td>1, 3, 4</td><td><span class="tag partial">paid; coverage unverified</span></td></tr>
+    <tr><td>Wikipedia pageviews; YouTube Data API</td><td>Celebrity and brand attention; video reach</td><td>Exposure for 2</td><td><span class="tag ready">easy</span></td></tr>
+    <tr><td>StockX/GOAT live, eBay sold history, Instagram/TikTok</td><td>Transactions and social reach</td><td>—</td><td><span class="tag hard">restricted</span></td></tr>
+  </tbody>
+</table>
+
+<h3 id="stockx">StockX probe: archived pages contain completed-sales counts</h3>
+<p>The Internet Archive holds captures of StockX product pages, and the embedded page data include <code>salesLast72Hours</code>, the last sale price, and bid and ask counts by size. For the white/red NB 550:</p>
+<table>
+  <thead><tr><th>Capture</th><th>Day vs Sep 24, 2023</th><th>Sales in last 72 hours</th><th>Last sale</th></tr></thead>
+  <tbody>
+    <tr><td>Dec 11, 2022</td><td>−287</td><td>109</td><td>$202</td></tr>
+    <tr><td>Sep 26, 2023</td><td>+2</td><td>136</td><td>$95</td></tr>
+    <tr><td>Oct 4, 2023</td><td>+10</td><td>30</td><td>$77</td></tr>
+  </tbody>
+</table>
+<p>Reading: a burst of completed resale transactions right after the appearance, falling within ten days, at prices <em>below</em> the $110 retail price, consistent with New Balance restocking retail. These are point snapshots, the only pre-event capture is nine months earlier, and StockX’s terms restrict use of its data, so this source needs a terms review (or StockX’s permission) before we rely on it. <span class="tag obs">observed</span></p>
+
+<h2 id="where">Where our setting extends the paper</h2>
+<ol>
+  <li><strong>Directional associations.</strong> The paper’s similarity is symmetric (p. 8). Celebrity cues are plausibly directional: Taylor → New Balance is strong after September 2023, New Balance → Taylor is weak. That matters for interference: a strong stored link from a celebrity to one brand should weaken later links from the same celebrity to rival brands (Linkage 7), the mechanism Sahni and Yang study as competitive interference.</li>
+  <li><strong>Unfamiliar products.</strong> The paper’s recall mechanism needs past experiences. For unknown brands (Outland), a cue cannot retrieve one’s own consumption; the authors point instead to simulation of future experiences from similar memories (footnote 2, p. 7; Bordalo, Burro et al. 2025). This predicts that responses to unknown products depend on similarity to familiar experiences, and on the story attached (Outland’s ethical origin), which we can code.</li>
+  <li><strong>Exogenous, observable cues.</strong> The paper infers exposure from viewership probabilities. We observe the cue’s exact timing and its identification path, so we can separate the cue (the appearance) from its amplification (coverage, shopping links), which the paper bundles into “exposure”.</li>
+  <li><strong>Differentiated goods with resale markets.</strong> Resale prices and volumes show excess demand at retail prices, which packaged goods cannot.</li>
+</ol>
+<div class="note"><b class="lbl">Limits to keep in view</b>The paper’s tests use 72 million household-week observations. Ours are event studies on aggregate outcomes, so the “habit” dimension is regional or product-level, not individual. Search measures attention and consideration, not purchase. Re-representation spillovers (Linkage 3) may be invisible in search by construction.</div>
+
+<h2 id="plan">Proposed tests, in order</h2>
+<ol class="steps">
+  <li><strong>Metro-level exposure × familiarity for Taylor × NB 550.</strong>
+    <span class="why">The closest public-data analog of the paper’s Table 2. Pull Trends interest by DMA for pre and post windows: “Taylor Swift” (exposure), “New Balance 550”/“New Balance” (focal familiarity and response), “Nike Dunk”/“Air Force 1” (rival familiarity and response). Regress the change in response on exposure, familiarity and their product. Kansas City and Chicago give natural high-exposure markets.</span>
+    <span class="cost">A day of work; about 20 Trends requests; no new tools.</span></li>
+  <li><strong>Archived StockX panel for focal, sibling and rival models.</strong>
+    <span class="why">Turns Linkage 1 and 3 into purchase-type outcomes: 72-hour sales and prices for the worn SKU, sibling colorways, and Dunk / Air Force 1 / Samba around each event. Run a terms review first.</span>
+    <span class="cost">Pipeline extension using the existing Wayback code; capture coverage varies by product.</span></li>
+  <li><strong>Similarity measures.</strong>
+    <span class="why">Text, image and related-query similarity for every product in each comparison set, so Linkage 6 can test whether spillover follows similarity.</span>
+    <span class="cost">Local models (image and text embeddings); a few hours.</span></li>
+  <li><strong>Taylor × Nike Air Force 1 as the encoding and interference contrast.</strong>
+    <span class="why">Same celebrity and context, staple rival product, after a stored link to New Balance (Linkage 7).</span>
+    <span class="cost">About an hour of pipeline time.</span></li>
+  <li><strong>Outfit spillovers.</strong>
+    <span class="why">Add co-worn items to each case’s comparison sets (Taylor’s New Era windbreaker; Meghan’s Serena Williams jacket and Maison Kitsuné shirt) and code contrast framing in coverage (Linkage 5).</span>
+    <span class="cost">Config and coding changes.</span></li>
+  <li><strong>Cross-event familiarity curve on the 30-appearance sample.</strong>
+    <span class="why">Tests the inverted U of Linkage 2 and the identification-precision prediction of Linkage 3 across events.</span>
+    <span class="cost">Depends on building the sample.</span></li>
+</ol>
+
+
+<h2 id="refs">Sources</h2>
+<ul class="meta">
+  <li>Bordalo, P., Burro, G., Gennaioli, N., Nacamulli, G., and Shleifer, A. (2025). <a href="https://www.nber.org/papers/w34387">Ads as Cues</a>. NBER Working Paper 34387. Quotations and page numbers from the <a href="https://www.nber.org/system/files/working_papers/w34387/w34387.pdf">October 2025 PDF</a>.</li>
+  <li>Bordalo, P., Gennaioli, N., and Shleifer, A. (2020). Memory, attention, and choice. <em>Quarterly Journal of Economics</em> 135(3): 1399–1442 (as cited in the paper).</li>
+  <li>Bordalo, P., Burro, G., Coffman, K. B., Gennaioli, N., and Shleifer, A. (2025). Imagining the future: Memory, simulation and beliefs. <em>Review of Economic Studies</em> 92(3): 1532–1563 (as cited in the paper).</li>
+  <li>Sahni, N. S. and Yang, Y. (2026). <a href="https://www.gsb.stanford.edu/faculty-research/working-papers/consumer-memory-competitive-interference-case-auto-insurance">Consumer Memory and Competitive Interference: The Case of Auto Insurance Advertising</a>. Working paper.</li>
+  <li>Taylor × Nike Air Force 1: <a href="https://pagesix.com/2023/10/24/style/fans-think-travis-kelce-gifted-taylor-swift-these-chiefs-themed-sneakers-buy-them-here">Page Six</a>; <a href="https://highsnobiety.com/p/taylor-swift-nike-air-force-1">Highsnobiety</a>.</li>
+  <li>StockX figures: Internet Archive captures of <code>stockx.com/new-balance-550-white-red</code> on 2022-12-11, 2023-09-26 and 2023-10-04.</li>
+  <li>Demo evidence: <code>docs/demo-spillover.md</code> and the demo findings report in the repository.</li>
+</ul>
+</main>
+</div>
+</body>
+</html>

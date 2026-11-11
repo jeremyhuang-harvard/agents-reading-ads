@@ -1,0 +1,130 @@
+{
+  "fingerprint": "5edc6a0718446281044810d4fb1fd7089c2d1c7b1456df1d141036b3680b90a2",
+  "packet_manifest_sha256": "7790445b9ea798693ac86cff7c91ccfafbd4b55ea977a301b1864af314410fd7",
+  "actual_media_sha256": [
+    {
+      "coding_id": "SCV-003",
+      "sha256": "b7f29eadb85454e6363d48f435a8c241103e8c3749e6c351a1fd35e386c21525"
+    },
+    {
+      "coding_id": "SCV-004",
+      "sha256": "e505654fc7f5db7dcefeb4e8f1716e5d3ac37341c3213da052fb5d1e4929e934"
+    },
+    {
+      "coding_id": "SCV-007",
+      "sha256": "1944f0750eb7cd85ad8d35ea8f7e846bdb390b16081f47b3270afe3cf8157503"
+    },
+    {
+      "coding_id": "SCV-008",
+      "sha256": "2df5dcdc654215db68e03f934d9efc30d9c612df8fa5ee43c66cd26d4d5c6170"
+    },
+    {
+      "coding_id": "SCV-009",
+      "sha256": "75b0256b0d61e614f56b7b208fe7b6da3483720475377ed1300d7aa69b6b9b22"
+    },
+    {
+      "coding_id": "SCV-010",
+      "sha256": "3040a07c1fac2a44e72ee07fb695bb05173fe868058a72316d14a493aaf9457a"
+    },
+    {
+      "coding_id": "SCV-011",
+      "sha256": "ed001aff46a2648c2cfd29fe873e84dbd5cebc0c0de8248e8830bfb572e92213"
+    },
+    {
+      "coding_id": "SCV-014",
+      "sha256": "aa2bf160fc800b3063cb1bf17b2a0ff8f16dbb66c2ffd96e75cb1fbed2e40662"
+    },
+    {
+      "coding_id": "SCV-015",
+      "sha256": "380d9223172af87508d7f31e7d8ef19e7ef65000a0e1be600a89b00a085b37a0"
+    },
+    {
+      "coding_id": "SCV-017",
+      "sha256": "5767fcd64d0b804afc833f5722f0d8c3c05a584ce905fe5a8177b6b0abe8f5ad"
+    },
+    {
+      "coding_id": "SCV-018",
+      "sha256": "e2c7e12d38c474961064840f6fca5de60fb39d7c47094fe9a4d8bae7e8215d89"
+    },
+    {
+      "coding_id": "SCV-019",
+      "sha256": "530b2bab1030033442f2c3f3ab359bd0afb3c0fd4b4da7d1402c113c474b8998"
+    },
+    {
+      "coding_id": "SCV-020",
+      "sha256": "6b4f03ed2a47abfaf02afe0cb91d73b19807af158f4ded1ef0f1c96e9ca7909e"
+    },
+    {
+      "coding_id": "SCV-021",
+      "sha256": "c95c69c0599fe1e1d5db1f4ad476f7617ddfa1c1b6708e71e2a6cf90175e93b7"
+    },
+    {
+      "coding_id": "SCV-022",
+      "sha256": "6eedb71a5b71df45a05f6fedac0f401e9b7aae9a40952a29d4850781b8221228"
+    },
+    {
+      "coding_id": "SCV-023",
+      "sha256": "f18d34706c66941d7289e18c8410d6998791dcebaff52813725870ab83263bfb"
+    },
+    {
+      "coding_id": "SCV-025",
+      "sha256": "de40a56a2930ec9ddb7c486c9eb36f7c19b1043af46e661ee8b37605a4911e6e"
+    },
+    {
+      "coding_id": "SCV-026",
+      "sha256": "1411b2bbf1bb2ca82285edaa290ae02a934693c73d772cb3f5d54b7a7e539d5a"
+    },
+    {
+      "coding_id": "SCV-028",
+      "sha256": "bd36115b44022f6feecbd20987a6aecee5c0f4b63842cc7aafff87281d40d562"
+    },
+    {
+      "coding_id": "SCV-034",
+      "sha256": "8839621d169a3d3f78c7be5cf85b649b7555af18171c715ff544ea3c99541ede"
+    },
+    {
+      "coding_id": "SCV-037",
+      "sha256": "d79678cc1976d89c6853aa1ad05a40a1d9041dbef8a7caee1d81a3bc09f6d44e"
+    },
+    {
+      "coding_id": "SCV-038",
+      "sha256": "afeedd5add8b477f9335488676c14be884462b85f51cd7f54282ac2ab28d89d0"
+    },
+    {
+      "coding_id": "SCV-041",
+      "sha256": "e8afa1115ca895123647fced47f0a1062961153de76d982f69f7f7654e7a389a"
+    },
+    {
+      "coding_id": "SCV-042",
+      "sha256": "9032100909dec95b74f0fc162cb3b37ba81001cbf60794310c4adce9e693c3a9"
+    },
+    {
+      "coding_id": "SCV-044",
+      "sha256": "9b45decfb04080da61e7ab388c0f44b6f2788aff84cabeca25ae4e07fea1b279"
+    },
+    {
+      "coding_id": "SCV-048",
+      "sha256": "aa06378697744f738b0673c3fed4136bec45997f6c7513fb84cd7f02d3246a00"
+    },
+    {
+      "coding_id": "SCV-052",
+      "sha256": "8717aba7d1e194e417ff8a5ef47478782b5dc90d8d0cc0e1690ef193414fb263"
+    },
+    {
+      "coding_id": "SCV-053",
+      "sha256": "ae1a1e101b234f9a4c1d68a25baa3fe72a0154b490beaa5f9cbf697b3baf5241"
+    },
+    {
+      "coding_id": "SCV-055",
+      "sha256": "6f947943c94b5a5cc5a4dd89653663f40032de97ddcbf74158edf13552b61ab1"
+    },
+    {
+      "coding_id": "SCV-059",
+      "sha256": "13b1fb5de8ee148d469a66ca469adf2183fb2065b2f6b023dccdc687479e92ae"
+    }
+  ],
+  "prompt_sha256": "0a5ea7a0258bab2f6cc7868a91d03dfdd609893d778f3b27e223e459b9649b34",
+  "codebook_sha256": "53383396ef4ab86893d4698f015a4ab420d243e57aa9dcae2cc9f7e43fd7db2a",
+  "provider": "openai-codex",
+  "model": "gpt-5.6-sol"
+}

@@ -1,0 +1,41 @@
+[project]
+name = "implicit-ads"
+version = "0.1.0"
+description = "Reproducible social-science research on implicit advertising"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+demo = [
+    "matplotlib>=3.8",
+    "pandas>=2.1",
+    "pytrends>=4.9",
+    # pytrends passes `method_whitelist` to urllib3 Retry, removed in urllib3 2.x
+    "urllib3<2",
+]
+# Directed celebrity-brand association measures (python -m implicit_ads.assoc).
+assoc = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "pandas>=2.1",
+    "pytrends>=4.9",
+    "urllib3<2",
+    "sentence-transformers>=3.0",
+]
+# Full-text news from Common Crawl CC-NEWS (stage ccnews).
+assoc-news = ["warcio>=1.7", "trafilatura>=1.8"]
+# Local language-model retrieval probabilities (Apple silicon only).
+assoc-llm = ["mlx-lm>=0.20; sys_platform == 'darwin' and platform_machine == 'arm64'"]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/implicit_ads"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

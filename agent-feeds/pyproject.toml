@@ -1,0 +1,12 @@
+[project]
+name = "agentic-ad-simulations"
+version = "0.1.0"
+description = "Reproducible experiments on contextual ad interpretation by LLM systems"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[project.optional-dependencies]
+vlm = ["mlx-vlm==0.7.9", "torch==2.14.1", "torchvision==0.29.1", "pillow==13.0.0"]

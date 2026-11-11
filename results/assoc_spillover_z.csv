@@ -1,0 +1,9 @@
+case,source,term,role,z_days_0_3
+taylor_nb550,google_trends,Taylor Swift New Balance,focal_link,11.56
+taylor_nb550,google_trends,Taylor Swift Nike,competitor_link,2.69
+taylor_nb550,google_trends,New Balance 550,focal,1.1
+kanye_energy_boost,google_trends,Energy Boost,focal,2.62
+kanye_energy_boost,google_trends,Ultra Boost,sibling,0.58
+bieber_crocs,google_trends,Justin Bieber Crocs,focal_link,11.2
+bieber_crocs,google_trends,Crocs,focal,0.07
+bieber_crocs,wikipedia_pageviews,Crocs,focal,1.98

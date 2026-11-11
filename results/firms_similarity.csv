@@ -1,0 +1,11 @@
+pair,text_stems_by_ads,coded_cues_by_ads,coded_cues_by_impressions
+Winamax-PMU,0.581,0.625,0.73
+Winamax-Unibet,0.368,0.783,0.778
+Winamax-Betsson,0.704,0.831,0.778
+Winamax-bet365,0.422,0.693,0.726
+PMU-Unibet,0.448,0.635,0.645
+PMU-Betsson,0.414,0.565,0.579
+PMU-bet365,0.369,0.565,0.545
+Unibet-Betsson,0.414,0.882,0.786
+Unibet-bet365,0.411,0.849,0.752
+Betsson-bet365,0.365,0.902,0.926

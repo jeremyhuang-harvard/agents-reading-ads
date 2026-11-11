@@ -1,0 +1,1 @@
+Create a neutral agent profile from the structured state only. Do not infer demographics, add preferences, mention the advertisement, predict outcomes, or embellish the history. In the initial study this transformation is implemented deterministically rather than by a language model.

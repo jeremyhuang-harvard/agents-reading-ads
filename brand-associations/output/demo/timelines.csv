@@ -1,0 +1,135 @@
+case_id,stage,relative_day,date,event,detail,status,source
+taylor_nb550,relationship,,,none_found,No located New Balance contract or campaign before the appearance; prior formal footwear partner was Keds (2012–2013). New Balance declined comment.,reported,https://www.prnewswire.com/news-releases/keds-announces-multi-year-partnership-with-taylor-swift-173682701.html;https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales
+taylor_nb550,appearance,0,2023-09-24,Postgame video leaving Arrowhead (Chiefs–Bears),2023-09-24T19:47:43-05:00,reported,
+taylor_nb550,identification,1,2023-09-25 20:05:00,first brand-level identification,esquire.com: Taylor Swift Is Officially a New Balance Girl,observed,https://www.esquire.com/style/mens-fashion/a45307127/taylor-swift-travis-kelce-new-balance-shoes/
+taylor_nb550,identification,1,2023-09-25 20:05:00,first model-level identification,esquire.com: Taylor Swift Is Officially a New Balance Girl,observed,https://www.esquire.com/style/mens-fashion/a45307127/taylor-swift-travis-kelce-new-balance-shoes/
+taylor_nb550,identification,1,2023-09-25 20:05:00,first exact-level identification,esquire.com: Taylor Swift Is Officially a New Balance Girl,observed,https://www.esquire.com/style/mens-fashion/a45307127/taylor-swift-travis-kelce-new-balance-shoes/
+taylor_nb550,amplification,1,2023-09-25 20:05:00,first article with retail link,esquire.com,observed,https://www.esquire.com/style/mens-fashion/a45307127/taylor-swift-travis-kelce-new-balance-shoes/
+taylor_nb550,amplification,1,2023-09-25 20:05:00,first article with affiliate link,esquire.com,observed,https://www.esquire.com/style/mens-fashion/a45307127/taylor-swift-travis-kelce-new-balance-shoes/
+taylor_nb550,amplification,,,14 on-topic articles coded,specialist_sneaker=8; general_news_or_other=4; fashion_lifestyle=2,observed,
+taylor_nb550,amplification,,2023-09-01..2023-10-10,8 archived product URLs with affiliate tracking,New York Post Network; Penske Media Corporation; Skimbit Ltd.; Sneaker News Inc,observed,Wayback CDX
+taylor_nb550,amplification,,2023-08-05..2023-08-05,2 archived product URLs with email tracking,20230803_2215_db_nbus_080323_ICYMI_Lifestyle; db_nbus_080323_ICYMI_Lifestyle,observed,Wayback CDX
+taylor_nb550,attention,-3,2023-09-21,Trends peak (−3..+14): Taylor Swift Adidas,peak 0 vs pre-28d mean 0.0 (celebrity_link),observed,Google Trends
+taylor_nb550,attention,-3,2023-09-21,Trends peak (−3..+14): Taylor Swift Converse,peak 0 vs pre-28d mean 1.4 (celebrity_link),observed,Google Trends
+taylor_nb550,attention,-1,2023-09-23,Trends peak (−3..+14): Converse Chuck Taylor,peak 15 vs pre-28d mean 12.7 (competitors),observed,Google Trends
+taylor_nb550,attention,-1,2023-09-23,Trends peak (−3..+14): New Balance 530,peak 23 vs pre-28d mean 19.1 (nb_siblings),observed,Google Trends
+taylor_nb550,attention,0,2023-09-24,Trends peak (−3..+14): New Balance 327,peak 51 vs pre-28d mean 34.7 (nb_siblings),observed,Google Trends
+taylor_nb550,attention,0,2023-09-24,Trends peak (−3..+14): Adidas Samba,peak 91 vs pre-28d mean 69.0 (competitors),observed,Google Trends
+taylor_nb550,attention,1,2023-09-25,Trends peak (−3..+14): New Balance 550,peak 86 vs pre-28d mean 65.4 (nb_siblings),observed,Google Trends
+taylor_nb550,attention,1,2023-09-25,Trends peak (−3..+14): Taylor Swift Nike,peak 58 vs pre-28d mean 7.3 (celebrity_link),observed,Google Trends
+taylor_nb550,attention,1,2023-09-25,Trends peak (−3..+14): New Balance 550,peak 79 vs pre-28d mean 59.5 (competitors),observed,Google Trends
+taylor_nb550,attention,2,2023-09-26,Trends peak (−3..+14): Taylor Swift New Balance,peak 100 vs pre-28d mean 1.1 (celebrity_link),observed,Google Trends
+taylor_nb550,attention,7,2023-10-01,Trends peak (−3..+14): New Balance 990,peak 24 vs pre-28d mean 20.0 (nb_siblings),observed,Google Trends
+taylor_nb550,attention,7,2023-10-01,Trends peak (−3..+14): Nike Air Force 1,peak 64 vs pre-28d mean 54.0 (competitors),observed,Google Trends
+taylor_nb550,attention,14,2023-10-08,Trends peak (−3..+14): Nike Dunk Low,peak 74 vs pre-28d mean 61.9 (competitors),observed,Google Trends
+taylor_nb550,attention,14,2023-10-08,Trends peak (−3..+14): New Balance 9060,peak 79 vs pre-28d mean 60.1 (nb_siblings),observed,Google Trends
+taylor_nb550,market_response,1,2023-09-25 20:05:00,first article mentioning sellout/restock,esquire.com,observed,https://www.esquire.com/style/mens-fashion/a45307127/taylor-swift-travis-kelce-new-balance-shoes/
+taylor_nb550,market_response,2,2023-09-26,product page: InStock,19/20 sizes price 109.99,observed,https://web.archive.org/web/20230926185357id_/https://www.newbalance.com/pd/550/BB550V1-36007.html
+taylor_nb550,market_response,3,2023-09-27,product page: InStock,18/20 sizes price 109.99,observed,https://web.archive.org/web/20230927043859id_/https://www.newbalance.com/pd/550/BB550V1-36007.html
+taylor_nb550,market_response,7,2023-10-01,product page: InStock,18/20 sizes price 109.99,observed,https://web.archive.org/web/20231001151758id_/https://www.newbalance.com/pd/550/BB550V1-36007.html
+taylor_nb550,market_response,,,newbalance.com 550 revenue,+25% (week after appearance; internal New Balance presentation viewed by Complex),reported,https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales
+taylor_nb550,market_response,,,newbalance.com 550 units,+22% (week after appearance; internal New Balance presentation viewed by Complex),reported,https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales
+taylor_nb550,market_response,,,newbalance.com 550 traffic,+30% (week after appearance; internal New Balance presentation viewed by Complex),reported,https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales
+taylor_nb550,market_response,,,StockX BB550SE1 trades,>100 on 2023-09-25 vs 18/day August average; +347% week volume; +8% price (day and week after; StockX merchandising director via Complex),reported,https://www.complex.com/sneakers/a/brendan-dunne/taylor-swift-new-balance-550-sneakers-boost-sales
+taylor_nb550,market_response,,,Postgame video views on X,2.4M (night of) → 15.8M (next morning) (first ~15 hours; media snapshots of platform counters),reported,https://wgntv.com/news/deans-list/travis-kelce-taylor-swift-spotted-leaving-arrowhead-stadium-after-sundays-game/
+kanye_energy_boost,relationship,,,announced_ambassador_off_campaign,"Adidas announced its partnership with Kanye West in December 2013; Energy Boost ESM was an ordinary running product, not a Yeezy.",reported,https://www.adidas-group.com/en/media/press-releases/adidas-confirms-new-partnership-with-kanye-west
+kanye_energy_boost,appearance,0,2015-05-09,Wango Tango (May 9) and Bulls–Cavaliers (May 10),,reported,
+kanye_energy_boost,identification,1,2015-05-10T06:30:00.000Z,first brand-level identification,complex.com: Kanye West Wore White adidas Energy Boost Sneakers at Wango Tango,observed,https://www.complex.com/sneakers/a/brandon-richard/kanye-west-adidas-energy-boost-esm-white-wango-tango
+kanye_energy_boost,identification,1,2015-05-10T06:30:00.000Z,first model-level identification,complex.com: Kanye West Wore White adidas Energy Boost Sneakers at Wango Tango,observed,https://www.complex.com/sneakers/a/brandon-richard/kanye-west-adidas-energy-boost-esm-white-wango-tango
+kanye_energy_boost,identification,1,2015-05-10T17:15:28-0400,first exact-level identification,complex.com: Update: Kanye Takes Wango Tango Stage NOT Wearing His Yeezy Boosts,observed,http://www.complex.com:80/sneakers/2015/05/kanye-takes-wango-tango-stage-not-wearing-his-yeezy-boosts
+kanye_energy_boost,amplification,1,2015-05-10T17:15:28-0400,first article with retail link,complex.com,observed,http://www.complex.com:80/sneakers/2015/05/kanye-takes-wango-tango-stage-not-wearing-his-yeezy-boosts
+kanye_energy_boost,amplification,,,8 on-topic articles coded,specialist_sneaker=8,observed,
+kanye_energy_boost,amplification,,2015-05-18..2015-06-02,2 archived product URLs with paid_or_tracked tracking,AdieDisplay-_-Retargeting-_-Dynamic-_-NA; AdieSEM_Feeds-_-GoogleProductAds-_-NA-_-B44283,observed,Wayback CDX
+kanye_energy_boost,attention,-3,2015-05-06,Trends peak (−3..+14): Stan Smith,peak 93 vs pre-28d mean 70.9 (boost_siblings),observed,Google Trends
+kanye_energy_boost,attention,-1,2015-05-08,Trends peak (−3..+14): Nike Flyknit,peak 49 vs pre-28d mean 32.9 (competitors),observed,Google Trends
+kanye_energy_boost,attention,0,2015-05-09,Trends peak (−3..+14): Nike Free,peak 85 vs pre-28d mean 72.6 (competitors),observed,Google Trends
+kanye_energy_boost,attention,1,2015-05-10,Trends peak (−3..+14): Adidas Superstar,peak 75 vs pre-28d mean 62.6 (boost_siblings),observed,Google Trends
+kanye_energy_boost,attention,1,2015-05-10,Trends peak (−3..+14): Nike Roshe,peak 73 vs pre-28d mean 55.4 (competitors),observed,Google Trends
+kanye_energy_boost,attention,3,2015-05-12,Trends peak (−3..+14): Kanye shoes,peak 16 vs pre-28d mean 8.2 (celebrity_link),observed,Google Trends
+kanye_energy_boost,attention,3,2015-05-12,Trends peak (−3..+14): Kanye Nike,peak 13 vs pre-28d mean 0.8 (celebrity_link),observed,Google Trends
+kanye_energy_boost,attention,5,2015-05-14,Trends peak (−3..+14): Pure Boost,peak 23 vs pre-28d mean 7.8 (boost_siblings),observed,Google Trends
+kanye_energy_boost,attention,5,2015-05-14,Trends peak (−3..+14): Energy Boost,peak 17 vs pre-28d mean 5.8 (competitors),observed,Google Trends
+kanye_energy_boost,attention,5,2015-05-14,Trends peak (−3..+14): Energy Boost,peak 76 vs pre-28d mean 25.5 (boost_siblings),observed,Google Trends
+kanye_energy_boost,attention,8,2015-05-17,Trends peak (−3..+14): Asics Gel,peak 37 vs pre-28d mean 26.9 (competitors),observed,Google Trends
+kanye_energy_boost,attention,9,2015-05-18,Trends peak (−3..+14): Kanye Adidas,peak 24 vs pre-28d mean 4.6 (celebrity_link),observed,Google Trends
+kanye_energy_boost,attention,14,2015-05-23,Trends peak (−3..+14): Ultra Boost,peak 87 vs pre-28d mean 4.2 (boost_siblings),observed,Google Trends
+kanye_energy_boost,market_response,-105,2015-01-24,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150124015813id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html
+kanye_energy_boost,market_response,-98,2015-01-31,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150131093426id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?
+kanye_energy_boost,market_response,-90,2015-02-08,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150208034809id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html
+kanye_energy_boost,market_response,-87,2015-02-11,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150211220219id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html
+kanye_energy_boost,market_response,-86,2015-02-12,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150212081426id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?
+kanye_energy_boost,market_response,-67,2015-03-03,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150303180252id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html
+kanye_energy_boost,market_response,-55,2015-03-15,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150315062749id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?
+kanye_energy_boost,market_response,-36,2015-04-03,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150403180703id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html
+kanye_energy_boost,market_response,-16,2015-04-23,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150423231950id_/http://www.adidas.com/us/energy-boost-esm-shoes/B44283.html
+kanye_energy_boost,market_response,-5,2015-05-04,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150504204244id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html
+kanye_energy_boost,market_response,4,2015-05-13T17:26:38-04:00,first article mentioning sellout/restock,nicekicks.com,observed,https://www.nicekicks.com/kanye-wore-this-adidas-energy-boost-esm-on-sunday-and-now-theyre-sold-out
+kanye_energy_boost,market_response,5,2015-05-14,product page: in_stock,price 160.00,observed,https://web.archive.org/web/20150514234549id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?SSAID=389818
+kanye_energy_boost,market_response,6,2015-05-15,product page: out_of_stock,price 160.00,observed,https://web.archive.org/web/20150515223843id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?pr=CUSTOMIZE_IMG_Energy+Boost+ESM+Shoes
+kanye_energy_boost,market_response,7,2015-05-16,product page: out_of_stock,price 160.00,observed,https://web.archive.org/web/20150516075748id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?bvrrp=1576-en_us%2Freviews%2Fproduct%2F2%2FIVD12.htm&pr=CUSTOMIZE_IMG_Energy%20Boost%20ESM%20Shoes&SSAID=389818
+kanye_energy_boost,market_response,9,2015-05-18,product page: out_of_stock,price 160.00,observed,https://web.archive.org/web/20150518020132id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?cm_mmc=AdieSEM_Feeds-_-GoogleProductAds-_-NA-_-B44283&cm_mmca1=US&cm_mmca2=NA&kpid=B44283_9&cm_mmc=AdieSEM_google-_-running-_-mens-_-&cm_mmca1=us&cm_mmca2=&prid=262&K_AFFCODE=6260&kpid=B44283_9
+kanye_energy_boost,market_response,10,2015-05-19,product page: out_of_stock,price 160.00,observed,https://web.archive.org/web/20150519040625id_/http://www.adidas.com:80/us/energy-boost-esm-shoes/B44283.html?bvrrp=1576-en_us%2Freviews%2Fproduct%2F2%2FIVD12.htm&pr=CUSTOMIZE_IMG_Energy%20Boost%20ESM%20Shoes
+kanye_energy_boost,market_response,,,Retail availability,"full size run reported May 10; sold out reported May 13 (days 1–4; Complex, Nice Kicks)",reported,https://www.nicekicks.com/kanye-wore-this-adidas-energy-boost-esm-on-sunday-and-now-theyre-sold-out
+kanye_energy_boost,market_response,,,eBay asks vs completed sales,"asks $400–$1,150 unsold; highest completed auction $153 vs $160 retail (day 4; Complex eBay review)",reported,https://www.complex.com/sneakers/a/matt-welty/white-adidas-esm-boost-ebay-prices
+meghan_outland,relationship,,,seeded_unpaid,A modest selection was provided to a representative; the brand did not know she would wear it. Royal rules preclude paid endorsement.,reported,https://fashionmagazine.com/flare/celebrity/meghan-markle-effect-outland-denim
+meghan_outland,appearance,0,2018-10-17,"Arrival in Dubbo, Australia",,reported,
+meghan_outland,identification,0,2018-10-17T00:47:49+00:00,first brand-level identification,brisbanetimes.com.au: Meghan backs up $8000 of clothes with $200 jeans by Aussie brand,observed,https://www.brisbanetimes.com.au/lifestyle/fashion/meghan-backs-up-8000-of-clothes-with-200-jeans-by-aussie-brand-20181017-p50a54.html
+meghan_outland,identification,0,2018-10-17T01:04:00.000Z,first model-level identification,news.com.au: Meghan’s fashion shout-out to Serena,observed,https://www.news.com.au/lifestyle/fashion/people/meghan-markle-on-tour-in-australia-what-the-duchess-of-sussex-wore-day-2/news-story/4cf40a440aa0b67f38b902b82653c171
+meghan_outland,identification,0,2018-10-17T01:04:00.000Z,first exact-level identification,news.com.au: Meghan’s fashion shout-out to Serena,observed,https://www.news.com.au/lifestyle/fashion/people/meghan-markle-on-tour-in-australia-what-the-duchess-of-sussex-wore-day-2/news-story/4cf40a440aa0b67f38b902b82653c171
+meghan_outland,amplification,0,2018-10-17T01:04:00.000Z,first article with retail link,news.com.au,observed,https://www.news.com.au/lifestyle/fashion/people/meghan-markle-on-tour-in-australia-what-the-duchess-of-sussex-wore-day-2/news-story/4cf40a440aa0b67f38b902b82653c171
+meghan_outland,amplification,0,2018-10-17T01:49:47.000Z,first article with affiliate link,au.news.yahoo.com,observed,https://au.news.yahoo.com/makers-meghans-jeans-help-change-lives-014947021--spt.html
+meghan_outland,amplification,,,93 on-topic articles coded,general_news_or_other=86; fashion_lifestyle=7,observed,
+meghan_outland,attention,-3,2018-10-14,Trends peak (−3..+14): Nudie Jeans,peak 8 vs pre-28d mean 1.2 (au_competitors),observed,Google Trends
+meghan_outland,attention,-3,2018-10-14,Trends peak (−3..+14): ethical fashion,peak 0 vs pre-28d mean 0.0 (au_category),observed,Google Trends
+meghan_outland,attention,-2,2018-10-15,Trends peak (−3..+14): Mother Denim,peak 1 vs pre-28d mean 0.2 (us_competitors),observed,Google Trends
+meghan_outland,attention,0,2018-10-17,Trends peak (−3..+14): Outland Denim,peak 100 vs pre-28d mean 0.0 (au_category),observed,Google Trends
+meghan_outland,attention,0,2018-10-17,Trends peak (−3..+14): Outland Denim,peak 100 vs pre-28d mean 0.0 (au_competitors),observed,Google Trends
+meghan_outland,attention,3,2018-10-20,Trends peak (−3..+14): black jeans,peak 22 vs pre-28d mean 11.8 (au_category),observed,Google Trends
+meghan_outland,attention,4,2018-10-21,Trends peak (−3..+14): AG Jeans,peak 4 vs pre-28d mean 2.5 (us_competitors),observed,Google Trends
+meghan_outland,attention,4,2018-10-21,Trends peak (−3..+14): Madewell,peak 37 vs pre-28d mean 32.2 (us_competitors),observed,Google Trends
+meghan_outland,attention,4,2018-10-21,Trends peak (−3..+14): Levi's,peak 7 vs pre-28d mean 0.6 (au_competitors),observed,Google Trends
+meghan_outland,attention,7,2018-10-24,Trends peak (−3..+14): Everlane,peak 20 vs pre-28d mean 14.4 (us_competitors),observed,Google Trends
+meghan_outland,attention,7,2018-10-24,Trends peak (−3..+14): Nobody Denim,peak 11 vs pre-28d mean 0.5 (au_competitors),observed,Google Trends
+meghan_outland,attention,10,2018-10-27,Trends peak (−3..+14): Ksubi,peak 7 vs pre-28d mean 0.8 (au_competitors),observed,Google Trends
+meghan_outland,attention,11,2018-10-28,Trends peak (−3..+14): Outland Denim,peak 2 vs pre-28d mean 0.0 (us_competitors),observed,Google Trends
+meghan_outland,market_response,0,2018-10-17T01:04:00.000Z,first article mentioning sellout/restock,news.com.au,observed,https://www.news.com.au/lifestyle/fashion/people/meghan-markle-on-tour-in-australia-what-the-duchess-of-sussex-wore-day-2/news-story/4cf40a440aa0b67f38b902b82653c171
+meghan_outland,market_response,1,2018-10-18,product page: preorder_capable,5/26 sizes price 195.00,observed,https://web.archive.org/web/20181018154323id_/https://outlanddenim.com/products/harriet-in-black
+meghan_outland,market_response,4,2018-10-21,product page: preorder_capable,26/26 sizes price 195.00,observed,https://web.archive.org/web/20181021170308id_/https://outlanddenim.com/products/harriet-in-black
+meghan_outland,market_response,14,2018-10-31,product page: preorder_capable,26/26 sizes price 195.00,observed,https://web.archive.org/web/20181031005341id_/https://outlanddenim.com/products/harriet-in-black
+meghan_outland,market_response,15,2018-11-01,product page: preorder_capable,26/26 sizes price 195.00,observed,https://web.archive.org/web/20181101025532id_/https://outlanddenim.com/products/harriet-in-black
+meghan_outland,market_response,55,2018-12-11,product page: preorder_capable,24/24 sizes price 195.00,observed,https://web.archive.org/web/20181211172905id_/https://outlanddenim.com/products/harriet-in-black
+meghan_outland,market_response,56,2018-12-12,product page: preorder_capable,24/24 sizes price 195.00,observed,https://web.archive.org/web/20181212220851id_/https://outlanddenim.com/products/harriet-in-black
+meghan_outland,market_response,57,2018-12-13,product page: preorder_capable,24/24 sizes price 195.00,observed,https://web.archive.org/web/20181213223626id_/https://outlanddenim.com/products/harriet-in-black
+meghan_outland,market_response,,,Site traffic,"+3,000% Australia; +948% global (initial days; brand via press)",reported,https://fashionmagazine.com/flare/celebrity/meghan-markle-effect-outland-denim
+meghan_outland,market_response,,,Sales,"+640% following week; +2,374% global online over 16 days (1–16 days; brand via press)",reported,https://www.townandcountrymag.com/style/fashion-trends/a28198319/meghan-markle-outland-denim-jeans-interview
+meghan_outland,market_response,,,Inventory/operations,sold out AU and US in 24–48h; backordered twice; 46 seamstresses hired (days 1–60; brand via press),reported,https://fashionmagazine.com/flare/celebrity/meghan-markle-effect-outland-denim
+kanye_ultraboost,relationship,,,announced_ambassador_scheduled_launch,Adidas US page showed S77416 'Coming Soon' with a countdown to ~June 1 during the appearances.,reported,https://web.archive.org/web/20150517232107id_/http://www.adidas.com/us/ultra-boost-shoes/S77416.html
+kanye_ultraboost,appearance,0,2015-05-16,Powerhouse (May 16) and Billboard Music Awards (May 17),,reported,
+kanye_ultraboost,identification,2,2015-05-18T06:23:28Z,first brand-level identification,"hypebeast.com: Kanye West Rocks the New adidas Ultra Boost ""All-White"" During BBMA Performance and Powerhouse",observed,https://hypebeast.com/2015/5/kanye-west-rocks-the-new-adidas-ultra-boost-triple-white-during-bbma-performance
+kanye_ultraboost,identification,2,2015-05-18T06:23:28Z,first model-level identification,"hypebeast.com: Kanye West Rocks the New adidas Ultra Boost ""All-White"" During BBMA Performance and Powerhouse",observed,https://hypebeast.com/2015/5/kanye-west-rocks-the-new-adidas-ultra-boost-triple-white-during-bbma-performance
+kanye_ultraboost,identification,2,2015-05-18T06:23:28Z,first exact-level identification,"hypebeast.com: Kanye West Rocks the New adidas Ultra Boost ""All-White"" During BBMA Performance and Powerhouse",observed,https://hypebeast.com/2015/5/kanye-west-rocks-the-new-adidas-ultra-boost-triple-white-during-bbma-performance
+kanye_ultraboost,amplification,2,2015-05-18T06:23:28Z,first article with retail link,hypebeast.com,observed,https://hypebeast.com/2015/5/kanye-west-rocks-the-new-adidas-ultra-boost-triple-white-during-bbma-performance
+kanye_ultraboost,amplification,,,3 on-topic articles coded,specialist_sneaker=3,observed,
+kanye_ultraboost,amplification,,2015-05-04..2015-05-04,1 archived product URLs with paid_or_tracked tracking,adieDisplay-_-Display-_-Default-_-adidas,observed,Wayback CDX
+kanye_ultraboost,market_response,1,2015-05-17,product page: coming_soon,price 180.00 countdown 15d,observed,https://web.archive.org/web/20150517232107id_/http://www.adidas.com:80/us/ultra-boost-shoes/S77416.html?
+kanye_ultraboost,market_response,2,2015-05-18,product page: coming_soon,price 180.00 countdown 14d,observed,https://web.archive.org/web/20150518205717id_/http://www.adidas.com:80/us/ultra-boost-shoes/S77416.html
+kanye_ultraboost,market_response,4,2015-05-20,product page: out_of_stock,price 180.00,observed,https://web.archive.org/web/20150520025647id_/http://www.adidas.com:80/us/ultra-boost-shoes/S77416.html?bvrrp=1576-en_us%2Freviews%2Fproduct%2F2%2FIKH10.htm&slot=2&pr=home_rr
+kanye_ultraboost,market_response,6,2015-05-22,product page: out_of_stock,price 180.00,observed,https://web.archive.org/web/20150522203536id_/http://www.adidas.com:80/us/ultra-boost-shoes/S77416.html?bvrrp=1576-en_us%2Freviews%2Fproduct%2F3%2FIKH10.htm&slot=2&pr=home_rr
+kanye_ultraboost,market_response,75,2015-07-30,product page: out_of_stock,price 180.00,observed,https://web.archive.org/web/20150730234218id_/http://www.adidas.com:80/us/ultra-boost-shoes/S77416.html?SSAID=389818&SSAID=389818
+bieber_crocs,relationship,,,explicit_collaboration,"Crocs announced the collaboration on October 7, 2020 for an October 13 launch.",reported,https://investors.crocs.com/news-and-events/press-releases/press-release-details/2020/Just-Drop-It-Already-Crocs-and-Justin-Bieber-Turn-Up-for-the-Biggest-Croctober-Launch-to-Date/default.aspx
+bieber_crocs,appearance,0,2020-10-13,Collaboration launch (announced Oct 7),,reported,
+bieber_crocs,identification,1,2020-10-14T11:00:00Z,first brand-level identification,"abc7ny.com: Justin Bieber's new Crocs sell out in minutes, crashes website",observed,https://abc7ny.com/post/justin-bieber-crocs-shoes-fashion-launches-design/7018173
+bieber_crocs,identification,1,2020-10-14T11:00:00Z,first model-level identification,"abc7ny.com: Justin Bieber's new Crocs sell out in minutes, crashes website",observed,https://abc7ny.com/post/justin-bieber-crocs-shoes-fashion-launches-design/7018173
+bieber_crocs,identification,1,2020-10-14T13:30:24+00:00,first exact-level identification,"billboard.com: Sorry, The Justin Bieber Crocs Have Already Sold Out",observed,https://www.billboard.com/articles/columns/pop/9458600/justin-bieber-crocs
+bieber_crocs,amplification,2,2020-10-15,first article with retail link,businessinsider.com,observed,https://www.businessinsider.com/justin-bieber-x-crocs-drew-house-sold-out-resold-grailed-stockx-2020-10
+bieber_crocs,amplification,,,3 on-topic articles coded,general_news_or_other=3,observed,
+bieber_crocs,attention,-3,2020-10-10,Trends peak (−3..+14): Birkenstock,peak 4 vs pre-28d mean 3.3 (competitors),observed,Google Trends
+bieber_crocs,attention,-3,2020-10-10,Trends peak (−3..+14): Bad Bunny Crocs,peak 3 vs pre-28d mean 8.4 (celebrity_link),observed,Google Trends
+bieber_crocs,attention,-3,2020-10-10,Trends peak (−3..+14): Post Malone Crocs,peak 0 vs pre-28d mean 0.0 (celebrity_link),observed,Google Trends
+bieber_crocs,attention,-3,2020-10-10,Trends peak (−3..+14): Yeezy Slide,peak 0 vs pre-28d mean 0.0 (competitors),observed,Google Trends
+bieber_crocs,attention,0,2020-10-13,Trends peak (−3..+14): Crocs,peak 36 vs pre-28d mean 19.6 (competitors),observed,Google Trends
+bieber_crocs,attention,0,2020-10-13,Trends peak (−3..+14): Justin Bieber Crocs,peak 17 vs pre-28d mean 0.2 (celebrity_link),observed,Google Trends
+bieber_crocs,attention,5,2020-10-18,Trends peak (−3..+14): Vans,peak 27 vs pre-28d mean 22.4 (competitors),observed,Google Trends
+bieber_crocs,attention,12,2020-10-25,Trends peak (−3..+14): Ugg,peak 20 vs pre-28d mean 12.9 (competitors),observed,Google Trends
+bieber_crocs,market_response,1,2020-10-14T11:00:00Z,first article mentioning sellout/restock,abc7ny.com,observed,https://abc7ny.com/post/justin-bieber-crocs-shoes-fashion-launches-design/7018173
+bieber_crocs,market_response,,,Sellout,sold out in ~90 minutes; site disruption (launch day; press),reported,https://abc7ny.com/post/justin-bieber-crocs-shoes-fashion-launches-design/7018173

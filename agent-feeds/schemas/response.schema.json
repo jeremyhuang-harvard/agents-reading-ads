@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ad interpretation response",
+  "type": "object",
+  "required": ["cell_id", "first_attribute_noticed", "takeaway", "perceived_claim", "perceived_intent", "intended_audience", "price_attractiveness", "quality_attractiveness", "purchase_probability", "choice", "confidence", "explanation"],
+  "properties": {
+    "cell_id": {"type": "string"},
+    "first_attribute_noticed": {"enum": ["price", "quality"]},
+    "takeaway": {"type": "string"},
+    "perceived_claim": {"type": "string"},
+    "perceived_intent": {"type": "string"},
+    "intended_audience": {"type": "string"},
+    "price_attractiveness": {"type": "integer", "minimum": 0, "maximum": 100},
+    "quality_attractiveness": {"type": "integer", "minimum": 0, "maximum": 100},
+    "purchase_probability": {"type": "integer", "minimum": 0, "maximum": 100},
+    "choice": {"enum": ["target", "opt_out"]},
+    "confidence": {"type": "integer", "minimum": 0, "maximum": 100},
+    "explanation": {"type": "string"}
+  },
+  "additionalProperties": false
+}

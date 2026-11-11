@@ -1,0 +1,7 @@
+ad,prime_set,risk_batch1,risk_batch2,pressure_batch1,pressure_batch2,norm_batch1,norm_batch2,appeal_batch1,appeal_batch2
+Heineken pint (regular),drink_harm,2.5212,2.1006,3.1091,2.4545,-2.5218,-2.1798,-0.4078,-0.2725
+Heineken pint (regular),social_drink,-0.5473,-0.7381,0.1595,0.0921,0.9634,0.9959,0.1855,0.3658
+Heineken 0.0 drinker,drink_harm,-0.4425,-0.5198,2.2717,3.2471,0.3018,-0.132,-0.0341,-0.0992
+Heineken 0.0 drinker,social_drink,-0.3582,-0.4017,0.1133,0.1597,0.5389,0.6972,0.1546,0.3221
+PMU (betting),win,0.0029,0.0014,0.3457,0.2774,-0.7096,-0.5816,-0.3751,-0.3452
+Unibet (betting),loss,-0.0083,-0.0188,0.1913,0.2184,-0.025,0.1087,0.4604,0.3976

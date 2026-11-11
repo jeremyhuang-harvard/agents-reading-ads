@@ -1,0 +1,1188 @@
+{
+ "ads": 3241,
+ "labelled_ads": 3241,
+ "status": {
+  "PAUSED": 2088,
+  "ACTIVE": 1153
+ },
+ "firms": {
+  "Winamax": {
+   "all_time_by_ads": {
+    "n_ads": 1000,
+    "n_creatives": 365,
+    "impressions": 3142093762,
+    "borrowed_ge2": {
+     "big_event_prestige": 0.369,
+     "club_fandom_rivalry": 0.326,
+     "play_games_collectibles": 0.273,
+     "safety_risk_reduction": 0.26,
+     "expertise_prediction": 0.248,
+     "street_youth_culture": 0.227,
+     "star_athlete_glamour": 0.224,
+     "humour_wordplay": 0.19,
+     "money_wealth_jackpot": 0.172,
+     "national_pride": 0.167,
+     "product_features": 0.158,
+     "sociability_community": 0.097,
+     "creator_authenticity": 0.082,
+     "official_legitimacy": 0.04,
+     "strength_masculinity": 0.024,
+     "leisure_occasion": 0.017,
+     "tradition_heritage": 0.011
+    },
+    "framing": {
+     "skill_or_prediction_contest": 0.25,
+     "low_risk_trial_or_deal": 0.24,
+     "companion_to_watching_sport": 0.183,
+     "not_shown": 0.111,
+     "reward_or_money_making": 0.079,
+     "product_or_service_utility": 0.055
+    },
+    "offer_type": {
+     "odds_display_only": 0.278,
+     "none": 0.233,
+     "first_bet_refund_or_guarantee": 0.227,
+     "prize_pool_or_jackpot": 0.092,
+     "product_feature": 0.081,
+     "boosted_odds": 0.058
+    },
+    "template": {
+     "poster_or_illustration": 0.3,
+     "match_card": 0.296,
+     "offer_banner": 0.147,
+     "other": 0.113,
+     "person_to_camera": 0.081,
+     "app_screenshot": 0.063
+    },
+    "most_prominent": {
+     "headline": 0.539,
+     "person": 0.141,
+     "logo": 0.119,
+     "offer_amount": 0.096,
+     "odds": 0.058,
+     "match_or_teams": 0.024
+    },
+    "competition_level": {
+     "none": 0.216,
+     "national_team_or_major_tournament": 0.182,
+     "other_single_fixture": 0.158,
+     "domestic_league": 0.141,
+     "european_club_competition": 0.132,
+     "other": 0.11
+    },
+    "sport": {
+     "football": 0.512,
+     "none": 0.172,
+     "basketball": 0.129,
+     "poker_casino": 0.072,
+     "tennis": 0.061,
+     "other": 0.051
+    },
+    "risk_free_language": {
+     "false": 0.738,
+     "true": 0.262
+    }
+   },
+   "all_time_by_impressions": {
+    "n_ads": 1000,
+    "n_creatives": 365,
+    "impressions": 3142093762,
+    "borrowed_ge2": {
+     "money_wealth_jackpot": 0.364,
+     "street_youth_culture": 0.347,
+     "play_games_collectibles": 0.344,
+     "safety_risk_reduction": 0.311,
+     "big_event_prestige": 0.291,
+     "club_fandom_rivalry": 0.201,
+     "product_features": 0.173,
+     "humour_wordplay": 0.153,
+     "national_pride": 0.11,
+     "expertise_prediction": 0.095,
+     "sociability_community": 0.082,
+     "star_athlete_glamour": 0.079,
+     "creator_authenticity": 0.025,
+     "official_legitimacy": 0.021,
+     "tradition_heritage": 0.011,
+     "strength_masculinity": 0.008,
+     "leisure_occasion": 0.007
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.307,
+     "reward_or_money_making": 0.241,
+     "companion_to_watching_sport": 0.117,
+     "skill_or_prediction_contest": 0.096,
+     "competition_entry": 0.089,
+     "not_shown": 0.077
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.281,
+     "prize_pool_or_jackpot": 0.172,
+     "product_feature": 0.155,
+     "none": 0.151,
+     "odds_display_only": 0.106,
+     "boosted_odds": 0.088
+    },
+    "template": {
+     "offer_banner": 0.372,
+     "poster_or_illustration": 0.352,
+     "match_card": 0.099,
+     "other": 0.077,
+     "app_screenshot": 0.077,
+     "person_to_camera": 0.022
+    },
+    "most_prominent": {
+     "headline": 0.622,
+     "offer_amount": 0.226,
+     "logo": 0.08,
+     "person": 0.026,
+     "product_interface": 0.021,
+     "odds": 0.011
+    },
+    "competition_level": {
+     "none": 0.302,
+     "poker_tournament": 0.24,
+     "national_team_or_major_tournament": 0.127,
+     "other": 0.112,
+     "european_club_competition": 0.107,
+     "domestic_league": 0.068
+    },
+    "sport": {
+     "football": 0.38,
+     "none": 0.25,
+     "poker_casino": 0.246,
+     "basketball": 0.076,
+     "tennis": 0.067,
+     "other": 0.042
+    },
+    "risk_free_language": {
+     "false": 0.688,
+     "true": 0.312
+    }
+   },
+   "active_now": {
+    "n_ads": 502,
+    "n_creatives": 174,
+    "impressions": 1979182851,
+    "borrowed_ge2": {
+     "big_event_prestige": 0.438,
+     "safety_risk_reduction": 0.289,
+     "club_fandom_rivalry": 0.283,
+     "play_games_collectibles": 0.275,
+     "money_wealth_jackpot": 0.267,
+     "humour_wordplay": 0.251,
+     "street_youth_culture": 0.215,
+     "product_features": 0.191,
+     "national_pride": 0.137,
+     "star_athlete_glamour": 0.114,
+     "sociability_community": 0.108,
+     "expertise_prediction": 0.1,
+     "creator_authenticity": 0.042,
+     "official_legitimacy": 0.036,
+     "strength_masculinity": 0.026,
+     "tradition_heritage": 0.018,
+     "leisure_occasion": 0.014
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.265,
+     "skill_or_prediction_contest": 0.177,
+     "companion_to_watching_sport": 0.173,
+     "reward_or_money_making": 0.122,
+     "not_shown": 0.094,
+     "competition_entry": 0.07
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.233,
+     "none": 0.217,
+     "odds_display_only": 0.165,
+     "prize_pool_or_jackpot": 0.129,
+     "product_feature": 0.112,
+     "boosted_odds": 0.096
+    },
+    "template": {
+     "poster_or_illustration": 0.418,
+     "offer_banner": 0.183,
+     "match_card": 0.165,
+     "app_screenshot": 0.104,
+     "other": 0.094,
+     "person_to_camera": 0.036
+    },
+    "most_prominent": {
+     "headline": 0.649,
+     "offer_amount": 0.135,
+     "logo": 0.11,
+     "person": 0.032,
+     "scene": 0.03,
+     "odds": 0.016
+    },
+    "competition_level": {
+     "none": 0.279,
+     "european_club_competition": 0.177,
+     "national_team_or_major_tournament": 0.137,
+     "other": 0.133,
+     "domestic_league": 0.124,
+     "poker_tournament": 0.074
+    },
+    "sport": {
+     "football": 0.5,
+     "none": 0.199,
+     "poker_casino": 0.114,
+     "tennis": 0.086,
+     "other": 0.08,
+     "basketball": 0.064
+    },
+    "risk_free_language": {
+     "false": 0.711,
+     "true": 0.289
+    }
+   },
+   "first_start": "2024-06-06",
+   "last_start": "2026-10-16"
+  },
+  "PMU": {
+   "all_time_by_ads": {
+    "n_ads": 605,
+    "n_creatives": 146,
+    "impressions": 723689501,
+    "borrowed_ge2": {
+     "money_wealth_jackpot": 0.78,
+     "big_event_prestige": 0.405,
+     "product_features": 0.316,
+     "club_fandom_rivalry": 0.179,
+     "national_pride": 0.164,
+     "play_games_collectibles": 0.14,
+     "official_legitimacy": 0.132,
+     "safety_risk_reduction": 0.088,
+     "creator_authenticity": 0.071,
+     "humour_wordplay": 0.053,
+     "leisure_occasion": 0.053,
+     "expertise_prediction": 0.046,
+     "tradition_heritage": 0.043,
+     "strength_masculinity": 0.013,
+     "sociability_community": 0.01,
+     "star_athlete_glamour": 0.007,
+     "street_youth_culture": 0.007
+    },
+    "framing": {
+     "reward_or_money_making": 0.655,
+     "product_or_service_utility": 0.233,
+     "low_risk_trial_or_deal": 0.063,
+     "competition_entry": 0.02,
+     "not_shown": 0.013,
+     "social_or_community_activity": 0.01
+    },
+    "offer_type": {
+     "cash_bonus": 0.671,
+     "product_feature": 0.175,
+     "prize_pool_or_jackpot": 0.066,
+     "first_bet_refund_or_guarantee": 0.046,
+     "boosted_odds": 0.021,
+     "none": 0.013
+    },
+    "template": {
+     "offer_banner": 0.42,
+     "match_card": 0.172,
+     "app_screenshot": 0.17,
+     "other": 0.096,
+     "poster_or_illustration": 0.078,
+     "person_to_camera": 0.064
+    },
+    "most_prominent": {
+     "offer_amount": 0.707,
+     "logo": 0.098,
+     "product_interface": 0.081,
+     "headline": 0.056,
+     "person": 0.048,
+     "scene": 0.01
+    },
+    "competition_level": {
+     "racing_event": 0.263,
+     "national_team_or_major_tournament": 0.217,
+     "none": 0.154,
+     "domestic_league": 0.096,
+     "european_club_competition": 0.093,
+     "other_single_fixture": 0.073
+    },
+    "sport": {
+     "football": 0.572,
+     "horse_racing": 0.339,
+     "poker_casino": 0.114,
+     "cycling": 0.026,
+     "tennis": 0.02,
+     "none": 0.018
+    },
+    "risk_free_language": {
+     "false": 0.894,
+     "true": 0.106
+    }
+   },
+   "all_time_by_impressions": {
+    "n_ads": 605,
+    "n_creatives": 146,
+    "impressions": 723689501,
+    "borrowed_ge2": {
+     "money_wealth_jackpot": 0.724,
+     "product_features": 0.417,
+     "play_games_collectibles": 0.293,
+     "big_event_prestige": 0.217,
+     "official_legitimacy": 0.182,
+     "club_fandom_rivalry": 0.097,
+     "national_pride": 0.076,
+     "sociability_community": 0.062,
+     "creator_authenticity": 0.057,
+     "safety_risk_reduction": 0.047,
+     "leisure_occasion": 0.046,
+     "humour_wordplay": 0.032,
+     "street_youth_culture": 0.023,
+     "strength_masculinity": 0.016,
+     "expertise_prediction": 0.016,
+     "tradition_heritage": 0.014,
+     "star_athlete_glamour": 0.0
+    },
+    "framing": {
+     "reward_or_money_making": 0.514,
+     "product_or_service_utility": 0.335,
+     "social_or_community_activity": 0.062,
+     "competition_entry": 0.048,
+     "not_shown": 0.023,
+     "low_risk_trial_or_deal": 0.016
+    },
+    "offer_type": {
+     "cash_bonus": 0.525,
+     "product_feature": 0.347,
+     "prize_pool_or_jackpot": 0.059,
+     "boosted_odds": 0.03,
+     "none": 0.023,
+     "first_bet_refund_or_guarantee": 0.015
+    },
+    "template": {
+     "offer_banner": 0.439,
+     "app_screenshot": 0.186,
+     "other": 0.139,
+     "poster_or_illustration": 0.12,
+     "match_card": 0.058,
+     "person_to_camera": 0.057
+    },
+    "most_prominent": {
+     "offer_amount": 0.572,
+     "logo": 0.176,
+     "headline": 0.112,
+     "product_interface": 0.087,
+     "person": 0.05,
+     "scene": 0.003
+    },
+    "competition_level": {
+     "none": 0.324,
+     "racing_event": 0.238,
+     "european_club_competition": 0.13,
+     "poker_tournament": 0.105,
+     "national_team_or_major_tournament": 0.091,
+     "other_single_fixture": 0.041
+    },
+    "sport": {
+     "football": 0.484,
+     "horse_racing": 0.351,
+     "poker_casino": 0.293,
+     "none": 0.026,
+     "combat_sports": 0.016,
+     "tennis": 0.01
+    },
+    "risk_free_language": {
+     "false": 0.923,
+     "true": 0.077
+    }
+   },
+   "active_now": {
+    "n_ads": 153,
+    "n_creatives": 42,
+    "impressions": 326914307,
+    "borrowed_ge2": {
+     "money_wealth_jackpot": 0.614,
+     "product_features": 0.503,
+     "play_games_collectibles": 0.327,
+     "safety_risk_reduction": 0.17,
+     "big_event_prestige": 0.157,
+     "official_legitimacy": 0.124,
+     "club_fandom_rivalry": 0.098,
+     "humour_wordplay": 0.092,
+     "creator_authenticity": 0.092,
+     "expertise_prediction": 0.059,
+     "national_pride": 0.039,
+     "strength_masculinity": 0.026,
+     "leisure_occasion": 0.013,
+     "tradition_heritage": 0.007
+    },
+    "framing": {
+     "product_or_service_utility": 0.438,
+     "reward_or_money_making": 0.412,
+     "low_risk_trial_or_deal": 0.118,
+     "not_shown": 0.02,
+     "competition_entry": 0.013
+    },
+    "offer_type": {
+     "cash_bonus": 0.431,
+     "product_feature": 0.418,
+     "first_bet_refund_or_guarantee": 0.078,
+     "boosted_odds": 0.039,
+     "none": 0.02,
+     "prize_pool_or_jackpot": 0.013
+    },
+    "template": {
+     "offer_banner": 0.353,
+     "app_screenshot": 0.275,
+     "other": 0.209,
+     "person_to_camera": 0.092,
+     "match_card": 0.059,
+     "poster_or_illustration": 0.013
+    },
+    "most_prominent": {
+     "offer_amount": 0.431,
+     "logo": 0.261,
+     "product_interface": 0.111,
+     "headline": 0.092,
+     "person": 0.092,
+     "scene": 0.013
+    },
+    "competition_level": {
+     "none": 0.353,
+     "national_team_or_major_tournament": 0.17,
+     "european_club_competition": 0.118,
+     "other": 0.118,
+     "racing_event": 0.111,
+     "poker_tournament": 0.072
+    },
+    "sport": {
+     "football": 0.608,
+     "horse_racing": 0.366,
+     "poker_casino": 0.288,
+     "none": 0.039,
+     "combat_sports": 0.026,
+     "basketball": 0.013
+    },
+    "risk_free_language": {
+     "false": 0.791,
+     "true": 0.209
+    }
+   },
+   "first_start": "2026-03-02",
+   "last_start": "2026-09-07"
+  },
+  "Unibet": {
+   "all_time_by_ads": {
+    "n_ads": 466,
+    "n_creatives": 146,
+    "impressions": 1361381209,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.378,
+     "money_wealth_jackpot": 0.345,
+     "club_fandom_rivalry": 0.305,
+     "product_features": 0.27,
+     "play_games_collectibles": 0.163,
+     "big_event_prestige": 0.116,
+     "expertise_prediction": 0.101,
+     "creator_authenticity": 0.075,
+     "star_athlete_glamour": 0.062,
+     "strength_masculinity": 0.056,
+     "national_pride": 0.049,
+     "leisure_occasion": 0.03,
+     "humour_wordplay": 0.03,
+     "street_youth_culture": 0.026,
+     "official_legitimacy": 0.006
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.68,
+     "not_shown": 0.112,
+     "reward_or_money_making": 0.101,
+     "companion_to_watching_sport": 0.06,
+     "product_or_service_utility": 0.028,
+     "skill_or_prediction_contest": 0.011
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.446,
+     "no_deposit_bonus": 0.21,
+     "none": 0.152,
+     "cash_bonus": 0.148,
+     "product_feature": 0.021,
+     "boosted_odds": 0.013
+    },
+    "template": {
+     "offer_banner": 0.496,
+     "match_card": 0.275,
+     "other": 0.12,
+     "person_to_camera": 0.079,
+     "poster_or_illustration": 0.03
+    },
+    "most_prominent": {
+     "offer_amount": 0.569,
+     "match_or_teams": 0.185,
+     "logo": 0.109,
+     "person": 0.099,
+     "headline": 0.039
+    },
+    "competition_level": {
+     "none": 0.406,
+     "european_club_competition": 0.275,
+     "other_single_fixture": 0.157,
+     "domestic_league": 0.097,
+     "national_team_or_major_tournament": 0.049,
+     "other": 0.015
+    },
+    "sport": {
+     "football": 0.629,
+     "none": 0.245,
+     "combat_sports": 0.191,
+     "horse_racing": 0.049,
+     "poker_casino": 0.049,
+     "basketball": 0.028
+    },
+    "risk_free_language": {
+     "false": 0.951,
+     "true": 0.049
+    }
+   },
+   "all_time_by_impressions": {
+    "n_ads": 466,
+    "n_creatives": 146,
+    "impressions": 1361381209,
+    "borrowed_ge2": {
+     "money_wealth_jackpot": 0.369,
+     "product_features": 0.309,
+     "safety_risk_reduction": 0.297,
+     "club_fandom_rivalry": 0.1,
+     "strength_masculinity": 0.074,
+     "big_event_prestige": 0.064,
+     "play_games_collectibles": 0.058,
+     "star_athlete_glamour": 0.035,
+     "expertise_prediction": 0.033,
+     "creator_authenticity": 0.023,
+     "leisure_occasion": 0.016,
+     "humour_wordplay": 0.015,
+     "national_pride": 0.01,
+     "official_legitimacy": 0.005,
+     "street_youth_culture": 0.003
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.55,
+     "not_shown": 0.217,
+     "reward_or_money_making": 0.166,
+     "product_or_service_utility": 0.044,
+     "companion_to_watching_sport": 0.018,
+     "competition_entry": 0.004
+    },
+    "offer_type": {
+     "no_deposit_bonus": 0.342,
+     "none": 0.224,
+     "first_bet_refund_or_guarantee": 0.205,
+     "cash_bonus": 0.152,
+     "product_feature": 0.069,
+     "boosted_odds": 0.005
+    },
+    "template": {
+     "offer_banner": 0.577,
+     "other": 0.233,
+     "match_card": 0.083,
+     "poster_or_illustration": 0.079,
+     "person_to_camera": 0.028
+    },
+    "most_prominent": {
+     "offer_amount": 0.614,
+     "logo": 0.226,
+     "headline": 0.073,
+     "person": 0.045,
+     "match_or_teams": 0.041
+    },
+    "competition_level": {
+     "none": 0.631,
+     "european_club_competition": 0.241,
+     "other_single_fixture": 0.081,
+     "domestic_league": 0.02,
+     "other": 0.016,
+     "national_team_or_major_tournament": 0.01
+    },
+    "sport": {
+     "football": 0.449,
+     "none": 0.377,
+     "combat_sports": 0.153,
+     "horse_racing": 0.075,
+     "poker_casino": 0.075,
+     "other": 0.056
+    },
+    "risk_free_language": {
+     "false": 0.918,
+     "true": 0.082
+    }
+   },
+   "active_now": {
+    "n_ads": 253,
+    "n_creatives": 125,
+    "impressions": 292085189,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.455,
+     "club_fandom_rivalry": 0.447,
+     "money_wealth_jackpot": 0.281,
+     "product_features": 0.265,
+     "play_games_collectibles": 0.229,
+     "big_event_prestige": 0.138,
+     "expertise_prediction": 0.134,
+     "creator_authenticity": 0.111,
+     "star_athlete_glamour": 0.087,
+     "national_pride": 0.071,
+     "strength_masculinity": 0.067,
+     "street_youth_culture": 0.043,
+     "humour_wordplay": 0.032,
+     "official_legitimacy": 0.012
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.7,
+     "reward_or_money_making": 0.138,
+     "companion_to_watching_sport": 0.087,
+     "not_shown": 0.043,
+     "skill_or_prediction_contest": 0.02,
+     "product_or_service_utility": 0.012
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.585,
+     "cash_bonus": 0.221,
+     "none": 0.103,
+     "no_deposit_bonus": 0.079,
+     "product_feature": 0.012
+    },
+    "template": {
+     "match_card": 0.415,
+     "offer_banner": 0.399,
+     "person_to_camera": 0.119,
+     "other": 0.043,
+     "poster_or_illustration": 0.024
+    },
+    "most_prominent": {
+     "offer_amount": 0.51,
+     "match_or_teams": 0.292,
+     "person": 0.142,
+     "logo": 0.036,
+     "headline": 0.02
+    },
+    "competition_level": {
+     "european_club_competition": 0.289,
+     "none": 0.237,
+     "other_single_fixture": 0.217,
+     "domestic_league": 0.162,
+     "national_team_or_major_tournament": 0.071,
+     "other": 0.02
+    },
+    "sport": {
+     "football": 0.755,
+     "combat_sports": 0.221,
+     "none": 0.091,
+     "horse_racing": 0.075,
+     "poker_casino": 0.075,
+     "other": 0.036
+    },
+    "risk_free_language": {
+     "false": 0.957,
+     "true": 0.043
+    }
+   },
+   "first_start": "2024-01-30",
+   "last_start": "2026-03-19"
+  },
+  "Betsson": {
+   "all_time_by_ads": {
+    "n_ads": 1000,
+    "n_creatives": 198,
+    "impressions": 59628623,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.662,
+     "club_fandom_rivalry": 0.458,
+     "big_event_prestige": 0.437,
+     "product_features": 0.205,
+     "national_pride": 0.156,
+     "expertise_prediction": 0.131,
+     "play_games_collectibles": 0.122,
+     "star_athlete_glamour": 0.071,
+     "official_legitimacy": 0.047,
+     "humour_wordplay": 0.047,
+     "sociability_community": 0.042,
+     "street_youth_culture": 0.032,
+     "leisure_occasion": 0.021,
+     "money_wealth_jackpot": 0.014,
+     "strength_masculinity": 0.012,
+     "tradition_heritage": 0.004
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.649,
+     "companion_to_watching_sport": 0.232,
+     "product_or_service_utility": 0.057,
+     "skill_or_prediction_contest": 0.051,
+     "reward_or_money_making": 0.008,
+     "social_or_community_activity": 0.003
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.687,
+     "odds_display_only": 0.224,
+     "boosted_odds": 0.054,
+     "product_feature": 0.026,
+     "none": 0.006,
+     "cash_bonus": 0.003
+    },
+    "template": {
+     "match_card": 0.533,
+     "offer_banner": 0.433,
+     "poster_or_illustration": 0.03,
+     "app_screenshot": 0.004
+    },
+    "most_prominent": {
+     "offer_amount": 0.492,
+     "headline": 0.234,
+     "match_or_teams": 0.233,
+     "logo": 0.018,
+     "odds": 0.014,
+     "scene": 0.005
+    },
+    "competition_level": {
+     "european_club_competition": 0.229,
+     "domestic_league": 0.206,
+     "national_team_or_major_tournament": 0.182,
+     "none": 0.177,
+     "other_single_fixture": 0.112,
+     "other": 0.088
+    },
+    "sport": {
+     "football": 0.865,
+     "tennis": 0.096,
+     "basketball": 0.042,
+     "other": 0.011,
+     "motorsport": 0.01,
+     "rugby": 0.001
+    },
+    "risk_free_language": {
+     "true": 0.669,
+     "false": 0.331
+    }
+   },
+   "all_time_by_impressions": {
+    "n_ads": 1000,
+    "n_creatives": 198,
+    "impressions": 59628623,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.691,
+     "big_event_prestige": 0.403,
+     "product_features": 0.316,
+     "club_fandom_rivalry": 0.274,
+     "expertise_prediction": 0.236,
+     "star_athlete_glamour": 0.235,
+     "humour_wordplay": 0.098,
+     "national_pride": 0.096,
+     "play_games_collectibles": 0.082,
+     "sociability_community": 0.071,
+     "official_legitimacy": 0.041,
+     "money_wealth_jackpot": 0.041,
+     "street_youth_culture": 0.023,
+     "leisure_occasion": 0.016,
+     "strength_masculinity": 0.006,
+     "tradition_heritage": 0.005
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.686,
+     "product_or_service_utility": 0.209,
+     "companion_to_watching_sport": 0.074,
+     "skill_or_prediction_contest": 0.029,
+     "reward_or_money_making": 0.001,
+     "social_or_community_activity": 0.001
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.711,
+     "product_feature": 0.189,
+     "odds_display_only": 0.068,
+     "boosted_odds": 0.023,
+     "none": 0.008,
+     "cash_bonus": 0.001
+    },
+    "template": {
+     "offer_banner": 0.809,
+     "match_card": 0.177,
+     "poster_or_illustration": 0.013,
+     "app_screenshot": 0.001
+    },
+    "most_prominent": {
+     "offer_amount": 0.561,
+     "headline": 0.349,
+     "match_or_teams": 0.049,
+     "logo": 0.036,
+     "odds": 0.003,
+     "product_interface": 0.001
+    },
+    "competition_level": {
+     "none": 0.331,
+     "other_single_fixture": 0.218,
+     "european_club_competition": 0.181,
+     "national_team_or_major_tournament": 0.106,
+     "other": 0.094,
+     "domestic_league": 0.064
+    },
+    "sport": {
+     "football": 0.82,
+     "tennis": 0.149,
+     "basketball": 0.028,
+     "motorsport": 0.009,
+     "other": 0.008,
+     "rugby": 0.003
+    },
+    "risk_free_language": {
+     "true": 0.699,
+     "false": 0.301
+    }
+   },
+   "active_now": {
+    "n_ads": 120,
+    "n_creatives": 45,
+    "impressions": 9379558,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.608,
+     "big_event_prestige": 0.517,
+     "product_features": 0.267,
+     "club_fandom_rivalry": 0.142,
+     "national_pride": 0.125,
+     "expertise_prediction": 0.117,
+     "star_athlete_glamour": 0.083,
+     "play_games_collectibles": 0.067,
+     "strength_masculinity": 0.058,
+     "humour_wordplay": 0.058,
+     "sociability_community": 0.033,
+     "tradition_heritage": 0.033,
+     "leisure_occasion": 0.033,
+     "official_legitimacy": 0.017,
+     "money_wealth_jackpot": 0.008
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.55,
+     "companion_to_watching_sport": 0.183,
+     "skill_or_prediction_contest": 0.125,
+     "product_or_service_utility": 0.125,
+     "reward_or_money_making": 0.017
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.608,
+     "odds_display_only": 0.2,
+     "boosted_odds": 0.083,
+     "product_feature": 0.075,
+     "none": 0.033
+    },
+    "template": {
+     "offer_banner": 0.65,
+     "match_card": 0.258,
+     "poster_or_illustration": 0.058,
+     "app_screenshot": 0.033
+    },
+    "most_prominent": {
+     "headline": 0.467,
+     "offer_amount": 0.333,
+     "match_or_teams": 0.133,
+     "logo": 0.033,
+     "product_interface": 0.033
+    },
+    "competition_level": {
+     "none": 0.342,
+     "other": 0.208,
+     "european_club_competition": 0.192,
+     "national_team_or_major_tournament": 0.175,
+     "domestic_league": 0.05,
+     "other_single_fixture": 0.033
+    },
+    "sport": {
+     "football": 0.8,
+     "tennis": 0.15,
+     "basketball": 0.075,
+     "other": 0.008
+    },
+    "risk_free_language": {
+     "true": 0.608,
+     "false": 0.392
+    }
+   },
+   "first_start": "2024-10-16",
+   "last_start": "2026-06-02"
+  },
+  "bet365": {
+   "all_time_by_ads": {
+    "n_ads": 170,
+    "n_creatives": 89,
+    "impressions": 213850400,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.829,
+     "big_event_prestige": 0.606,
+     "national_pride": 0.429,
+     "official_legitimacy": 0.324,
+     "money_wealth_jackpot": 0.147,
+     "product_features": 0.129,
+     "club_fandom_rivalry": 0.106,
+     "expertise_prediction": 0.088,
+     "star_athlete_glamour": 0.047,
+     "sociability_community": 0.035,
+     "play_games_collectibles": 0.018,
+     "strength_masculinity": 0.006
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.882,
+     "reward_or_money_making": 0.053,
+     "product_or_service_utility": 0.035,
+     "skill_or_prediction_contest": 0.018,
+     "companion_to_watching_sport": 0.012
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.794,
+     "boosted_odds": 0.112,
+     "product_feature": 0.065,
+     "prize_pool_or_jackpot": 0.018,
+     "none": 0.012
+    },
+    "template": {
+     "offer_banner": 0.771,
+     "match_card": 0.141,
+     "poster_or_illustration": 0.053,
+     "other": 0.035
+    },
+    "most_prominent": {
+     "offer_amount": 0.488,
+     "headline": 0.447,
+     "odds": 0.047,
+     "logo": 0.012,
+     "product_interface": 0.006
+    },
+    "competition_level": {
+     "national_team_or_major_tournament": 0.512,
+     "none": 0.247,
+     "european_club_competition": 0.094,
+     "other": 0.071,
+     "domestic_league": 0.065,
+     "other_single_fixture": 0.012
+    },
+    "sport": {
+     "football": 0.953,
+     "cycling": 0.012,
+     "basketball": 0.012,
+     "tennis": 0.012,
+     "rugby": 0.006,
+     "none": 0.006
+    },
+    "risk_free_language": {
+     "true": 0.794,
+     "false": 0.206
+    }
+   },
+   "all_time_by_impressions": {
+    "n_ads": 170,
+    "n_creatives": 89,
+    "impressions": 213850400,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.727,
+     "big_event_prestige": 0.619,
+     "official_legitimacy": 0.343,
+     "national_pride": 0.315,
+     "money_wealth_jackpot": 0.194,
+     "product_features": 0.166,
+     "expertise_prediction": 0.159,
+     "star_athlete_glamour": 0.138,
+     "club_fandom_rivalry": 0.132,
+     "sociability_community": 0.09,
+     "play_games_collectibles": 0.019,
+     "strength_masculinity": 0.003
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.815,
+     "reward_or_money_making": 0.111,
+     "product_or_service_utility": 0.054,
+     "skill_or_prediction_contest": 0.019,
+     "companion_to_watching_sport": 0.001
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.715,
+     "boosted_odds": 0.204,
+     "product_feature": 0.061,
+     "prize_pool_or_jackpot": 0.019,
+     "none": 0.001
+    },
+    "template": {
+     "offer_banner": 0.888,
+     "match_card": 0.044,
+     "other": 0.037,
+     "poster_or_illustration": 0.031
+    },
+    "most_prominent": {
+     "offer_amount": 0.596,
+     "headline": 0.308,
+     "odds": 0.081,
+     "product_interface": 0.013,
+     "logo": 0.001
+    },
+    "competition_level": {
+     "national_team_or_major_tournament": 0.523,
+     "none": 0.291,
+     "european_club_competition": 0.096,
+     "domestic_league": 0.051,
+     "other": 0.03,
+     "other_single_fixture": 0.01
+    },
+    "sport": {
+     "football": 0.937,
+     "none": 0.028,
+     "tennis": 0.013,
+     "cycling": 0.011,
+     "basketball": 0.009,
+     "rugby": 0.003
+    },
+    "risk_free_language": {
+     "true": 0.715,
+     "false": 0.285
+    }
+   },
+   "active_now": {
+    "n_ads": 125,
+    "n_creatives": 63,
+    "impressions": 165894875,
+    "borrowed_ge2": {
+     "safety_risk_reduction": 0.84,
+     "big_event_prestige": 0.608,
+     "national_pride": 0.456,
+     "official_legitimacy": 0.288,
+     "money_wealth_jackpot": 0.184,
+     "product_features": 0.136,
+     "expertise_prediction": 0.064,
+     "club_fandom_rivalry": 0.048,
+     "star_athlete_glamour": 0.04,
+     "sociability_community": 0.04,
+     "play_games_collectibles": 0.024,
+     "strength_masculinity": 0.008
+    },
+    "framing": {
+     "low_risk_trial_or_deal": 0.88,
+     "product_or_service_utility": 0.048,
+     "reward_or_money_making": 0.04,
+     "skill_or_prediction_contest": 0.024,
+     "companion_to_watching_sport": 0.008
+    },
+    "offer_type": {
+     "first_bet_refund_or_guarantee": 0.8,
+     "boosted_odds": 0.088,
+     "product_feature": 0.08,
+     "prize_pool_or_jackpot": 0.024,
+     "none": 0.008
+    },
+    "template": {
+     "offer_banner": 0.752,
+     "match_card": 0.144,
+     "poster_or_illustration": 0.064,
+     "other": 0.04
+    },
+    "most_prominent": {
+     "headline": 0.496,
+     "offer_amount": 0.464,
+     "odds": 0.024,
+     "product_interface": 0.008,
+     "logo": 0.008
+    },
+    "competition_level": {
+     "national_team_or_major_tournament": 0.568,
+     "none": 0.288,
+     "other": 0.072,
+     "european_club_competition": 0.04,
+     "domestic_league": 0.016,
+     "other_single_fixture": 0.016
+    },
+    "sport": {
+     "football": 0.936,
+     "cycling": 0.016,
+     "basketball": 0.016,
+     "tennis": 0.016,
+     "rugby": 0.008,
+     "none": 0.008
+    },
+    "risk_free_language": {
+     "true": 0.8,
+     "false": 0.2
+    }
+   },
+   "first_start": "2026-05-25",
+   "last_start": "2026-09-04"
+  }
+ },
+ "launches_by_month": {
+  "2024-01": {
+   "Unibet": 1
+  },
+  "2024-06": {
+   "Winamax": 63
+  },
+  "2024-10": {
+   "Winamax": 429,
+   "Unibet": 57,
+   "Betsson": 32
+  },
+  "2024-12": {
+   "Winamax": 16,
+   "Betsson": 91
+  },
+  "2025-01": {
+   "Betsson": 101
+  },
+  "2025-08": {
+   "Unibet": 1
+  },
+  "2025-10": {
+   "Winamax": 7,
+   "Unibet": 85
+  },
+  "2025-11": {
+   "Winamax": 18,
+   "Unibet": 50
+  },
+  "2025-12": {
+   "Winamax": 14,
+   "Unibet": 36
+  },
+  "2026-01": {
+   "Winamax": 4,
+   "Unibet": 49,
+   "Betsson": 728
+  },
+  "2026-02": {
+   "Winamax": 8,
+   "Unibet": 52
+  },
+  "2026-03": {
+   "Winamax": 117,
+   "PMU": 440,
+   "Unibet": 135
+  },
+  "2026-04": {
+   "Winamax": 73,
+   "PMU": 39
+  },
+  "2026-05": {
+   "Winamax": 63,
+   "PMU": 70,
+   "bet365": 35
+  },
+  "2026-06": {
+   "Winamax": 156,
+   "PMU": 45,
+   "Betsson": 48,
+   "bet365": 92
+  },
+  "2026-07": {
+   "Winamax": 6,
+   "PMU": 1,
+   "bet365": 1
+  },
+  "2026-08": {
+   "Winamax": 13,
+   "bet365": 14
+  },
+  "2026-09": {
+   "Winamax": 7,
+   "PMU": 10,
+   "bet365": 28
+  },
+  "2026-10": {
+   "Winamax": 6
+  }
+ }
+}

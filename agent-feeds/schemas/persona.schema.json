@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Frozen persona card",
+  "type": "object",
+  "required": ["persona_id", "preference", "history", "replicate", "profile_text"],
+  "properties": {
+    "persona_id": {"type": "string"},
+    "preference": {"enum": ["price_first", "performance_first"]},
+    "history": {"enum": ["budget_pressure", "product_failure"]},
+    "replicate": {"type": "integer", "minimum": 1},
+    "profile_text": {"type": "string"}
+  },
+  "additionalProperties": false
+}

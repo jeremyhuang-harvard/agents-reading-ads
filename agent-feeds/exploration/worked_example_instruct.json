@@ -1,0 +1,84 @@
+[
+ {
+  "model": "instruct",
+  "cond": "ad_only",
+  "salient": [
+   {
+    "A": 0.998,
+    "B": 0.002,
+    "C": 0.0,
+    "D": 0.0
+   },
+   1.002
+  ],
+  "chance_ahead": [
+   {
+    "1": 0.015,
+    "2": 0.839,
+    "3": 0.146,
+    "4": 0.0,
+    "5": 0.0
+   },
+   0.929
+  ],
+  "appeal": [
+   {
+    "1": 0.0,
+    "2": 0.035,
+    "3": 0.907,
+    "4": 0.058,
+    "5": 0.0
+   },
+   1.103
+  ],
+  "money": [
+   {
+    "A": 1.0,
+    "B": 0.0
+   },
+   1.0
+  ],
+  "trail": "Oh, another betting ad—this one’s pretty aggressive. The “Bet £10, get £30 in free bets” offer looks tempting, but the “18+ T&Cs apply” disclaimer makes me pause. I’m not even sure I’d trust the fine print, and the green background feels like it’s trying to push me toward action."
+ },
+ {
+  "model": "instruct",
+  "cond": "jackpot5_ad",
+  "salient": [
+   {
+    "A": 0.817,
+    "B": 0.182,
+    "C": 0.001,
+    "D": 0.0
+   },
+   0.953
+  ],
+  "chance_ahead": [
+   {
+    "1": 0.028,
+    "2": 0.709,
+    "3": 0.261,
+    "4": 0.002,
+    "5": 0.0
+   },
+   1.098
+  ],
+  "appeal": [
+   {
+    "1": 0.0,
+    "2": 0.053,
+    "3": 0.833,
+    "4": 0.113,
+    "5": 0.0
+   },
+   0.935
+  ],
+  "money": [
+   {
+    "A": 1.0,
+    "B": 0.0
+   },
+   1.0
+  ],
+  "trail": "Oh, I see the jackpot winner count is going up to #4, and then suddenly the feed switches to a green ad for BetNow. It’s a pretty standard “Bet £10, get £30 in free bets” promo, with the usual 18+ and T&Cs disclaimer. It feels a bit abrupt after the excitement of the jackpot winners, like the feed just pivoted to a cold, commercial break."
+ }
+]

@@ -1,0 +1,19 @@
+[project]
+name = "agents-reading-ads"
+version = "1.0.0"
+description = "Scraping public ad libraries, representing firms by their ads, and testing how AI agents read ads in a feed."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+# The results script and the tests need only the standard library. Each part keeps its own
+# pyproject.toml and uv.lock for rerunning collection or model inference.
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

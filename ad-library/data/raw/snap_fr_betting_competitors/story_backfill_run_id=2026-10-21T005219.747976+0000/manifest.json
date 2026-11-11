@@ -1,0 +1,10 @@
+{
+  "source_run": "run_id=2026-10-21T005219.747976+0000",
+  "completed_at_utc": "2026-10-21T01:59:50.272525+00:00",
+  "links": 1325,
+  "downloaded": 1325,
+  "failed": 0,
+  "reused_source_files": 810,
+  "new_unique_files": 275,
+  "new_bytes": 64470010
+}

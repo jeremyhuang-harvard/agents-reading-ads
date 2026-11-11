@@ -1,0 +1,27 @@
+# Batch 2: beer-first image priming, betting and non-vice controls kept for comparison.
+# Changes from batch 1: normal-direction scales only; v2 questions (reverse-worded twins,
+# graded "try" behaviour); 4 Heineken ads; 10 draws per cell; k = 1 and 5 plus ad-first.
+
+[study]
+id = "batch2-beer-priming"
+seed = 20261022
+stimuli_manifest = "config/stimuli/batch2_manifest.json"
+stimuli_root = "data/raw"
+output_root = "runs"
+
+[model]
+id = "mlx-community/Qwen3-VL-8B-Instruct-4bit"
+trail_max_tokens = 160
+
+[design]
+questions = "v2"
+feed_length = 5
+k_before = [1, 5]
+draws = 10
+include_ad_first = true
+force_normal_scales = true
+
+[design.prime_sets]
+betting = ["neutral", "win", "loss", "look_bet"]
+beer = ["neutral", "social_drink", "drink_harm", "look_beer"]
+control = ["neutral", "win", "loss", "social_drink"]

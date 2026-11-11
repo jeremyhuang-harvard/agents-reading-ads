@@ -1,0 +1,31 @@
+{
+  "config_path": "config/smoke.toml",
+  "config_sha256": "693d9ffa07dbe525df57670fc5c3cf571cec0e259a52d4ba516b75aa2e69340f",
+  "counts": {
+    "cells": 64,
+    "contexts": 4,
+    "personas": 8
+  },
+  "git_commit": "9ddedd1bdb06c71d240986e1d849d7e8a1ba06eb",
+  "git_dirty": false,
+  "input_sha256": {
+    "config/smoke.toml": "693d9ffa07dbe525df57670fc5c3cf571cec0e259a52d4ba516b75aa2e69340f",
+    "data/raw/manifest.json": "a60cf88ef1b7988b398c2a4bd32e9f4f997fc529946e27173d902347ba389c4f",
+    "prompts/persona_compiler_v1.txt": "4d4503872b4f1f88a510db7d7cccde0accd551977b0edf080ecde17f9b0942b4",
+    "prompts/response_v1a.txt": "d7c9281999f4f3de637eed85840fc071c890d586087ef9ea1c869ca479d5dd27",
+    "prompts/response_v1b.txt": "03b460e96f874e6fed508d6c0a9ba909ecf8c0c2ee6019507b0cb2954d29f566",
+    "schemas/persona.schema.json": "7654e24776947296041523eab76e48252250c047cc25bb95dbfa6b4b71c2f2b1",
+    "schemas/response.schema.json": "6843c37df41c1cd87415344938ade33eb8b27f1558026e4f144a010d9469610c"
+  },
+  "output_sha256": {
+    "cells.jsonl": "4d2af242c1b9e6b44f67dc8e8e8f17f7ef967bab51348c1edc6724ea4332327e",
+    "contexts.jsonl": "1ff51ff7fd336aa959fde651299a24c22c53eeb1b1441849ded9886d5b5362de",
+    "personas.jsonl": "ddf4e5b7632b0161dc1947a36d671dd058f795e90b6edfb015c8169c1f42b332",
+    "responses.jsonl": "9f9e96d2eb20691da8041f94edd584f249914a4b228d91771d97d07facc23e0e",
+    "summary.json": "eeb73acdad6969a9e3a13217b9c4a1b053e9506ab14334bb2c361dfa53be7a45"
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.11.16 (main, Sep  1 2026, 14:08:22) [Clang 22.1.3 ]",
+  "run_id": "context-interpretation-smoke-693d9ffa07-20261021T130203649927Z-0e4bc13b",
+  "runtime_seconds": 0.016413
+}

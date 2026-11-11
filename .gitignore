@@ -1,0 +1,29 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.egg-info/
+
+# Ad creatives and anything built from them are never committed (third-party copyright).
+# scripts/fetch_media.py and scripts/fetch_stimuli.py re-create them locally.
+ad-library/data/raw/**/media/
+ad-library/data/raw/**/frames/
+ad-library/data/processed/*/inputs/
+ad-library/data/processed/*/media/
+ad-library/data/processed/snap_1000_preview/*.jpg
+ad-library/data/processed/competitor_analysis_v1/*.html
+ad-library/data/processed/competitor_analysis_v1/report_data.json
+agent-feeds/data/raw/stimuli_batch1/
+agent-feeds/data/raw/stimuli_batch2/
+agent-feeds/data/interim/stimuli_resized/
+agent-feeds/tmp/cache_eval/
+
+# Third-party text and caches re-created by the brand-associations collectors.
+brand-associations/data/raw/demo/http_cache/
+brand-associations/data/raw/assoc/ccnews/
+brand-associations/data/derived/demo/article_text/
+brand-associations/data/derived/assoc/emb_cache/
+brand-associations/output/explore/study_b/
+brand-associations/output/explore/figures/study_b_stockx.png
+brand-associations/output/presentation/case_figures.html

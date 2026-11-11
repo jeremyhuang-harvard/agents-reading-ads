@@ -1,0 +1,153 @@
+{
+  "spec_version": "backgrounded_brand_exposure_v0.1.0",
+  "created_at": "2026-10-15",
+  "unit": "brand-object-person-scene appearance within an immutable asset bundle",
+  "working_term": "backgrounded brand exposure",
+  "state_semantics": {
+    "present": "Affirmative evidence meets the validated threshold.",
+    "absent": "The relevant modality was observed with adequate coverage and the feature was not found.",
+    "unknown": "Evidence is missing, unreadable, occluded, unsupported, contradictory, or below threshold.",
+    "not_applicable": "The construct does not apply to this unit."
+  },
+  "hard_rules": [
+    "Do not infer paid sponsorship from brand presence alone.",
+    "Do not infer organic status from missing disclosure or missing relationship records.",
+    "Do not encode unknown as false, zero, an empty string, or an empty array.",
+    "Keep literal observations separate from entity links, relational judgments, and construct ratings.",
+    "Every positive model judgment must reference frame, track, OCR, transcript, or metadata evidence.",
+    "Do not build a composite implicit-ad score during the pilot."
+  ],
+  "asset_fields": {
+    "asset_id": "Stable research identifier for the post, clip, image, story, article, or broadcast segment.",
+    "source_platform": "YouTube, TikTok, Instagram, X, broadcast, editorial archive, manual import, or other.",
+    "source_native_id": "Native source identifier where retention is permitted.",
+    "source_account_id_restricted": "Creator/channel/account identifier stored according to the access class.",
+    "published_at": "Source publication timestamp.",
+    "observed_at": "Timestamp when metadata and public metrics were retrieved.",
+    "media_type": "image, video, audio_visual, screenshot, article, or other.",
+    "duration_ms": "Exact duration for temporal media; not_applicable for stills.",
+    "bundle_sha256": "Hash binding originals, permitted derivatives, metadata, and manifests.",
+    "rights_access_class": "metadata_only, embedded_review, research_environment, licensed_media, creator_permission, restricted, or unknown.",
+    "public_view_count": "Cumulative source metric at observed_at; opportunity-to-see proxy only.",
+    "public_engagement_json": "Likes, comments, shares, favorites, reposts, or analogous fields with source definitions.",
+    "native_paid_placement_signal": "Creator/platform declaration or paid-partnership signal, including exact source field and state."
+  },
+  "appearance_fields": {
+    "appearance_id": "Stable identifier for one brand-object-person-scene episode.",
+    "scene_id": "Scene or shot identifier.",
+    "start_ms": "First visible timestamp.",
+    "end_ms": "Last visible timestamp for the interval.",
+    "brand_candidate": "Canonical brand candidate plus alternative candidates.",
+    "brand_link_state": "confirmed, candidate, ambiguous, unknown, or not_applicable.",
+    "product_category": "watch, apparel, footwear, signage, app_interface, beverage, betting_service, prediction_market, or controlled other.",
+    "product_model_candidates": "Ranked product/model/SKU candidates with scores and catalog version.",
+    "carrier_type": "person, team, event, venue, broadcast_graphic, set, object, screen, editorial_voice, peer, or interface.",
+    "presentation_role": "worn, held, used, consumed, discussed, praised, demonstrated, background, decorative, adjacent, or unknown.",
+    "logo_or_wordmark_present": "Whether a logo, wordmark, or distinctive mark is visibly present.",
+    "visible_screen_time_ms": "Union of visible intervals for the entity.",
+    "screen_time_share_valid": "Share of analyzable video time with the appearance visible.",
+    "screen_time_lower_bound_total": "Visible time divided by total asset duration, treating unprocessed time as unknown.",
+    "conditional_pixel_share_mean": "Mean visible pixel share conditional on appearance.",
+    "pixel_time_share": "Duration-weighted visible pixel share over the full asset.",
+    "max_pixel_share": "Maximum visible pixel share.",
+    "centrality_mean": "Duration-weighted normalized centrality.",
+    "saliency_mass_mean": "Predicted fixation mass within the appearance mask.",
+    "foreground_probability": "Calibrated probability that the appearance is in the foreground.",
+    "scene_plane": "foreground, midground, background, or unknown.",
+    "occlusion_type": "none, object, self, frame_boundary, motion_blur, ui_overlay, unreadable, multiple, or unknown.",
+    "readability": "Legibility or identifiability of the mark/product.",
+    "repeat_appearance_count": "Number of nonoverlapping appearance intervals.",
+    "person_interaction": "wearing, holding, using, consuming, pointing_at, looking_at, speaking_about, adjacent_to, none, or unknown.",
+    "evidence_refs": "Frame, mask, track, OCR, transcript, and metadata identifiers supporting the row."
+  },
+  "text_audio_fields": {
+    "visual_ocr_raw": "Verbatim OCR observations with regions and timestamps.",
+    "platform_caption_raw": "Creator/platform caption preserved separately from OCR and ASR.",
+    "asr_raw": "Speech-recognition output with word-level timestamps.",
+    "brand_audio_mention": "Brand/product mention candidate with phonetic and contextual evidence.",
+    "tag_link_code_present": "Brand tag, affiliate link, promo code, shopping link, or call to action.",
+    "call_to_action": "Verbatim action request where observable."
+  },
+  "disclosure_fields": {
+    "disclosure_state": "present, absent, unknown, or not_applicable.",
+    "disclosure_exact_text": "Verbatim text or audio; never normalized away.",
+    "disclosure_type": "ad, sponsored, paid_partnership, gifted, affiliate, own_brand, promotional_content, not_sponsored, other, or unknown.",
+    "disclosure_modalities": "visual, audible, platform_metadata, caption, hashtag, or multiple.",
+    "first_disclosure_ms": "First disclosure timestamp.",
+    "disclosure_duration_ms": "Union duration of observable disclosure.",
+    "disclosure_precedes_first_brand_exposure": "Whether the first disclosure began before the first brand appearance.",
+    "disclosure_readability": "Calibrated visibility/comprehensibility rating.",
+    "disclosure_ui_capture_complete": "Whether the archived render includes relevant platform overlays and expanded captions."
+  },
+  "relationship_fields": {
+    "relationship_episode_id": "Dated person/property-brand relationship identifier.",
+    "relationship_state": "confirmed, creator_declared, probable, rumored, no_known_relationship, verified_none, unknown, or not_applicable.",
+    "relationship_type": "ambassador, one_off_paid, gifted, loaned, affiliate, team_sponsorship, event_sponsorship, venue_sponsorship, platform_partnership, employer, family, brand_owned, or other.",
+    "valid_from": "Best-evidence effective start date.",
+    "valid_to": "Best-evidence end date.",
+    "announcement_date": "Public announcement date, stored separately from effective dates.",
+    "relationship_evidence_uri": "Primary record, platform declaration, contract data, brand statement, or documented search trail.",
+    "relationship_confidence": "Calibrated confidence and evidence tier."
+  },
+  "construct_ratings": {
+    "perceptual_prominence_1_5": {
+      "1": "Barely detectable.",
+      "2": "Visible but peripheral.",
+      "3": "Clearly noticeable.",
+      "4": "Repeatedly or centrally emphasized.",
+      "5": "Dominant subject of the asset."
+    },
+    "pitch_directness_0_100": "Logo-only/background presence to explicit promotional offer and call to action.",
+    "plot_or_task_integration_0_100": "Degree to which the brand/product is causally integrated into the activity or narrative.",
+    "naturalness_1_5": "Forced/incongruent to organic/plausible, supported by narrative relevance, interaction plausibility, camera motivation, and branding excess.",
+    "commercial_presentation_probability": "Calibrated probability that the presentation is promotional, distinct from sponsorship status.",
+    "ad_recognition_likelihood": "Expected recognition of commercial intent; a content-side hypothesis requiring viewer validation.",
+    "sport_event_cue_0_100": "Strength of sport, event, team, athlete, or fandom cueing.",
+    "betting_action_cue_0_100": "Strength of wagering, odds, trading, prediction, payout, or actionability cues.",
+    "reward_affect_0_100": "Reward, winning, excitement, belonging, status, or positive-affect linkage.",
+    "brand_person_association_0_100": "Strength and clarity of the visual/narrative association between a person and brand.",
+    "brand_context_association_0_100": "Strength and clarity of the association between the brand and setting, occasion, event, or identity."
+  },
+  "amplification_fields": {
+    "amplification_id": "Stable identifier for a downstream identification or amplification item.",
+    "source_appearance_id": "Original appearance being identified or amplified.",
+    "amplifier_type": "watchspotter, outfit_reviewer, fan_account, journalist, social_listening, affiliate, retailer, brand_repost, or other.",
+    "amplifier_provenance": "independent_editorial, neutral_specialist, affiliate, brand_controlled, unknown.",
+    "published_at": "Amplification timestamp.",
+    "identification_lag_seconds": "Time between original appearance and amplification.",
+    "brand_named": "Whether the brand was explicitly named.",
+    "model_named": "Whether a specific model/SKU was named.",
+    "shopping_or_affiliate_link": "Whether the amplification includes a commercial action path.",
+    "same_appearance_confidence": "Confidence that the downstream item refers to the original appearance."
+  },
+  "quality_fields": {
+    "analyzable_time_share": "Share of asset duration successfully processed.",
+    "analyzable_pixel_share": "Share of image/frame area not lost to corruption or unsupported format.",
+    "audio_coverage_share": "Share of audio duration processed.",
+    "method_agreement": "Agreement among detector, OCR, retrieval, and VLM routes.",
+    "calibrated_probability": "Probability calibrated for the exact claim type and subgroup.",
+    "abstention_reason_codes": "Why the system returned unknown.",
+    "human_review_status": "pending, double_coded, adjudicated, accepted, rejected, or not_sampled.",
+    "human_review_priority": "Risk/impact-weighted review priority."
+  },
+  "evidence_required_for": [
+    "all positive brand and product identifications",
+    "all person-product relations",
+    "all disclosure classifications",
+    "all commercial-presentation judgments",
+    "all relationship-state assertions",
+    "all prominence or naturalness ratings",
+    "all public-facing examples"
+  ],
+  "pilot_validation_gates": {
+    "supported_brand_precision_min": 0.9,
+    "supported_brand_recall_min": 0.9,
+    "observable_disclosure_recall_min": 0.95,
+    "screen_time_median_absolute_error_max_ms": 250,
+    "screen_time_median_absolute_error_max_share": 0.05,
+    "pixel_share_median_absolute_error_max_percentage_points": 2.0,
+    "exact_sku_precision_required_to_publish": 0.9,
+    "subjective_model_disagreement_rule": "Model-human disagreement should not exceed human-human disagreement on the locked set.",
+    "unsupported_case_rule": "Abstain rather than default to absence."
+  }
+}

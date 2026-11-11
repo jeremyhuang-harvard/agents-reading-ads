@@ -1,0 +1,168 @@
+date,interest,case_id,label,query,event_date,relative_day
+2023-09-01,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-23
+2023-09-02,30,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-22
+2023-09-03,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-21
+2023-09-04,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-20
+2023-09-05,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-19
+2023-09-06,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-18
+2023-09-07,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-17
+2023-09-08,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-16
+2023-09-09,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-15
+2023-09-10,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-14
+2023-09-11,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-13
+2023-09-12,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-12
+2023-09-13,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-11
+2023-09-14,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-10
+2023-09-15,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-9
+2023-09-16,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-8
+2023-09-17,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-7
+2023-09-18,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-6
+2023-09-19,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-5
+2023-09-20,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-4
+2023-09-21,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-3
+2023-09-22,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-2
+2023-09-23,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,-1
+2023-09-24,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,0
+2023-09-25,64,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,1
+2023-09-26,100,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,2
+2023-09-27,63,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,3
+2023-09-28,67,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,4
+2023-09-29,28,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,5
+2023-09-30,32,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,6
+2023-10-01,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,7
+2023-10-02,50,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,8
+2023-10-03,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,9
+2023-10-04,28,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,10
+2023-10-05,28,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,11
+2023-10-06,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,12
+2023-10-07,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,13
+2023-10-08,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,14
+2023-10-09,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,15
+2023-10-10,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,16
+2023-10-11,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,17
+2023-10-12,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,18
+2023-10-13,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,19
+2023-10-14,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,20
+2023-10-15,0,taylor_new_balance_550,Taylor Swift × New Balance 550,Taylor Swift New Balance,2023-09-24,21
+2015-05-01,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-16
+2015-05-02,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-15
+2015-05-03,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-14
+2015-05-04,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-13
+2015-05-05,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-12
+2015-05-06,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-11
+2015-05-07,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-10
+2015-05-08,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-9
+2015-05-09,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-8
+2015-05-10,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-7
+2015-05-11,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-6
+2015-05-12,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-5
+2015-05-13,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-4
+2015-05-14,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-3
+2015-05-15,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-2
+2015-05-16,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,-1
+2015-05-17,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,0
+2015-05-18,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,1
+2015-05-19,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,2
+2015-05-20,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,3
+2015-05-21,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,4
+2015-05-22,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,5
+2015-05-23,100,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,6
+2015-05-24,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,7
+2015-05-25,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,8
+2015-05-26,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,9
+2015-05-27,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,10
+2015-05-28,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,11
+2015-05-29,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,12
+2015-05-30,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,13
+2015-05-31,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,14
+2015-06-01,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,15
+2015-06-02,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,16
+2015-06-03,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,17
+2015-06-04,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,18
+2015-06-05,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,19
+2015-06-06,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,20
+2015-06-07,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,21
+2015-06-08,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,22
+2015-06-09,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,23
+2015-06-10,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,24
+2015-06-11,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,25
+2015-06-12,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,26
+2015-06-13,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,27
+2015-06-14,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,28
+2015-06-15,0,kanye_ultraboost,Kanye West × UltraBoost,Kanye Ultra Boost,2015-05-17,29
+2020-09-01,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-42
+2020-09-02,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-41
+2020-09-03,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-40
+2020-09-04,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-39
+2020-09-05,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-38
+2020-09-06,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-37
+2020-09-07,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-36
+2020-09-08,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-35
+2020-09-09,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-34
+2020-09-10,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-33
+2020-09-11,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-32
+2020-09-12,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-31
+2020-09-13,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-30
+2020-09-14,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-29
+2020-09-15,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-28
+2020-09-16,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-27
+2020-09-17,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-26
+2020-09-18,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-25
+2020-09-19,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-24
+2020-09-20,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-23
+2020-09-21,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-22
+2020-09-22,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-21
+2020-09-23,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-20
+2020-09-24,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-19
+2020-09-25,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-18
+2020-09-26,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-17
+2020-09-27,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-16
+2020-09-28,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-15
+2020-09-29,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-14
+2020-09-30,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-13
+2020-10-01,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-12
+2020-10-02,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-11
+2020-10-03,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-10
+2020-10-04,3,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-9
+2020-10-05,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-8
+2020-10-06,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-7
+2020-10-07,9,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-6
+2020-10-08,6,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-5
+2020-10-09,5,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-4
+2020-10-10,5,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-3
+2020-10-11,5,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-2
+2020-10-12,7,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,-1
+2020-10-13,100,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,0
+2020-10-14,24,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,1
+2020-10-15,7,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,2
+2020-10-16,5,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,3
+2020-10-17,4,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,4
+2020-10-18,5,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,5
+2020-10-19,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,6
+2020-10-20,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,7
+2020-10-21,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,8
+2020-10-22,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,9
+2020-10-23,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,10
+2020-10-24,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,11
+2020-10-25,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,12
+2020-10-26,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,13
+2020-10-27,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,14
+2020-10-28,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,15
+2020-10-29,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,16
+2020-10-30,2,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,17
+2020-10-31,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,18
+2020-11-01,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,19
+2020-11-02,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,20
+2020-11-03,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,21
+2020-11-04,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,22
+2020-11-05,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,23
+2020-11-06,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,24
+2020-11-07,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,25
+2020-11-08,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,26
+2020-11-09,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,27
+2020-11-10,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,28
+2020-11-11,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,29
+2020-11-12,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,30
+2020-11-13,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,31
+2020-11-14,0,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,32
+2020-11-15,1,bieber_crocs,Justin Bieber × Crocs,Justin Bieber Crocs,2020-10-13,33

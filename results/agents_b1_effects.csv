@@ -1,0 +1,10 @@
+category,prime_set,chance_ahead,chance_ahead_ci90_excludes_0,risk,risk_ci90_excludes_0,pressure,pressure_ci90_excludes_0,norm,norm_ci90_excludes_0,appeal,appeal_ci90_excludes_0
+beer,social_drink,0.4523,True,-0.2919,True,0.056,False,0.5393,True,0.1032,True
+beer,drink_harm,0.4935,True,0.3947,True,1.4476,True,-0.7629,True,-0.0366,False
+beer,look_beer,0.4096,True,0.2212,True,0.0111,False,0.1633,True,0.0317,False
+betting,win,0.0548,True,-0.0407,True,0.139,True,-0.3769,True,0.1042,True
+betting,loss,0.1329,True,0.0219,True,0.3192,True,0.056,False,0.2198,True
+betting,look_bet,0.0643,True,-0.0257,True,0.0651,True,0.0766,True,-0.0593,True
+control,win,0.131,True,0.0037,False,-0.0144,True,-0.169,True,0.0973,True
+control,loss,0.3881,True,-0.0118,False,0.0019,False,-0.1841,True,0.0698,False
+control,social_drink,0.1543,True,0.0318,True,0.024,True,-0.3477,True,0.0598,False

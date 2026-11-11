@@ -1,0 +1,49 @@
+payload,term,game_day,worn,baseline,excess_0_2,z_0_2
+link,Taylor Swift New Balance,2023-09-24,New Balance 550,0.0,5.0,5.0
+link,Taylor Swift New Balance,2023-10-01,(no product identified; Jets game),0.86,1.67,0.9
+link,Taylor Swift New Balance,2023-10-12,Wear by Erin Andrews,2.0,-1.0,-0.63
+link,Taylor Swift New Balance,2023-10-22,Nike Air Force 1,0.55,0.0,0.0
+link,Taylor Swift New Balance,2023-12-10,Westside Storey,0.32,0.0,0.0
+link,Taylor Swift New Balance,2023-12-17,Kut the Knit / Rails,0.0,0.0,0.0
+link,Taylor Swift Nike,2023-09-24,New Balance 550,0.63,4.0,3.56
+link,Taylor Swift Nike,2023-10-01,(no product identified; Jets game),0.86,1.83,1.69
+link,Taylor Swift Nike,2023-10-12,Wear by Erin Andrews,0.67,-0.33,-0.31
+link,Taylor Swift Nike,2023-10-22,Nike Air Force 1,0.82,3.17,2.32
+link,Taylor Swift Nike,2023-12-10,Westside Storey,4.53,-1.0,-0.7
+link,Taylor Swift Nike,2023-12-17,Kut the Knit / Rails,3.71,-2.0,-1.85
+link,Taylor Swift shoes,2023-09-24,New Balance 550,2.68,6.78,4.99
+link,Taylor Swift shoes,2023-10-01,(no product identified; Jets game),3.57,5.33,2.56
+link,Taylor Swift shoes,2023-10-12,Wear by Erin Andrews,5.89,4.67,2.62
+link,Taylor Swift shoes,2023-10-22,Nike Air Force 1,7.27,-1.17,-0.42
+link,Taylor Swift shoes,2023-12-10,Westside Storey,6.26,-1.44,-0.58
+link,Taylor Swift shoes,2023-12-17,Kut the Knit / Rails,5.14,0.0,0.0
+link,Taylor Swift outfit,2023-09-24,New Balance 550,15.05,8.56,3.14
+link,Taylor Swift outfit,2023-10-01,(no product identified; Jets game),15.86,13.67,4.86
+link,Taylor Swift outfit,2023-10-12,Wear by Erin Andrews,22.44,53.11,22.38
+link,Taylor Swift outfit,2023-10-22,Nike Air Force 1,33.91,-3.5,-0.3
+link,Taylor Swift outfit,2023-12-10,Westside Storey,10.63,1.44,0.28
+link,Taylor Swift outfit,2023-12-17,Kut the Knit / Rails,9.36,0.0,0.0
+products,New Balance 550,2023-09-24,New Balance 550,19.63,3.89,1.59
+products,New Balance 550,2023-10-01,(no product identified; Jets game),18.79,1.0,0.9
+products,New Balance 550,2023-10-12,Wear by Erin Andrews,19.0,-1.89,-1.31
+products,New Balance 550,2023-10-22,Nike Air Force 1,17.73,-1.17,-1.17
+products,New Balance 550,2023-12-10,Westside Storey,31.89,-2.78,-0.29
+products,New Balance 550,2023-12-17,Kut the Knit / Rails,27.86,-4.17,-1.08
+products,Nike Air Force 1,2023-09-24,New Balance 550,17.74,-0.89,-0.64
+products,Nike Air Force 1,2023-10-01,(no product identified; Jets game),17.57,-1.0,-0.79
+products,Nike Air Force 1,2023-10-12,Wear by Erin Andrews,17.0,-0.67,-0.5
+products,Nike Air Force 1,2023-10-22,Nike Air Force 1,17.0,-0.5,-0.5
+products,Nike Air Force 1,2023-12-10,Westside Storey,29.42,0.56,0.09
+products,Nike Air Force 1,2023-12-17,Kut the Knit / Rails,27.29,-0.67,-0.22
+products,Nike Dunk,2023-09-24,New Balance 550,35.0,-0.56,-0.23
+products,Nike Dunk,2023-10-01,(no product identified; Jets game),34.79,1.0,0.54
+products,Nike Dunk,2023-10-12,Wear by Erin Andrews,35.56,-1.22,-0.61
+products,Nike Dunk,2023-10-22,Nike Air Force 1,35.0,-1.33,-1.33
+products,Nike Dunk,2023-12-10,Westside Storey,59.32,1.22,0.11
+products,Nike Dunk,2023-12-17,Kut the Knit / Rails,54.36,-3.83,-0.81
+products,Adidas Samba,2023-09-24,New Balance 550,24.26,0.67,0.26
+products,Adidas Samba,2023-10-01,(no product identified; Jets game),23.43,-1.33,-0.81
+products,Adidas Samba,2023-10-12,Wear by Erin Andrews,23.44,-2.67,-2.67
+products,Adidas Samba,2023-10-22,Nike Air Force 1,22.09,0.17,0.17
+products,Adidas Samba,2023-12-10,Westside Storey,28.74,-2.67,-0.42
+products,Adidas Samba,2023-12-17,Kut the Knit / Rails,25.93,-2.17,-0.86

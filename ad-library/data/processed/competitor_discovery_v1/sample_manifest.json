@@ -1,0 +1,1430 @@
+{
+  "created_at_utc": "2026-10-21T03:32:15.141505+00:00",
+  "prompt_version": "competitor_discovery_prompt_v1.0.0",
+  "prompt_sha256": "cd161f55b8abe97a3ea2fe5f982fb7a6b265c7dc05ae618776e4da15e0462180",
+  "seed": 2026102101,
+  "per_firm": 20,
+  "model_alias": "sonnet",
+  "source_run": "data/raw/snap_fr_betting_competitors/run_id=2026-10-21T005219.747976+0000",
+  "backfill_run": "data/raw/snap_fr_betting_competitors/story_backfill_run_id=2026-10-21T005219.747976+0000",
+  "unique_creatives_indexed": 951,
+  "video_protocol": "3 still frames at ~10/50/90%; no audio (exploratory only)",
+  "items": [
+    {
+      "coding_id": "CD-001",
+      "sha256": "519b6b79913400b0c80655888c55462831ec207b5e8fd5d3a130593b6f3c8c75",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-001.jpg"
+      ],
+      "input_sha256": {
+        "CD-001.jpg": "519b6b79913400b0c80655888c55462831ec207b5e8fd5d3a130593b6f3c8c75"
+      }
+    },
+    {
+      "coding_id": "CD-002",
+      "sha256": "8d9fb86ae6a6dc4d3f3fe90206f732275dbbfffdcdd993fac0c86e76be05c9c7",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 7,
+      "input_files": [
+        "CD-002.jpg"
+      ],
+      "input_sha256": {
+        "CD-002.jpg": "8d9fb86ae6a6dc4d3f3fe90206f732275dbbfffdcdd993fac0c86e76be05c9c7"
+      }
+    },
+    {
+      "coding_id": "CD-003",
+      "sha256": "0ebb83444b614341f28c0e4665f061d9dd104f9c2f09f5ce1cb9b00f172d7e01",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 10,
+      "input_files": [
+        "CD-003.jpg"
+      ],
+      "input_sha256": {
+        "CD-003.jpg": "0ebb83444b614341f28c0e4665f061d9dd104f9c2f09f5ce1cb9b00f172d7e01"
+      }
+    },
+    {
+      "coding_id": "CD-004",
+      "sha256": "a38b3761cd5c2f9a17cebd946297bf9164b2b4a8a0622302604906ed46d20366",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-004.jpg"
+      ],
+      "input_sha256": {
+        "CD-004.jpg": "a38b3761cd5c2f9a17cebd946297bf9164b2b4a8a0622302604906ed46d20366"
+      }
+    },
+    {
+      "coding_id": "CD-005",
+      "sha256": "8a0d21240aee0f58a8afe3fb08a8fb637fcc929b090a60558a0bd5e8ce1f3f4c",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-005_f1.jpg",
+        "CD-005_f2.jpg",
+        "CD-005_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-005_f1.jpg": "dc741fdccc586d862ae2128f89fb7cff40c68589dc38902ddd1cf022e48e86dd",
+        "CD-005_f2.jpg": "f9e7cd4a3642b4ef5386040294c32bf020889cf61eec8f4dfee8e0c6b8052e85",
+        "CD-005_f3.jpg": "5a87d5aa0296e6f75f9da6fa912fb2a569d679cb1ea42f8c72440bddd0e21c3f"
+      }
+    },
+    {
+      "coding_id": "CD-006",
+      "sha256": "7abd573c1f069a641acc80d2ed94b7541cd5d05a8cd862b15f578d83860ec697",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-006.jpg"
+      ],
+      "input_sha256": {
+        "CD-006.jpg": "7abd573c1f069a641acc80d2ed94b7541cd5d05a8cd862b15f578d83860ec697"
+      }
+    },
+    {
+      "coding_id": "CD-007",
+      "sha256": "01861b4cc94cdcded0127c52138490a0e10bd61faa158b4a7bcde42c5a3d6227",
+      "firm": "bet365",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-007_f1.jpg",
+        "CD-007_f2.jpg",
+        "CD-007_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-007_f1.jpg": "d442c63f3f609fd3f91a075cedb99c6474f4fc3b17d12122accf42aa351c5242",
+        "CD-007_f2.jpg": "7aa2b247fc3eaa742529c3c70e5b572bba7fc274f75261ce06aca6b4178228d0",
+        "CD-007_f3.jpg": "a58673915bd108ca8e6416f04e7ee7c226b7d8938b0cbe49d967e835f526cdd6"
+      }
+    },
+    {
+      "coding_id": "CD-008",
+      "sha256": "5c09b224262d4e13ab7cf63921308b2cf4321dcab048cd26c097055383fea81d",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 7,
+      "input_files": [
+        "CD-008.jpg"
+      ],
+      "input_sha256": {
+        "CD-008.jpg": "5c09b224262d4e13ab7cf63921308b2cf4321dcab048cd26c097055383fea81d"
+      }
+    },
+    {
+      "coding_id": "CD-009",
+      "sha256": "552e79c8d5953549161c1c8ba2e54dfdcf00f00d2418b5d231e8b0ff6181b48d",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-009_f1.jpg",
+        "CD-009_f2.jpg",
+        "CD-009_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-009_f1.jpg": "44d0f3630c4b04c1c3d5f3b802a87042df9c39cc9ecfa61750b923694f6be5d0",
+        "CD-009_f2.jpg": "1874d6719edf8b2c620254b865a54e58ae21e86409bcd3d8f7bc27c12a1930b0",
+        "CD-009_f3.jpg": "ea4437cd193abab75869f3241878f84696d05142d185837ee48b1d2d306bca37"
+      }
+    },
+    {
+      "coding_id": "CD-010",
+      "sha256": "7f3c8887f588640d31b4e2af9198d25390775d8404d4ebfed76788e797c1c709",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-010.jpg"
+      ],
+      "input_sha256": {
+        "CD-010.jpg": "7f3c8887f588640d31b4e2af9198d25390775d8404d4ebfed76788e797c1c709"
+      }
+    },
+    {
+      "coding_id": "CD-011",
+      "sha256": "acb7ced91b79a5c7d9054e67e213830e27625814ba67351947af6c81c5698fc4",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-011.jpg"
+      ],
+      "input_sha256": {
+        "CD-011.jpg": "acb7ced91b79a5c7d9054e67e213830e27625814ba67351947af6c81c5698fc4"
+      }
+    },
+    {
+      "coding_id": "CD-012",
+      "sha256": "800eea5808538aae9324cbf7037a2c165900230ad84d55b1982d10cc73d9d35d",
+      "firm": "PMU",
+      "media_type": "VIDEO",
+      "ads_using_creative": 7,
+      "input_files": [
+        "CD-012_f1.jpg",
+        "CD-012_f2.jpg",
+        "CD-012_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-012_f1.jpg": "e03744713034d9ecb904cafde8cb4efb50911ba5dd67de7cb72448f0ad1fec2a",
+        "CD-012_f2.jpg": "8fe7d1358f69a8ab46e6b35e16d2bd667b1dcb5f622d00ad6623e891c5c6a4ad",
+        "CD-012_f3.jpg": "21fe8ae05cb6bab4301f8831a63c2e12dd9fc93bb9c02a16abe96e0c0a01a895"
+      }
+    },
+    {
+      "coding_id": "CD-013",
+      "sha256": "080f4dea391ced49d3f3087879e4172e9811c9332c9db204b91550bb952f56b5",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-013_f1.jpg",
+        "CD-013_f2.jpg",
+        "CD-013_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-013_f1.jpg": "4a2057cefbb5274d9d0e3ea67f0ed809bb3afd9a9c4ea39eff50c6d8a5348d4d",
+        "CD-013_f2.jpg": "c32f0bcf78b42f3cd469ee801cbfb2a35db90945a816dd0de13d18796e1f305f",
+        "CD-013_f3.jpg": "e445627096a6c27bbb613352a651df65506c251901a13f5c53bbdca4cc81ad51"
+      }
+    },
+    {
+      "coding_id": "CD-014",
+      "sha256": "32aca2556c28ad7aa07a0461e37c7eb36c8c69bbe3914964c2f68fed1a4fa346",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-014.jpg"
+      ],
+      "input_sha256": {
+        "CD-014.jpg": "32aca2556c28ad7aa07a0461e37c7eb36c8c69bbe3914964c2f68fed1a4fa346"
+      }
+    },
+    {
+      "coding_id": "CD-015",
+      "sha256": "45bd84dacb8ca782a533cff6fef8b914e1b4f5fbcde570dd125da033b7833b1f",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-015.jpg"
+      ],
+      "input_sha256": {
+        "CD-015.jpg": "45bd84dacb8ca782a533cff6fef8b914e1b4f5fbcde570dd125da033b7833b1f"
+      }
+    },
+    {
+      "coding_id": "CD-016",
+      "sha256": "7b7f5d0451d79b75353d663b5d7f622fb819a536757d023c0403452bb9ef155b",
+      "firm": "bet365",
+      "media_type": "VIDEO",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-016_f1.jpg",
+        "CD-016_f2.jpg",
+        "CD-016_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-016_f1.jpg": "84fd1762123dad761787b94f1b69bbf23e57362d30d176c25b50e932e5e47544",
+        "CD-016_f2.jpg": "9ab1e60869a39d3dbf2527192566a61bff2e3b5ddc934e6ade6dfbeaeea1210d",
+        "CD-016_f3.jpg": "6d5ecdd0b87628e8dfb314c5ffc224665d5da98594adcae2f5079bf2968eceac"
+      }
+    },
+    {
+      "coding_id": "CD-017",
+      "sha256": "79db6dd41a78d1433665723db0ef2aa173f872c3f442e5c10274271b1b93ae4b",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-017_f1.jpg",
+        "CD-017_f2.jpg",
+        "CD-017_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-017_f1.jpg": "c83e9e69214f5b8221cfb84da7b528ea30c46350c145484a05d60e30524104a3",
+        "CD-017_f2.jpg": "14cdbc27b255b1a8f9aa9948e1a8d3b2436495452a952ea4b29b8db1e6a119e0",
+        "CD-017_f3.jpg": "702a950c2c32731605f4b7ef25f2063c7d438ca7fad44a0fd8f8f7ffd50f2c8d"
+      }
+    },
+    {
+      "coding_id": "CD-018",
+      "sha256": "43e4678d6225f36e6494f39951bcf0f7ca7a63c5318e2bc87a12916f106c5cfa",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-018.jpg"
+      ],
+      "input_sha256": {
+        "CD-018.jpg": "43e4678d6225f36e6494f39951bcf0f7ca7a63c5318e2bc87a12916f106c5cfa"
+      }
+    },
+    {
+      "coding_id": "CD-019",
+      "sha256": "9831aa2510392d5de7817f868b05e6cc3aeaf04128a4639087a5b060b5f34b3c",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 8,
+      "input_files": [
+        "CD-019.jpg"
+      ],
+      "input_sha256": {
+        "CD-019.jpg": "9831aa2510392d5de7817f868b05e6cc3aeaf04128a4639087a5b060b5f34b3c"
+      }
+    },
+    {
+      "coding_id": "CD-020",
+      "sha256": "a5acf50c6d52b2731719a6ca88aae1f3588d1a6f7a9474b3f0739d21a904273b",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-020.jpg"
+      ],
+      "input_sha256": {
+        "CD-020.jpg": "a5acf50c6d52b2731719a6ca88aae1f3588d1a6f7a9474b3f0739d21a904273b"
+      }
+    },
+    {
+      "coding_id": "CD-021",
+      "sha256": "922e830934b5413956ea48b32199fc5ab41869c47249abf333e009449f1124f8",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-021.jpg"
+      ],
+      "input_sha256": {
+        "CD-021.jpg": "922e830934b5413956ea48b32199fc5ab41869c47249abf333e009449f1124f8"
+      }
+    },
+    {
+      "coding_id": "CD-022",
+      "sha256": "3c8e81cdb87c469b9a629730b6c766b81850d679a657064d4c68dce63dad91b9",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-022.jpg"
+      ],
+      "input_sha256": {
+        "CD-022.jpg": "3c8e81cdb87c469b9a629730b6c766b81850d679a657064d4c68dce63dad91b9"
+      }
+    },
+    {
+      "coding_id": "CD-023",
+      "sha256": "e36ac22899d4b0e4d00862c678668ed77550f7fc6b9fa4098d8ac27c110b28f6",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-023.jpg"
+      ],
+      "input_sha256": {
+        "CD-023.jpg": "e36ac22899d4b0e4d00862c678668ed77550f7fc6b9fa4098d8ac27c110b28f6"
+      }
+    },
+    {
+      "coding_id": "CD-024",
+      "sha256": "1b9efdf9d2f9998d315a5b0dd55ff9b7efb4f8127aba8b6a3c991f991aa71fd8",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-024_f1.jpg",
+        "CD-024_f2.jpg",
+        "CD-024_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-024_f1.jpg": "7e9fd7066f02856da989d3b72d4387d4ded8ae885f0f9b83fd76dfb4cc1dff7f",
+        "CD-024_f2.jpg": "7c82dfa720051fdb5c551dd076c0aa5146c8aa1024060653ceabe12d351df9bb",
+        "CD-024_f3.jpg": "1d4b20691519884a8caee21a34510f80b4b4f501257b8f61f5778c6b84f1ca90"
+      }
+    },
+    {
+      "coding_id": "CD-025",
+      "sha256": "1b7b45fdc57b1c9dcb345117d52c361eaf3e87c22ae91ef2426b5d596757a1bf",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-025.jpg"
+      ],
+      "input_sha256": {
+        "CD-025.jpg": "1b7b45fdc57b1c9dcb345117d52c361eaf3e87c22ae91ef2426b5d596757a1bf"
+      }
+    },
+    {
+      "coding_id": "CD-026",
+      "sha256": "be6d54aec5c146d0320027396f20d01a978c0caf93c5752a350997c740a15f6e",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-026_f1.jpg",
+        "CD-026_f2.jpg",
+        "CD-026_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-026_f1.jpg": "e94a31801048e7b6a03eb44b2ba2d183eb654477e33c279aca2f384e2cbb4c2b",
+        "CD-026_f2.jpg": "53eb01f66ed5af3ee8a2c0f65554e199e5da61b1efd561af2a8591a8cb3006bf",
+        "CD-026_f3.jpg": "b8822f8e05026a035ad39652547a6de1c0103d0a52f3ee3fe57cf7f7828fa3da"
+      }
+    },
+    {
+      "coding_id": "CD-027",
+      "sha256": "285f03fd1116204cdf962d469ebe0c7edc4dfff24c2c609dffc96de32adea0f6",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-027.jpg"
+      ],
+      "input_sha256": {
+        "CD-027.jpg": "285f03fd1116204cdf962d469ebe0c7edc4dfff24c2c609dffc96de32adea0f6"
+      }
+    },
+    {
+      "coding_id": "CD-028",
+      "sha256": "07997757c17063c6d331bd83159ebd0ebb0d8b5638082d996fae36f1b6810698",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-028_f1.jpg",
+        "CD-028_f2.jpg",
+        "CD-028_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-028_f1.jpg": "56012fc1bc2fbf967499603b9118b1669f1d1f57432625e267c4c30a51b92b7d",
+        "CD-028_f2.jpg": "6f4ca6ddf778dae3708d03b5e0d05ab54c08dfef47234b14dae02246a629edb7",
+        "CD-028_f3.jpg": "ffed6ec8cc1cb2c8cc5911ab03bcfc0a7a8b36ba82ac628bd32d938fb5111a42"
+      }
+    },
+    {
+      "coding_id": "CD-029",
+      "sha256": "4b23f499ab1a7f550f939966e8bd3ebe1e1e1bcec2be600ac9f0dcf2d18079ee",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-029_f1.jpg",
+        "CD-029_f2.jpg",
+        "CD-029_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-029_f1.jpg": "c7e61f2acd77b84e871d0be19e857fd8533a9514bc8b352cce7cdad160c1bb78",
+        "CD-029_f2.jpg": "6c7b0658cb0107f59f2091d6ccf55f50be4225ff52e84a087b0d817048fc73ad",
+        "CD-029_f3.jpg": "4b2571e5a3b23ebe06a33f543263aab75a714514f128c40d5fd859e1ddc9b9b2"
+      }
+    },
+    {
+      "coding_id": "CD-030",
+      "sha256": "2e0d99c61ece63738745a37c9ddb4e56aac610e8d588f7e284af8299fc04dfa5",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-030.jpg"
+      ],
+      "input_sha256": {
+        "CD-030.jpg": "2e0d99c61ece63738745a37c9ddb4e56aac610e8d588f7e284af8299fc04dfa5"
+      }
+    },
+    {
+      "coding_id": "CD-031",
+      "sha256": "7793e3df1c0329a98e2d63e47686851a112004500c05bb49c78f6d37044ae62c",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-031.jpg"
+      ],
+      "input_sha256": {
+        "CD-031.jpg": "7793e3df1c0329a98e2d63e47686851a112004500c05bb49c78f6d37044ae62c"
+      }
+    },
+    {
+      "coding_id": "CD-032",
+      "sha256": "66be55678a1840385c12303941b372b4194348a8cb301d75978a938281a84e00",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-032.jpg"
+      ],
+      "input_sha256": {
+        "CD-032.jpg": "66be55678a1840385c12303941b372b4194348a8cb301d75978a938281a84e00"
+      }
+    },
+    {
+      "coding_id": "CD-033",
+      "sha256": "ff560a59bc2b4836adf355bc46f288bccef52d06ef0c59102a0600d7a1e686dc",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-033.jpg"
+      ],
+      "input_sha256": {
+        "CD-033.jpg": "ff560a59bc2b4836adf355bc46f288bccef52d06ef0c59102a0600d7a1e686dc"
+      }
+    },
+    {
+      "coding_id": "CD-034",
+      "sha256": "6c45df46c5dcd42363c79c06d68e32ab7780ef6b7305008a8b21425fcb083527",
+      "firm": "bet365",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-034_f1.jpg",
+        "CD-034_f2.jpg",
+        "CD-034_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-034_f1.jpg": "024cfbf3367978bb38b990265e3c47b93c92e2318af7c1661d59ba625b581b80",
+        "CD-034_f2.jpg": "ee07415ebbdd7436dc83ba7669c63483a0148eb33fa2b7f72fca3291eee49cf0",
+        "CD-034_f3.jpg": "dcb37807391d81337a4a02f763b023bec77dd5eac60bd8e20ea6ca0ec0889712"
+      }
+    },
+    {
+      "coding_id": "CD-035",
+      "sha256": "050735c597ce8659610b4681834459134f6f0436bb9b162af09d330a5df624ca",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-035.jpg"
+      ],
+      "input_sha256": {
+        "CD-035.jpg": "050735c597ce8659610b4681834459134f6f0436bb9b162af09d330a5df624ca"
+      }
+    },
+    {
+      "coding_id": "CD-036",
+      "sha256": "a290b831d01676a2329e1fd7774b19027159b56e0919bf7633e65a52736475f0",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-036.jpg"
+      ],
+      "input_sha256": {
+        "CD-036.jpg": "a290b831d01676a2329e1fd7774b19027159b56e0919bf7633e65a52736475f0"
+      }
+    },
+    {
+      "coding_id": "CD-037",
+      "sha256": "c8a73f09dbd7de3cd51035b617efa78fd6782809bed47b61d2b3371ab73b5478",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-037.jpg"
+      ],
+      "input_sha256": {
+        "CD-037.jpg": "c8a73f09dbd7de3cd51035b617efa78fd6782809bed47b61d2b3371ab73b5478"
+      }
+    },
+    {
+      "coding_id": "CD-038",
+      "sha256": "8341292775e1350863da0ec43c30fdedf34bf0d7e5b18850b8fe73b4c8ba64be",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-038.jpg"
+      ],
+      "input_sha256": {
+        "CD-038.jpg": "8341292775e1350863da0ec43c30fdedf34bf0d7e5b18850b8fe73b4c8ba64be"
+      }
+    },
+    {
+      "coding_id": "CD-039",
+      "sha256": "cf5cd113e66e3b6d39ae4fe078c4f4292b26adce4fdc94e8621ac9db4179bf8e",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-039.jpg"
+      ],
+      "input_sha256": {
+        "CD-039.jpg": "cf5cd113e66e3b6d39ae4fe078c4f4292b26adce4fdc94e8621ac9db4179bf8e"
+      }
+    },
+    {
+      "coding_id": "CD-040",
+      "sha256": "b5411823692eeed21b52af891d4e5af115588f35ddd017e607a1fdaa4e596380",
+      "firm": "Winamax",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-040_f1.jpg",
+        "CD-040_f2.jpg",
+        "CD-040_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-040_f1.jpg": "52862a0c38720336df3173659d86bf42499085152cde04c3c404f6c2c8377dde",
+        "CD-040_f2.jpg": "03b3652ffa827161c7e66a59a1dd8c7f6d24b9f7c30231c6fe4648ebe8fa8c09",
+        "CD-040_f3.jpg": "c69507039c8a204bb370e95756ab2c8cb253a0b0665a44f0a5746f38154a57a1"
+      }
+    },
+    {
+      "coding_id": "CD-041",
+      "sha256": "ca5c82499a12043be12b9e3c574140f8b057d065c7cb7a6e71cfe37eddc064a9",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-041.jpg"
+      ],
+      "input_sha256": {
+        "CD-041.jpg": "ca5c82499a12043be12b9e3c574140f8b057d065c7cb7a6e71cfe37eddc064a9"
+      }
+    },
+    {
+      "coding_id": "CD-042",
+      "sha256": "3eb951e07f52b1f224245e732f6797750897b0b5265d831fd07875de64424bd2",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-042_f1.jpg",
+        "CD-042_f2.jpg",
+        "CD-042_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-042_f1.jpg": "a0b42d12d5bb0ec089173642b4126312ba7a39b665acc809c6330325db28de86",
+        "CD-042_f2.jpg": "c93cc1bf2cf5161daca498bea1384d1a8d436401e4893f4ac7adbce6644401b5",
+        "CD-042_f3.jpg": "87ab749ccbc40ffa071b7d17d85c0b2ceaac75d4a8ab0be115d706a0df53c8c0"
+      }
+    },
+    {
+      "coding_id": "CD-043",
+      "sha256": "61d069402319ab79f3eb7599ce3b1ec3126a34ad0a63160521d520941ad25bcc",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-043_f1.jpg",
+        "CD-043_f2.jpg",
+        "CD-043_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-043_f1.jpg": "09c7286b5df8b27f2de9330db3d265cf4f7e7d8347ad52bb62cc2dcec0706092",
+        "CD-043_f2.jpg": "b5e4166e11fb52d17b953fb690f3ff93ae5b23e3dd385245d2ac048a43c518f6",
+        "CD-043_f3.jpg": "b4b045cf95f7b05ddb914363301c77dd727832bd279e7e3d83c8b70cac782ad9"
+      }
+    },
+    {
+      "coding_id": "CD-044",
+      "sha256": "33955893bd805a1989168b03c2603240b3df388a290fe90e35814955070616c9",
+      "firm": "bet365",
+      "media_type": "VIDEO",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-044_f1.jpg",
+        "CD-044_f2.jpg",
+        "CD-044_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-044_f1.jpg": "0fd7787e062ce08a78f68ebbcacfeb64c9a3b3b5dca6ec531980aec6db130024",
+        "CD-044_f2.jpg": "eed47eb98f10267e29aedfdaf21bdf026b4b1ed1e2c0f4dc69b8a9be994a51b9",
+        "CD-044_f3.jpg": "2fbf9c6d68987319bd1da5b20a02443d9a16954df681ff9e58948d5aaee086f1"
+      }
+    },
+    {
+      "coding_id": "CD-045",
+      "sha256": "2772c701c46733520380c6e9177d0c76f5feeed7439b81db3af3aaf9cba85f0f",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-045.jpg"
+      ],
+      "input_sha256": {
+        "CD-045.jpg": "2772c701c46733520380c6e9177d0c76f5feeed7439b81db3af3aaf9cba85f0f"
+      }
+    },
+    {
+      "coding_id": "CD-046",
+      "sha256": "9eb658c78e6bfd1fc02811ab847c099e0758591943adae2966567ec887e4d751",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-046.jpg"
+      ],
+      "input_sha256": {
+        "CD-046.jpg": "9eb658c78e6bfd1fc02811ab847c099e0758591943adae2966567ec887e4d751"
+      }
+    },
+    {
+      "coding_id": "CD-047",
+      "sha256": "30c0c9205009f66ebaefdea91d0cfac43deff13ded67b283f965579f05053d59",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-047.jpg"
+      ],
+      "input_sha256": {
+        "CD-047.jpg": "30c0c9205009f66ebaefdea91d0cfac43deff13ded67b283f965579f05053d59"
+      }
+    },
+    {
+      "coding_id": "CD-048",
+      "sha256": "7e817686a5bdffdc95bfb8ffd6762991575d62720682c56361d151c42886b3ad",
+      "firm": "PMU",
+      "media_type": "VIDEO",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-048_f1.jpg",
+        "CD-048_f2.jpg",
+        "CD-048_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-048_f1.jpg": "5b5d3269d6f8a45c774deaa69156fd5167c1df2ff7f36d599aeaec041de244dc",
+        "CD-048_f2.jpg": "3959953752d8a19ef0ba44f7862675bc91a0409d6177924867f62588634bd778",
+        "CD-048_f3.jpg": "80b00ab3728bf23c88eb228545b0820eb6e0f34f9f222498b01a788084e22884"
+      }
+    },
+    {
+      "coding_id": "CD-049",
+      "sha256": "8839621d169a3d3f78c7be5cf85b649b7555af18171c715ff544ea3c99541ede",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-049.jpg"
+      ],
+      "input_sha256": {
+        "CD-049.jpg": "8839621d169a3d3f78c7be5cf85b649b7555af18171c715ff544ea3c99541ede"
+      }
+    },
+    {
+      "coding_id": "CD-050",
+      "sha256": "fd80fabb0a20952f78127d4dccd0deedd1814b75f8198b58324ff7b41d069c55",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-050.jpg"
+      ],
+      "input_sha256": {
+        "CD-050.jpg": "fd80fabb0a20952f78127d4dccd0deedd1814b75f8198b58324ff7b41d069c55"
+      }
+    },
+    {
+      "coding_id": "CD-051",
+      "sha256": "9ead4a66d2c62dff5b9d7a44f6f503522526c4d8c76332c210256b59c3404580",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-051.jpg"
+      ],
+      "input_sha256": {
+        "CD-051.jpg": "9ead4a66d2c62dff5b9d7a44f6f503522526c4d8c76332c210256b59c3404580"
+      }
+    },
+    {
+      "coding_id": "CD-052",
+      "sha256": "db59be0959db0a3a8f436b7f8b9467ec89aa75339854d3ef51825f0f5c5590fc",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-052.jpg"
+      ],
+      "input_sha256": {
+        "CD-052.jpg": "db59be0959db0a3a8f436b7f8b9467ec89aa75339854d3ef51825f0f5c5590fc"
+      }
+    },
+    {
+      "coding_id": "CD-053",
+      "sha256": "a443cff7813d4e4e1d6c26acc7c2d899b3f127aedf1fb79aea502ea54fd39ac0",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 7,
+      "input_files": [
+        "CD-053.jpg"
+      ],
+      "input_sha256": {
+        "CD-053.jpg": "a443cff7813d4e4e1d6c26acc7c2d899b3f127aedf1fb79aea502ea54fd39ac0"
+      }
+    },
+    {
+      "coding_id": "CD-054",
+      "sha256": "c4bea881858218b17f2d9331a1af49df1e18d579a6eec3f14900d3d7039adef7",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-054_f1.jpg",
+        "CD-054_f2.jpg",
+        "CD-054_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-054_f1.jpg": "995b475d0748fe95b58bfb6bec12cc5097f7a617c29c475a130804a315420f35",
+        "CD-054_f2.jpg": "bea1c133bf3bf312b94067db8f44018f30309bfbbd0344d297705d07a5bc6b9a",
+        "CD-054_f3.jpg": "710d1326aaf959cd11457a09c8ccd0df8c98010f3bb980468518f3c86eb031bd"
+      }
+    },
+    {
+      "coding_id": "CD-055",
+      "sha256": "3c66b93a0152b4eff33ef7ad5df4b48fdbf8ebf2107036a375a05d6a26b44d2a",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-055.jpg"
+      ],
+      "input_sha256": {
+        "CD-055.jpg": "3c66b93a0152b4eff33ef7ad5df4b48fdbf8ebf2107036a375a05d6a26b44d2a"
+      }
+    },
+    {
+      "coding_id": "CD-056",
+      "sha256": "1b8f2b934300b82b62229bd2d97bd9362791f7a8f83aaafbcd45b43b625df9c5",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-056.jpg"
+      ],
+      "input_sha256": {
+        "CD-056.jpg": "1b8f2b934300b82b62229bd2d97bd9362791f7a8f83aaafbcd45b43b625df9c5"
+      }
+    },
+    {
+      "coding_id": "CD-057",
+      "sha256": "2945ad84815597965a823aa6339ecc216ff5bd7e18abc78349bcebc00a73bd7e",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-057.png"
+      ],
+      "input_sha256": {
+        "CD-057.png": "2945ad84815597965a823aa6339ecc216ff5bd7e18abc78349bcebc00a73bd7e"
+      }
+    },
+    {
+      "coding_id": "CD-058",
+      "sha256": "39ebb9d0dd6940afd05279029a8639ae1754bae3b50517c96c7df5e669020b81",
+      "firm": "Winamax",
+      "media_type": "VIDEO",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-058_f1.jpg",
+        "CD-058_f2.jpg",
+        "CD-058_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-058_f1.jpg": "94163e33fd0bfa677a1768694ab25c6b618ed7ee38fde3f468a2d439ff1eb638",
+        "CD-058_f2.jpg": "c5c10d075ebe41d0b070183d2e859f77bb8e8475383455f19417eb9648fc9e31",
+        "CD-058_f3.jpg": "46b0f6dd3243c6caf315b9e8a387a444b2a3bfbd442c30634bceb670c0ba5bba"
+      }
+    },
+    {
+      "coding_id": "CD-059",
+      "sha256": "41f6e2d2bd0f1ab3945d62e8948063a2050364f54b2812d556554c28f58ab481",
+      "firm": "Kindred London Ltd",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-059.jpg"
+      ],
+      "input_sha256": {
+        "CD-059.jpg": "41f6e2d2bd0f1ab3945d62e8948063a2050364f54b2812d556554c28f58ab481"
+      }
+    },
+    {
+      "coding_id": "CD-060",
+      "sha256": "8a9279b206a0edf0dd46acae8d172b08c1e676794cba6e07b49b58348e435e3a",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-060.jpg"
+      ],
+      "input_sha256": {
+        "CD-060.jpg": "8a9279b206a0edf0dd46acae8d172b08c1e676794cba6e07b49b58348e435e3a"
+      }
+    },
+    {
+      "coding_id": "CD-061",
+      "sha256": "374d71865b4d943cd9ec57fcea9be82ad64300cebea0ab4faff1f0e1a3ce62f7",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-061.jpg"
+      ],
+      "input_sha256": {
+        "CD-061.jpg": "374d71865b4d943cd9ec57fcea9be82ad64300cebea0ab4faff1f0e1a3ce62f7"
+      }
+    },
+    {
+      "coding_id": "CD-062",
+      "sha256": "62ec4555bf4c42424b77462452f2b3bf5476f7d3ae243bc7cc01030d46b14265",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-062.jpg"
+      ],
+      "input_sha256": {
+        "CD-062.jpg": "62ec4555bf4c42424b77462452f2b3bf5476f7d3ae243bc7cc01030d46b14265"
+      }
+    },
+    {
+      "coding_id": "CD-063",
+      "sha256": "6f04dfcb21c8b3b408ec7ab6c10f940de05428406413fb85ccfe589e4980e762",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-063.jpg"
+      ],
+      "input_sha256": {
+        "CD-063.jpg": "6f04dfcb21c8b3b408ec7ab6c10f940de05428406413fb85ccfe589e4980e762"
+      }
+    },
+    {
+      "coding_id": "CD-064",
+      "sha256": "c5b72b7fbe7d50ff2a16ae390120f7f2263411155f312996315e1a43d96ad568",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-064_f1.jpg",
+        "CD-064_f2.jpg",
+        "CD-064_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-064_f1.jpg": "f6652f46d02f939bcb12c3698ee984976711ed49eb827afae632fbc934bcfc72",
+        "CD-064_f2.jpg": "4fc01311cc4ab7722a2c31b11526a6aab63256ce0d8d0f487dbad237826245f6",
+        "CD-064_f3.jpg": "56908363620815dd40b717c29404e3514db6693eabef109c80d7a490def6f276"
+      }
+    },
+    {
+      "coding_id": "CD-065",
+      "sha256": "1d6f5b2d22f75d545340a08485e91ad147c628d9d499f14040cafc5e15629fad",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-065.jpg"
+      ],
+      "input_sha256": {
+        "CD-065.jpg": "1d6f5b2d22f75d545340a08485e91ad147c628d9d499f14040cafc5e15629fad"
+      }
+    },
+    {
+      "coding_id": "CD-066",
+      "sha256": "0a660478e903ce2b30f774868411ba0a1729bfb2d191fca0e6635832059ccd4f",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-066_f1.jpg",
+        "CD-066_f2.jpg",
+        "CD-066_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-066_f1.jpg": "15c90be733839563a4702a1b9f96c034c22255919e44c984cf193c892be55ad3",
+        "CD-066_f2.jpg": "3c8b242561afa5f3cd112f48762fe1689c5e7188e252f78740236737b3d0f2b4",
+        "CD-066_f3.jpg": "b81e3447575a5db08c6b87083ac1ec03951a29de0481027d8028cb1a8045c31b"
+      }
+    },
+    {
+      "coding_id": "CD-067",
+      "sha256": "accbfdceb41659256e891b0969ed8c218c0ac8e843625a6ed507ad6300f7df90",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-067_f1.jpg",
+        "CD-067_f2.jpg",
+        "CD-067_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-067_f1.jpg": "b887fd115d5606d9b68c87f1d31a23652e3fcc8d76fb2284c2cbc185fb839cc3",
+        "CD-067_f2.jpg": "bd3a2336fe24161f1a2f4351e5b4f7963b6a845175b4f2e34f33ba55816a4124",
+        "CD-067_f3.jpg": "87ff55323cdf8ef2f9222b86e77d66d7430688449bb1ed3989f178d1cb6f2d50"
+      }
+    },
+    {
+      "coding_id": "CD-068",
+      "sha256": "c57f0dbc89113ee1da73a4201d672ce658db0ec222caaed137e6986ae0d3654c",
+      "firm": "bet365",
+      "media_type": "VIDEO",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-068_f1.jpg",
+        "CD-068_f2.jpg",
+        "CD-068_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-068_f1.jpg": "420f2da83683691208b9228cb55ba88b1d91b88b7b2fef44392097f51b2d0822",
+        "CD-068_f2.jpg": "20206ccc673e16ccede8ed7b0abd3c01cd446fcb8bc7ee0529247ea7e21b77fe",
+        "CD-068_f3.jpg": "65a607d987c3809864b3f42d725910b549ca372653c91e6b1350a65d93d78221"
+      }
+    },
+    {
+      "coding_id": "CD-069",
+      "sha256": "924d283f1921e07490ced85ce64d0b1aaea48ccb671a1b53cfd4a228af7cd924",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-069.jpg"
+      ],
+      "input_sha256": {
+        "CD-069.jpg": "924d283f1921e07490ced85ce64d0b1aaea48ccb671a1b53cfd4a228af7cd924"
+      }
+    },
+    {
+      "coding_id": "CD-070",
+      "sha256": "2a46a79c3eae9085e12d55c7e295d5e545c8d0e1f40a86271cb08863ed61399b",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-070.jpg"
+      ],
+      "input_sha256": {
+        "CD-070.jpg": "2a46a79c3eae9085e12d55c7e295d5e545c8d0e1f40a86271cb08863ed61399b"
+      }
+    },
+    {
+      "coding_id": "CD-071",
+      "sha256": "9550b386d3cc055690f8f85767d727149aeafeb1f4ffeb60e0296aafc0a534df",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 18,
+      "input_files": [
+        "CD-071.jpg"
+      ],
+      "input_sha256": {
+        "CD-071.jpg": "9550b386d3cc055690f8f85767d727149aeafeb1f4ffeb60e0296aafc0a534df"
+      }
+    },
+    {
+      "coding_id": "CD-072",
+      "sha256": "9898995f3158ec973dc15e3436a61b882f52e7cf73d6f53ffa9e6ef191832255",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-072.jpg"
+      ],
+      "input_sha256": {
+        "CD-072.jpg": "9898995f3158ec973dc15e3436a61b882f52e7cf73d6f53ffa9e6ef191832255"
+      }
+    },
+    {
+      "coding_id": "CD-073",
+      "sha256": "468501c1234cc0a35ed3bffa68ce605932a07cdf74662b0fd2570d639370c87d",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-073_f1.jpg",
+        "CD-073_f2.jpg",
+        "CD-073_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-073_f1.jpg": "f975d1c1b310d6bdca817a0babb083bbf9a8f54fd51410a8d88f7e05b57f9470",
+        "CD-073_f2.jpg": "85ffe53f8e3820098059d5aa7420a6984eba7e7766b8af8ade6618a68f54d3a5",
+        "CD-073_f3.jpg": "a036f8b69c8d2ee828f3f6916993a3f3d17861da302e332a8b2cfcaefbd15229"
+      }
+    },
+    {
+      "coding_id": "CD-074",
+      "sha256": "cf1ec42c65161b5f53947ed8eac25c6293be9e8e4f7d1e54dd48d615084cb3be",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-074.jpg"
+      ],
+      "input_sha256": {
+        "CD-074.jpg": "cf1ec42c65161b5f53947ed8eac25c6293be9e8e4f7d1e54dd48d615084cb3be"
+      }
+    },
+    {
+      "coding_id": "CD-075",
+      "sha256": "20d5da3dea66265fb572fb45ff0ed5b1b6789b0a0e9e77a9076d5a87f7d1146e",
+      "firm": "Betsson France SA",
+      "media_type": "VIDEO",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-075_f1.jpg",
+        "CD-075_f2.jpg",
+        "CD-075_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-075_f1.jpg": "109bc93a4c9c695767ec17556403df6092624d56e482ed3fdd5ab94ca49b85e7",
+        "CD-075_f2.jpg": "9f808d7dff53a800e72a56073a267601d236fb0c71f8d6f4ed2345d6ed68f69f",
+        "CD-075_f3.jpg": "e8c842bdd8fa22ef9d96e4d70e1846203f1a6affcc93c03f8ee15ab8bac68f89"
+      }
+    },
+    {
+      "coding_id": "CD-076",
+      "sha256": "add3a5cd3f225a9f1b78805573e8083ace5714dd684cce0d7b90d006ef8b1ad5",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-076.jpg"
+      ],
+      "input_sha256": {
+        "CD-076.jpg": "add3a5cd3f225a9f1b78805573e8083ace5714dd684cce0d7b90d006ef8b1ad5"
+      }
+    },
+    {
+      "coding_id": "CD-077",
+      "sha256": "6dbc6d76d7442ef6662bd746ac004b45e63e4a5a6a8182bc41cc000e6822a07b",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-077.jpg"
+      ],
+      "input_sha256": {
+        "CD-077.jpg": "6dbc6d76d7442ef6662bd746ac004b45e63e4a5a6a8182bc41cc000e6822a07b"
+      }
+    },
+    {
+      "coding_id": "CD-078",
+      "sha256": "baeeb3860a1e010df28fea0ae5ade631f06ee3d6a294501f046b00a4fd0989fe",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-078.jpg"
+      ],
+      "input_sha256": {
+        "CD-078.jpg": "baeeb3860a1e010df28fea0ae5ade631f06ee3d6a294501f046b00a4fd0989fe"
+      }
+    },
+    {
+      "coding_id": "CD-079",
+      "sha256": "6967ae23e11e412660889b88b1f03e2908a643cda9446be2268125e047a670c4",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-079_f1.jpg",
+        "CD-079_f2.jpg",
+        "CD-079_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-079_f1.jpg": "0a7f2876940da3c3ec0f992c5f10d64749c1aeddf4bca1d8cc81d341860c81d7",
+        "CD-079_f2.jpg": "f726f4fb460fdf169e4f8d64584aae989b31bd570774b4adee76a2a1f30387ec",
+        "CD-079_f3.jpg": "8ee8037d0dc4686e246276415c1dc9d9d9ed4424a793a5c308cb708def68fdd8"
+      }
+    },
+    {
+      "coding_id": "CD-080",
+      "sha256": "6f733b129fbb180be4210f1f511d652879fc234cd3bf8f92c24764a5305f4d7a",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-080.jpg"
+      ],
+      "input_sha256": {
+        "CD-080.jpg": "6f733b129fbb180be4210f1f511d652879fc234cd3bf8f92c24764a5305f4d7a"
+      }
+    },
+    {
+      "coding_id": "CD-081",
+      "sha256": "5334a77bcd157883044cc09b7c03534b5f90acce807f3bc4a0b39e60f592915f",
+      "firm": "Winamax",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-081.jpg"
+      ],
+      "input_sha256": {
+        "CD-081.jpg": "5334a77bcd157883044cc09b7c03534b5f90acce807f3bc4a0b39e60f592915f"
+      }
+    },
+    {
+      "coding_id": "CD-082",
+      "sha256": "66d4562d990bb503890ac4564591557710068afab93f2ee82bed9d495c9ea7d1",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-082.jpg"
+      ],
+      "input_sha256": {
+        "CD-082.jpg": "66d4562d990bb503890ac4564591557710068afab93f2ee82bed9d495c9ea7d1"
+      }
+    },
+    {
+      "coding_id": "CD-083",
+      "sha256": "2eef109221fb9aa289f3562b928ff73291a6fbc4ee61fcdeda02d8e907e23d0e",
+      "firm": "Kindred London Ltd",
+      "media_type": "IMAGE",
+      "ads_using_creative": 14,
+      "input_files": [
+        "CD-083.jpg"
+      ],
+      "input_sha256": {
+        "CD-083.jpg": "2eef109221fb9aa289f3562b928ff73291a6fbc4ee61fcdeda02d8e907e23d0e"
+      }
+    },
+    {
+      "coding_id": "CD-084",
+      "sha256": "03de7c6cb6a6614f39959f2abf794334a5fe449ad9675882a2c2005149626307",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-084.jpg"
+      ],
+      "input_sha256": {
+        "CD-084.jpg": "03de7c6cb6a6614f39959f2abf794334a5fe449ad9675882a2c2005149626307"
+      }
+    },
+    {
+      "coding_id": "CD-085",
+      "sha256": "b9af44a1ffb58203c0e042655825f9e44dd2853ea3a43f1c0335489ca3e999c4",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-085.jpg"
+      ],
+      "input_sha256": {
+        "CD-085.jpg": "b9af44a1ffb58203c0e042655825f9e44dd2853ea3a43f1c0335489ca3e999c4"
+      }
+    },
+    {
+      "coding_id": "CD-086",
+      "sha256": "be731f8a8f6422a61edc10164c7a5c528b3c9f9ed4cc94ea800d42f22b9d1cef",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 8,
+      "input_files": [
+        "CD-086.jpg"
+      ],
+      "input_sha256": {
+        "CD-086.jpg": "be731f8a8f6422a61edc10164c7a5c528b3c9f9ed4cc94ea800d42f22b9d1cef"
+      }
+    },
+    {
+      "coding_id": "CD-087",
+      "sha256": "fa9eebde62cd471a78bbed689bc16bee8db52bb4cb188281873cafccf106bfc6",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-087.jpg"
+      ],
+      "input_sha256": {
+        "CD-087.jpg": "fa9eebde62cd471a78bbed689bc16bee8db52bb4cb188281873cafccf106bfc6"
+      }
+    },
+    {
+      "coding_id": "CD-088",
+      "sha256": "189c5c3e86d133abf1fc4b133d4fe3aac6b74006fc20d4ac28735d6567831f84",
+      "firm": "PMU",
+      "media_type": "VIDEO",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-088_f1.jpg",
+        "CD-088_f2.jpg",
+        "CD-088_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-088_f1.jpg": "0287cb321435f6ff0f8af23336e74103cf095e3dbf9c9776ba8717fe4b406a2a",
+        "CD-088_f2.jpg": "0bf5e77805a64a3dfb7ffec5eb5055ecacafdebce279dc3bb4ad59b21af8e80f",
+        "CD-088_f3.jpg": "cec433f79d9757acc2384e268fd3f5046c89af16270e5d250ff85364f2f5fc90"
+      }
+    },
+    {
+      "coding_id": "CD-089",
+      "sha256": "edaccbf3b8342fdc3c9f942c3fd424f599984eef78423a6e152ea0be72a35182",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-089.jpg"
+      ],
+      "input_sha256": {
+        "CD-089.jpg": "edaccbf3b8342fdc3c9f942c3fd424f599984eef78423a6e152ea0be72a35182"
+      }
+    },
+    {
+      "coding_id": "CD-090",
+      "sha256": "2e2c76ddc327afe361437cabed8565fd9f38861b8737f1002db3559406e7d481",
+      "firm": "Kindred London Ltd",
+      "media_type": "VIDEO",
+      "ads_using_creative": 3,
+      "input_files": [
+        "CD-090_f1.jpg",
+        "CD-090_f2.jpg",
+        "CD-090_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-090_f1.jpg": "47cbf5650446db9d95521364e526586849d5d7fa82a88d94aa610c8cc9ead705",
+        "CD-090_f2.jpg": "ccc962d06a27409d0ff3ee779284e95c7427d2ebf939c1e66a14091d764201d4",
+        "CD-090_f3.jpg": "d296dbca3762830cb0aa1de11ae9e7447011bd4ea97969ce8435887124ad0580"
+      }
+    },
+    {
+      "coding_id": "CD-091",
+      "sha256": "c6b51ecb09490111daabd91825ae6d93e197ac1286c24ffb1ec86bb13ef42bf5",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 5,
+      "input_files": [
+        "CD-091.jpg"
+      ],
+      "input_sha256": {
+        "CD-091.jpg": "c6b51ecb09490111daabd91825ae6d93e197ac1286c24ffb1ec86bb13ef42bf5"
+      }
+    },
+    {
+      "coding_id": "CD-092",
+      "sha256": "62fcb495a6f27be1d28ccc53b4ede0d60971d8e724b40d086595c6b8ac73bcb4",
+      "firm": "PMU",
+      "media_type": "VIDEO",
+      "ads_using_creative": 10,
+      "input_files": [
+        "CD-092_f1.jpg",
+        "CD-092_f2.jpg",
+        "CD-092_f3.jpg"
+      ],
+      "input_sha256": {
+        "CD-092_f1.jpg": "8d4d3f49e68b3a5b6cde6ac5fcbf5c20e5fd7cb7448fea8f951784249f0ba011",
+        "CD-092_f2.jpg": "add6134baaa1567da263a5e8818260004d9d75fc456bdf23a48efa48bd3afed3",
+        "CD-092_f3.jpg": "f097f1761eb48d3eb85eaea564dd49b73c73ee753662d7661c13d6a7c556baea"
+      }
+    },
+    {
+      "coding_id": "CD-093",
+      "sha256": "b8477ce1ddb100b70dfca132215b7691b6fddf1f1ee55e6bbb09830f5096cca3",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-093.jpg"
+      ],
+      "input_sha256": {
+        "CD-093.jpg": "b8477ce1ddb100b70dfca132215b7691b6fddf1f1ee55e6bbb09830f5096cca3"
+      }
+    },
+    {
+      "coding_id": "CD-094",
+      "sha256": "b5727fb9ad98678fd1ef7b5ea14a7a9341394ff30be1848145d2c2be1f9c4abb",
+      "firm": "Kindred London Ltd",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-094.jpg"
+      ],
+      "input_sha256": {
+        "CD-094.jpg": "b5727fb9ad98678fd1ef7b5ea14a7a9341394ff30be1848145d2c2be1f9c4abb"
+      }
+    },
+    {
+      "coding_id": "CD-095",
+      "sha256": "8120357da1ca2c4ca26dbd63aadd9cd2e99f2a91d84abf221cb6199167a361a7",
+      "firm": "Betsson France SA",
+      "media_type": "IMAGE",
+      "ads_using_creative": 6,
+      "input_files": [
+        "CD-095.jpg"
+      ],
+      "input_sha256": {
+        "CD-095.jpg": "8120357da1ca2c4ca26dbd63aadd9cd2e99f2a91d84abf221cb6199167a361a7"
+      }
+    },
+    {
+      "coding_id": "CD-096",
+      "sha256": "f843897bac96e985f8d9a166634bfe829eff8bebc3ae4a3d9a2b1ca9aff138b3",
+      "firm": "PMU",
+      "media_type": "IMAGE",
+      "ads_using_creative": 4,
+      "input_files": [
+        "CD-096.jpg"
+      ],
+      "input_sha256": {
+        "CD-096.jpg": "f843897bac96e985f8d9a166634bfe829eff8bebc3ae4a3d9a2b1ca9aff138b3"
+      }
+    },
+    {
+      "coding_id": "CD-097",
+      "sha256": "4fbadf5bc7ad73e52cab5c32008707be29b2a0d986c4ba51e00006fc0e556e6d",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 2,
+      "input_files": [
+        "CD-097.jpg"
+      ],
+      "input_sha256": {
+        "CD-097.jpg": "4fbadf5bc7ad73e52cab5c32008707be29b2a0d986c4ba51e00006fc0e556e6d"
+      }
+    },
+    {
+      "coding_id": "CD-098",
+      "sha256": "c63b117736083f47dbe66963285c9dbbc4f6cc5ef32c68609ef29bbdc5d80dda",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-098.jpg"
+      ],
+      "input_sha256": {
+        "CD-098.jpg": "c63b117736083f47dbe66963285c9dbbc4f6cc5ef32c68609ef29bbdc5d80dda"
+      }
+    },
+    {
+      "coding_id": "CD-099",
+      "sha256": "37520d3630d01277990e7d985d81fdb85590e73c16c6a1dc23f0916dce4ae330",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-099.jpg"
+      ],
+      "input_sha256": {
+        "CD-099.jpg": "37520d3630d01277990e7d985d81fdb85590e73c16c6a1dc23f0916dce4ae330"
+      }
+    },
+    {
+      "coding_id": "CD-100",
+      "sha256": "62a6bad95f149a78287019b31dbc1475a1a62c2f8be1b476c56b398382fad9aa",
+      "firm": "bet365",
+      "media_type": "IMAGE",
+      "ads_using_creative": 1,
+      "input_files": [
+        "CD-100.jpg"
+      ],
+      "input_sha256": {
+        "CD-100.jpg": "62a6bad95f149a78287019b31dbc1475a1a62c2f8be1b476c56b398382fad9aa"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+measure,value
+ads,1000
+category: alcohol,250
+category: betting,250
+category: control,500
+country: de,200
+country: fr,600
+country: nl,200
+records with media (collector),709
+unique media files (collector),494
+media requests answered HTTP 403,23
+records with media after Story backfill,896

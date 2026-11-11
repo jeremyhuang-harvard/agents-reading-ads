@@ -1,0 +1,447 @@
+{
+  "source": "Microsoft/Bing EU Ad Library API",
+  "endpoint": "https://adlibrary.api.bingads.microsoft.com/api/v1/Ads",
+  "request_url": "https://adlibrary.api.bingads.microsoft.com/api/v1/Ads?%24top=5&%24skip=0",
+  "captured_at_utc": "2026-10-08T19:50:20.951683+00:00",
+  "http_status": 200,
+  "content_type": "application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8",
+  "raw_sha256": "36bf153250291427201f38421f24bcb51e751bfe3a9f2402c9766ebf31089658",
+  "raw_path": "data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/raw/36bf153250291427201f38421f24bcb51e751bfe3a9f2402c9766ebf31089658.json",
+  "reported_count": 1000,
+  "ad_count": 5,
+  "ads": [
+    {
+      "ad_id": "71056221548107",
+      "advertiser_id": "4295000301",
+      "advertiser_name": "Karavel Comptabilité Fournisseurs",
+      "title": "La Grèce À Petit Prix",
+      "description": "Découvrez les îles grecques avec nos offres tout compris. Vol + Hôtel inclus !",
+      "display_url": "www.promovacances.com",
+      "destination_url": "https://www.promovacances.com/vacances-sejour-hotel/voyage-grece/",
+      "asset_count": 12,
+      "assets": [
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.7696665621510_10MAFH6YRAGV62604U&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.7696665621514_1AYZKG7K9509QH1CZP&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.7696665621533_1H7SMHD2A5LPAIH1OT&pid=21.2"
+        },
+        {
+          "width": 152,
+          "height": 152,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1148989652268555_1FYCQ957TOPU8L1&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1065,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958524_10QTMSQG9J7M9N3&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1072,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958540_1LZLIL0MQNUOGJ7&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1071,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958572_1UNATQZ914L02ZB&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1072,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958604_1AFCD06H46FCTZI&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958636_19EXT5CU285FXDS&pid=21.2"
+        },
+        {
+          "width": 2010,
+          "height": 2000,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958652_1DAD47QCU3PNB89&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1072,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958668_1FTB6QFZI21CR8A&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958684_1EL8Y0AUL226BXM&pid=21.2"
+        }
+      ],
+      "representative_media": {
+        "width": 2048,
+        "height": 1072,
+        "asset_type": "Image",
+        "asset_url": "https://www.bing.com/th?id=OADD2.1150089243958540_1LZLIL0MQNUOGJ7&pid=21.2",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "byte_length": 1780488,
+        "sha256": "3629eb30e493119a4e6afc1df5ce1668a8b64ba7989c35140696fa775547b7cd",
+        "local_path": "data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/3629eb30e493119a4e6afc1df5ce1668a8b64ba7989c35140696fa775547b7cd.jpg"
+      }
+    },
+    {
+      "ad_id": "79989681308796",
+      "advertiser_id": "4295000295",
+      "advertiser_name": "SAS MEILLEURTAUX",
+      "title": "Comparateur Assurance de Prêt",
+      "description": "",
+      "display_url": "www.meilleurtaux.com",
+      "destination_url": "https://www.meilleurtaux.com/assurance-de-pret/index.html?IDAPPORTEUR=BING_ADE_LP_V2_ADE_MSAN_PROSPECTING",
+      "asset_count": 15,
+      "assets": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1277632601645376_1K8Q0MJDE2FJ2D9&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1283130159552165_1QR11ZR7JPJTWIX&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 902,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1284229671394422_1WYE16J0WPNN1T2&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 710,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1284229671397078_1WFAET5ZO0NRLKY&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1284229671397094_14ZWPA52N7GOPBK&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1285329183099927_1VHNDFIG1YX9IW0&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 774,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1285329183099943_1JMDGDO8E24K3N2&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 674,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1286428694766472_1MEFDAQDMEKPA1N&pid=21.2"
+        },
+        {
+          "width": 1116,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1287528206483049_1GC37DUFQZT6QRF&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 710,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1289727229689707_1YOJ81C8XMSQJI1&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1290826741474428_1603ZHS0ZOO4Q87&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 698,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1290826741474444_1K7NU61O19ALPDO&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 698,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1291926252956029_1Z1BP2D6B4TR2MK&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1291926252956045_1QBGN1ASY8W6JBX&pid=21.2"
+        },
+        {
+          "width": 1116,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1291926252956061_174G2XWERUJPDXY&pid=21.2"
+        }
+      ],
+      "representative_media": {
+        "width": 1200,
+        "height": 800,
+        "asset_type": "Image",
+        "asset_url": "https://www.bing.com/th?id=OADD2.1283130159552165_1QR11ZR7JPJTWIX&pid=21.2",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "byte_length": 473014,
+        "sha256": "ebf9835c4ad7aa98e2020e04dcd3950a5fe81b3ff3c1440772dd70d31d74c129",
+        "local_path": "data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/ebf9835c4ad7aa98e2020e04dcd3950a5fe81b3ff3c1440772dd70d31d74c129.jpg"
+      }
+    },
+    {
+      "ad_id": "71674697305347",
+      "advertiser_id": "4295000301",
+      "advertiser_name": "Karavel Comptabilité Fournisseurs",
+      "title": "Le Maroc All Inclusive",
+      "description": "Découvrez le Maroc avec nos offres tout compris. Vol + Hôtel inclus !",
+      "display_url": "www.promovacances.com",
+      "destination_url": "https://www.promovacances.com/vacances-sejour-hotel/voyage-maroc/",
+      "asset_count": 6,
+      "assets": [
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1143492168860870_110GZNJIWND09W0&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1365,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1146790708995529_1NQLNEW0XS7FT81&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1146790709261897_14R4BH9TDOZ4ZSB&pid=21.2"
+        },
+        {
+          "width": 152,
+          "height": 152,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1148989652268555_1FYCQ957TOPU8L1&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1365,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1150089243962684_1SLAATHMUP0R6VS&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1365,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1153387778724095_1CLWTVDEYK25G69&pid=21.2"
+        }
+      ],
+      "representative_media": {
+        "width": 2048,
+        "height": 1365,
+        "asset_type": "Image",
+        "asset_url": "https://www.bing.com/th?id=OADD2.1146790708995529_1NQLNEW0XS7FT81&pid=21.2",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "byte_length": 1872187,
+        "sha256": "2cdd8da4f15e74ccecc4162a26f4e5c4d826f3d5c2d24c63ee4f24085c98cebc",
+        "local_path": "data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/2cdd8da4f15e74ccecc4162a26f4e5c4d826f3d5c2d24c63ee4f24085c98cebc.jpg"
+      }
+    },
+    {
+      "ad_id": "80127133828226",
+      "advertiser_id": "4295000295",
+      "advertiser_name": "SAS MEILLEURTAUX",
+      "title": "Top 10 Banques en Ligne 2026",
+      "description": "Jusqu'à 280€ Offerts et une carte bancaire gratuite",
+      "display_url": "banque.meilleurtaux.com",
+      "destination_url": "https://banque.meilleurtaux.com/?IDAPPORTEUR=BING_MSAN_MB_EN_LIGNE&q=&matchtype=#at_medium=sl&at_campaign=BING_MSAN_MB_EN_LIGNE&at_platform=bing&at_creation=&at_variant=&at_network=search&at_term=&utm_cid=&utm_agid=&utm_kw=&utm_mt=",
+      "asset_count": 15,
+      "assets": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1278732171842897_1DK4FVS9XDELN6F&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1278732171842913_1SL98JXYXYTIX5M&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1279831683342930_1UYQ2356B42LZBT&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 698,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1282030706681284_1P1WLTXG3MXIGYJ&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 674,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1282030706681300_1KNZL3XYLXEORE7&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1282030706681332_1DKCYS2I4BSBZHR&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 1200,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1283130217934741_127ZACPMEP218E3&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 698,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1286428753409928_1AS9OE3W96913BK&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1286428753409944_14F32LY163EK7MV&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 698,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1287528264911497_1443G3VCZUBJV71&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 674,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1287528264911513_1OZH93C9SZ5XYUG&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 674,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1287528264911529_12XCYLNDWWH9G1D&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1289727288154315_1LE90XZFQQICB8E&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1290826799925356_1REQXFTVTNE3FC1&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 674,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1294125334413199_1EZ9APQP3G5L0KR&pid=21.2"
+        }
+      ],
+      "representative_media": {
+        "width": 1200,
+        "height": 698,
+        "asset_type": "Image",
+        "asset_url": "https://www.bing.com/th?id=OADD2.1282030706681284_1P1WLTXG3MXIGYJ&pid=21.2",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "byte_length": 530194,
+        "sha256": "e19f253da4b89927ccd658473106d380e9d9266488a09457f0d0a8effe629238",
+        "local_path": "data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/e19f253da4b89927ccd658473106d380e9d9266488a09457f0d0a8effe629238.jpg"
+      }
+    },
+    {
+      "ad_id": "71743416592197",
+      "advertiser_id": "4295000301",
+      "advertiser_name": "Karavel Comptabilité Fournisseurs",
+      "title": "Hôtels et Resorts 3* à 5*",
+      "description": "Envie de mer, soleil et liberté ? Cap sur la Tunisie avec Promovacances.",
+      "display_url": "www.promovacances.com",
+      "destination_url": "https://www.promovacances.com/vacances-sejour-hotel/voyage-tunisie/",
+      "asset_count": 5,
+      "assets": [
+        {
+          "width": 2048,
+          "height": 1367,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1141293150977044_1J8RX9DMNPD47JL&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 816,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1141293150977060_15G82SDU8PRX3IT&pid=21.2"
+        },
+        {
+          "width": 1200,
+          "height": 628,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1143492169127814_1WH95LVII7PI740&pid=21.2"
+        },
+        {
+          "width": 2048,
+          "height": 1365,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1147890220523210_1X1N0BJHKI804JB&pid=21.2"
+        },
+        {
+          "width": 152,
+          "height": 152,
+          "asset_type": "Image",
+          "asset_url": "https://www.bing.com/th?id=OADD2.1148989652268555_1FYCQ957TOPU8L1&pid=21.2"
+        }
+      ],
+      "representative_media": {
+        "width": 2048,
+        "height": 1367,
+        "asset_type": "Image",
+        "asset_url": "https://www.bing.com/th?id=OADD2.1141293150977044_1J8RX9DMNPD47JL&pid=21.2",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "byte_length": 5795491,
+        "sha256": "f25f0f570f744a4ba2ca527dfb80bd298334a4ce99e93009e6a1260906b35b34",
+        "local_path": "data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/f25f0f570f744a4ba2ca527dfb80bd298334a4ce99e93009e6a1260906b35b34.jpg"
+      }
+    }
+  ]
+}

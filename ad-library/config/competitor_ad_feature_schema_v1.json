@@ -1,0 +1,312 @@
+{
+  "spec_version": "competitor_ad_feature_schema_v1.1.0",
+  "unit": "Linked ad occurrences, unique creatives, frozen embedding specifications, pairwise comparisons, and brand-period positions",
+  "principles": [
+    "Keep literal extraction separate from interpretation.",
+    "Encode unknown separately from observable absence.",
+    "Retain evidence links or timestamps for every human/model-coded field.",
+    "Version schemas, embeddings, preprocessing, masking, prompts, models, and derivatives.",
+    "Preserve original and brand-masked visual and multimodal representations.",
+    "Bind every derived comparison to an information cutoff that prevents focal or future leakage."
+  ],
+  "unknown_vocabulary": [
+    "observed_present",
+    "observed_absent",
+    "unknown_not_observable",
+    "unknown_not_coded",
+    "not_applicable"
+  ],
+  "field_type_definitions": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "utc_datetime": {"type": "string", "format": "date-time"},
+    "date": {"type": "string", "format": "date"},
+    "unknown_aware_value": {
+      "oneOf": [
+        {"type": ["string", "number", "integer", "boolean", "array", "object"]},
+        {"type": "string", "enum_ref": "#/unknown_vocabulary"}
+      ]
+    },
+    "evidence_link": {
+      "type": "object",
+      "required": ["source_kind", "source_id", "locator"],
+      "properties": {
+        "source_kind": {"type": "string", "enum": ["raw_response", "creative_frame", "audio_segment", "ocr_span", "transcript_span", "annotation_note"]},
+        "source_id": {"type": "string", "minLength": 1},
+        "locator": {"type": "string", "minLength": 1},
+        "derivative_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "coder_provenance": {
+      "type": "object",
+      "required": ["coder_id", "codebook_revision", "coded_at_utc"],
+      "properties": {
+        "coder_id": {"type": "string", "minLength": 1},
+        "codebook_revision": {"type": "string", "minLength": 1},
+        "coded_at_utc": {"type": "string", "format": "date-time"},
+        "adjudication_status": {"type": "string", "enum": ["single_code", "double_code_pending", "adjudicated", "not_applicable"]}
+      },
+      "additionalProperties": false
+    },
+    "model_provenance": {
+      "type": "object",
+      "required": ["model_name", "model_revision", "prompt_or_pipeline_revision", "run_id", "created_at_utc"],
+      "properties": {
+        "model_name": {"type": "string", "minLength": 1},
+        "model_revision": {"type": "string", "minLength": 1},
+        "prompt_or_pipeline_revision": {"type": "string", "minLength": 1},
+        "run_id": {"type": "string", "minLength": 1},
+        "created_at_utc": {"type": "string", "format": "date-time"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "ledgers": {
+    "ad_records": {
+      "schema_revision": "ad_records_v1.1.0",
+      "key": ["ad_id"],
+      "required_fields": ["ad_id", "company_label", "query_advertiser", "creative_sha256", "source_run_id", "captured_at_utc", "schema_revision"],
+      "additional_properties": false,
+      "field_definitions": {
+        "ad_id": {"type": "string", "minLength": 1},
+        "company_label": {"type": "string", "minLength": 1},
+        "query_advertiser": {"type": "string", "minLength": 1},
+        "disclosed_payer": {"type": ["string", "null"]},
+        "creative_sha256": {"type_ref": "#/field_type_definitions/sha256", "type": "string"},
+        "campaign_start_utc": {"type": ["string", "null"], "format": "date-time"},
+        "collection_status": {"type": "string", "enum": ["active", "inactive", "unknown_not_observable", "unknown_not_coded"]},
+        "impressions": {"type": ["integer", "string"], "minimum": 0, "unknown_enum_ref": "#/unknown_vocabulary"},
+        "minimum_age": {"type": ["integer", "string"], "minimum": 0, "unknown_enum_ref": "#/unknown_vocabulary"},
+        "maximum_age": {"type": ["integer", "string"], "minimum": 0, "unknown_enum_ref": "#/unknown_vocabulary"},
+        "gender_targeting": {"type": "string", "minLength": 1},
+        "ad_type": {"type": "string", "minLength": 1},
+        "format": {"type": "string", "minLength": 1},
+        "source_run_id": {"type": "string", "minLength": 1},
+        "captured_at_utc": {"type": "string", "format": "date-time"},
+        "schema_revision": {"type": "string", "const": "ad_records_v1.1.0"}
+      }
+    },
+    "creative_features": {
+      "schema_revision": "creative_features_v1.1.0",
+      "key": ["creative_sha256", "schema_revision"],
+      "required_fields": ["creative_sha256", "schema_revision", "evidence_links", "coder_provenance", "model_provenance"],
+      "additional_properties": false,
+      "field_definitions": {
+        "creative_sha256": {"type_ref": "#/field_type_definitions/sha256", "type": "string"},
+        "schema_revision": {"type": "string", "const": "creative_features_v1.1.0"},
+        "evidence_links": {"type": "array", "items_ref": "#/field_type_definitions/evidence_link", "minItems": 1},
+        "coder_provenance": {"type": "array", "items_ref": "#/field_type_definitions/coder_provenance"},
+        "model_provenance": {"type": "array", "items_ref": "#/field_type_definitions/model_provenance"}
+      },
+      "feature_definition_defaults": {
+        "type_ref": "#/field_type_definitions/unknown_aware_value",
+        "evidence_required_when_coded": true,
+        "provenance_required_when_coded": true
+      },
+      "feature_definitions": {
+        "literal_content": {
+          "ocr_text": {"type": ["string", "array"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "spoken_text": {"type": ["string", "array"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "visible_brand": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "sport": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "league": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "club_or_team": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "named_event": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "celebrity_or_athlete": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "product_or_wager_type": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "call_to_action": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "offer_amount": {"type": ["number", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "offer_mechanism": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "material_terms": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "age_restriction": {"type": ["string", "integer"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "responsible_gambling_message": {"type": "string", "unknown_enum_ref": "#/unknown_vocabulary"}
+        },
+        "strategic_claims": {
+          "welcome_or_acquisition_offer": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "price_or_odds_advantage": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "expertise_or_information_claim": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "simplicity_or_convenience_claim": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "control_or_risk_minimization_claim": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "category_leadership_claim": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "explicit_comparative_claim": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "live_betting_orientation": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "urgency_or_scarcity": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "betting_actionability": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"}
+        },
+        "memory_and_identity_cues": {
+          "football_fandom": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "horse_racing_identity": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "national_or_local_identity": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "friendship_or_social_viewing": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "social_normalization": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "aspirational_identity": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "humor": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "excitement_or_arousal": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "suspense": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "triumph_or_status": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "positive_affect": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"}
+        },
+        "execution": {
+          "dominant_colors": {"type": ["array", "string"], "unknown_enum_ref": "#/unknown_vocabulary"},
+          "visual_density": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "typographic_prominence": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "brand_code_prominence": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "human_face_present": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "crowd_or_stadium_present": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "product_ui_present": {"type": "string", "enum_ref": "#/unknown_vocabulary"},
+          "motion_intensity": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "music_energy": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "responsible_gambling_prominence": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "terms_prominence": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+          "age_restriction_prominence": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"}
+        }
+      }
+    },
+    "embeddings": {
+      "schema_revision": "embeddings_v1.1.0",
+      "key": ["creative_sha256", "embedding_spec_id"],
+      "required_fields": ["creative_sha256", "embedding_spec_id", "representation", "model_name", "model_revision", "preprocessing_revision", "masking_revision", "derivative_sha256", "vector_dimension", "vector_uri", "created_at_utc", "model_provenance", "schema_revision"],
+      "additional_properties": false,
+      "embedding_spec_id_rule": "SHA-256 of canonical JSON containing every embedding_spec_identity_field",
+      "embedding_spec_identity_fields": [
+        "representation",
+        "model_name",
+        "model_revision",
+        "preprocessing_revision",
+        "masking_revision",
+        "derivative_sha256"
+      ],
+      "representations": [
+        "original_visual",
+        "brand_masked_visual",
+        "original_multimodal",
+        "brand_masked_multimodal",
+        "ocr_copy",
+        "spoken_copy",
+        "structured_features"
+      ],
+      "field_definitions": {
+        "creative_sha256": {"type_ref": "#/field_type_definitions/sha256", "type": "string"},
+        "embedding_spec_id": {"type_ref": "#/field_type_definitions/sha256", "type": "string"},
+        "representation": {"type": "string", "enum_ref": "#/ledgers/embeddings/representations"},
+        "model_name": {"type": "string", "minLength": 1},
+        "model_revision": {"type": "string", "minLength": 1},
+        "preprocessing_revision": {"type": "string", "minLength": 1},
+        "masking_revision": {"type": "string", "minLength": 1},
+        "derivative_sha256": {"type_ref": "#/field_type_definitions/sha256", "type": "string"},
+        "vector_dimension": {"type": "integer", "minimum": 1},
+        "vector_uri": {"type": "string", "minLength": 1},
+        "created_at_utc": {"type": "string", "format": "date-time"},
+        "model_provenance": {"type_ref": "#/field_type_definitions/model_provenance", "type": "object"},
+        "schema_revision": {"type": "string", "const": "embeddings_v1.1.0"}
+      }
+    },
+    "pairwise_interactions": {
+      "schema_revision": "pairwise_interactions_v1.1.0",
+      "key": ["pair_scope", "focal_occurrence_id", "comparison_occurrence_id", "embedding_spec_id", "information_cutoff_utc"],
+      "required_fields": ["pair_scope", "focal_occurrence_id", "comparison_occurrence_id", "embedding_spec_id", "focal_ad_id", "comparison_ad_id", "focal_period_id", "comparison_period_id", "focal_company_label", "comparison_company_label", "information_cutoff_utc", "reference_window_start_utc", "reference_window_end_utc", "leave_one_out", "schema_revision"],
+      "additional_properties": false,
+      "occurrence_id_rule": "For pair_scope=ad, occurrence IDs equal focal/comparison ad IDs; for pair_scope=brand_period, they equal focal/comparison period IDs.",
+      "fields": [
+        "focal_ad_id",
+        "comparison_ad_id",
+        "focal_period_id",
+        "comparison_period_id",
+        "focal_company_label",
+        "comparison_company_label",
+        "same_company",
+        "focal_start_utc",
+        "comparison_start_utc",
+        "lag_days",
+        "information_cutoff_utc",
+        "reference_window_start_utc",
+        "reference_window_end_utc",
+        "leave_one_out",
+        "cosine_similarity",
+        "structured_feature_similarity",
+        "shared_sport_or_event",
+        "shared_offer_mechanism",
+        "shared_identity_cues",
+        "nearest_own_brand_rank",
+        "nearest_rival_rank"
+      ],
+      "field_definitions": {
+        "pair_scope": {"type": "string", "enum": ["ad", "brand_period"]},
+        "focal_occurrence_id": {"type": "string", "minLength": 1},
+        "comparison_occurrence_id": {"type": "string", "minLength": 1},
+        "embedding_spec_id": {"type_ref": "#/field_type_definitions/sha256", "type": "string"},
+        "focal_ad_id": {"type": ["string", "null"]},
+        "comparison_ad_id": {"type": ["string", "null"]},
+        "focal_period_id": {"type": ["string", "null"]},
+        "comparison_period_id": {"type": ["string", "null"]},
+        "focal_company_label": {"type": "string", "minLength": 1},
+        "comparison_company_label": {"type": "string", "minLength": 1},
+        "same_company": {"type": "boolean"},
+        "focal_start_utc": {"type": "string", "format": "date-time"},
+        "comparison_start_utc": {"type": "string", "format": "date-time"},
+        "lag_days": {"type": "number"},
+        "information_cutoff_utc": {"type": "string", "format": "date-time"},
+        "reference_window_start_utc": {"type": "string", "format": "date-time"},
+        "reference_window_end_utc": {"type": "string", "format": "date-time"},
+        "leave_one_out": {"type": "boolean", "const": true},
+        "cosine_similarity": {"type": "number", "minimum": -1, "maximum": 1},
+        "structured_feature_similarity": {"type": "number", "minimum": 0, "maximum": 1},
+        "shared_sport_or_event": {"type": "array", "items": {"type": "string"}},
+        "shared_offer_mechanism": {"type": "array", "items": {"type": "string"}},
+        "shared_identity_cues": {"type": "array", "items": {"type": "string"}},
+        "nearest_own_brand_rank": {"type": ["integer", "null"], "minimum": 1},
+        "nearest_rival_rank": {"type": ["integer", "null"], "minimum": 1},
+        "schema_revision": {"type": "string", "const": "pairwise_interactions_v1.1.0"}
+      }
+    },
+    "brand_period_positions": {
+      "schema_revision": "brand_period_positions_v1.1.0",
+      "key": ["company_label", "period_start", "period_end", "information_cutoff_utc", "embedding_spec_id"],
+      "required_fields": ["company_label", "period_id", "period_start", "period_end", "information_cutoff_utc", "embedding_spec_id", "creative_count", "centroid_vector_uri", "leave_one_out", "schema_revision"],
+      "additional_properties": false,
+      "fields": [
+        "period_id",
+        "creative_count",
+        "centroid_vector_uri",
+        "distance_to_market_centroid",
+        "distance_to_each_rival_centroid",
+        "within_brand_dispersion",
+        "cluster_shares",
+        "cue_shares",
+        "disclosed_impression_share",
+        "leave_one_out"
+      ],
+      "field_definitions": {
+        "company_label": {"type": "string", "minLength": 1},
+        "period_id": {"type": "string", "minLength": 1},
+        "period_start": {"type": "string", "format": "date"},
+        "period_end": {"type": "string", "format": "date"},
+        "information_cutoff_utc": {"type": "string", "format": "date-time"},
+        "embedding_spec_id": {"type_ref": "#/field_type_definitions/sha256", "type": "string"},
+        "creative_count": {"type": "integer", "minimum": 0},
+        "centroid_vector_uri": {"type": "string", "minLength": 1},
+        "distance_to_market_centroid": {"type": "number", "minimum": 0},
+        "distance_to_each_rival_centroid": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0}},
+        "within_brand_dispersion": {"type": "number", "minimum": 0},
+        "cluster_shares": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}},
+        "cue_shares": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}},
+        "disclosed_impression_share": {"type": ["number", "string"], "minimum": 0, "maximum": 1, "unknown_enum_ref": "#/unknown_vocabulary"},
+        "leave_one_out": {"type": "boolean"},
+        "schema_revision": {"type": "string", "const": "brand_period_positions_v1.1.0"}
+      }
+    }
+  },
+  "derived_interaction_measures": [
+    "within_brand_cohesion",
+    "between_brand_separation",
+    "brand_masked_predictability",
+    "nearest_rival_similarity",
+    "market_distinctiveness",
+    "cue_cluster_exclusivity",
+    "context_encroachment",
+    "lagged_convergence",
+    "lagged_contrast",
+    "offer_response",
+    "innovation_persistence"
+  ]
+}

@@ -1,0 +1,9 @@
+split,coder,n,tp,fp,fn,tn,precision,recall,accuracy,id_level_agreement_on_true_positives
+tuning,rule_v1_cooccurrence,33,18,10,0,5,0.643,1.0,0.697,17/18
+tuning,rule_v2_proximity,33,16,5,2,10,0.762,0.889,0.788,15/16
+tuning,qwen_v2,33,11,0,7,15,1.0,0.611,0.788,5/11
+tuning,rule_v2_and_qwen_v2,33,11,0,7,15,1.0,0.611,0.788,5/11
+heldout,rule_v1_cooccurrence,32,18,6,0,8,0.75,1.0,0.812,14/18
+heldout,rule_v2_proximity,32,17,2,1,12,0.895,0.944,0.906,13/17
+heldout,qwen_v2,32,13,0,5,14,1.0,0.722,0.844,7/13
+heldout,rule_v2_and_qwen_v2,32,13,0,5,14,1.0,0.722,0.844,7/13

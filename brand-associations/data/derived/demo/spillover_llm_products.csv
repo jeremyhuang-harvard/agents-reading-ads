@@ -1,0 +1,57 @@
+case_id,product,articles,of,epistemic_status
+taylor_nb550,new balance 550,2,10,model_predicted
+taylor_nb550,new balance 550s,1,10,model_predicted
+taylor_nb550,lebron james' nike sneakers,1,10,model_predicted
+taylor_nb550,nike sneakers,1,10,model_predicted
+taylor_nb550,new balance 550 shoes,1,10,model_predicted
+taylor_nb550,ocean spray,1,10,model_predicted
+taylor_nb550,kidsuper,1,10,model_predicted
+taylor_nb550,ksubi,1,10,model_predicted
+taylor_nb550,new balance sneakers,1,10,model_predicted
+taylor_nb550,new era cap,1,10,model_predicted
+taylor_nb550,dôen,1,10,model_predicted
+kanye_energy_boost,flash green,1,6,model_predicted
+kanye_energy_boost,vista grey,1,6,model_predicted
+kanye_energy_boost,core black,1,6,model_predicted
+kanye_energy_boost,haider ackermann bomber jacket,1,6,model_predicted
+kanye_energy_boost,apple watch,1,6,model_predicted
+kanye_energy_boost,balenciaga leather shirt,1,6,model_predicted
+kanye_energy_boost,saint laurent jeans,1,6,model_predicted
+meghan_outland,trench by martin grant,2,12,model_predicted
+meghan_outland,boots from jcrew,2,12,model_predicted
+meghan_outland,jewellery by natalie marie,2,12,model_predicted
+meghan_outland,white shirt by maison kitsune,2,12,model_predicted
+meghan_outland,reformation,1,12,model_predicted
+meghan_outland,rothy shoes,1,12,model_predicted
+meghan_outland,maggie marilyn dress,1,12,model_predicted
+meghan_outland,gabriela hearst demi satin tote,1,12,model_predicted
+meghan_outland,veja sneakers,1,12,model_predicted
+meghan_outland,rothy’s flats,1,12,model_predicted
+meghan_outland,love gun,1,12,model_predicted
+meghan_outland,ankle looker fray jeans,1,12,model_predicted
+meghan_outland,mother jeans,1,12,model_predicted
+meghan_outland,$1800 dress by brandon maxwell,1,12,model_predicted
+meghan_outland,au$2500 dress by brandon maxwell,1,12,model_predicted
+meghan_outland,au$1800 dress by karen gee,1,12,model_predicted
+meghan_outland,maison kitsuné shirt,1,12,model_predicted
+meghan_outland,scanlan theodore,1,12,model_predicted
+meghan_outland,natalie marie diamond sun stud earrings,1,12,model_predicted
+meghan_outland,camilla and marc,1,12,model_predicted
+meghan_outland,zimmermann,1,12,model_predicted
+meghan_outland,karen gee creation,1,12,model_predicted
+kanye_ultraboost,adidas ultra boost,1,1,model_predicted
+kanye_ultraboost,adidas ultra boost with black soles,1,1,model_predicted
+kanye_ultraboost,james carnes all white collective,1,1,model_predicted
+bieber_crocs,glow-in-the-dark clog,1,4,model_predicted
+bieber_crocs,post malone collaboration,1,4,model_predicted
+bieber_crocs,kiss collaboration,1,4,model_predicted
+bieber_crocs,jaden smith,1,4,model_predicted
+bieber_crocs,post malone,1,4,model_predicted
+bieber_crocs,carrots by anwar,1,4,model_predicted
+bieber_crocs,nike,1,4,model_predicted
+bieber_crocs,converse,1,4,model_predicted
+bieber_crocs,balenciaga,1,4,model_predicted
+bieber_crocs,birkenstock,1,4,model_predicted
+bieber_crocs,adidas,1,4,model_predicted
+bieber_crocs,a-cold-wall*,1,4,model_predicted
+bieber_crocs,new balance,1,4,model_predicted

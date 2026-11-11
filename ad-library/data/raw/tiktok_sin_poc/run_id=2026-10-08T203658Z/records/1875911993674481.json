@@ -1,0 +1,27 @@
+{
+  "ad_id": "1875911993674481",
+  "sin_category": "alcohol",
+  "source": "TikTok Commercial Content Library",
+  "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1875911993674481",
+  "captured_at_utc": "2026-10-08T20:40:13.579907+00:00",
+  "first_shown": "09/10/2026",
+  "last_shown": "10/07/2026",
+  "advertising_objective": "Video views",
+  "unique_users_seen": "600K-700K",
+  "advertiser_name": "PERNOD RICARD ESPAÑA SA",
+  "paid_for_by": "ENGAGE 2021 SL.",
+  "registered_location": "Spain",
+  "title": "No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.",
+  "description": "No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.",
+  "call_to_action": "-",
+  "destination_url": "-",
+  "ad_category": "Food & Beverage",
+  "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1875911993674481.txt",
+  "video_media": {
+    "source_url": "https://library.tiktok.com/api/v1/cdn/1791492003/video/aHR0cHM6Ly92NzcudGlrdG9rY2RuLmNvbS9iY2JhMjY1ZDA5YjNiMTMzM2UwMDEwNmE0NTI2YTUzOS82YWM4NTQwZC92aWRlby90b3MvdXNlYXN0MmEvdG9zLXVzZWFzdDJhLXZlLTAwNTEtZXV0dHAvb2NYR0xDV01WR1k4WVliZVFUbTNJZXFkZ3FQeVVJQVpIRGZiQUQv/62a5afc3-9f13-4f87-a925-e3c353f4b2e6?a=475769&bt=501&btag=e000b0000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThFsUnGXq8Zmo&l=2026100904400349940FDED2D25398A1F6&mime_type=video_mp4&rc=NGRoMzhkODxmZjM8OzM5M0BpM3lqanc5cnFrZDMzODYzNEAzNWJhM2FjNjAxLjZfYGJiYSNfNS1nMmQ0L2RhLS1kMDFzcw%3D%3D&signature=KesT3ftO494MT3wDLZKIjP9RYdq%2Bid7xQItPWCcFuB4%3D&vvpl=1",
+    "content_type": "video/mp4",
+    "byte_length": 642531,
+    "sha256": "e9f031521fa187e41eb617213ac5f756119710eac6349bd05eccf1b172b63d00",
+    "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1875911993674481_e9f031521fa187e41eb617213ac5f756119710eac6349bd05eccf1b172b63d00.mp4"
+  }
+}

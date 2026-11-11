@@ -1,0 +1,111 @@
+{
+  "source": "Snap Ads Gallery API",
+  "search_endpoint": "https://adsapi.snapchat.com/v1/ads_library/ads/search",
+  "detail_endpoint_template": "https://adsapi.snapchat.com/v1/ads_library/ads/{ad_id}",
+  "captured_at_utc": "2026-10-21T00:52:19.747976+00:00",
+  "target": 5000,
+  "ad_count": 3241,
+  "unique_media_count": 676,
+  "no_media_count": 1155,
+  "media_error_count": 0,
+  "detail_request_count": 0,
+  "max_bytes": 32212254720,
+  "stored_bytes": 339507908,
+  "budget_exhausted": false,
+  "per_file_max": 536870912,
+  "records_path": "records.jsonl",
+  "strata": [
+    {
+      "category": "sports_betting",
+      "advertiser": "Winamax",
+      "country": "fr",
+      "quota": 1000,
+      "selected": 1000,
+      "pages_fetched": 100,
+      "search_exhausted": false,
+      "truncation_reason": "quota"
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "PMU",
+      "country": "fr",
+      "quota": 1000,
+      "selected": 605,
+      "pages_fetched": 61,
+      "search_exhausted": true,
+      "truncation_reason": null
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "Kindred London Ltd",
+      "country": "fr",
+      "quota": 1000,
+      "selected": 466,
+      "pages_fetched": 47,
+      "search_exhausted": true,
+      "truncation_reason": null
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "Betsson France SA",
+      "country": "fr",
+      "quota": 1000,
+      "selected": 1000,
+      "pages_fetched": 100,
+      "search_exhausted": false,
+      "truncation_reason": "quota"
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "bet365",
+      "country": "fr",
+      "quota": 1000,
+      "selected": 170,
+      "pages_fetched": 17,
+      "search_exhausted": true,
+      "truncation_reason": null
+    }
+  ],
+  "roster": [
+    {
+      "category": "sports_betting",
+      "advertiser": "Winamax",
+      "country": "fr",
+      "quota": 1000,
+      "company_label": "Winamax",
+      "observed_payer": "Winamax "
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "PMU",
+      "country": "fr",
+      "quota": 1000,
+      "company_label": "PMU",
+      "observed_payer": "PMU"
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "Kindred London Ltd",
+      "country": "fr",
+      "quota": 1000,
+      "company_label": "Unibet / Kindred",
+      "observed_payer": "Kindred London Ltd"
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "Betsson France SA",
+      "country": "fr",
+      "quota": 1000,
+      "company_label": "Betsson",
+      "observed_payer": "Betsson France SA"
+    },
+    {
+      "category": "sports_betting",
+      "advertiser": "bet365",
+      "country": "fr",
+      "quota": 1000,
+      "company_label": "bet365",
+      "observed_payer": "bet365"
+    }
+  ]
+}

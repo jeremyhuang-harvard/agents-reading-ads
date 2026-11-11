@@ -1,0 +1,66 @@
+{
+ "agents_b1_behaviour": {
+  "feeds": 568,
+  "share_p_show_gt_0.1": 0.005,
+  "share_p_spend_gt_0.1": 0.065
+ },
+ "agents_b1_betting_risk": {
+  "cells": 56,
+  "max_cell_mean_risk": 4.9898,
+  "median_cell_mean_risk": 4.9391,
+  "min_cell_mean_risk": 4.4145
+ },
+ "agents_b2_integrity": {
+  "answers_valid_mass_below_0.8": 1,
+  "design_feeds": 888,
+  "duplicate_rows": 24,
+  "git_dirty": false,
+  "identical_duplicates": 24,
+  "manifest_n_feeds": 888,
+  "scored_answers": 7104
+ },
+ "assoc_profile_direction": {
+  "backward": 12,
+  "corr_direction_vs_log_pageview_ratio": -0.5499,
+  "flat": 21,
+  "forward": 40,
+  "lebron_news_share_nike": 0.1771,
+  "lebron_nike_llm_share": 0.5667,
+  "lebron_nike_sources_backward": 2,
+  "lebron_nike_sources_forward": 2,
+  "n_corr": 53,
+  "nike_news_share_lebron": 0.0974,
+  "pairs": 73,
+  "sweeney_novig_backward_ratio": 14.6454
+ },
+ "assoc_study_c": {
+  "brand_mentions": 73,
+  "first_named_vs_look_mean": 0.7207,
+  "looks": 20,
+  "others_vs_look_mean": -0.2637,
+  "slope_log_n_items_with_tier_controls": -0.7978,
+  "t": -2.2269,
+  "t_first_named": 2.7091,
+  "with_trends_data": 61,
+  "within_look_first_named": 0.955
+ },
+ "firms_panel": {
+  "ad_types": {
+   "APP_INSTALL": 1772,
+   "DEEP_LINK": 63,
+   "REMINDER": 8,
+   "REMOTE_WEBPAGE": 73,
+   "STORY": 1325
+  },
+  "coded_creatives": 951,
+  "creatives_with_event_cue": 676,
+  "creatives_with_sport_cue": 492,
+  "discovery_calls": 100,
+  "discovery_cost_equivalent_usd": 7.2,
+  "invalidated_first_run_records": 163,
+  "label_calls": 954,
+  "label_cost_equivalent_usd": 95.65,
+  "records_without_top_level_media": 1155,
+  "story_records_without_top_level_media": 1155
+ }
+}

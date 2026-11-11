@@ -1,0 +1,5 @@
+period,cue,target,share_of_related_weight,n_related,top_related
+pre,sydney_sweeney,novig,0.0,25,sydney sweeney euphoria (100) | euphoria (96) | sydney sweeney movie (41) | sydney sweeney movies (36) | scooter braun (27) | sydney sweeney euphoria season 3 (18) | housemaid (17) | sydney sweeney age (11)
+pre,novig,sydney_sweeney,0.0,11,novig promo (100) | what is novig (56) | novig betting (56) | kalshi (41) | novig sportsbook (40) | polymarket (29) | novig sports betting (26) | fanduel (13)
+post,sydney_sweeney,novig,0.1775,25,sydney sweeney ad (100) | sydney sweeney sports (75) | novig (19) | sydney sweeney novig (18) | novig ad (12) | sydney sweeney movie (7) | sydney sweeney movies (6) | sydney sweeney commercial (6)
+post,novig,sydney_sweeney,0.3665,25,novig sydney (100) | sweeney (99) | novig sydney sweeney (89) | novig ad (75) | sweeney novig ad (61) | novig sydney sweeney ad (61) | sydney sweeney ad (57) | novig sports (37)

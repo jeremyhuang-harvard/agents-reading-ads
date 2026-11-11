@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Implicit Ads — Demo findings and next steps</title>
+<style>
+  :root {
+    --ink: #14171f;
+    --muted: #5b6270;
+    --rule: #e3e5ea;
+    --paper: #fbfaf7;
+    --panel: #f2f1ec;
+    --focal: #b91c1c;
+    --sib: #1d4ed8;
+    --comp: #5f6673;
+    --warn: #92400e;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 var(--sans); }
+  .wrap { display: grid; grid-template-columns: 230px minmax(0, 760px); gap: 56px; max-width: 1100px; margin: 0 auto; padding: 48px 28px 96px; }
+  nav { position: sticky; top: 32px; align-self: start; font-size: 14px; }
+  nav p { font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: 11px; color: var(--muted); margin: 0 0 10px; }
+  nav a { display: block; color: var(--muted); text-decoration: none; padding: 5px 0 5px 10px; border-left: 2px solid var(--rule); }
+  nav a:hover, nav a:focus { color: var(--ink); border-left-color: var(--focal); outline: none; }
+  @media (max-width: 900px) { .wrap { grid-template-columns: 1fr; gap: 24px; } nav { position: static; } }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; text-wrap: balance; }
+  h1 { font-size: 40px; margin: 6px 0 8px; }
+  h2 { font-size: 28px; margin: 64px 0 12px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { text-wrap: pretty; }
+  .kicker { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--focal); }
+  .meta { color: var(--muted); font-size: 14px; }
+  .lede { font-family: var(--serif); font-size: 21px; line-height: 1.5; margin: 22px 0; }
+  .bottom-line { background: var(--ink); color: #fff; padding: 22px 26px; margin: 28px 0; }
+  .bottom-line h3 { color: #fff; margin: 0 0 8px; font-size: 18px; }
+  .bottom-line ol { margin: 0; padding-left: 20px; }
+  .bottom-line li { margin: 6px 0; }
+  .note { background: var(--panel); padding: 14px 18px; font-size: 15px; margin: 18px 0; }
+  .note strong:first-child { display: block; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  figure { margin: 22px 0 28px; }
+  figure img { cursor: zoom-in; }
+  .zoom { position: fixed; inset: 0; background: rgba(20,23,31,.92); display: none; align-items: center; justify-content: center; padding: 20px; z-index: 10; cursor: zoom-out; }
+  .zoom.on { display: flex; }
+  .zoom img { max-width: 100%; max-height: 100%; background: #fff; }
+  figure img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); background: #fff; }
+  figcaption { font-size: 14px; color: var(--muted); margin-top: 8px; }
+  figcaption::after { content: " (Click the figure to enlarge.)"; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 14px 0 22px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; vertical-align: 1px; }
+  .obs { background: #dcfce7; color: #14532d; }
+  .rep { background: #fef3c7; color: #78350f; }
+  .chain { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0; margin: 22px 0 6px; font-size: 13px; }
+  .chain div { padding: 12px 10px; border-top: 4px solid var(--ink); background: #fff; border-right: 1px solid var(--rule); }
+  .chain b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+  .chain .weak { border-top-color: #c9ccd3; color: var(--muted); }
+  @media (max-width: 700px) { .chain { grid-template-columns: repeat(2, 1fr); } }
+  .case-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
+  @media (max-width: 700px) { .case-facts { grid-template-columns: 1fr; } }
+  .case-facts dl { margin: 0; }
+  .case-facts dt { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-top: 12px; }
+  .case-facts dd { margin: 2px 0 0; }
+  .focal { color: var(--focal); font-weight: 700; }
+  .sib { color: var(--sib); font-weight: 700; }
+  .comp { color: var(--comp); font-weight: 700; }
+  .steps { counter-reset: s; list-style: none; padding: 0; }
+  .steps > li { counter-increment: s; position: relative; padding: 14px 0 14px 52px; border-bottom: 1px solid var(--rule); }
+  .steps > li::before { content: counter(s); position: absolute; left: 0; top: 14px; width: 34px; height: 34px; border-radius: 50%; background: var(--ink); color: #fff; font: 700 15px/34px var(--sans); text-align: center; }
+  .steps .why { color: var(--muted); font-size: 15px; display: block; margin-top: 4px; }
+  .steps .cost { font-size: 13px; color: var(--warn); font-weight: 600; }
+  .decision { border: 2px solid var(--ink); padding: 16px 20px; margin: 18px 0; }
+  .decision h3 { margin-top: 0; }
+  a { color: var(--sib); }
+  code { font-size: 14px; background: var(--panel); padding: 1px 5px; }
+  @media print { nav { display: none; } .wrap { display: block; } h2 { break-before: page; } figure { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Contents">
+  <p>Contents</p>
+  <a href="#bottom-line">Bottom line</a>
+  <a href="#chain">What we tried to observe</a>
+  <a href="#reading">How to read the evidence</a>
+  <a href="#kanye">Case: Kanye × Energy Boost</a>
+  <a href="#taylor">Case: Taylor × NB 550</a>
+  <a href="#meghan">Case: Meghan × Outland</a>
+  <a href="#benchmarks">Benchmarks</a>
+  <a href="#spillover">Spillover</a>
+  <a href="#nike">The “Taylor Swift Nike” bar</a>
+  <a href="#measurement">Can we trust the coding?</a>
+  <a href="#limits">What we cannot say</a>
+  <a href="#next">Next steps</a>
+  <a href="#appendix">Appendix: data and files</a>
+</nav>
+
+<main>
+<div class="kicker">Implicit Ads · Demo findings</div>
+<h1>When a celebrity wears a product, where does the attention go?</h1>
+<div class="meta">Five cases, collected from public sources on November 9, 2026 · repo <code>jeremyhuang-harvard/implicit-ads</code>, draft PR #1</div>
+
+<p class="lede">We built a cached pipeline that follows a celebrity appearance from the product worn, to who identified it and when, to search attention, to whether the product page ran out of stock, and compared the worn product with its same-brand siblings and with competitors.</p>
+
+<section id="bottom-line" class="bottom-line">
+  <h3>Bottom line</h3>
+  <ol>
+    <li><strong>The response landed on the exact item.</strong> In the cleanest case, Kanye’s all-white Energy Boost ESM went out of stock on adidas.com within a week, while four other colorways of the same shoe stayed in stock.</li>
+    <li><strong>Search spiked on the celebrity–brand pairing, not on the product category.</strong> “Taylor Swift New Balance” and “Justin Bieber Crocs” rose more than 11 standard deviations; generic searches for the model or brand barely moved.</li>
+    <li><strong>We found no detectable spillover to competitors</strong> in search or in news coverage. Same-brand spillover, where it appears, went to the closest sibling, and is confounded.</li>
+    <li><strong>This is consistent with the low-interference idea</strong> (a distinctive, exactly identified cue retrieves the focal product rather than the category), but five hand-picked events cannot establish it. Treat it as a hypothesis for the 30-appearance sample.</li>
+  </ol>
+</section>
+
+<h2 id="chain">What we tried to observe</h2>
+<p>Each case is traced through the same chain. Dark bars mark links where public data gave us something we retrieved ourselves; grey marks links that rest mainly on press or company claims.</p>
+<div class="chain" role="list">
+  <div role="listitem"><b>Relationship</b>Paid, gifted, or organic? From press and brand statements.</div>
+  <div role="listitem"><b>Appearance</b>Date, time, event, item worn.</div>
+  <div role="listitem"><b>Identification</b>Who named the exact product, and how fast.</div>
+  <div role="listitem"><b>Amplification</b>Articles, shopping links, affiliate tracking.</div>
+  <div role="listitem"><b>Attention</b>Google Trends, Wikipedia pageviews.</div>
+  <div role="listitem" class="weak"><b>Market</b>Stock and sizes observed; sales only reported.</div>
+</div>
+<p class="meta">Market response is the weakest link: we can see when a product page ran out of stock, but never how many units sold.</p>
+
+<h2 id="reading">How to read the evidence</h2>
+<p>Every claim carries one of two labels:</p>
+<ul>
+  <li><span class="tag obs">observed</span> we retrieved it ourselves (an archived product page, a search series, an article timestamp).</li>
+  <li><span class="tag rep">reported</span> a company or press claim we could not check (for example, New Balance telling Complex that units rose 22%).</li>
+</ul>
+<div class="note">
+  <strong>The search charts use standard deviations (“z-scores”)</strong>
+  For each search term we compute what is normal for that weekday from the four weeks before the appearance. The bar is the extra search over days 0–3, divided by how much that term usually wobbles day to day. <b>0</b> is business as usual; <b>2</b> (the dotted line) is unusual; <b>11</b> is far outside anything seen in the prior month. It is not a percentage, and it does not compare how many people searched for different terms. Hatched bars are sparse series (mostly zero days before the event) whose z-scores are fragile.
+</div>
+
+<h2 id="kanye">Case: Kanye × Adidas Energy Boost ESM <span class="meta">(May 9–10, 2015)</span></h2>
+<p>Kanye, already an Adidas partner, performed at Wango Tango and sat courtside at a Bulls–Cavaliers game in a plain all-white running shoe, not his own Yeezy. This is our cleanest case because the archived product pages cover both the worn colorway and its siblings.</p>
+<figure>
+  <img src="{{img:kanye_energy_boost_chain.png}}" alt="Kanye Energy Boost chain: coverage by identification level, search attention, and adidas.com availability">
+  <figcaption>Top: on-topic articles by how precisely they name the shoe. Middle: search for each term in standard deviations from its own pre-period, so all lines share one scale (0 = normal, grey band = ±2). Bottom: adidas.com page status from Wayback captures.</figcaption>
+</figure>
+<div class="case-facts">
+<dl>
+  <dt>Identification</dt><dd>Complex named the “Energy Boost ESM in Running White” within hours, shortly before midnight Pacific on the night of Wango Tango. <span class="tag obs">observed</span></dd>
+  <dt>Who covered it</dt><dd>All on-topic articles were sneaker-specialist outlets (Complex, Nice Kicks, WearTesters, Sneaker News). <span class="tag obs">observed</span></dd>
+  <dt>Search</dt><dd>“Energy Boost” 3.8 SD above baseline over days 0–7. <span class="tag obs">observed</span></dd>
+</dl>
+<dl>
+  <dt>Stock</dt><dd>In stock in all 11 captures from January to day +5; out of stock with Add to Bag disabled on days +6, +7, +9, +10. <span class="tag obs">observed</span></dd>
+  <dt>Resale</dt><dd>eBay asks reached $1,000 but went unsold; highest completed sale $153, below the $160 retail price. <span class="tag rep">reported</span></dd>
+</dl>
+</div>
+<p><strong>Takeaway:</strong> a clear stockout of the exact item, with no resale premium. Hype is not the same as excess demand at retail price.</p>
+
+<h2 id="taylor">Case: Taylor Swift × New Balance 550 <span class="meta">(September 24, 2023)</span></h2>
+<p>No known relationship with New Balance (her footwear deal was with Keds, 2012–13). She left Arrowhead Stadium in a Chiefs windbreaker and white/red 550s. This case has the best reported sales numbers and the clearest view of shopping links.</p>
+<figure>
+  <img src="{{img:taylor_nb550_chain.png}}" alt="Taylor Swift NB 550 chain figure">
+  <figcaption>Coverage, search attention (standard deviations from each term’s pre-period) and newbalance.com availability around the game. Purple dotted line: her Nike Air Force 1 appearance on day +28.</figcaption>
+</figure>
+<div class="case-facts">
+<dl>
+  <dt>Identification</dt><dd>Esquire published a “White &amp; Red 550” shop link the next evening; The Hollywood Reporter named the style code BB550SE1. <span class="tag obs">observed</span></dd>
+  <dt>Search</dt><dd>“Taylor Swift New Balance” went from about 1 to 100 by day +2. Generic “New Balance 550” rose only on the Monday and Tuesday (86 and 83 against ~60). <span class="tag obs">observed</span></dd>
+  <dt>Shopping links</dt><dd>10 archived NB product URLs carry tracking: 8 affiliate (NY Post network, Penske Media, Skimbit, Sneaker News) and 2 New Balance email. <span class="tag obs">observed</span></dd>
+</dl>
+<dl>
+  <dt>Stock</dt><dd>BB550SE1 had 19 of 20 sizes on day +2 and 18 of 20 on days +3 to +7. No capture exists from before the game, so we cannot see the reported sellout. <span class="tag obs">observed</span></dd>
+  <dt>Sales</dt><dd>Week after: product-page traffic +30%, units +22%, revenue +25% (New Balance to Complex). StockX trades rose from ~18/day to 100+. <span class="tag rep">reported</span></dd>
+</dl>
+</div>
+
+<h2 id="meghan">Case: Meghan × Outland Denim “Harriet” <span class="meta">(October 17, 2018)</span></h2>
+<p>A small Australian ethical-denim brand that had sent product to her team; no paid placement. She stepped off the plane in Dubbo wearing their black Harriet jeans.</p>
+<figure>
+  <img src="{{img:meghan_outland_chain.png}}" alt="Meghan Outland chain figure">
+  <figcaption>Coverage is dominated by syndicated copies of the same few stories.</figcaption>
+</figure>
+<div class="case-facts">
+<dl>
+  <dt>Identification</dt><dd>Australian press named Outland Denim the same morning (first on-topic article 11:47 a.m. Sydney time); “black Harriet” soon after. <span class="tag obs">observed</span></dd>
+  <dt>Coverage</dt><dd>93 on-topic articles but only 12 distinct headlines: News Corp regional papers republished the same stories. <span class="tag obs">observed</span></dd>
+  <dt>Search</dt><dd>Australian searches for “Outland Denim” went from 0 to 100 on day 0; US searches barely registered. <span class="tag obs">observed</span></dd>
+</dl>
+<dl>
+  <dt>Stock</dt><dd>5 of 26 sizes available on day +1; 26 of 26 by day +4 with preorder switched on. <span class="tag obs">observed</span></dd>
+  <dt>Sales</dt><dd>Traffic +3,000%, sales +640% in the week; 46 seamstresses hired. <span class="tag rep">reported</span></dd>
+</dl>
+</div>
+
+<h2 id="benchmarks">Benchmarks</h2>
+<p><strong>Kanye × Ultra Boost (May 16–17, 2015).</strong> The “triple white” shoe people remember. The adidas.com page showed a “Coming Soon” countdown on May 17–18, then out of stock by May 20, before its June 1 release. Because the release was already scheduled, this is a comparison, not a clean surprise.</p>
+<p><strong>Bieber × Crocs (October 2020).</strong> A preannounced collaboration that reportedly sold out in about 90 minutes. “Justin Bieber Crocs” rose 11 SD, but generic “Crocs” search did not move. This is our upper bound for an explicit, promoted deal, not an implicit ad.</p>
+
+<h2 id="spillover">Spillover: did attention spread to siblings or competitors?</h2>
+<p>For each case we chose a set of <span class="sib">same-brand siblings</span> (other models or colorways from the same brand) and <span class="comp">competitors</span> (similar products from rival brands), and compared them with the <span class="focal">focal</span> item on three channels: search, stock, and news coverage.</p>
+
+<h3>Search</h3>
+<figure>
+  <img src="{{img:spillover_overview.png}}" alt="Abnormal search by role in four cases">
+  <figcaption>Red: focal (celebrity + brand search, the product, the brand). Blue: same-brand sibling. Grey: competitor or celebrity + rival brand. Hatched: sparse series.</figcaption>
+</figure>
+<ul>
+  <li><strong>The spike is in the pairing.</strong> “Taylor Swift New Balance” (11.6) and “Justin Bieber Crocs” (11.2) dwarf every product or brand term.</li>
+  <li><strong>Generic product search moved little.</strong> “New Balance 550” 1.1; “Crocs” 0.1. Kanye’s “Energy Boost” is the exception at 2.6 (3.8 over the full week).</li>
+  <li><strong>No competitor product search cleared 2 SD</strong> in any case: Dunk Low, Samba, Air Force 1, Nike Free, Flyknit, rival denim.</li>
+  <li><strong>Same-brand spillover went to the nearest sibling.</strong> NB 327 reached 2.2 for Taylor. For Kanye, Ultra Boost reached 3.1 over the week, but Kanye wore Ultra Boosts himself on day +7 and the shoe had a launch countdown, so we cannot attribute it.</li>
+</ul>
+
+<h3>Search over time: every term against its own normal</h3>
+<p>Each row is one search term; each column is one day. The color shows how far that day is from the term’s own normal, in standard deviations, after adjusting for day of week. White means no change, red means above normal, blue means below normal (a possible sign of substitution). Because every row is measured against itself, rows with very different search volumes can be compared directly.</p>
+<figure>
+  <img src="{{img:kanye_energy_boost_attention_heatmap.png}}" alt="Kanye heatmap of search deviations by term and day">
+  <figcaption>Kanye: Energy Boost turns red on days +2 to +6. Ultra Boost is red from about day +4, and much more after Kanye wore Ultra Boosts himself on day +7 (purple line). Heritage siblings and Nike stay near white early on; Nike terms drift blue after day +20, more likely a seasonal pattern than substitution.</figcaption>
+</figure>
+<figure>
+  <img src="{{img:taylor_nb550_attention_heatmap.png}}" alt="Taylor heatmap of search deviations by term and day">
+  <figcaption>Taylor: “Taylor Swift New Balance” is dark red for about ten days; the generic 550 and competitors stay pale. Both “Taylor Swift New Balance” and “Taylor Swift Nike” turn red again around day +28, when she wore Nike Air Force 1s.</figcaption>
+</figure>
+<figure>
+  <img src="{{img:meghan_outland_attention_heatmap.png}}" alt="Meghan heatmap of search deviations by term and day">
+  <figcaption>Meghan: Australian searches for Outland Denim jump from zero on day 0; Australian rival denim stays pale. Everlane and Madewell rise in the US late in the window, which looks like the November shopping season rather than spillover.</figcaption>
+</figure>
+
+<h3>Stock</h3>
+<figure>
+  <img src="{{img:spillover_inventory.png}}" alt="Archived product-page availability for the worn colorway and siblings">
+  <figcaption>Each dot is one Wayback capture of a product page. Green: in stock or full size run. Red: out of stock or few sizes. The worn colorway is the first row.</figcaption>
+</figure>
+<ul>
+  <li><strong>Kanye:</strong> only the worn colorway (B44283) went out of stock. Four sibling colorways were in stock on days +6 to +17. This is the cleanest observed evidence that demand stayed on the exact product.</li>
+  <li><strong>Taylor:</strong> sibling 550 colorways mostly showed full size runs afterwards. Two depleted pages are hard to read: one was already half empty before the game, the other has no pre-event capture.</li>
+</ul>
+
+<h3>News coverage</h3>
+<p>We counted other products named near the celebrity or focal-product mention in on-topic articles (one copy per headline). Competitors rarely appear. For Meghan, the products sharing her coverage were the <em>rest of her outfit</em>, not other jeans: the Serena Williams jacket appears in 9 of 12 distinct stories. For Kanye, most Nike mentions are about his departure from Nike, not product comparisons. Hypebeast did ask whether “associated colorways of the same model” would get the same reception — the specialist press itself raising the sibling question.</p>
+
+<h3 id="nike">The “Taylor Swift Nike” bar is probably noise</h3>
+<div class="note">
+  <strong>What the daily data show</strong>
+  “Taylor Swift Nike” is so rare that Google reports mostly zeros with random one-day blips (79% of pre-period days are zero). Its run of non-zero days began <em>three days before</em> the game (28, 34, 42, 33), peaked once on day +1 (58), and was back to zero by day +4. So it is not spillover from the New Balance appearance; the 2.7 comes from comparing a few blips to a mostly-zero baseline. The chart now hatches it as sparse.
+</div>
+<p>She did wear Nike four weeks later: custom red-and-white Air Force 1s at the October 22 Chiefs–Chargers game (<a href="https://pagesix.com/2023/10/24/style/fans-think-travis-kelce-gifted-taylor-swift-these-chiefs-themed-sneakers-buy-them-here">Page Six</a>, <a href="https://highsnobiety.com/p/taylor-swift-nike-air-force-1">Highsnobiety</a>). That is where the series shows its only sustained run (October 21–26). Highsnobiety noted Nike featured the colorway on its store, but buzz was much smaller than for the 550s, perhaps because the Air Force 1 is a staple. That makes a useful contrast case (see Next steps).</p>
+
+<h2 id="measurement">Can we trust the article coding?</h2>
+<p>We hand-labeled 65 articles for one question: <em>is this article about this celebrity wearing this product at this appearance?</em> The first 33 exposed errors and were used to fix the rules; the other 32 were drawn afterwards and are the honest test.</p>
+<table>
+  <thead><tr><th>Coder (held-out 32 articles)</th><th class="num">Precision</th><th class="num">Recall</th><th class="num">Accuracy</th></tr></thead>
+  <tbody>
+    <tr><td>Old rule: celebrity and brand anywhere on the page</td><td class="num">0.75</td><td class="num">1.00</td><td class="num">0.81</td></tr>
+    <tr><td><strong>New rule: celebrity named within 500 characters of the product</strong></td><td class="num"><strong>0.89</strong></td><td class="num"><strong>0.94</strong></td><td class="num"><strong>0.91</strong></td></tr>
+    <tr><td>Local Qwen3-8B, reading excerpts around the mentions</td><td class="num">1.00</td><td class="num">0.72</td><td class="num">0.84</td></tr>
+  </tbody>
+</table>
+<p class="meta">Precision: of articles the coder counted, the share that were truly about the appearance. Recall: of truly relevant articles, the share it caught.</p>
+<ul>
+  <li><strong>Errors we fixed:</strong> “Kanye” and “adidas” appear together on nearly every sneaker-site page; “Outland” matched <em>Outlander</em> TV recaps; related-story sidebars produced false hits; syndicated copies inflated counts.</li>
+  <li><strong>Local Qwen</strong> never included a wrong article but missed about one in four, so it works as a strict filter and product extractor, not as the main coder. It labeled all 243 articles in about 8 minutes at no API cost.</li>
+  <li><strong>Caveat:</strong> the gold labels were coded by the assistant from excerpts; a human should spot-check them.</li>
+</ul>
+
+<h2 id="limits">What we cannot say yet</h2>
+<ul>
+  <li><strong>Nothing causal.</strong> Five hand-picked, famous events; no matched non-events; no counterfactual.</li>
+  <li><strong>No unit sales.</strong> Out-of-stock pages show inventory ran short, not how much sold. Preorder can make a sold-out item look available (Outland).</li>
+  <li><strong>Archived pages are patchy.</strong> No pre-event capture for Taylor’s or Meghan’s focal product; captures are irregular.</li>
+  <li><strong>Search data are coarse.</strong> Google Trends is sampled, rounded, scaled within each request, and noisy for rare terms.</li>
+  <li><strong>Comparison sets were chosen after a first look.</strong> They are illustrative; the real study must fix them in advance.</li>
+  <li><strong>Selection.</strong> These cases are famous because they had big responses. The research question is the whole distribution, including the many appearances with no response.</li>
+</ul>
+
+<h2 id="next">Next steps</h2>
+<p>Ordered by what unlocks the most. Rough costs assume our current setup (public data, cached pipeline, local Qwen).</p>
+
+<h3>This week: tighten the demo</h3>
+<ol class="steps">
+  <li><strong>Human spot-check of the 65 labeled articles.</strong>
+    <span class="why">Every coverage number rests on them. A second coder also gives us inter-rater agreement.</span>
+    <span class="cost">~30–45 minutes of your or an RA’s time; I can prepare a one-page review sheet.</span></li>
+  <li><strong>Add Taylor × Nike Air Force 1 (October 22, 2023) as a contrast case.</strong>
+    <span class="why">Same celebrity, same setting, same team colors, but a ubiquitous staple shoe from a competitor. If the response is much smaller, that is direct evidence that product distinctiveness matters.</span>
+    <span class="cost">About an hour of pipeline time, no new tools.</span></li>
+  <li><strong>Write a pre-registration file for comparison sets.</strong>
+    <span class="why">Fix siblings, competitors, windows and the primary outcome before adding any new case, so the spillover tests cannot be tuned after the fact.</span>
+    <span class="cost">One short config + doc.</span></li>
+</ol>
+
+<h3>Next two weeks: move from anecdotes to a distribution</h3>
+<ol class="steps" style="counter-reset: s 3">
+  <li><strong>Build the 30-appearance sample from a frozen source roster, zeros included.</strong>
+    <span class="why">Pick identification sources (for example Sneaker News “celebrity feet”, outfit-ID accounts, What Pros Wear) and take every footwear appearance they identify in a fixed window, whether or not anything happened afterwards. This is what turns “famous sellouts” into the distribution of responses.</span>
+    <span class="cost">Mostly curation; the pipeline already handles each case.</span></li>
+  <li><strong>Start prospective monitoring for new appearances.</strong>
+    <span class="why">Wayback gaps are our biggest data problem. For future events we can capture the focal, sibling and competitor product pages ourselves every few hours for two weeks, plus daily search pulls. That gives clean before/after stock and size data.</span>
+    <span class="cost">A scheduled job on this machine; light, polite request rates.</span></li>
+  <li><strong>Make search data more reliable.</strong>
+    <span class="why">Pull each Trends request several times and average to reduce sampling noise; add a common anchor term so different requests can be compared; flag sparse series automatically.</span>
+    <span class="cost">Small code change; more Trends requests (rate-limited).</span></li>
+  <li><strong>Time identification precisely.</strong>
+    <span class="why">The theory says fast, exact identification concentrates demand. We have publication timestamps for articles but not for Instagram/X outfit-ID posts, which are often first. A small hand-curated log of first posts per event would fill this.</span>
+    <span class="cost">~10 minutes per event by hand.</span></li>
+</ol>
+
+<h3>Decisions for us</h3>
+<div class="decision">
+  <h3>1. Do we pursue a data partner for sales?</h3>
+  <p>Public data will never give units sold. A brand (New Balance, Outland), a retailer, or a resale platform could provide daily units or clicks by product for a few events. That is the only route to market outcomes beyond stockouts.</p>
+</div>
+<div class="decision">
+  <h3>2. Retrospective, prospective, or both?</h3>
+  <p>Retrospective cases are available now but have patchy archives. Prospective monitoring gives clean data but depends on which appearances happen. Recommendation: both, with the 30-appearance retrospective sample for the distribution and prospective monitoring for clean stock data.</p>
+</div>
+<div class="decision">
+  <h3>3. What is the primary outcome?</h3>
+  <p>Proposed order: (a) focal versus sibling stock depletion, which is closest to demand and directly tests concentration; (b) abnormal search for the focal product versus siblings and competitors; (c) identification speed and precision in coverage as the mechanism. Search for the celebrity–brand pairing is a manipulation check, not an outcome.</p>
+</div>
+
+<h2 id="appendix">Appendix: data and files</h2>
+<table>
+  <thead><tr><th>Case</th><th class="num">Articles coded</th><th class="num">On-topic (distinct)</th><th class="num">Page snapshots</th><th class="num">Tracked shop URLs</th></tr></thead>
+  <tbody>
+    <tr><td>Taylor × NB 550</td><td class="num">56</td><td class="num">14 (14)</td><td class="num">80</td><td class="num">10</td></tr>
+    <tr><td>Kanye × Energy Boost ESM</td><td class="num">38</td><td class="num">8 (7)</td><td class="num">60</td><td class="num">2</td></tr>
+    <tr><td>Meghan × Outland Harriet</td><td class="num">109</td><td class="num">93 (12)</td><td class="num">7</td><td class="num">0</td></tr>
+    <tr><td>Kanye × Ultra Boost</td><td class="num">3</td><td class="num">3 (3)</td><td class="num">60</td><td class="num">1</td></tr>
+    <tr><td>Bieber × Crocs</td><td class="num">37</td><td class="num">3 (3)</td><td class="num">0</td><td class="num">0</td></tr>
+  </tbody>
+</table>
+<ul>
+  <li><strong>Sources:</strong> Wayback Machine captures of brand product pages; Google Trends; Wikipedia pageviews; GDELT and Wayback article discovery; publisher pages. No paid APIs; every response is cached, so a full rebuild takes about 20 seconds.</li>
+  <li><strong>Rerun:</strong> <code>make demo</code>, then <code>make demo DEMO_ARGS="--stages validate,spillover"</code>.</li>
+  <li><strong>Docs in the repo:</strong> <code>docs/demo-case-dossiers.md</code>, <code>docs/demo-pipeline.md</code>, <code>docs/demo-spillover.md</code>.</li>
+  <li><strong>Tables:</strong> <code>data/derived/demo/spillover_attention.csv</code>, <code>spillover_inventory.csv</code>, <code>spillover_mentions.csv</code>, <code>validation_scores.csv</code>.</li>
+</ul>
+</main>
+</div>
+<div class="zoom" id="zoom" role="dialog" aria-label="Enlarged figure"><img alt=""></div>
+<script>
+  (function () {
+    var z = document.getElementById('zoom'), zi = z.querySelector('img');
+    document.querySelectorAll('figure img').forEach(function (img) {
+      img.addEventListener('click', function () { zi.src = img.src; zi.alt = img.alt; z.classList.add('on'); });
+    });
+    z.addEventListener('click', function () { z.classList.remove('on'); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') z.classList.remove('on'); });
+  })();
+</script>
+</body>
+</html>

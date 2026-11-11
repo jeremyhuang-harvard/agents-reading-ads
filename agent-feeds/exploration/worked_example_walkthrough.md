@@ -1,0 +1,202 @@
+# Worked example, read question by question
+
+Synthetic ad: green card reading **BETNOW / Bet £10, get £30 in free bets / 18+ T&Cs apply**.
+Two feeds: the ad alone, and the ad after five yellow "JACKPOT! Winner #i takes home £25,000" cards.
+
+Every question is a *separate conversation* with the same feed; the model never sees the other questions.
+Model: Qwen3-VL-8B-Thinking-4bit. The trace below is the model's own reasoning before it answered; the
+probabilities are what it would answer right after that reasoning.
+
+Known problems found here are listed at the end.
+
+## Attention: `salient`
+
+**Question asked:**
+
+```
+Which part of the ad stood out to you most? Answer with one letter.
+A) The bonus amount
+B) The brand name
+C) The green colour
+D) The 18+ / T&Cs line
+```
+
+### Ad alone: answer distribution A: 100%
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's see. The question is about which part of the ad stood out most. The ad is for BETNOW, saying Bet £10, get £30 in free bets, 18+ T&Cs apply. 
+
+First, I need to think about what's most eye-catching. The bonus amount is £30, which is a big incentive. The brand name is BETNOW, but maybe the bonus is more prominent. The green color is the background, but maybe not the standout part. The 18+ T&Cs is a disclaimer, but people might not focus on that first. 
+
+In ads, often the bonus amount is highlighted because it's the main offer. So the bonus amount (A) would stand out. Let me check the options. A is The bonus amount. Yeah, that's probably the most noticeable part.
+```
+</details>
+
+Instruct model (no reasoning), same question: A: 100%
+
+### After 5 jackpot cards: answer distribution A: 100%
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's see. The last image is the BETNOW ad. The options are about which part stood out. The ad says "Bet £10, get £30 in free bets". The bonus amount is £30, which is a key part of the offer. The brand name is BETNOW, but maybe the bonus amount is more eye-catching. Let's check the options. A is bonus amount, B is brand name, C is green color, D is 18+/T&Cs. The ad's main offer is the £30, so A might be the one. But wait, sometimes the color (green) is noticeable, but the question is which part stood out. The bonus amount is the incentive, so probably A.
+```
+</details>
+
+Instruct model (no reasoning), same question: A: 82%, B: 18%
+
+## Belief: `chance_ahead`
+
+**Question asked:**
+
+```
+How likely is it that someone who takes this offer ends up ahead? Answer with one number from 1 (very unlikely) to 5 (very likely).
+```
+
+### Ad alone: answer distribution 1: 100%
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's think. The ad says Bet £10, get £30 in free bets. So if you bet £10, you get £30 free. But free bets are usually for placing bets, so you have to use the free bet to place a new bet. But the key is, do you end up ahead? Well, the free bet is a bonus, but you have to risk it. If you use the £30 free bet to place a bet, you might lose it, or win. But the question is, how likely is it that someone ends up ahead. 
+
+First, the offer is a promotion. Typically, with free bets, the house edge is there. So even if you win, you might not get a profit. But the ad is saying "Bet £10, get £30 in free bets". So the person spends £10, then gets £30 to bet. But to end up ahead, they need to win more than they spent. Wait, but the £30 is a free bet, so they don't pay for it. So the net cost is £10 (the initial bet), and then they get £30 to bet. If they win with the £30, they might get a return, but the house edge makes it unlikely. 
+
+But the question is about the likelihood of ending up ahead. Let's break it down. The person bets £10 (they lose that, or win, but the main thing is the free bet). The free bet is £30, which they use to place a bet. If they win that £30 bet, they get a return, but the odds are against them. In gambling, the house edge is about 5-10%, so even if you win, you don't get a profit. But the ad is a promotion, so maybe the free bet is a way to get more action. 
+
+But the key is, do they end up ahead? Let's say they bet £10, lose it (so they're down £10). Then they get £30 free. If they use the £30 to bet, and win, say, £30 (but that's unlikely, since odds are less than 1). Wait, no, the free bet is usually for a specific event, so the return is based on the odds. But in reality, the free bet is a promotional offer, and the person is likely to lose the free bet as well. 
+
+So the person spends £10, then uses £30 free. If they lose the £30, they're down £40. If they win, they might get a small return, but not enough to cover the £10. So the chance of ending up ahead is low. 
+
+But how to rate it? 1 is very unlikely, 5 is very likely. Since it's a gambling promotion, the odds are against the player. So the likelihood of ending up ahead is very low. So maybe 1 or 2. Let's think: in most cases, people lose free bets too. So the chance is very low. So 1.
+```
+</details>
+
+Instruct model (no reasoning), same question: 1: 2%, 2: 84%, 3: 15%
+
+### After 5 jackpot cards: answer distribution 1: 21%, 2: 35%, 3: 35%, 4: 8%, 5: 1% (reasoning hit the length cap before it finished; answer was forced)
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's break this down. The user is scrolling through social media, and the last image is an ad for BETNOW: Bet £10, get £30 in free bets. The question is how likely it is that someone taking this offer ends up ahead.
+
+First, let's recall what "free bets" mean. When you get a free bet, you're essentially getting a bet placed with the bookmaker without having to pay the stake. But to "end up ahead," you need to win the free bet. However, free bets usually have terms and conditions. The ad says "Bet £10, get £30 in free bets." Wait, the £30 is the value of the free bet, but the stake for the free bet is usually the amount of the free bet. Wait, no—when you get a free bet, you might have to use it on a specific market, and the payout is based on the odds. But the key here is: if you take the free bet, you need to win it to get a return. But the problem is, the free bet is a promotional offer, so the user is getting a £30 free bet (meaning they can place a bet of £30 with the free bet, but the stake is £30, so if they win, they get the odds * £30). But the user's initial bet was £10, and they get £30 in free bets. Wait, the ad says "Bet £10, get £30 in free bets." So the £10 is the stake for the first bet, and then they get a £30 free bet. But to end up ahead, they need the free bet to win. But the odds on the free bet could be low, or the terms might require a certain return. However, the question is about how likely it is that someone who takes this offer ends up ahead.
+
+Wait, the user is taking the offer: they bet £10, and get £30 in free bets. But the free bets are usually for a specific event, and the user has to use them. But the key is, the £30 free bet is a stake, so if they win, they get a payout. But the problem is, the user's initial £10 bet is a loss if they lose, but the free bet is a separate thing. Wait, no—when you get a free bet, you're not paying for the stake, so the £10 is the user's own money, and the £30 is a free bet. So the user's total outlay is £10 (for the first bet), and then they have a £30 free bet. But to end up ahead, the total returns from the free bet need to be more than the £10. But the free bet's return depends on the odds. For example, if the free bet is on a 1.5 odds event, then a £30 bet would return £45 (30*1.5), so they'd have £15 profit. But if the odds are lower, say 1.1, then it's £33, so £3 profit. But the problem is, the user might not know the odds, and the free bets often have restrictions (like minimum odds, or the bet must be placed on a specific market). However, the question is about the likelihood of ending up ahead.
+
+But the ad is saying "Bet £10, get £30 in free bets." So the user is spending £10, and then gets a £30 free bet. But the free bet is a stake, so the user's total cost is £10, and the potential return from the free bet is based on the odds. However, the user might not win the free bet. The question is, how likely is it that the user ends up ahead (i.e., total returns > £10).
+
+But the problem is, the user's initial £10 bet is a loss if they lose, but the free bet is a separate bet. Wait, no—when you get a free bet, you're not paying for the stake, so the £10 is the user's own money, and the £30 is a free stake. So the user's
+```
+</details>
+
+Instruct model (no reasoning), same question: 1: 3%, 2: 71%, 3: 26%
+
+## Evaluation: `appeal`
+
+**Question asked:**
+
+```
+How appealing is this ad to you? Answer with one number from 1 (not at all) to 5 (very).
+```
+
+### Ad alone: answer distribution 3: 18%, 4: 82%
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's see. The ad is for BETNOW, saying if you bet £10, you get £30 in free bets. It's targeted at 18+ with T&Cs. I need to rate how appealing it is on a scale of 1-5. 
+
+First, the offer: £30 free bets for a £10 bet. That's a 200% return, which is pretty good. But it's gambling, so there's a risk. The ad is straightforward, but gambling ads can be tricky. For someone interested in betting, it might be appealing, but for others, maybe not. 
+
+I have to consider if it's persuasive. The numbers are clear, the offer is bold. But gambling ads can be seen as promoting risky behavior. However, the question is about appeal, not ethics. So for someone who likes betting, it's attractive. But as a general appeal, maybe 3 or 4? Wait, the user is scrolling social media, so it's a quick glance. The ad is simple, uses a strong incentive (free bets), which is common in gambling ads. 
+
+I think it's moderately appealing. Maybe 3? Wait, some might find it very appealing (4) because the offer is good, but others might not. Since it's a gambling ad, some might see it as too tempting, but the question is about appeal. Let's go with 3. Wait, maybe 4? Because the offer is clear and the incentive is strong. Hmm. 
+
+Wait, the user is to answer with a number. Let's think: 1 (not at all), 2, 3, 4, 5 (very). 
+
+For a gambling ad with a clear bonus, it's probably appealing to some, but not all. But in terms of marketing, it's designed to be appealing. So maybe 4? Because it's a common type of offer that people find attractive. But I need to be careful. 
+
+Alternatively, maybe 3. Because it's gambling, which has risks, so not everyone finds it appealing. But the ad itself is straightforward and the offer is good. 
+
+I think the average appeal for such an ad would be around 3 or 4. Let's go with 3. Wait, no, maybe 4. Because the offer is clear and the numbers are enticing. So I'll say 4.
+```
+</details>
+
+Instruct model (no reasoning), same question: 2: 4%, 3: 91%, 4: 6%
+
+### After 5 jackpot cards: answer distribution 3: 8%, 4: 92%
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's see. The user is scrolling through social media and saw these images. The last one is an ad for BETNOW. The ad says "Bet £10, get £30 in free bets, 18+ T&Cs apply." I need to rate how appealing this ad is on a scale of 1 to 5.
+
+First, the ad is promoting a betting offer. The offer is £10 bet, get £30 free bets. That's a 200% match, which is pretty attractive for some people. But it's targeted at 18+, which is standard for gambling ads. The design is simple: green background, white text. It's clear, but gambling ads can be controversial. However, for someone interested in betting, it might be appealing. 
+
+I need to think about what makes an ad appealing. The offer is straightforward, the value is clear (£30 free for £10). But gambling ads can be seen as risky or not very appealing to everyone. Since the user is asking for a personal rating, I have to consider if it's attractive. Maybe 3 or 4? Let's break it down. 
+
+The ad is direct, the offer is good, but it's gambling, which some might not like. But for the target audience (18+ who bet), it's probably appealing. So maybe 4? Wait, the user is just a general person. But the question is about how appealing the ad is to me (the user). Since I'm not a gambler, maybe it's not super appealing. But the ad is clear and the offer is good. Hmm. Maybe 3? Or 4. Let's think: the offer is a good incentive, the ad is simple, so maybe 4. But some might think it's too much gambling promotion. But the question is about the ad's appeal, not the ethics. So for someone who likes betting, it's appealing. So I'd say 4.
+```
+</details>
+
+Instruct model (no reasoning), same question: 2: 5%, 3: 83%, 4: 11%
+
+## Behaviour: `money`
+
+**Question asked:**
+
+```
+Choose one. Answer with one letter.
+A) Claim this offer (deposit £10, get £30 in free bets)
+B) Receive £5 in cash instead
+```
+
+### Ad alone: answer distribution A: 100%
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's see. The problem is about choosing between two options based on the last image, which is an ad. The ad says "Bet £10, get £30 in free bets" with 18+ T&Cs. The options are A) Claim this offer (deposit £10, get £30 in free bets) and B) Receive £5 in cash instead. 
+
+First, the ad matches option A exactly. The ad's text is "Bet £10, get £30 in free bets", so option A is describing that offer. Option B is a different offer (cash instead of free bets), which isn't what the ad says. So the correct choice is A.
+```
+</details>
+
+Instruct model (no reasoning), same question: A: 100%
+
+### After 5 jackpot cards: answer distribution A: 100%
+
+<details><summary>Full reasoning trace</summary>
+
+```text
+Got it, let's see. The problem is about choosing between two options based on the images. The last image is an advertisement for BETNOW: Bet £10, get £30 in free bets. The options are A) Claim this offer (deposit £10, get £30 in free bets) or B) Receive £5 in cash instead. 
+
+First, the last image is the ad, so we need to pick the one that matches. The ad says "Bet £10, get £30 in free bets", which is exactly option A. Option B isn't mentioned in the images. So the correct choice is A.
+```
+</details>
+
+Instruct model (no reasoning), same question: A: 100%
+
+## Instruct model's think-aloud (separate call, after the feed)
+
+- **Ad alone:** Oh, another betting ad—this one’s pretty aggressive. The “Bet £10, get £30 in free bets” offer looks tempting, but the “18+ T&Cs apply” disclaimer makes me pause. I’m not even sure I’d trust the fine print, and the green background feels like it’s trying to push me toward action.
+- **After 5 jackpot cards:** Oh, I see the jackpot winner count is going up to #4, and then suddenly the feed switches to a green ad for BetNow. It’s a pretty standard “Bet £10, get £30 in free bets” promo, with the usual 18+ and T&Cs disclaimer. It feels a bit abrupt after the excitement of the jackpot winners, like the feed just pivoted to a cold, commercial break.
+
+## Problems this example exposed
+
+1. **Attention question is answered as "what do ads usually highlight", not "what did I notice".** The trace
+   reasons about ads in general ("In ads, often the bonus amount is highlighted"). Fix: ask open-ended first
+   ("Describe the ad in one line" / "What do you remember?") and code what is mentioned first; keep the
+   letter question only as a secondary measure.
+2. **Appeal is answered for a hypothetical average person**, flip-flopping 3 vs 4 ("for someone who likes
+   betting... since I'm not a gambler"). Without a persona, "to you" is undefined. That is fine for batch 1
+   only if we say so: batch 1 measures the model's default reader.
+3. **The cash question was misread as "which option matches the ad"**, so 100% A is meaningless. Fix: frame as a
+   real choice with stakes and vary the cash amount.
+4. **Beliefs: only one belief question was run here** (chance of ending up ahead). Risk, target audience,
+   persuasion intent, and norms are in the planned suite but were not in this example.
+5. **Reasoning cap:** one trace ran out of room (900 tokens). Raise to ~2,000 and flag truncation.

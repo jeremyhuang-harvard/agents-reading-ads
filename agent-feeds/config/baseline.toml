@@ -1,0 +1,20 @@
+[study]
+id = "fixed-ad-context-factorial-v1"
+seed = 20261021
+persona_replicates = 25
+ad_id = "to-be-supplied"
+
+[design]
+preferences = ["price_first", "performance_first"]
+histories = ["budget_pressure", "product_failure"]
+price_contexts = ["near_benchmark", "favorable_contrast"]
+quality_contexts = ["near_benchmark", "favorable_contrast"]
+prompt_variants = ["response_v1a", "response_v1b"]
+models = ["model-family-a", "model-family-b"]
+
+[runner]
+engine = "unconfigured"
+temperature = 0.0
+
+[outputs]
+root = "runs"

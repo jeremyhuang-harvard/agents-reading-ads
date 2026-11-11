@@ -1,0 +1,248 @@
+ad_id,advertiser_name,title,description,image_path,Identifier,Response,Web Search Sources,Time Taken,Input Tokens,Reasoning Tokens,Output Tokens,Reasoning Effort,Error Log,Successful,Cost,Response JSON
+71056221548107,Karavel Comptabilité Fournisseurs,La Grèce À Petit Prix,Découvrez les îles grecques avec nos offres tout compris. Vol + Hôtel inclus !,data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/3629eb30e493119a4e6afc1df5ce1668a8b64ba7989c35140696fa775547b7cd.jpg,71056221548107,"{
+  ""summary"": ""The advertisement combines an iconic, brightly lit Greek island scene with low-price and all-inclusive travel language to make the destination and bundled offer visually and conceptually prominent."",
+  ""features"": [
+    {
+      ""name"": ""Iconic Greek destination cues"",
+      ""family"": ""identity"",
+      ""evidence"": ""Whitewashed hillside buildings, blue doors, the Aegean-like sea, and several visible Greek flags."",
+      ""hypothesized_salience_pathway"": ""These recognizable national and architectural cues could rapidly activate stored associations with Greece and Greek-island tourism.""
+    },
+    {
+      ""name"": ""Blue-white color coding"",
+      ""family"": ""visual"",
+      ""evidence"": ""The image is dominated by deep blue sky and sea set against bright white buildings, with a vivid blue door on the right."",
+      ""hypothesized_salience_pathway"": ""Strong color contrast could attract attention while reinforcing a visually distinctive Greece-related schema.""
+    },
+    {
+      ""name"": ""Vivid floral foreground"",
+      ""family"": ""visual"",
+      ""evidence"": ""Large clusters of saturated pink, purple, red, and white flowers occupy the immediate foreground."",
+      ""hypothesized_salience_pathway"": ""The saturated colors and near-field placement could draw the eye first and create a memorable visual anchor.""
+    },
+    {
+      ""name"": ""Sunny coastal leisure imagery"",
+      ""family"": ""affective"",
+      ""evidence"": ""The scene shows clear blue skies, bright sunlight, calm water, and a scenic coastal settlement."",
+      ""hypothesized_salience_pathway"": ""These visible vacation cues could evoke positive leisure, warmth, escape, or relaxation associations.""
+    },
+    {
+      ""name"": ""Immersive pathway perspective"",
+      ""family"": ""visual"",
+      ""evidence"": ""A stone walkway begins in the lower-right foreground and recedes between the buildings toward the center of the scene."",
+      ""hypothesized_salience_pathway"": ""The converging path could guide visual attention into the image and support mental simulation of moving through the destination.""
+    },
+    {
+      ""name"": ""Low-price framing"",
+      ""family"": ""reward"",
+      ""evidence"": ""The title states \""La Grèce À Petit Prix,\"" explicitly presenting Greece as available at a low price."",
+      ""hypothesized_salience_pathway"": ""Explicit affordability language could cue value-seeking goals and make potential monetary savings more cognitively accessible.""
+    },
+    {
+      ""name"": ""All-inclusive bundle"",
+      ""family"": ""reward"",
+      ""evidence"": ""The description states \""offres tout compris\"" and specifies \""Vol + Hôtel inclus !\"""",
+      ""hypothesized_salience_pathway"": ""Combining flight and hotel into one inclusive offer could make convenience and package value especially easy to notice and remember.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'The advertisement combines an iconic, brightly lit Greek island scene with low-price and all-inclusive travel language to make the destination and bundled offer visually and conceptually prominent.', 'features': [{'name': 'Iconic Greek destination cues', 'family': 'identity', 'evidence': 'Whitewashed hillside buildings, blue doors, the Aegean-like sea, and several visible Greek flags.', 'hypothesized_salience_pathway': 'These recognizable national and architectural cues could rapidly activate stored associations with Greece and Greek-island tourism.'}, {'name': 'Blue-white color coding', 'family': 'visual', 'evidence': 'The image is dominated by deep blue sky and sea set against bright white buildings, with a vivid blue door on the right.', 'hypothesized_salience_pathway': 'Strong color contrast could attract attention while reinforcing a visually distinctive Greece-related schema.'}, {'name': 'Vivid floral foreground', 'family': 'visual', 'evidence': 'Large clusters of saturated pink, purple, red, and white flowers occupy the immediate foreground.', 'hypothesized_salience_pathway': 'The saturated colors and near-field placement could draw the eye first and create a memorable visual anchor.'}, {'name': 'Sunny coastal leisure imagery', 'family': 'affective', 'evidence': 'The scene shows clear blue skies, bright sunlight, calm water, and a scenic coastal settlement.', 'hypothesized_salience_pathway': 'These visible vacation cues could evoke positive leisure, warmth, escape, or relaxation associations.'}, {'name': 'Immersive pathway perspective', 'family': 'visual', 'evidence': 'A stone walkway begins in the lower-right foreground and recedes between the buildings toward the center of the scene.', 'hypothesized_salience_pathway': 'The converging path could guide visual attention into the image and support mental simulation of moving through the destination.'}, {'name': 'Low-price framing', 'family': 'reward', 'evidence': 'The title states ""La Grèce À Petit Prix,"" explicitly presenting Greece as available at a low price.', 'hypothesized_salience_pathway': 'Explicit affordability language could cue value-seeking goals and make potential monetary savings more cognitively accessible.'}, {'name': 'All-inclusive bundle', 'family': 'reward', 'evidence': 'The description states ""offres tout compris"" and specifies ""Vol + Hôtel inclus !""', 'hypothesized_salience_pathway': 'Combining flight and hotel into one inclusive offer could make convenience and package value especially easy to notice and remember.'}]}"
+79989681308796,SAS MEILLEURTAUX,Comparateur Assurance de Prêt,,data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/ebf9835c4ad7aa98e2020e04dcd3950a5fe81b3ff3c1440772dd70d31d74c129.jpg,79989681308796,"{
+  ""summary"": ""A warmly lit domestic scene centers on a smiling adult pair jointly viewing a laptop, visually framing online comparison as a calm, collaborative household activity."",
+  ""features"": [
+    {
+      ""name"": ""Joint screen attention"",
+      ""family"": ""visual"",
+      ""evidence"": ""Both adults lean toward the open laptop and direct their gaze toward its screen."",
+      ""hypothesized_salience_pathway"": ""Converging gaze and body orientation could guide viewers' attention toward the laptop as the scene's focal object.""
+    },
+    {
+      ""name"": ""Positive facial affect"",
+      ""family"": ""affective"",
+      ""evidence"": ""The woman is broadly smiling, while the man has a slight relaxed smile."",
+      ""hypothesized_salience_pathway"": ""Visible positive expressions could provide an emotionally pleasant cue and make the depicted activity easier to associate with satisfaction.""
+    },
+    {
+      ""name"": ""Collaborative decision context"",
+      ""family"": ""social"",
+      ""evidence"": ""Two adults sit closely together and appear to examine the same laptop content."",
+      ""hypothesized_salience_pathway"": ""The shared activity could cue memories or schemas involving joint household research and decision-making.""
+    },
+    {
+      ""name"": ""Domestic setting"",
+      ""family"": ""identity"",
+      ""evidence"": ""The pair is seated at a table in a bright home interior with bowls, jars, chairs, shelving, and plants."",
+      ""hypothesized_salience_pathway"": ""Familiar household objects could increase perceived personal relevance by linking the advertised service to everyday home life.""
+    },
+    {
+      ""name"": ""Adult life-stage representation"",
+      ""family"": ""identity"",
+      ""evidence"": ""The image features two adults, including a gray-haired man wearing glasses and a younger-looking woman."",
+      ""hypothesized_salience_pathway"": ""Visible age and life-stage cues could prompt self-recognition or retrieval of memories involving adult financial and household responsibilities.""
+    },
+    {
+      ""name"": ""Warm coordinated color palette"",
+      ""family"": ""visual"",
+      ""evidence"": ""The subjects wear orange and muted reddish-brown tops against a softly lit, neutral interior."",
+      ""hypothesized_salience_pathway"": ""Warm clothing colors contrast with the pale background and could draw attention to the people while supporting a visually cohesive scene.""
+    },
+    {
+      ""name"": ""Shallow-focus human emphasis"",
+      ""family"": ""visual"",
+      ""evidence"": ""The two adults and laptop are relatively sharp, while foreground containers and background furnishings are blurred."",
+      ""hypothesized_salience_pathway"": ""Selective focus could reduce competing detail and concentrate attention on the people and their interaction with the device.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'A warmly lit domestic scene centers on a smiling adult pair jointly viewing a laptop, visually framing online comparison as a calm, collaborative household activity.', 'features': [{'name': 'Joint screen attention', 'family': 'visual', 'evidence': 'Both adults lean toward the open laptop and direct their gaze toward its screen.', 'hypothesized_salience_pathway': ""Converging gaze and body orientation could guide viewers' attention toward the laptop as the scene's focal object.""}, {'name': 'Positive facial affect', 'family': 'affective', 'evidence': 'The woman is broadly smiling, while the man has a slight relaxed smile.', 'hypothesized_salience_pathway': 'Visible positive expressions could provide an emotionally pleasant cue and make the depicted activity easier to associate with satisfaction.'}, {'name': 'Collaborative decision context', 'family': 'social', 'evidence': 'Two adults sit closely together and appear to examine the same laptop content.', 'hypothesized_salience_pathway': 'The shared activity could cue memories or schemas involving joint household research and decision-making.'}, {'name': 'Domestic setting', 'family': 'identity', 'evidence': 'The pair is seated at a table in a bright home interior with bowls, jars, chairs, shelving, and plants.', 'hypothesized_salience_pathway': 'Familiar household objects could increase perceived personal relevance by linking the advertised service to everyday home life.'}, {'name': 'Adult life-stage representation', 'family': 'identity', 'evidence': 'The image features two adults, including a gray-haired man wearing glasses and a younger-looking woman.', 'hypothesized_salience_pathway': 'Visible age and life-stage cues could prompt self-recognition or retrieval of memories involving adult financial and household responsibilities.'}, {'name': 'Warm coordinated color palette', 'family': 'visual', 'evidence': 'The subjects wear orange and muted reddish-brown tops against a softly lit, neutral interior.', 'hypothesized_salience_pathway': 'Warm clothing colors contrast with the pale background and could draw attention to the people while supporting a visually cohesive scene.'}, {'name': 'Shallow-focus human emphasis', 'family': 'visual', 'evidence': 'The two adults and laptop are relatively sharp, while foreground containers and background furnishings are blurred.', 'hypothesized_salience_pathway': 'Selective focus could reduce competing detail and concentrate attention on the people and their interaction with the device.'}]}"
+71674697305347,Karavel Comptabilité Fournisseurs,Le Maroc All Inclusive,Découvrez le Maroc avec nos offres tout compris. Vol + Hôtel inclus !,data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/2cdd8da4f15e74ccecc4162a26f4e5c4d826f3d5c2d24c63ee4f24085c98cebc.jpg,71674697305347,"{
+  ""summary"": ""A warm, expansive desert scene with camels and traditionally dressed guides visually frames Morocco as a distinctive travel experience, while the metadata emphasizes an all-inclusive flight-and-hotel package."",
+  ""features"": [
+    {
+      ""name"": ""Expansive desert landscape"",
+      ""family"": ""visual"",
+      ""evidence"": ""The image is dominated by broad, rolling sand dunes extending toward the horizon."",
+      ""hypothesized_salience_pathway"": ""The large open setting could attract attention through visual scale and cue stored associations with deserts, travel, and Morocco.""
+    },
+    {
+      ""name"": ""Camel caravan cue"",
+      ""family"": ""identity"",
+      ""evidence"": ""Two loaded camels are prominently positioned in the lower center of the image."",
+      ""hypothesized_salience_pathway"": ""Camels provide a concrete destination-associated cue that could facilitate recognition and retrieval of Morocco or desert-tourism memories.""
+    },
+    {
+      ""name"": ""Traditional dress cue"",
+      ""family"": ""identity"",
+      ""evidence"": ""Two people walking beside the camels wear long robes, and one has a white head covering."",
+      ""hypothesized_salience_pathway"": ""Visible clothing associated with the depicted setting could make the destination feel culturally specific and personally relevant to viewers interested in cultural travel.""
+    },
+    {
+      ""name"": ""Warm golden palette"",
+      ""family"": ""affective"",
+      ""evidence"": ""Golden sunlight and orange-brown sand dominate nearly the entire image."",
+      ""hypothesized_salience_pathway"": ""The warm color palette could evoke associations with sunlight, warmth, relaxation, or adventure and make the scene visually cohesive.""
+    },
+    {
+      ""name"": ""Dramatic directional lighting"",
+      ""family"": ""visual"",
+      ""evidence"": ""Low-angle sunlight creates strong highlights across the dunes and long, dark shadows from the people and camels."",
+      ""hypothesized_salience_pathway"": ""High light-dark contrast and elongated shadows could guide attention toward the caravan and strengthen the scene's visual distinctiveness.""
+    },
+    {
+      ""name"": ""All-inclusive bundle framing"",
+      ""family"": ""reward"",
+      ""evidence"": ""The title states \""Le Maroc All Inclusive,\"" and the description says \""Vol + Hôtel inclus !\"""",
+      ""hypothesized_salience_pathway"": ""Combining flight and hotel into one explicitly inclusive offer could cue convenience, package value, and reduced planning effort.""
+    },
+    {
+      ""name"": ""Explicit Morocco destination label"",
+      ""family"": ""textual"",
+      ""evidence"": ""Both the title and description explicitly name \""Le Maroc.\"""",
+      ""hypothesized_salience_pathway"": ""Repeated destination naming could reinforce category recognition and retrieve existing knowledge, preferences, or memories associated with Morocco.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'A warm, expansive desert scene with camels and traditionally dressed guides visually frames Morocco as a distinctive travel experience, while the metadata emphasizes an all-inclusive flight-and-hotel package.', 'features': [{'name': 'Expansive desert landscape', 'family': 'visual', 'evidence': 'The image is dominated by broad, rolling sand dunes extending toward the horizon.', 'hypothesized_salience_pathway': 'The large open setting could attract attention through visual scale and cue stored associations with deserts, travel, and Morocco.'}, {'name': 'Camel caravan cue', 'family': 'identity', 'evidence': 'Two loaded camels are prominently positioned in the lower center of the image.', 'hypothesized_salience_pathway': 'Camels provide a concrete destination-associated cue that could facilitate recognition and retrieval of Morocco or desert-tourism memories.'}, {'name': 'Traditional dress cue', 'family': 'identity', 'evidence': 'Two people walking beside the camels wear long robes, and one has a white head covering.', 'hypothesized_salience_pathway': 'Visible clothing associated with the depicted setting could make the destination feel culturally specific and personally relevant to viewers interested in cultural travel.'}, {'name': 'Warm golden palette', 'family': 'affective', 'evidence': 'Golden sunlight and orange-brown sand dominate nearly the entire image.', 'hypothesized_salience_pathway': 'The warm color palette could evoke associations with sunlight, warmth, relaxation, or adventure and make the scene visually cohesive.'}, {'name': 'Dramatic directional lighting', 'family': 'visual', 'evidence': 'Low-angle sunlight creates strong highlights across the dunes and long, dark shadows from the people and camels.', 'hypothesized_salience_pathway': ""High light-dark contrast and elongated shadows could guide attention toward the caravan and strengthen the scene's visual distinctiveness.""}, {'name': 'All-inclusive bundle framing', 'family': 'reward', 'evidence': 'The title states ""Le Maroc All Inclusive,"" and the description says ""Vol + Hôtel inclus !""', 'hypothesized_salience_pathway': 'Combining flight and hotel into one explicitly inclusive offer could cue convenience, package value, and reduced planning effort.'}, {'name': 'Explicit Morocco destination label', 'family': 'textual', 'evidence': 'Both the title and description explicitly name ""Le Maroc.""', 'hypothesized_salience_pathway': 'Repeated destination naming could reinforce category recognition and retrieve existing knowledge, preferences, or memories associated with Morocco.'}]}"
+80127133828226,SAS MEILLEURTAUX,Top 10 Banques en Ligne 2026,Jusqu'à 280€ Offerts et une carte bancaire gratuite,data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/e19f253da4b89927ccd658473106d380e9d9266488a09457f0d0a8effe629238.jpg,80127133828226,"{
+  ""summary"": ""The ad combines a prominent bank-switching command, a large monetary incentive, and a familiar card-payment scene to make the financial offer visually immediate and easy to encode."",
+  ""features"": [
+    {
+      ""name"": ""Direct switching command"",
+      ""family"": ""textual"",
+      ""evidence"": ""The upper-left headline reads “Changez Votre banque !” in large white text on red and black blocks."",
+      ""hypothesized_salience_pathway"": ""The imperative phrasing and exclamation mark could orient attention toward a specific action and cue thoughts about changing banks.""
+    },
+    {
+      ""name"": ""Large monetary reward"",
+      ""family"": ""reward"",
+      ""evidence"": ""The central offer prominently states “Jusqu’à 280€ Offerts,” with “280€” and “Offerts” highlighted in reddish-brown type."",
+      ""hypothesized_salience_pathway"": ""A concrete euro amount and the promise of something offered could attract attention and support memory for the financial benefit.""
+    },
+    {
+      ""name"": ""Free-product cue"",
+      ""family"": ""reward"",
+      ""evidence"": ""The main text includes “une carte bancaire Gratuite,” with “Gratuite” capitalized and displayed in large bold type."",
+      ""hypothesized_salience_pathway"": ""The explicit zero-price cue could activate reward or savings associations distinct from the cash incentive.""
+    },
+    {
+      ""name"": ""Payment-action imagery"",
+      ""family"": ""visual"",
+      ""evidence"": ""Two hands exchange or present a bank card directly above a payment terminal."",
+      ""hypothesized_salience_pathway"": ""The recognizable transaction scene could rapidly cue memories and schemas related to card payments, banking, and everyday purchases.""
+    },
+    {
+      ""name"": ""Human hand interaction"",
+      ""family"": ""social"",
+      ""evidence"": ""The image centers on two people’s hands reaching toward each other with the card between them."",
+      ""hypothesized_salience_pathway"": ""The implied interpersonal exchange and converging hand positions could guide visual attention toward the card and transaction.""
+    },
+    {
+      ""name"": ""High-contrast text panels"",
+      ""family"": ""visual"",
+      ""evidence"": ""White lettering appears on red and black headline blocks, while the main offer is placed inside a large white rectangle over the photographic background."",
+      ""hypothesized_salience_pathway"": ""Strong figure-ground contrast and boxed text could increase visual prominence and make the key claims easier to scan and encode.""
+    },
+    {
+      ""name"": ""Prominent brand signature"",
+      ""family"": ""identity"",
+      ""evidence"": ""The white Meilleurtaux name and geometric logo occupy the lower-right corner against the darker tabletop and background."",
+      ""hypothesized_salience_pathway"": ""The large, isolated brand mark could facilitate advertiser recognition and link the offer to the Meilleurtaux identity.""
+    },
+    {
+      ""name"": ""Conditional-offer disclosure"",
+      ""family"": ""risk"",
+      ""evidence"": ""Small text in the lower-left corner reads “*Voir conditions sur le site.”"",
+      ""hypothesized_salience_pathway"": ""The conditions notice could cue qualification or restriction, although its small size makes it less visually prominent than the reward claims.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'The ad combines a prominent bank-switching command, a large monetary incentive, and a familiar card-payment scene to make the financial offer visually immediate and easy to encode.', 'features': [{'name': 'Direct switching command', 'family': 'textual', 'evidence': 'The upper-left headline reads “Changez Votre banque !” in large white text on red and black blocks.', 'hypothesized_salience_pathway': 'The imperative phrasing and exclamation mark could orient attention toward a specific action and cue thoughts about changing banks.'}, {'name': 'Large monetary reward', 'family': 'reward', 'evidence': 'The central offer prominently states “Jusqu’à 280€ Offerts,” with “280€” and “Offerts” highlighted in reddish-brown type.', 'hypothesized_salience_pathway': 'A concrete euro amount and the promise of something offered could attract attention and support memory for the financial benefit.'}, {'name': 'Free-product cue', 'family': 'reward', 'evidence': 'The main text includes “une carte bancaire Gratuite,” with “Gratuite” capitalized and displayed in large bold type.', 'hypothesized_salience_pathway': 'The explicit zero-price cue could activate reward or savings associations distinct from the cash incentive.'}, {'name': 'Payment-action imagery', 'family': 'visual', 'evidence': 'Two hands exchange or present a bank card directly above a payment terminal.', 'hypothesized_salience_pathway': 'The recognizable transaction scene could rapidly cue memories and schemas related to card payments, banking, and everyday purchases.'}, {'name': 'Human hand interaction', 'family': 'social', 'evidence': 'The image centers on two people’s hands reaching toward each other with the card between them.', 'hypothesized_salience_pathway': 'The implied interpersonal exchange and converging hand positions could guide visual attention toward the card and transaction.'}, {'name': 'High-contrast text panels', 'family': 'visual', 'evidence': 'White lettering appears on red and black headline blocks, while the main offer is placed inside a large white rectangle over the photographic background.', 'hypothesized_salience_pathway': 'Strong figure-ground contrast and boxed text could increase visual prominence and make the key claims easier to scan and encode.'}, {'name': 'Prominent brand signature', 'family': 'identity', 'evidence': 'The white Meilleurtaux name and geometric logo occupy the lower-right corner against the darker tabletop and background.', 'hypothesized_salience_pathway': 'The large, isolated brand mark could facilitate advertiser recognition and link the offer to the Meilleurtaux identity.'}, {'name': 'Conditional-offer disclosure', 'family': 'risk', 'evidence': 'Small text in the lower-left corner reads “*Voir conditions sur le site.”', 'hypothesized_salience_pathway': 'The conditions notice could cue qualification or restriction, although its small size makes it less visually prominent than the reward claims.'}]}"
+71743416592197,Karavel Comptabilité Fournisseurs,Hôtels et Resorts 3* à 5*,"Envie de mer, soleil et liberté ? Cap sur la Tunisie avec Promovacances.",data/raw/bing_poc/run_id=2026-10-08T195020.951683+0000/media/f25f0f570f744a4ba2ca527dfb80bd298334a4ce99e93009e6a1260906b35b34.jpg,71743416592197,"{
+  ""summary"": ""The advertisement combines a vivid Mediterranean coastal panorama with Tunisian architectural cues and travel language emphasizing sunshine, freedom, and varied hotel quality."",
+  ""features"": [
+    {
+      ""name"": ""Saturated sea-and-sky palette"",
+      ""family"": ""visual"",
+      ""evidence"": ""Bright turquoise water and a large expanse of clear blue sky dominate the image."",
+      ""hypothesized_salience_pathway"": ""The saturated blue field and strong color coherence could capture attention and cue memories associated with coastal travel.""
+    },
+    {
+      ""name"": ""Scenic elevated viewpoint"",
+      ""family"": ""visual"",
+      ""evidence"": ""The scene is photographed from above, revealing white buildings, a marina, open water, and the distant horizon."",
+      ""hypothesized_salience_pathway"": ""The expansive overview could encourage visual exploration and make the destination scene easier to encode as a coherent spatial image.""
+    },
+    {
+      ""name"": ""Distinctive white-and-blue architecture"",
+      ""family"": ""identity"",
+      ""evidence"": ""Whitewashed buildings feature vivid blue doors, windows, gates, railings, and domed roofs."",
+      ""hypothesized_salience_pathway"": ""The repeated architectural color pattern could function as a recognizable destination cue and support place-related memory retrieval.""
+    },
+    {
+      ""name"": ""Warm-weather nature cues"",
+      ""family"": ""affective"",
+      ""evidence"": ""The image includes bright sunlight, dense green vegetation, a palm tree, calm water, and a largely clear sky."",
+      ""hypothesized_salience_pathway"": ""These visible cues could evoke pleasant warm-weather associations and reinforce the description's references to sea and sun.""
+    },
+    {
+      ""name"": ""Visible human presence"",
+      ""family"": ""social"",
+      ""evidence"": ""A small group of pedestrians is shown walking together along the foreground street."",
+      ""hypothesized_salience_pathway"": ""The people provide a social and human-scale element that could help viewers imagine activity within the destination.""
+    },
+    {
+      ""name"": ""Maritime leisure cues"",
+      ""family"": ""reward"",
+      ""evidence"": ""A marina with numerous small boats is visible beside the turquoise sea."",
+      ""hypothesized_salience_pathway"": ""Boats and waterfront access could cue recreational travel possibilities and anticipated leisure.""
+    },
+    {
+      ""name"": ""Freedom-oriented travel language"",
+      ""family"": ""affective"",
+      ""evidence"": ""The supplied description asks, \""Envie de mer, soleil et liberté ?\"" and invites the viewer to head to Tunisia."",
+      ""hypothesized_salience_pathway"": ""The direct question and the words for sea, sun, and freedom could activate desired vacation experiences and personal travel goals.""
+    },
+    {
+      ""name"": ""Broad hotel-quality range"",
+      ""family"": ""reward"",
+      ""evidence"": ""The supplied title advertises hotels and resorts rated from three to five stars."",
+      ""hypothesized_salience_pathway"": ""The explicit quality range could increase perceived relevance across different accommodation preferences and cue comparison of comfort levels.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'The advertisement combines a vivid Mediterranean coastal panorama with Tunisian architectural cues and travel language emphasizing sunshine, freedom, and varied hotel quality.', 'features': [{'name': 'Saturated sea-and-sky palette', 'family': 'visual', 'evidence': 'Bright turquoise water and a large expanse of clear blue sky dominate the image.', 'hypothesized_salience_pathway': 'The saturated blue field and strong color coherence could capture attention and cue memories associated with coastal travel.'}, {'name': 'Scenic elevated viewpoint', 'family': 'visual', 'evidence': 'The scene is photographed from above, revealing white buildings, a marina, open water, and the distant horizon.', 'hypothesized_salience_pathway': 'The expansive overview could encourage visual exploration and make the destination scene easier to encode as a coherent spatial image.'}, {'name': 'Distinctive white-and-blue architecture', 'family': 'identity', 'evidence': 'Whitewashed buildings feature vivid blue doors, windows, gates, railings, and domed roofs.', 'hypothesized_salience_pathway': 'The repeated architectural color pattern could function as a recognizable destination cue and support place-related memory retrieval.'}, {'name': 'Warm-weather nature cues', 'family': 'affective', 'evidence': 'The image includes bright sunlight, dense green vegetation, a palm tree, calm water, and a largely clear sky.', 'hypothesized_salience_pathway': ""These visible cues could evoke pleasant warm-weather associations and reinforce the description's references to sea and sun.""}, {'name': 'Visible human presence', 'family': 'social', 'evidence': 'A small group of pedestrians is shown walking together along the foreground street.', 'hypothesized_salience_pathway': 'The people provide a social and human-scale element that could help viewers imagine activity within the destination.'}, {'name': 'Maritime leisure cues', 'family': 'reward', 'evidence': 'A marina with numerous small boats is visible beside the turquoise sea.', 'hypothesized_salience_pathway': 'Boats and waterfront access could cue recreational travel possibilities and anticipated leisure.'}, {'name': 'Freedom-oriented travel language', 'family': 'affective', 'evidence': 'The supplied description asks, ""Envie de mer, soleil et liberté ?"" and invites the viewer to head to Tunisia.', 'hypothesized_salience_pathway': 'The direct question and the words for sea, sun, and freedom could activate desired vacation experiences and personal travel goals.'}, {'name': 'Broad hotel-quality range', 'family': 'reward', 'evidence': 'The supplied title advertises hotels and resorts rated from three to five stars.', 'hypothesized_salience_pathway': 'The explicit quality range could increase perceived relevance across different accommodation preferences and cue comparison of comfort levels.'}]}"

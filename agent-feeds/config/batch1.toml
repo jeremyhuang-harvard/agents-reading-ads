@@ -1,0 +1,25 @@
+# Batch 1: image-context priming, no personas.
+# One feed = (ad, prime set, position, draw). Each question is a separate forward pass.
+
+[study]
+id = "batch1-image-priming"
+seed = 20261021
+stimuli_manifest = "config/stimuli/batch1_manifest.json"
+stimuli_root = "data/raw/stimuli_batch1"
+output_root = "runs"
+
+[model]
+id = "mlx-community/Qwen3-VL-8B-Instruct-4bit"
+trail_max_tokens = 160
+
+[design]
+feed_length = 5          # images before the ad (padded with neutral fillers)
+k_before = [1, 3, 5]     # number of prime images directly before the ad
+draws = 5                # independent random image draws per cell
+include_ad_first = true  # ad shown first, followed by 5 primes
+
+# Prime sets per ad category. "neutral" is the within-feed baseline.
+[design.prime_sets]
+betting = ["neutral", "win", "loss", "look_bet"]
+beer = ["neutral", "social_drink", "drink_harm", "look_beer"]
+control = ["neutral", "win", "loss", "social_drink"]

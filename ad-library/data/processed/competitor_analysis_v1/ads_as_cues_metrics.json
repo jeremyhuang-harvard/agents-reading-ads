@@ -1,0 +1,290 @@
+{
+ "text_ads": {
+  "Winamax|PMU": 0.581,
+  "Winamax|Unibet": 0.368,
+  "Winamax|Betsson": 0.704,
+  "Winamax|bet365": 0.422,
+  "PMU|Unibet": 0.448,
+  "PMU|Betsson": 0.414,
+  "PMU|bet365": 0.369,
+  "Unibet|Betsson": 0.414,
+  "Unibet|bet365": 0.411,
+  "Betsson|bet365": 0.365
+ },
+ "text_imp": {
+  "Winamax|PMU": 0.579,
+  "Winamax|Unibet": 0.454,
+  "Winamax|Betsson": 0.65,
+  "Winamax|bet365": 0.45,
+  "PMU|Unibet": 0.476,
+  "PMU|Betsson": 0.361,
+  "PMU|bet365": 0.371,
+  "Unibet|Betsson": 0.452,
+  "Unibet|bet365": 0.43,
+  "Betsson|bet365": 0.362
+ },
+ "labels_ads": {
+  "Winamax|PMU": 0.625,
+  "Winamax|Unibet": 0.783,
+  "Winamax|Betsson": 0.831,
+  "Winamax|bet365": 0.693,
+  "PMU|Unibet": 0.635,
+  "PMU|Betsson": 0.565,
+  "PMU|bet365": 0.565,
+  "Unibet|Betsson": 0.882,
+  "Unibet|bet365": 0.849,
+  "Betsson|bet365": 0.902
+ },
+ "labels_imp": {
+  "Winamax|PMU": 0.73,
+  "Winamax|Unibet": 0.778,
+  "Winamax|Betsson": 0.778,
+  "Winamax|bet365": 0.726,
+  "PMU|Unibet": 0.645,
+  "PMU|Betsson": 0.579,
+  "PMU|bet365": 0.545,
+  "Unibet|Betsson": 0.786,
+  "Unibet|bet365": 0.752,
+  "Betsson|bet365": 0.926
+ },
+ "monthly_label_similarity": {
+  "2026-01": {
+   "firms": [
+    "Winamax",
+    "Unibet",
+    "Betsson"
+   ],
+   "mean_pair_sim": 0.407,
+   "wina_bet365": null
+  },
+  "2026-02": {
+   "firms": [
+    "Winamax",
+    "Unibet"
+   ],
+   "mean_pair_sim": 0.594,
+   "wina_bet365": null
+  },
+  "2026-03": {
+   "firms": [
+    "Winamax",
+    "PMU",
+    "Unibet"
+   ],
+   "mean_pair_sim": 0.643,
+   "wina_bet365": null
+  },
+  "2026-04": {
+   "firms": [
+    "Winamax",
+    "PMU"
+   ],
+   "mean_pair_sim": 0.556,
+   "wina_bet365": null
+  },
+  "2026-05": {
+   "firms": [
+    "Winamax",
+    "PMU",
+    "bet365"
+   ],
+   "mean_pair_sim": 0.424,
+   "wina_bet365": 0.648
+  },
+  "2026-06": {
+   "firms": [
+    "Winamax",
+    "PMU",
+    "Betsson",
+    "bet365"
+   ],
+   "mean_pair_sim": 0.765,
+   "wina_bet365": 0.726
+  },
+  "2026-07": {
+   "firms": [
+    "Winamax",
+    "PMU",
+    "bet365"
+   ],
+   "mean_pair_sim": 0.354,
+   "wina_bet365": 0.628
+  },
+  "2026-08": {
+   "firms": [
+    "Winamax",
+    "bet365"
+   ],
+   "mean_pair_sim": 0.246,
+   "wina_bet365": 0.246
+  },
+  "2026-09": {
+   "firms": [
+    "Winamax",
+    "PMU",
+    "bet365"
+   ],
+   "mean_pair_sim": 0.518,
+   "wina_bet365": 0.47
+  }
+ },
+ "representative_features": {
+  "Winamax": [
+   [
+    "lvl:poker_tournament",
+    5.6
+   ],
+   [
+    "of:prize_pool_or_jackpot",
+    5.4
+   ],
+   [
+    "bm:humour_wordplay",
+    4.0
+   ],
+   [
+    "tp:poster_or_illustration",
+    3.5
+   ],
+   [
+    "bm:street_youth_culture",
+    3.3
+   ]
+  ],
+  "PMU": [
+   [
+    "lvl:racing_event",
+    18.7
+   ],
+   [
+    "sp:horse_racing",
+    11.8
+   ],
+   [
+    "of:cash_bonus",
+    7.0
+   ],
+   [
+    "fr:product_or_service_utility",
+    6.1
+   ],
+   [
+    "tp:app_screenshot",
+    3.1
+   ]
+  ],
+  "Unibet": [
+   [
+    "of:no_deposit_bonus",
+    46.4
+   ],
+   [
+    "sp:combat_sports",
+    10.1
+   ],
+   [
+    "fr:not_shown",
+    3.4
+   ],
+   [
+    "tp:other",
+    2.8
+   ],
+   [
+    "lvl:european_club_competition",
+    2.3
+   ]
+  ],
+  "Betsson": [
+   [
+    "lvl:other_single_fixture",
+    3.6
+   ],
+   [
+    "of:first_bet_refund_or_guarantee",
+    2.6
+   ],
+   [
+    "fr:product_or_service_utility",
+    2.1
+   ],
+   [
+    "bm:safety_risk_reduction",
+    2.0
+   ],
+   [
+    "fr:low_risk_trial_or_deal",
+    1.8
+   ]
+  ],
+  "bet365": [
+   [
+    "lvl:national_team_or_major_tournament",
+    5.1
+   ],
+   [
+    "bm:national_pride",
+    3.8
+   ],
+   [
+    "of:boosted_odds",
+    3.0
+   ],
+   [
+    "of:first_bet_refund_or_guarantee",
+    2.9
+   ],
+   [
+    "fr:low_risk_trial_or_deal",
+    2.3
+   ]
+  ]
+ },
+ "repetition_branding": {
+  "Winamax": {
+   "brand_prom_ge2": 1.0,
+   "brand_prom_3": 0.264,
+   "generic_football_low_brand": 0.0,
+   "top3_creative_share": 0.306,
+   "imp_per_creative_M": 8.61,
+   "ads_per_creative": 2.74,
+   "evergreen_creatives": 183
+  },
+  "PMU": {
+   "brand_prom_ge2": 0.683,
+   "brand_prom_3": 0.435,
+   "generic_football_low_brand": 0.212,
+   "top3_creative_share": 0.178,
+   "imp_per_creative_M": 4.96,
+   "ads_per_creative": 4.14,
+   "evergreen_creatives": 0
+  },
+  "Unibet": {
+   "brand_prom_ge2": 0.989,
+   "brand_prom_3": 0.755,
+   "generic_football_low_brand": 0.011,
+   "top3_creative_share": 0.346,
+   "imp_per_creative_M": 9.32,
+   "ads_per_creative": 3.19,
+   "evergreen_creatives": 32
+  },
+  "Betsson": {
+   "brand_prom_ge2": 0.998,
+   "brand_prom_3": 0.76,
+   "generic_football_low_brand": 0.002,
+   "top3_creative_share": 0.291,
+   "imp_per_creative_M": 0.3,
+   "ads_per_creative": 5.05,
+   "evergreen_creatives": 50
+  },
+  "bet365": {
+   "brand_prom_ge2": 1.0,
+   "brand_prom_3": 0.999,
+   "generic_football_low_brand": 0.0,
+   "top3_creative_share": 0.202,
+   "imp_per_creative_M": 2.4,
+   "ads_per_creative": 1.91,
+   "evergreen_creatives": 0
+  }
+ }
+}

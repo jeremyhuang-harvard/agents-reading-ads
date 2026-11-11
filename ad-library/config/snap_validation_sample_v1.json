@@ -1,0 +1,24 @@
+{
+  "spec_version": "snap_validation_sample_v1.0.0",
+  "source_run_id": "2026-10-14T234838.202710+0000",
+  "unit": "unique downloaded creative identified by SHA-256",
+  "selection_seed": 2026101501,
+  "coding_order_seed": 2026101502,
+  "selection_note": "Within each cell, sort unique creatives by aggregate impressions, divide the ordered list into quota-sized exposure bins, and select one seeded-random creative from each bin.",
+  "cells": [
+    {"category": "betting", "country": "fr", "media_kind": "image", "quota": 5},
+    {"category": "betting", "country": "fr", "media_kind": "video", "quota": 5},
+    {"category": "betting", "country": "de", "media_kind": "image", "quota": 5},
+    {"category": "betting", "country": "de", "media_kind": "video", "quota": 5},
+    {"category": "alcohol", "country": "fr", "media_kind": "image", "quota": 5},
+    {"category": "alcohol", "country": "fr", "media_kind": "video", "quota": 5},
+    {"category": "alcohol", "country": "nl", "media_kind": "image", "quota": 5},
+    {"category": "alcohol", "country": "nl", "media_kind": "video", "quota": 5},
+    {"category": "control", "country": "fr", "media_kind": "image", "quota": 5},
+    {"category": "control", "country": "fr", "media_kind": "video", "quota": 5},
+    {"category": "control", "country": "de", "media_kind": "image", "quota": 3},
+    {"category": "control", "country": "de", "media_kind": "video", "quota": 2},
+    {"category": "control", "country": "nl", "media_kind": "image", "quota": 2},
+    {"category": "control", "country": "nl", "media_kind": "video", "quota": 3}
+  ]
+}

@@ -1,0 +1,1 @@
+Given the profile, context, and fixed ad, report what stands out and how the offer is interpreted. Complete the structured response first; provide a brief rationale only at the end. Do not claim to be a real person.

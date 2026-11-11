@@ -1,0 +1,1693 @@
+{
+  "version": "2026-11-10d",
+  "description": "Pilot frame for directed celebrity-brand association measures. Candidate sets are frozen here before any outcome is inspected: brand-cue retrieval is normalized over `celebrities`, celebrity-cue retrieval over `brands`. Brands without a pair are deliberate distractors (rivals and category neighbors). Pairs were assembled from recent announcements (hand-picked to span celebrity/brand size ratios), not a probability sample. v2026-11-10b adds Sydney Sweeney x Novig (user-requested case where the brand is far smaller than the celebrity) and prediction-market / betting rivals as distractors; added after the pilot run, so these entries are not part of a pre-specified frame. v2026-11-10c expands to multi-ambassador hub brands (Adidas, Nike, Chanel, Dior, Louis Vuitton, Calvin Klein, Puma, New Balance, On) so brand-side crowding (the fan effect) varies; each new pair has a source URL from a search on 2026-11-10. | v2026-11-10d adds the PI's 2026-11-10 list (14 celebrities, 15 brands, 2 Dior fragrance products, 20 pairs); these were specified before any of their outcomes were inspected. 'since' dates are from the cited sources or left blank.",
+  "window": {
+    "from": "2025-11-01",
+    "to": "2026-10-31"
+  },
+  "celebrities": [
+    {
+      "id": "tate_mcrae",
+      "name": "Tate McRae",
+      "wiki": "Tate_McRae",
+      "gdelt": "\"Tate McRae\"",
+      "domain": "music"
+    },
+    {
+      "id": "emilia_mernes",
+      "name": "Emilia Mernes",
+      "wiki": "Emilia_Mernes",
+      "gdelt": "\"Emilia Mernes\"",
+      "domain": "music"
+    },
+    {
+      "id": "harper_murray",
+      "name": "Harper Murray",
+      "wiki": "Harper_Murray",
+      "gdelt": "\"Harper Murray\"",
+      "domain": "sport"
+    },
+    {
+      "id": "bad_bunny",
+      "name": "Bad Bunny",
+      "wiki": "Bad_Bunny",
+      "gdelt": "\"Bad Bunny\"",
+      "domain": "music"
+    },
+    {
+      "id": "jenna_ortega",
+      "name": "Jenna Ortega",
+      "wiki": "Jenna_Ortega",
+      "gdelt": "\"Jenna Ortega\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "zendaya",
+      "name": "Zendaya",
+      "wiki": "Zendaya",
+      "gdelt": "Zendaya",
+      "domain": "film_tv",
+      "match": [
+        "zendaya"
+      ]
+    },
+    {
+      "id": "sydney_sweeney",
+      "name": "Sydney Sweeney",
+      "wiki": "Sydney_Sweeney",
+      "gdelt": "\"Sydney Sweeney\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "shohei_ohtani",
+      "name": "Shohei Ohtani",
+      "wiki": "Shohei_Ohtani",
+      "gdelt": "Ohtani",
+      "domain": "sport",
+      "match": [
+        "ohtani"
+      ]
+    },
+    {
+      "id": "jung_kook",
+      "name": "Jung Kook",
+      "wiki": "Jungkook",
+      "gdelt": "(Jungkook OR \"Jung Kook\")",
+      "domain": "music",
+      "match": [
+        "jungkook",
+        "jung kook",
+        "jeon jungkook"
+      ]
+    },
+    {
+      "id": "kendall_jenner",
+      "name": "Kendall Jenner",
+      "wiki": "Kendall_Jenner",
+      "gdelt": "\"Kendall Jenner\"",
+      "domain": "fashion"
+    },
+    {
+      "id": "caitlin_clark",
+      "name": "Caitlin Clark",
+      "wiki": "Caitlin_Clark",
+      "gdelt": "\"Caitlin Clark\"",
+      "domain": "sport"
+    },
+    {
+      "id": "travis_kelce",
+      "name": "Travis Kelce",
+      "wiki": "Travis_Kelce",
+      "gdelt": "\"Travis Kelce\"",
+      "domain": "sport"
+    },
+    {
+      "id": "jisoo",
+      "name": "Jisoo",
+      "wiki": "Jisoo",
+      "gdelt": "Jisoo",
+      "domain": "music"
+    },
+    {
+      "id": "olivia_dean",
+      "name": "Olivia Dean",
+      "wiki": "Olivia_Dean",
+      "gdelt": "\"Olivia Dean\"",
+      "domain": "music"
+    },
+    {
+      "id": "jennie",
+      "name": "Jennie",
+      "wiki": "Jennie_(singer)",
+      "gdelt": "(\"Jennie Kim\" OR \"BLACKPINK's Jennie\" OR \"Blackpink Jennie\")",
+      "domain": "music",
+      "match": [
+        "jennie"
+      ]
+    },
+    {
+      "id": "timothee_chalamet",
+      "name": "Timothée Chalamet",
+      "wiki": "Timothée_Chalamet",
+      "gdelt": "Chalamet",
+      "domain": "film_tv",
+      "match": [
+        "timothee chalamet",
+        "timothée chalamet",
+        "chalamet"
+      ]
+    },
+    {
+      "id": "victor_wembanyama",
+      "name": "Victor Wembanyama",
+      "wiki": "Victor_Wembanyama",
+      "gdelt": "Wembanyama",
+      "domain": "sport",
+      "match": [
+        "wembanyama",
+        "wemby"
+      ]
+    },
+    {
+      "id": "angel_reese",
+      "name": "Angel Reese",
+      "wiki": "Angel_Reese",
+      "gdelt": "\"Angel Reese\"",
+      "domain": "sport"
+    },
+    {
+      "id": "jacob_elordi",
+      "name": "Jacob Elordi",
+      "wiki": "Jacob_Elordi",
+      "gdelt": "\"Jacob Elordi\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "teyana_taylor",
+      "name": "Teyana Taylor",
+      "wiki": "Teyana_Taylor",
+      "gdelt": "\"Teyana Taylor\"",
+      "domain": "music"
+    },
+    {
+      "id": "suki_waterhouse",
+      "name": "Suki Waterhouse",
+      "wiki": "Suki_Waterhouse",
+      "gdelt": "\"Suki Waterhouse\"",
+      "domain": "music"
+    },
+    {
+      "id": "riley_green",
+      "name": "Riley Green",
+      "wiki": "Riley_Green",
+      "gdelt": "\"Riley Green\"",
+      "domain": "music"
+    },
+    {
+      "id": "lionel_messi",
+      "name": "Lionel Messi",
+      "wiki": "Lionel_Messi",
+      "gdelt": "Messi",
+      "domain": "sport",
+      "match": [
+        "messi"
+      ]
+    },
+    {
+      "id": "anthony_edwards",
+      "name": "Anthony Edwards",
+      "wiki": "Anthony_Edwards_(basketball)",
+      "gdelt": "\"Anthony Edwards\"",
+      "domain": "sport"
+    },
+    {
+      "id": "patrick_mahomes",
+      "name": "Patrick Mahomes",
+      "wiki": "Patrick_Mahomes",
+      "gdelt": "Mahomes",
+      "domain": "sport",
+      "match": [
+        "mahomes"
+      ]
+    },
+    {
+      "id": "lebron_james",
+      "name": "LeBron James",
+      "wiki": "LeBron_James",
+      "gdelt": "LeBron",
+      "domain": "sport",
+      "match": [
+        "lebron"
+      ]
+    },
+    {
+      "id": "shacarri_richardson",
+      "name": "Sha'Carri Richardson",
+      "wiki": "Sha'Carri_Richardson",
+      "gdelt": "\"Sha'Carri Richardson\"",
+      "domain": "sport",
+      "match": [
+        "sha'carri",
+        "shacarri"
+      ]
+    },
+    {
+      "id": "aja_wilson",
+      "name": "A'ja Wilson",
+      "wiki": "A'ja_Wilson",
+      "gdelt": "\"A'ja Wilson\"",
+      "domain": "sport",
+      "match": [
+        "a'ja wilson"
+      ]
+    },
+    {
+      "id": "lily_rose_depp",
+      "name": "Lily-Rose Depp",
+      "wiki": "Lily-Rose_Depp",
+      "gdelt": "\"Lily-Rose Depp\"",
+      "domain": "film_tv",
+      "match": [
+        "lily-rose depp",
+        "lily rose depp"
+      ]
+    },
+    {
+      "id": "kristen_stewart",
+      "name": "Kristen Stewart",
+      "wiki": "Kristen_Stewart",
+      "gdelt": "\"Kristen Stewart\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "lisa",
+      "name": "Lisa",
+      "wiki": "Lisa_(rapper)",
+      "gdelt": "(Lalisa OR \"BLACKPINK's Lisa\" OR \"Blackpink Lisa\")",
+      "domain": "music",
+      "match": [
+        "lalisa",
+        "blackpink's lisa",
+        "blackpink lisa",
+        "lisa of blackpink"
+      ]
+    },
+    {
+      "id": "emma_stone",
+      "name": "Emma Stone",
+      "wiki": "Emma_Stone",
+      "gdelt": "\"Emma Stone\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "jimin",
+      "name": "Jimin",
+      "wiki": "Jimin",
+      "gdelt": "Jimin",
+      "domain": "music",
+      "match": [
+        "jimin"
+      ]
+    },
+    {
+      "id": "anya_taylor_joy",
+      "name": "Anya Taylor-Joy",
+      "wiki": "Anya_Taylor-Joy",
+      "gdelt": "\"Anya Taylor-Joy\"",
+      "domain": "film_tv",
+      "match": [
+        "anya taylor-joy",
+        "anya taylor joy"
+      ]
+    },
+    {
+      "id": "robert_pattinson",
+      "name": "Robert Pattinson",
+      "wiki": "Robert_Pattinson",
+      "gdelt": "\"Robert Pattinson\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "charlize_theron",
+      "name": "Charlize Theron",
+      "wiki": "Charlize_Theron",
+      "gdelt": "\"Charlize Theron\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "jeremy_allen_white",
+      "name": "Jeremy Allen White",
+      "wiki": "Jeremy_Allen_White",
+      "gdelt": "\"Jeremy Allen White\"",
+      "domain": "film_tv"
+    },
+    {
+      "id": "rihanna",
+      "name": "Rihanna",
+      "wiki": "Rihanna",
+      "gdelt": "Rihanna",
+      "domain": "music"
+    },
+    {
+      "id": "asap_rocky",
+      "name": "A$AP Rocky",
+      "wiki": "ASAP_Rocky",
+      "gdelt": "(\"ASAP Rocky\" OR \"A$AP Rocky\")",
+      "domain": "music",
+      "match": [
+        "a$ap rocky",
+        "asap rocky"
+      ]
+    },
+    {
+      "id": "dua_lipa",
+      "name": "Dua Lipa",
+      "wiki": "Dua_Lipa",
+      "gdelt": "\"Dua Lipa\"",
+      "domain": "music"
+    },
+    {
+      "id": "coco_gauff",
+      "name": "Coco Gauff",
+      "wiki": "Coco_Gauff",
+      "gdelt": "\"Coco Gauff\"",
+      "domain": "sport",
+      "match": [
+        "gauff"
+      ]
+    },
+    {
+      "id": "roger_federer",
+      "name": "Roger Federer",
+      "wiki": "Roger_Federer",
+      "gdelt": "Federer",
+      "domain": "sport",
+      "match": [
+        "federer"
+      ]
+    },
+    {
+      "id": "taylor_swift",
+      "name": "Taylor Swift",
+      "wiki": "Taylor_Swift",
+      "gdelt": "\"Taylor Swift\"",
+      "domain": "music"
+    },
+    {
+      "id": "johnny_depp",
+      "name": "Johnny Depp",
+      "wiki": "Johnny_Depp",
+      "gdelt": "\"Johnny Depp\"",
+      "domain": "film",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "chris_paul",
+      "name": "Chris Paul",
+      "wiki": "Chris_Paul",
+      "gdelt": "\"Chris Paul\"",
+      "domain": "basketball",
+      "match": [
+        "cp3"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "travis_scott",
+      "name": "Travis Scott",
+      "wiki": "Travis_Scott",
+      "gdelt": "\"Travis Scott\"",
+      "domain": "music",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "matthew_mcconaughey",
+      "name": "Matthew McConaughey",
+      "wiki": "Matthew_McConaughey",
+      "gdelt": "\"Matthew McConaughey\"",
+      "domain": "film",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "george_clooney",
+      "name": "George Clooney",
+      "wiki": "George_Clooney",
+      "gdelt": "\"George Clooney\"",
+      "domain": "film",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "shaquille_oneal",
+      "name": "Shaquille O'Neal",
+      "wiki": "Shaquille_O'Neal",
+      "gdelt": "\"Shaquille O'Neal\"",
+      "domain": "basketball",
+      "match": [
+        "shaquille o’neal",
+        "shaquille oneal",
+        "shaq"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "peyton_manning",
+      "name": "Peyton Manning",
+      "wiki": "Peyton_Manning",
+      "gdelt": "\"Peyton Manning\"",
+      "domain": "football",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "jennifer_garner",
+      "name": "Jennifer Garner",
+      "wiki": "Jennifer_Garner",
+      "gdelt": "\"Jennifer Garner\"",
+      "domain": "film",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "samuel_l_jackson",
+      "name": "Samuel L. Jackson",
+      "wiki": "Samuel_L._Jackson",
+      "gdelt": "\"Samuel L. Jackson\"",
+      "domain": "film",
+      "match": [
+        "samuel jackson",
+        "samuel l jackson"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "natalie_portman",
+      "name": "Natalie Portman",
+      "wiki": "Natalie_Portman",
+      "gdelt": "\"Natalie Portman\"",
+      "domain": "film",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "julia_roberts",
+      "name": "Julia Roberts",
+      "wiki": "Julia_Roberts",
+      "gdelt": "\"Julia Roberts\"",
+      "domain": "film",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "jennifer_aniston",
+      "name": "Jennifer Aniston",
+      "wiki": "Jennifer_Aniston",
+      "gdelt": "\"Jennifer Aniston\"",
+      "domain": "film/tv",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "snoop_dogg",
+      "name": "Snoop Dogg",
+      "wiki": "Snoop_Dogg",
+      "gdelt": "\"Snoop Dogg\"",
+      "domain": "music",
+      "match": [
+        "snoop"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "brad_pitt",
+      "name": "Brad Pitt",
+      "wiki": "Brad_Pitt",
+      "gdelt": "\"Brad Pitt\"",
+      "domain": "film",
+      "added": "2026-11-10 PI list"
+    }
+  ],
+  "brands": [
+    {
+      "id": "adidas",
+      "name": "Adidas",
+      "wiki": "Adidas",
+      "gdelt": "adidas",
+      "category": "sportswear"
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "wiki": "Nike,_Inc.",
+      "gdelt": "Nike",
+      "category": "sportswear",
+      "match": [
+        "nike"
+      ]
+    },
+    {
+      "id": "air_jordan",
+      "name": "Air Jordan",
+      "wiki": "Air_Jordan",
+      "gdelt": "(\"Air Jordan\" OR \"Jordan Brand\")",
+      "category": "sportswear",
+      "match": [
+        "air jordan",
+        "air jordans",
+        "jordan brand"
+      ]
+    },
+    {
+      "id": "puma",
+      "name": "Puma",
+      "wiki": "Puma_(brand)",
+      "gdelt": "Puma",
+      "category": "sportswear"
+    },
+    {
+      "id": "new_balance",
+      "name": "New Balance",
+      "wiki": "New_Balance",
+      "gdelt": "\"New Balance\"",
+      "category": "sportswear",
+      "match": [
+        "new balance"
+      ]
+    },
+    {
+      "id": "reebok",
+      "name": "Reebok",
+      "wiki": "Reebok",
+      "gdelt": "Reebok",
+      "category": "sportswear"
+    },
+    {
+      "id": "on_running",
+      "name": "On Running",
+      "wiki": "On_(company)",
+      "gdelt": "(\"On Running\" OR \"On Holding\")",
+      "category": "sportswear",
+      "match": [
+        "on running",
+        "on holding",
+        "on cloudmonster",
+        "on cloudrunner",
+        "on cloudsurfer"
+      ]
+    },
+    {
+      "id": "asics",
+      "name": "Asics",
+      "wiki": "Asics",
+      "gdelt": "Asics",
+      "category": "sportswear"
+    },
+    {
+      "id": "lululemon",
+      "name": "Lululemon",
+      "wiki": "Lululemon",
+      "gdelt": "Lululemon",
+      "category": "sportswear"
+    },
+    {
+      "id": "under_armour",
+      "name": "Under Armour",
+      "wiki": "Under_Armour",
+      "gdelt": "\"Under Armour\"",
+      "category": "sportswear",
+      "match": [
+        "under armour"
+      ]
+    },
+    {
+      "id": "american_eagle",
+      "name": "American Eagle",
+      "wiki": "American_Eagle_Outfitters",
+      "gdelt": "\"American Eagle\"",
+      "category": "apparel",
+      "match": [
+        "american eagle"
+      ]
+    },
+    {
+      "id": "calvin_klein",
+      "name": "Calvin Klein",
+      "wiki": "Calvin_Klein_(company)",
+      "gdelt": "\"Calvin Klein\"",
+      "category": "apparel",
+      "match": [
+        "calvin klein"
+      ]
+    },
+    {
+      "id": "tommy_hilfiger",
+      "name": "Tommy Hilfiger",
+      "wiki": "Tommy_Hilfiger_(company)",
+      "gdelt": "\"Tommy Hilfiger\"",
+      "category": "apparel",
+      "match": [
+        "tommy hilfiger"
+      ]
+    },
+    {
+      "id": "intimissimi",
+      "name": "Intimissimi",
+      "wiki": "Intimissimi",
+      "gdelt": "Intimissimi",
+      "category": "apparel"
+    },
+    {
+      "id": "michael_kors",
+      "name": "Michael Kors",
+      "wiki": "Michael_Kors",
+      "gdelt": "\"Michael Kors\"",
+      "category": "apparel"
+    },
+    {
+      "id": "heydude",
+      "name": "HeyDude",
+      "wiki": "Hey_Dude",
+      "gdelt": "(HeyDude OR \"Hey Dude\")",
+      "category": "footwear",
+      "match": [
+        "hey dude",
+        "heydude",
+        "hey dudes"
+      ]
+    },
+    {
+      "id": "crocs",
+      "name": "Crocs",
+      "wiki": "Crocs",
+      "gdelt": "Crocs",
+      "category": "footwear"
+    },
+    {
+      "id": "levis",
+      "name": "Levi's",
+      "wiki": "Levi_Strauss_&_Co.",
+      "gdelt": "\"Levi's\"",
+      "category": "apparel",
+      "match": [
+        "levi's",
+        "levis"
+      ]
+    },
+    {
+      "id": "skims",
+      "name": "Skims",
+      "wiki": "Skims",
+      "gdelt": "Skims",
+      "category": "apparel"
+    },
+    {
+      "id": "dicks",
+      "name": "Dick's Sporting Goods",
+      "wiki": "Dick's_Sporting_Goods",
+      "gdelt": "\"Dick's Sporting Goods\"",
+      "category": "retail",
+      "match": [
+        "dick's",
+        "dicks"
+      ]
+    },
+    {
+      "id": "foot_locker",
+      "name": "Foot Locker",
+      "wiki": "Foot_Locker",
+      "gdelt": "\"Foot Locker\"",
+      "category": "retail",
+      "match": [
+        "foot locker",
+        "footlocker"
+      ]
+    },
+    {
+      "id": "chanel",
+      "name": "Chanel",
+      "wiki": "Chanel",
+      "gdelt": "Chanel",
+      "category": "luxury"
+    },
+    {
+      "id": "louis_vuitton",
+      "name": "Louis Vuitton",
+      "wiki": "Louis_Vuitton",
+      "gdelt": "\"Louis Vuitton\"",
+      "category": "luxury",
+      "match": [
+        "louis vuitton"
+      ]
+    },
+    {
+      "id": "dior",
+      "name": "Dior",
+      "wiki": "Dior",
+      "gdelt": "Dior",
+      "category": "luxury"
+    },
+    {
+      "id": "gucci",
+      "name": "Gucci",
+      "wiki": "Gucci",
+      "gdelt": "Gucci",
+      "category": "luxury"
+    },
+    {
+      "id": "prada",
+      "name": "Prada",
+      "wiki": "Prada",
+      "gdelt": "Prada",
+      "category": "luxury"
+    },
+    {
+      "id": "bottega_veneta",
+      "name": "Bottega Veneta",
+      "wiki": "Bottega_Veneta",
+      "gdelt": "\"Bottega Veneta\"",
+      "category": "luxury"
+    },
+    {
+      "id": "jimmy_choo",
+      "name": "Jimmy Choo",
+      "wiki": "Jimmy_Choo_Ltd",
+      "gdelt": "\"Jimmy Choo\"",
+      "category": "luxury"
+    },
+    {
+      "id": "saint_laurent",
+      "name": "Saint Laurent",
+      "wiki": "Yves_Saint_Laurent_(brand)",
+      "gdelt": "\"Saint Laurent\"",
+      "category": "luxury",
+      "match": [
+        "saint laurent",
+        "yves saint laurent"
+      ]
+    },
+    {
+      "id": "cartier",
+      "name": "Cartier",
+      "wiki": "Cartier_(jeweler)",
+      "gdelt": "Cartier",
+      "category": "luxury"
+    },
+    {
+      "id": "novig",
+      "name": "Novig",
+      "wiki": "Novig",
+      "gdelt": "Novig",
+      "category": "prediction_market",
+      "match": [
+        "novig"
+      ]
+    },
+    {
+      "id": "kalshi",
+      "name": "Kalshi",
+      "wiki": "Kalshi",
+      "gdelt": "Kalshi",
+      "category": "prediction_market"
+    },
+    {
+      "id": "polymarket",
+      "name": "Polymarket",
+      "wiki": "Polymarket",
+      "gdelt": "Polymarket",
+      "category": "prediction_market"
+    },
+    {
+      "id": "prizepicks",
+      "name": "PrizePicks",
+      "wiki": "PrizePicks",
+      "gdelt": "PrizePicks",
+      "category": "prediction_market",
+      "match": [
+        "prizepicks",
+        "prize picks"
+      ]
+    },
+    {
+      "id": "draftkings",
+      "name": "DraftKings",
+      "wiki": "DraftKings",
+      "gdelt": "DraftKings",
+      "category": "sportsbook",
+      "match": [
+        "draftkings",
+        "draft kings"
+      ]
+    },
+    {
+      "id": "fanduel",
+      "name": "FanDuel",
+      "wiki": "FanDuel",
+      "gdelt": "FanDuel",
+      "category": "sportsbook",
+      "match": [
+        "fanduel",
+        "fan duel"
+      ]
+    },
+    {
+      "id": "state_farm",
+      "name": "State Farm",
+      "wiki": "State_Farm",
+      "gdelt": "\"State Farm\"",
+      "category": "insurance",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "wiki": "McDonald's",
+      "gdelt": "\"McDonald's\"",
+      "category": "fast food",
+      "match": [
+        "mcdonalds",
+        "mcdonald’s"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "lincoln",
+      "name": "Lincoln",
+      "wiki": "Lincoln_Motor_Company",
+      "gdelt": "\"Lincoln\"",
+      "category": "automotive",
+      "match": [
+        "lincoln motor",
+        "lincoln navigator",
+        "lincoln aviator",
+        "lincoln nautilus"
+      ],
+      "exclude_after": [
+        "lawyer",
+        "lawyers",
+        "memorial",
+        "center",
+        "centre",
+        "university",
+        "park",
+        "tunnel",
+        "square",
+        "county",
+        "city",
+        "nebraska"
+      ],
+      "exclude_before": [
+        "Abraham",
+        "President",
+        "Mary Todd"
+      ],
+      "added": "2026-11-10 PI list",
+      "match_short": [
+        "lincoln car",
+        "lincoln cars"
+      ]
+    },
+    {
+      "id": "nespresso",
+      "name": "Nespresso",
+      "wiki": "Nespresso",
+      "gdelt": "\"Nespresso\"",
+      "category": "coffee",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "icy_hot",
+      "name": "Icy Hot",
+      "wiki": null,
+      "gdelt": "\"Icy Hot\"",
+      "category": "pain relief",
+      "match": [
+        "icyhot"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "gold_bond",
+      "name": "Gold Bond",
+      "wiki": "Gold_Bond",
+      "gdelt": "\"Gold Bond\"",
+      "category": "skin care",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "the_general",
+      "name": "The General Insurance",
+      "wiki": "The_General_(insurance)",
+      "gdelt": "\"The General Insurance\"",
+      "category": "insurance",
+      "match": [
+        "the general auto insurance",
+        "the general car insurance"
+      ],
+      "added": "2026-11-10 PI list",
+      "match_short": [
+        "the general"
+      ]
+    },
+    {
+      "id": "nationwide",
+      "name": "Nationwide Insurance",
+      "wiki": "Nationwide_Mutual_Insurance_Company",
+      "gdelt": "\"Nationwide Insurance\"",
+      "category": "insurance",
+      "match": [
+        "nationwide mutual",
+        "nationwide is on your side"
+      ],
+      "added": "2026-11-10 PI list",
+      "match_short": [
+        "nationwide"
+      ]
+    },
+    {
+      "id": "capital_one",
+      "name": "Capital One",
+      "wiki": "Capital_One",
+      "gdelt": "\"Capital One\"",
+      "category": "banking",
+      "match": [
+        "capitalone"
+      ],
+      "added": "2026-11-10 PI list",
+      "match_short": [
+        "capitol one"
+      ]
+    },
+    {
+      "id": "lancome",
+      "name": "Lancôme",
+      "wiki": "Lancôme",
+      "gdelt": "\"Lancôme\"",
+      "category": "cosmetics",
+      "match": [
+        "lancome"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "aveeno",
+      "name": "Aveeno",
+      "wiki": "Aveeno",
+      "gdelt": "\"Aveeno\"",
+      "category": "skin care",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "smartwater",
+      "name": "Smartwater",
+      "wiki": "Glaceau_Smartwater",
+      "gdelt": "\"Smartwater\"",
+      "category": "beverages",
+      "match": [
+        "smart water",
+        "glaceau smartwater"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "corona",
+      "name": "Corona beer",
+      "wiki": "Corona_(beer)",
+      "gdelt": "\"Corona beer\"",
+      "category": "beer",
+      "match": [
+        "corona extra",
+        "corona beer",
+        "corona light",
+        "corona premier"
+      ],
+      "added": "2026-11-10 PI list",
+      "match_short": [
+        "corona"
+      ]
+    },
+    {
+      "id": "rolex",
+      "name": "Rolex",
+      "wiki": "Rolex",
+      "gdelt": "\"Rolex\"",
+      "category": "watches",
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "delonghi",
+      "name": "De'Longhi",
+      "wiki": "De'_Longhi",
+      "gdelt": "\"De'Longhi\"",
+      "category": "appliances",
+      "match": [
+        "delonghi",
+        "de’longhi",
+        "de longhi"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "sauvage",
+      "name": "Dior Sauvage",
+      "wiki": "Sauvage_(fragrance)",
+      "gdelt": "\"Dior Sauvage\"",
+      "category": "fragrance (Dior product)",
+      "match": [
+        "sauvage"
+      ],
+      "added": "2026-11-10 PI list"
+    },
+    {
+      "id": "miss_dior",
+      "name": "Miss Dior",
+      "wiki": "Miss_Dior",
+      "gdelt": "\"Miss Dior\"",
+      "category": "fragrance (Dior product)",
+      "added": "2026-11-10 PI list"
+    }
+  ],
+  "pairs": [
+    {
+      "celebrity": "tate_mcrae",
+      "brand": "adidas",
+      "relation": "ambassador",
+      "since": "2024",
+      "evidence": "reported",
+      "source": "https://bookingagentinfo.com/news/tate-mcrae-emilia-mernes-and-harper-murray-front-adidas-originals-sports-womenswear-campaign/"
+    },
+    {
+      "celebrity": "emilia_mernes",
+      "brand": "adidas",
+      "relation": "campaign",
+      "since": "2026-07-22",
+      "evidence": "reported",
+      "source": "https://www.afaqs.com/news/advertising/adidas-launches-originals-sport-campaign-with-tate-mcrae-12193432"
+    },
+    {
+      "celebrity": "harper_murray",
+      "brand": "adidas",
+      "relation": "NIL deal",
+      "since": "2025-08",
+      "evidence": "reported",
+      "source": "https://bookingagentinfo.com/news/tate-mcrae-emilia-mernes-and-harper-murray-front-adidas-originals-sports-womenswear-campaign/"
+    },
+    {
+      "celebrity": "bad_bunny",
+      "brand": "adidas",
+      "relation": "collaboration",
+      "since": "2020",
+      "evidence": "brand",
+      "source": "https://www.adidas.com/us/blog/bad-bunny-archive-the-complete-adidas-collaboration-timeline",
+      "pi_list": "2026-11-10"
+    },
+    {
+      "celebrity": "jenna_ortega",
+      "brand": "adidas",
+      "relation": "campaign face",
+      "since": "2023",
+      "evidence": "reported",
+      "source": "https://www.thezoereport.com/culture/jenna-ortega-adidas-sportswear-campaign"
+    },
+    {
+      "celebrity": "zendaya",
+      "brand": "on_running",
+      "relation": "ambassador",
+      "since": "2024",
+      "evidence": "reported",
+      "source": "https://www.vogue.com/article/from-vuitton-to-on-zendaya-is-on-runnings-latest-ambassador"
+    },
+    {
+      "celebrity": "sydney_sweeney",
+      "brand": "american_eagle",
+      "relation": "campaign face",
+      "since": "2025-07",
+      "evidence": "brand",
+      "source": "https://investors.ae.com/press-releases/news-details/2025/Sydney-Sweeney-Has-Great-American-Eagle-Jeans",
+      "pi_list": "2026-11-10"
+    },
+    {
+      "celebrity": "shohei_ohtani",
+      "brand": "new_balance",
+      "relation": "endorsement",
+      "since": "2023-01-31",
+      "evidence": "brand",
+      "source": "https://newbalance.newsmarket.com/latest-news/new-balance-welcomes-mlb-superstar-shohei-ohtani-to-the-family/s/70840c61-aa47-4273-8b03-d1897bff9f70"
+    },
+    {
+      "celebrity": "jung_kook",
+      "brand": "calvin_klein",
+      "relation": "ambassador",
+      "since": "2023",
+      "evidence": "brand",
+      "source": "https://www.pvh.com/news/calvin-klein-fall-2026-jung-kook"
+    },
+    {
+      "celebrity": "kendall_jenner",
+      "brand": "intimissimi",
+      "relation": "campaign face",
+      "since": "2026",
+      "evidence": "brand",
+      "source": "https://www.intimissimi.com/us/women/kendall_jenner/"
+    },
+    {
+      "celebrity": "caitlin_clark",
+      "brand": "dicks",
+      "relation": "brand partner",
+      "since": "2026-11-04",
+      "evidence": "brand",
+      "source": "https://prnewswire.com/news-releases/dicks-sporting-goods-inc-signs-caitlin-clark-as-first-ever-brand-partner-across-dicks-and-foot-locker-302928695.html"
+    },
+    {
+      "celebrity": "caitlin_clark",
+      "brand": "foot_locker",
+      "relation": "brand partner",
+      "since": "2026-11-04",
+      "evidence": "brand",
+      "source": "https://prnewswire.com/news-releases/dicks-sporting-goods-inc-signs-caitlin-clark-as-first-ever-brand-partner-across-dicks-and-foot-locker-302928695.html"
+    },
+    {
+      "celebrity": "travis_kelce",
+      "brand": "tommy_hilfiger",
+      "relation": "campaign",
+      "since": "2026",
+      "evidence": "reported",
+      "source": "https://wwd.com/fashion-news/fashion-features/travis-kelce-jisoo-josh-hart-tommy-hilfigers-winter-campaign-1239400376/"
+    },
+    {
+      "celebrity": "jisoo",
+      "brand": "tommy_hilfiger",
+      "relation": "campaign",
+      "since": "2026",
+      "evidence": "reported",
+      "source": "https://wwd.com/fashion-news/fashion-features/travis-kelce-jisoo-josh-hart-tommy-hilfigers-winter-campaign-1239400376/"
+    },
+    {
+      "celebrity": "olivia_dean",
+      "brand": "jimmy_choo",
+      "relation": "campaign face",
+      "since": "2026",
+      "evidence": "brand",
+      "source": "https://us.jimmychoo.com/en/choo-stories/olivia-dean.html"
+    },
+    {
+      "celebrity": "jennie",
+      "brand": "chanel",
+      "relation": "house ambassador",
+      "since": "2017",
+      "evidence": "brand",
+      "source": "https://www.instagram.com/reel/DHk4eeiNsmm/"
+    },
+    {
+      "celebrity": "timothee_chalamet",
+      "brand": "chanel",
+      "relation": "fragrance ambassador",
+      "since": "2023",
+      "evidence": "reported",
+      "source": "https://harpersbazaar.com.au/timothee-chalamet-new-chanel-bleu-ambassador"
+    },
+    {
+      "celebrity": "victor_wembanyama",
+      "brand": "nike",
+      "relation": "signature athlete",
+      "since": "2023",
+      "evidence": "brand",
+      "source": "https://www.nike.com/t/gt-cut-4-victor-wembanyama-basketball-shoes-g6ukBsq1/IU1960-001"
+    },
+    {
+      "celebrity": "angel_reese",
+      "brand": "reebok",
+      "relation": "signature athlete",
+      "since": "2023",
+      "evidence": "reported",
+      "source": "https://espn.com/wnba/story/_/id/41984465/sky-angel-reese-reebok-extend-deal-signature-shoe-26"
+    },
+    {
+      "celebrity": "jacob_elordi",
+      "brand": "bottega_veneta",
+      "relation": "ambassador",
+      "since": "2023",
+      "evidence": "reported",
+      "source": "https://wwd.com/pop-culture/celebrity-news/jacob-elordi-bottega-veneta-1236398780/"
+    },
+    {
+      "celebrity": "teyana_taylor",
+      "brand": "air_jordan",
+      "relation": "campaign",
+      "since": "2026-10-08",
+      "evidence": "brand",
+      "source": "https://about.nike.com/en/newsroom/releases/jordan-brand-celebrates-30-years-of-space-jam-inspiring-a-new-generation-to-reach-for-greatness"
+    },
+    {
+      "celebrity": "suki_waterhouse",
+      "brand": "michael_kors",
+      "relation": "campaign",
+      "since": "2026",
+      "evidence": "reported",
+      "source": "https://bookingagentinfo.com/news/suki-waterhouse-teams-up-with-michael-kors-for-new-holiday-2026-campaign/"
+    },
+    {
+      "celebrity": "riley_green",
+      "brand": "heydude",
+      "relation": "campaign",
+      "since": "2026",
+      "evidence": "reported",
+      "source": "https://bookingagentinfo.com/news/riley-green-stars-in-heydudes-its-a-comfort-miracle-holiday-campaign/"
+    },
+    {
+      "celebrity": "sydney_sweeney",
+      "brand": "novig",
+      "relation": "campaign face; strategic partner and equity holder",
+      "since": "2026-09-09",
+      "evidence": "brand",
+      "source": "https://novig.com/blog/sydney-sweeney-teams-up-with-novig-for-bold-new-just-sports-campaign"
+    },
+    {
+      "celebrity": "lionel_messi",
+      "brand": "adidas",
+      "relation": "signature athlete",
+      "since": "",
+      "evidence": "brand",
+      "source": "https://www.adidas.com/us/lionel_messi-shoes"
+    },
+    {
+      "celebrity": "anthony_edwards",
+      "brand": "adidas",
+      "relation": "signature athlete",
+      "since": "",
+      "evidence": "brand",
+      "source": "https://www.adidas.com/us/anthony_edwards-shoes"
+    },
+    {
+      "celebrity": "patrick_mahomes",
+      "brand": "adidas",
+      "relation": "signature athlete",
+      "since": "",
+      "evidence": "brand",
+      "source": "https://patrickmahomes.com/"
+    },
+    {
+      "celebrity": "kendall_jenner",
+      "brand": "adidas",
+      "relation": "campaign (Originals Superstar)",
+      "since": "2025",
+      "evidence": "reported",
+      "source": "https://wwd.com/footwear-news/shoe-industry-news/kendall-jenner-jennie-adidas-originals-superstar-campaign-1238629057/"
+    },
+    {
+      "celebrity": "jennie",
+      "brand": "adidas",
+      "relation": "campaign (Originals Superstar)",
+      "since": "2025",
+      "evidence": "reported",
+      "source": "https://wwd.com/footwear-news/shoe-industry-news/kendall-jenner-jennie-adidas-originals-superstar-campaign-1238629057/"
+    },
+    {
+      "celebrity": "olivia_dean",
+      "brand": "adidas",
+      "relation": "campaign (Originals Superstar)",
+      "since": "2025",
+      "evidence": "reported",
+      "source": "https://wwd.com/footwear-news/shoe-industry-news/kendall-jenner-jennie-adidas-originals-superstar-campaign-1238629057/"
+    },
+    {
+      "celebrity": "lebron_james",
+      "brand": "nike",
+      "relation": "lifetime deal",
+      "since": "2015-12",
+      "evidence": "reported",
+      "source": "https://www.espn.com/nba/story/_/id/14314807/lebron-james-signs-life-deal-nike"
+    },
+    {
+      "celebrity": "shacarri_richardson",
+      "brand": "nike",
+      "relation": "signature product",
+      "since": "2024-11",
+      "evidence": "reported",
+      "source": "https://hypebeast.com/2024/11/shacarri-richardson-nike-air-super-fly-release-info"
+    },
+    {
+      "celebrity": "aja_wilson",
+      "brand": "nike",
+      "relation": "signature athlete",
+      "since": "2026-03-03",
+      "evidence": "brand",
+      "source": "https://about.nike.com/en/newsroom/releases/aja-wilson-a-two-second-signature-nike-shoe-and-apparel-collection"
+    },
+    {
+      "celebrity": "caitlin_clark",
+      "brand": "nike",
+      "relation": "endorsement",
+      "since": "2024",
+      "evidence": "reported",
+      "source": "https://en.wikipedia.org/wiki/Caitlin_Clark"
+    },
+    {
+      "celebrity": "lily_rose_depp",
+      "brand": "chanel",
+      "relation": "ambassador",
+      "since": "2015",
+      "evidence": "reported",
+      "source": "https://en.wikipedia.org/wiki/Lily-Rose_Depp"
+    },
+    {
+      "celebrity": "kristen_stewart",
+      "brand": "chanel",
+      "relation": "ambassador",
+      "since": "2013",
+      "evidence": "reported",
+      "source": "https://www.cbsnews.com/news/kristen-stewart-is-the-new-face-of-chanel/"
+    },
+    {
+      "celebrity": "lisa",
+      "brand": "louis_vuitton",
+      "relation": "global ambassador",
+      "since": "2024",
+      "evidence": "brand",
+      "source": "https://www.instagram.com/reel/C9wV49ZNC1l/"
+    },
+    {
+      "celebrity": "zendaya",
+      "brand": "louis_vuitton",
+      "relation": "ambassador",
+      "since": "2023",
+      "evidence": "reported",
+      "source": "https://wwd.com/fashion-news/fashion-scoops/zendaya-louis-vuitton-resort-campaign-1237089313"
+    },
+    {
+      "celebrity": "emma_stone",
+      "brand": "louis_vuitton",
+      "relation": "ambassador",
+      "since": "2017",
+      "evidence": "reported",
+      "source": "https://www.hollywoodreporter.com/movies/movie-news/emma-stone-joins-luis-vuitton-fam-1046937/"
+    },
+    {
+      "celebrity": "jisoo",
+      "brand": "dior",
+      "relation": "global ambassador",
+      "since": "2021",
+      "evidence": "brand",
+      "source": "https://www.instagram.com/p/CMD7hqiKB-5/"
+    },
+    {
+      "celebrity": "jimin",
+      "brand": "dior",
+      "relation": "global ambassador",
+      "since": "2023",
+      "evidence": "reported",
+      "source": "https://wwd.com/fashion-news/fashion-scoops/dior-names-bts-member-jimin-as-brand-ambassador-1235474603"
+    },
+    {
+      "celebrity": "anya_taylor_joy",
+      "brand": "dior",
+      "relation": "global ambassador",
+      "since": "2021",
+      "evidence": "reported",
+      "source": "https://wwd.com/fashion-news/fashion-scoops/feature/anya-taylor-joy-dior-global-brand-ambassador-1234981410"
+    },
+    {
+      "celebrity": "robert_pattinson",
+      "brand": "dior",
+      "relation": "fragrance face",
+      "since": "2013",
+      "evidence": "reported",
+      "source": "https://www.harpersbazaar.com/beauty/a63445529/robert-pattinson-dior-homme-parfum-interview/"
+    },
+    {
+      "celebrity": "charlize_theron",
+      "brand": "dior",
+      "relation": "fragrance face",
+      "since": "2004",
+      "evidence": "brand",
+      "source": "https://www.youtube.com/watch?v=WaD6gJVMnJ0",
+      "pi_list": "2026-11-10"
+    },
+    {
+      "celebrity": "jennie",
+      "brand": "calvin_klein",
+      "relation": "campaign",
+      "since": "2022",
+      "evidence": "reported",
+      "source": "https://billboard.com/music/music-news/blackpink-jennie-calvin-klein-spring-2022-campaign-photos-video-1235032388"
+    },
+    {
+      "celebrity": "jeremy_allen_white",
+      "brand": "calvin_klein",
+      "relation": "campaign",
+      "since": "2024-01",
+      "evidence": "brand",
+      "source": "https://www.youtube.com/watch?v=dCbM009btVI"
+    },
+    {
+      "celebrity": "kendall_jenner",
+      "brand": "calvin_klein",
+      "relation": "campaign",
+      "since": "2024",
+      "evidence": "reported",
+      "source": "https://harpersbazaar.com.au/kendall-jenner-calvin-klein-fall-24-interview/"
+    },
+    {
+      "celebrity": "bad_bunny",
+      "brand": "calvin_klein",
+      "relation": "campaign",
+      "since": "2025",
+      "evidence": "brand",
+      "source": "https://www.youtube.com/watch?v=B5yENsniEGE"
+    },
+    {
+      "celebrity": "rihanna",
+      "brand": "puma",
+      "relation": "collaboration (Fenty x Puma)",
+      "since": "2023",
+      "evidence": "reported",
+      "source": "https://vogue.com/article/rihanna-relaunches-fenty-puma-sneakers",
+      "pi_list": "2026-11-10"
+    },
+    {
+      "celebrity": "asap_rocky",
+      "brand": "puma",
+      "relation": "collaboration",
+      "since": "2024",
+      "evidence": "brand",
+      "source": "https://us.puma.com/us/en/collaborations/partnerships/asap-rocky-x-puma"
+    },
+    {
+      "celebrity": "dua_lipa",
+      "brand": "puma",
+      "relation": "ambassador",
+      "since": "2021",
+      "evidence": "brand",
+      "source": "https://about.puma.com/en/newsroom/news/she-moves-forward-puma-celebrates-women-who-move-world-sports"
+    },
+    {
+      "celebrity": "coco_gauff",
+      "brand": "new_balance",
+      "relation": "signature athlete",
+      "since": "",
+      "evidence": "brand",
+      "source": "https://www.newbalance.com/coco-gauff-collection/"
+    },
+    {
+      "celebrity": "roger_federer",
+      "brand": "on_running",
+      "relation": "co-owner/partner",
+      "since": "2019",
+      "evidence": "brand",
+      "source": "https://press.on-running.com/roger-federer-joins-swiss-running-brand-on-as-an-entrepreneur"
+    },
+    {
+      "celebrity": "johnny_depp",
+      "brand": "dior",
+      "relation": "fragrance face (Sauvage)",
+      "since": "2015",
+      "evidence": "reported",
+      "source": "https://people.com/johnny-depp-stars-in-first-dior-sauvage-commercial-since-amber-heard-trial-watch-7967703",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "johnny_depp",
+      "brand": "sauvage",
+      "relation": "fragrance face",
+      "since": "2015",
+      "evidence": "reported",
+      "source": "https://hungermag.com/beauty/ten-years-of-johnny-depp-and-dior-sauvage",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "chris_paul",
+      "brand": "state_farm",
+      "relation": "spokesperson (Cliff Paul)",
+      "since": "2012",
+      "evidence": "reported",
+      "source": "https://www.nytimes.com/2012/12/19/business/media/chris-paul-to-star-in-state-farm-insurance-ads.html",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "travis_scott",
+      "brand": "mcdonalds",
+      "relation": "collaboration (Travis Scott Meal)",
+      "since": "2020",
+      "evidence": "reported",
+      "source": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/travis-scott-embark.html",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "matthew_mcconaughey",
+      "brand": "lincoln",
+      "relation": "spokesperson",
+      "since": "2014",
+      "evidence": "reported",
+      "source": "https://latimes.com/business/autos/la-fi-hy-autos-lincoln-mcconaughey-spokesman-20140821-story.html",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "george_clooney",
+      "brand": "nespresso",
+      "relation": "brand ambassador",
+      "since": "2006",
+      "evidence": "reported",
+      "source": "https://www.thedrum.com/opinion/fancy-cup-george-why-nespresso-s-clooney-partnership-has-worked-so-well",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "shaquille_oneal",
+      "brand": "icy_hot",
+      "relation": "spokesperson",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://www.campaignlive.com/article/shaq-average-athletes-back-latest-icy-hot-ad/1910465",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "shaquille_oneal",
+      "brand": "gold_bond",
+      "relation": "spokesperson",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://www.ispot.tv/ad/7ZRl/gold-bond-powder-spray-featuring-shaquille-oneal",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "shaquille_oneal",
+      "brand": "the_general",
+      "relation": "spokesperson",
+      "since": "2021",
+      "evidence": "reported",
+      "source": "https://variety.com/2021/tv/news/shaq-general-car-insurance-bleacher-report-1234950361",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "peyton_manning",
+      "brand": "nationwide",
+      "relation": "spokesperson",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://news.nationwide.com/peyton-manning-returns-as-paintin-manning-in-latest-nationwide-commercial/",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "jennifer_garner",
+      "brand": "capital_one",
+      "relation": "spokesperson (Venture)",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://www.forbes.com.au/news/entrepreneurs/jennifer-garner-on-thriving-in-her-50s/",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "samuel_l_jackson",
+      "brand": "capital_one",
+      "relation": "spokesperson (Quicksilver; March Madness)",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://www.ispot.tv/ad/gBi9/capital-one-march-madness-busted-bracket-ft-samuel-l-jackson-jennifer-garner",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "natalie_portman",
+      "brand": "dior",
+      "relation": "fragrance face (Miss Dior)",
+      "since": "2010",
+      "evidence": "reported",
+      "source": "https://vogue.co.uk/article/natalie-portman-miss-dior-cherie-perfume",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "natalie_portman",
+      "brand": "miss_dior",
+      "relation": "fragrance face",
+      "since": "2010",
+      "evidence": "reported",
+      "source": "https://graziamagazine.com/us/articles/natalie-portmans-new-miss-dior-campaign-chats-fragrance-fashion-feminism/",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "julia_roberts",
+      "brand": "lancome",
+      "relation": "ambassador (La Vie Est Belle)",
+      "since": "2012",
+      "evidence": "reported",
+      "source": "https://bookingagentinfo.com/news/julia-roberts-stars-in-new-lancome-campaign/",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "jennifer_aniston",
+      "brand": "aveeno",
+      "relation": "global brand ambassador",
+      "since": "2013",
+      "evidence": "reported",
+      "source": "https://prnewswire.com/news-releases/aveeno-teams-up-with-global-brand-ambassador-jennifer-aniston-to-debut-the-beauty-of-nature-active-naturals-oat-for-your-skin-252230721.html",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "jennifer_aniston",
+      "brand": "smartwater",
+      "relation": "ambassador",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://coca-colacompany.com/media-center/smartwater-and-jennifer-aniston-reunite-for-2025-campaign",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "snoop_dogg",
+      "brand": "corona",
+      "relation": "campaign (La Vida Más Fina)",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://www.cbrands.com/blogs/press-releases/corona-and-snoop-dogg-welcome-you-to-la-vida-mas-fina",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "roger_federer",
+      "brand": "rolex",
+      "relation": "testimonee",
+      "since": "2006",
+      "evidence": "reported",
+      "source": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/world-of-rolex/rolex-and-sports/rolex-and-tennis/us-open/2020/en_us-open_pre-event-press-release.pdf",
+      "added": "2026-11-10 PI list (pre-specified)"
+    },
+    {
+      "celebrity": "brad_pitt",
+      "brand": "delonghi",
+      "relation": "campaign (Perfetto)",
+      "since": "",
+      "evidence": "reported",
+      "source": "https://www.delonghi.com/en-au/e/perfetto-campaign",
+      "added": "2026-11-10 PI list (pre-specified)"
+    }
+  ],
+  "events": [
+    {
+      "id": "sweeney_novig",
+      "celebrity": "sydney_sweeney",
+      "brand": "novig",
+      "date": "2026-09-09",
+      "from": "2026-05-01",
+      "to": "2026-11-08",
+      "rivals": [
+        "kalshi",
+        "polymarket",
+        "prizepicks"
+      ],
+      "hypothesis": "Reverse asymmetry: Novig is a small component of Sweeney's representation, while Sweeney dominates Novig's (user, 2026-11-10).",
+      "sources": [
+        "https://novig.com/blog/sydney-sweeney-teams-up-with-novig-for-bold-new-just-sports-campaign",
+        "https://fortune.com/2026/09/18/sydney-sweeney-novig-viral-ads",
+        "https://news.northeastern.edu/2026/09/14/sydney-sweeney-ad-novig"
+      ]
+    },
+    {
+      "id": "tate_adidas_2026",
+      "celebrity": "tate_mcrae",
+      "brand": "adidas",
+      "date": "2026-07-22",
+      "from": "2026-03-01",
+      "to": "2026-11-08",
+      "rivals": [],
+      "trend_rivals": [
+        "nike",
+        "lululemon",
+        "puma"
+      ],
+      "hypothesis": "Forward asymmetry: Adidas is a visible component of Tate McRae's representation; Tate is a sliver of Adidas's (one of many ambassadors).",
+      "sources": [
+        "https://www.afaqs.com/news/advertising/adidas-launches-originals-sport-campaign-with-tate-mcrae-12193432",
+        "https://news.adidas.com/sportswear/adidas-z.n.e.-unites-next-gen-icons-from-sport---culture-tate-mcrae--jude-bellingham-and-noah-lyles/s/edae86e6-653d-4053-8fd7-b7582991e888"
+      ]
+    }
+  ]
+}

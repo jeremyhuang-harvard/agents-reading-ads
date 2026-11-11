@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="414" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect width="780" height="414" fill="white"/>
+<text x="20" y="28" font-size="16" font-weight="bold">What dominates each betting firm's Snapchat ads (share of impressions)</text>
+<text x="290" y="66" text-anchor="end">Winamax: offer amount</text>
+<rect x="300.0" y="50" width="132.4" height="22" fill="#c0392b"/>
+<text x="438.4" y="66" text-anchor="start">23%</text>
+<text x="290" y="98" text-anchor="end">PMU: offer amount</text>
+<rect x="300.0" y="82" width="335.0" height="22" fill="#c0392b"/>
+<text x="641.0" y="98" text-anchor="start">57%</text>
+<text x="290" y="130" text-anchor="end">Unibet: offer amount</text>
+<rect x="300.0" y="114" width="359.6" height="22" fill="#c0392b"/>
+<text x="665.6" y="130" text-anchor="start">61%</text>
+<text x="290" y="162" text-anchor="end">Betsson: offer amount</text>
+<rect x="300.0" y="146" width="328.6" height="22" fill="#c0392b"/>
+<text x="634.6" y="162" text-anchor="start">56%</text>
+<text x="290" y="194" text-anchor="end">bet365: offer amount</text>
+<rect x="300.0" y="178" width="349.1" height="22" fill="#c0392b"/>
+<text x="655.1" y="194" text-anchor="start">60%</text>
+<text x="290" y="226" text-anchor="end">Winamax: headline</text>
+<rect x="300.0" y="210" width="364.3" height="22" fill="#2e86c1"/>
+<text x="670.3" y="226" text-anchor="start">62%</text>
+<text x="290" y="258" text-anchor="end">PMU: headline</text>
+<rect x="300.0" y="242" width="65.6" height="22" fill="#2e86c1"/>
+<text x="371.6" y="258" text-anchor="start">11%</text>
+<text x="290" y="290" text-anchor="end">Unibet: headline</text>
+<rect x="300.0" y="274" width="42.8" height="22" fill="#2e86c1"/>
+<text x="348.8" y="290" text-anchor="start">7%</text>
+<text x="290" y="322" text-anchor="end">Betsson: headline</text>
+<rect x="300.0" y="306" width="204.4" height="22" fill="#2e86c1"/>
+<text x="510.4" y="322" text-anchor="start">35%</text>
+<text x="290" y="354" text-anchor="end">bet365: headline</text>
+<rect x="300.0" y="338" width="180.4" height="22" fill="#2e86c1"/>
+<text x="486.4" y="354" text-anchor="start">31%</text>
+<line x1="300.0" y1="44" x2="300.0" y2="370" stroke="#333" stroke-width="1"/>
+<text x="20" y="400" font-size="11" fill="#555">Most prominent element as coded by Sonnet from each unique creative; weighted by lifetime impressions in the Snap Ads Gallery.</text>
+</svg>

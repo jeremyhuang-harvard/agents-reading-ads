@@ -1,0 +1,18 @@
+{
+  "model": "mlx-community/Qwen3-8B-4bit",
+  "forward": [
+    "Question: Which brand do you most associate with {cue}?\nAnswer:",
+    "When people think of {cue}, the first brand that comes to mind is",
+    "{cue} has a well-known partnership with the brand"
+  ],
+  "backward": [
+    "Question: Which celebrity do you most associate with the brand {cue}?\nAnswer:",
+    "When people think of {cue}, the first celebrity that comes to mind is",
+    "{cue} has a well-known partnership with the celebrity"
+  ],
+  "prior": {
+    "brand": "Question: Name a brand.\nAnswer:",
+    "celebrity": "Question: Name a celebrity.\nAnswer:"
+  },
+  "label": "model_predicted"
+}

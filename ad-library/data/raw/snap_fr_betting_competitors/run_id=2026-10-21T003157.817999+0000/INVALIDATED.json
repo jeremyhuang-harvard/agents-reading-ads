@@ -1,0 +1,7 @@
+{
+  "status": "invalidated_partial_run",
+  "invalidated_at_utc": "2026-10-21T00:35:03Z",
+  "records_written_before_stop": 163,
+  "reason": "Independent review found that API-level request_status and failed subrequests could be mislabeled as exhausted pagination, and Retry-After values were not bounded. The run was stopped before completion and must not be used or resumed.",
+  "reuse_permitted": false
+}

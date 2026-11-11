@@ -1,0 +1,39 @@
+{
+  "run_dir": "runs/batch2-beer-priming-9a960c96e6-20261021T194553Z",
+  "git_commit": "d8af8cdeb058599ba4f464b0e4432afa3a6fa3cc",
+  "git_dirty": false,
+  "allow_dirty": false,
+  "finished_utc": "2026-10-22T03:54:58.046305+00:00",
+  "runtime_seconds": 222.8226180076599,
+  "n_feeds": 888,
+  "limit": null,
+  "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+  "model_revision": "defcdea7cc7a4b0858fea563cbbce171d328e457",
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.9",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "python": "3.11.16 (main, Sep  1 2026, 14:08:22) [Clang 22.1.3 ]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "config": {
+    "path": "config/batch2.toml",
+    "sha256": "6fd2ece9688f259b215526eb3974fc4fc5ff5b575473b63a6e247ad370027755"
+  },
+  "stimuli_manifest": {
+    "path": "config/stimuli/batch2_manifest.json",
+    "sha256": "340e1ace76b90894f4165516d03c74f62bcc65db5511398f49aa923e09f3d14f"
+  },
+  "resize_max_side": {
+    "ad": 768,
+    "prime": 448
+  },
+  "decoding": {
+    "temperature": 0.0
+  },
+  "outputs": {
+    "feeds.jsonl": "a961d1baf0d6c78bae32ab6265f26cdfb3bcbd9dc1f1c4ede58ccfd9e7c7de65",
+    "responses.jsonl": "c6b23c8cfe9cec0d7c7c6f4f92886bec59bfd01a768cb43668c686fb94270c05"
+  }
+}

@@ -1,0 +1,28 @@
+# Batch 1 repair: rerun only the feeds that batch 1 showed with reversed rating scales,
+# this time on the normal scale (1 = low, 5 = high). Same seed and design, so feed ids and
+# image orders are identical to batch 1; combined with batch 1's normal-scale feeds this
+# gives one complete, normal-scale batch 1.
+
+[study]
+id = "batch1-rerun-normal-scale"
+seed = 20261021
+stimuli_manifest = "config/stimuli/batch1_manifest.json"
+stimuli_root = "data/raw/stimuli_batch1"
+output_root = "runs"
+
+[model]
+id = "mlx-community/Qwen3-VL-8B-Instruct-4bit"
+trail_max_tokens = 160
+
+[design]
+feed_length = 5
+k_before = [1, 3, 5]
+draws = 5
+include_ad_first = true
+force_normal_scales = true
+only_originally_reversed = true
+
+[design.prime_sets]
+betting = ["neutral", "win", "loss", "look_bet"]
+beer = ["neutral", "social_drink", "drink_harm", "look_beer"]
+control = ["neutral", "win", "loss", "social_drink"]

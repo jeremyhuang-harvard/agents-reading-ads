@@ -1,0 +1,254 @@
+ad_id,advertiser_name,title,description,sin_category,image_path,Identifier,Response,Web Search Sources,Time Taken,Input Tokens,Reasoning Tokens,Output Tokens,Reasoning Effort,Error Log,Successful,Cost,Response JSON
+1875142511830242,WINAMAX,Les meilleures cotes sur Winamax,Les meilleures cotes sur Winamax,betting,data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1875142511830242_d74ef3e1757904a7d530d8c5b4bb6c4cfabf0964896c23f5e3ba14d36c7c9bf4.png,1875142511830242,"{
+  ""summary"": ""A high-contrast Winamax betting ad centers a live-looking UFC matchup and visible odds within a composition of oversized combat-sport and broadcast cues."",
+  ""features"": [
+    {
+      ""name"": ""Central smartphone focal point"",
+      ""family"": ""visual"",
+      ""evidence"": ""A large, tilted smartphone occupies the center and displays a UFC fight interface."",
+      ""hypothesized_salience_pathway"": ""Central placement, scale, and rotation could draw attention toward the depicted betting interface.""
+    },
+    {
+      ""name"": ""Combat imagery"",
+      ""family"": ""affective"",
+      ""evidence"": ""Two fighters appear inside an octagon on the phone, while large black boxing gloves flank the foreground."",
+      ""hypothesized_salience_pathway"": ""Physical confrontation and implied action could evoke arousal and cue memories associated with combat sports.""
+    },
+    {
+      ""name"": ""High-contrast brand palette"",
+      ""family"": ""visual"",
+      ""evidence"": ""Saturated red panels, black objects, and bold white lettering contrast with a pale gray background; the Winamax W logo appears at the upper right."",
+      ""hypothesized_salience_pathway"": ""Strong color contrast and repeated red branding could attract gaze and support brand recognition.""
+    },
+    {
+      ""name"": ""Colloquial command-like slogan"",
+      ""family"": ""textual"",
+      ""evidence"": ""The large central red banner reads “BON GAMIN” in uppercase white type."",
+      ""hypothesized_salience_pathway"": ""The short, unusual, prominently displayed phrase could be easy to encode and retrieve as a verbal cue.""
+    },
+    {
+      ""name"": ""Visible betting odds"",
+      ""family"": ""reward"",
+      ""evidence"": ""Decimal odds including 1,86 and 2,75 are shown beneath the fighters on the phone screen."",
+      ""hypothesized_salience_pathway"": ""Specific numerical odds could focus attention on potential betting outcomes and cue reward-oriented comparison.""
+    },
+    {
+      ""name"": ""Live-broadcast cue"",
+      ""family"": ""urgency"",
+      ""evidence"": ""A bright red “ON AIR” sign appears near the top, alongside a play-button icon and a red megaphone."",
+      ""hypothesized_salience_pathway"": ""Broadcast and announcement symbols could cue immediacy, active coverage, or a time-sensitive event.""
+    },
+    {
+      ""name"": ""Named fighter matchup"",
+      ""family"": ""identity"",
+      ""evidence"": ""The phone interface shows Cyril Gane and Alex Pereira with French and Brazilian flags."",
+      ""hypothesized_salience_pathway"": ""Recognizable names, national flags, and matchup framing could activate fighter, sport, or national-identity associations.""
+    },
+    {
+      ""name"": ""Prominent gambling-risk disclosure"",
+      ""family"": ""risk"",
+      ""evidence"": ""A yellow warning strip states that gambling can be dangerous and lists risks including debt, isolation, and addiction; an “-18” symbol appears above it."",
+      ""hypothesized_salience_pathway"": ""The bright warning block and age restriction could cue risk, regulation, and restricted participation.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'A high-contrast Winamax betting ad centers a live-looking UFC matchup and visible odds within a composition of oversized combat-sport and broadcast cues.', 'features': [{'name': 'Central smartphone focal point', 'family': 'visual', 'evidence': 'A large, tilted smartphone occupies the center and displays a UFC fight interface.', 'hypothesized_salience_pathway': 'Central placement, scale, and rotation could draw attention toward the depicted betting interface.'}, {'name': 'Combat imagery', 'family': 'affective', 'evidence': 'Two fighters appear inside an octagon on the phone, while large black boxing gloves flank the foreground.', 'hypothesized_salience_pathway': 'Physical confrontation and implied action could evoke arousal and cue memories associated with combat sports.'}, {'name': 'High-contrast brand palette', 'family': 'visual', 'evidence': 'Saturated red panels, black objects, and bold white lettering contrast with a pale gray background; the Winamax W logo appears at the upper right.', 'hypothesized_salience_pathway': 'Strong color contrast and repeated red branding could attract gaze and support brand recognition.'}, {'name': 'Colloquial command-like slogan', 'family': 'textual', 'evidence': 'The large central red banner reads “BON GAMIN” in uppercase white type.', 'hypothesized_salience_pathway': 'The short, unusual, prominently displayed phrase could be easy to encode and retrieve as a verbal cue.'}, {'name': 'Visible betting odds', 'family': 'reward', 'evidence': 'Decimal odds including 1,86 and 2,75 are shown beneath the fighters on the phone screen.', 'hypothesized_salience_pathway': 'Specific numerical odds could focus attention on potential betting outcomes and cue reward-oriented comparison.'}, {'name': 'Live-broadcast cue', 'family': 'urgency', 'evidence': 'A bright red “ON AIR” sign appears near the top, alongside a play-button icon and a red megaphone.', 'hypothesized_salience_pathway': 'Broadcast and announcement symbols could cue immediacy, active coverage, or a time-sensitive event.'}, {'name': 'Named fighter matchup', 'family': 'identity', 'evidence': 'The phone interface shows Cyril Gane and Alex Pereira with French and Brazilian flags.', 'hypothesized_salience_pathway': 'Recognizable names, national flags, and matchup framing could activate fighter, sport, or national-identity associations.'}, {'name': 'Prominent gambling-risk disclosure', 'family': 'risk', 'evidence': 'A yellow warning strip states that gambling can be dangerous and lists risks including debt, isolation, and addiction; an “-18” symbol appears above it.', 'hypothesized_salience_pathway': 'The bright warning block and age restriction could cue risk, regulation, and restricted participation.'}]}"
+1877909455644690,WINAMAX,Les meilleures cotes sur Winamax,Les meilleures cotes sur Winamax,betting,data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1877909455644690_85f7f685e56dedfde3e5247cf270c95d51ceebf6e8fe6b1f2bb8617afcf82846.png,1877909455644690,"{
+  ""summary"": ""The ad combines saturated green motion-like imagery, a partially revealed betting interface, and a large red-and-white instant-payment message with prominent gambling-risk warnings."",
+  ""features"": [
+    {
+      ""name"": ""saturated color contrast"",
+      ""family"": ""visual"",
+      ""evidence"": ""A bright green background dominates the image, while the main message appears in white inside a vivid red outlined box."",
+      ""hypothesized_salience_pathway"": ""Strong red-green-white contrast could draw visual attention toward the central promotional message.""
+    },
+    {
+      ""name"": ""dynamic reveal imagery"",
+      ""family"": ""visual"",
+      ""evidence"": ""Blurred green curtain-like forms and a red vertical shape partially obscure a tilted smartphone screen."",
+      ""hypothesized_salience_pathway"": ""Partial occlusion and motion-like blur could create visual tension and direct attention toward the revealed betting interface.""
+    },
+    {
+      ""name"": ""instant payout claim"",
+      ""family"": ""reward"",
+      ""evidence"": ""The largest text reads \""ON PAYE TON PARI DIRECT !\"" in bold uppercase lettering."",
+      ""hypothesized_salience_pathway"": ""The explicit promise of immediate bet payment could cue reward availability and rapid gratification.""
+    },
+    {
+      ""name"": ""odds and betting interface"",
+      ""family"": ""reward"",
+      ""evidence"": ""A smartphone displays a betting interface with labels including \""Buteurs,\"" \""Titulaires,\"" and visible odds of \""2,75.\"""",
+      ""hypothesized_salience_pathway"": ""Recognizable betting controls and numerical odds could cue gambling-related memories and action possibilities.""
+    },
+    {
+      ""name"": ""hotness cue"",
+      ""family"": ""urgency"",
+      ""evidence"": ""A red badge labeled \""HOT\"" appears beside the central payment message."",
+      ""hypothesized_salience_pathway"": ""The \""HOT\"" label could signal heightened immediacy, importance, or timeliness.""
+    },
+    {
+      ""name"": ""direct second-person address"",
+      ""family"": ""identity"",
+      ""evidence"": ""The phrase \""TON PARI\"" addresses the viewer using the informal French second-person possessive \""ton.\"""",
+      ""hypothesized_salience_pathway"": ""Direct personal address could increase perceived self-relevance by framing the bet as belonging to the viewer.""
+    },
+    {
+      ""name"": ""responsible-gambling warning"",
+      ""family"": ""risk"",
+      ""evidence"": ""A yellow footer states that gambling can be dangerous and lists risks including loss of money, family conflicts, and addiction; an \""-18\"" icon and French government branding are also visible."",
+      ""hypothesized_salience_pathway"": ""The contrasting warning panel, concrete harms, age restriction, and official branding could cue risk awareness and regulatory associations.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'The ad combines saturated green motion-like imagery, a partially revealed betting interface, and a large red-and-white instant-payment message with prominent gambling-risk warnings.', 'features': [{'name': 'saturated color contrast', 'family': 'visual', 'evidence': 'A bright green background dominates the image, while the main message appears in white inside a vivid red outlined box.', 'hypothesized_salience_pathway': 'Strong red-green-white contrast could draw visual attention toward the central promotional message.'}, {'name': 'dynamic reveal imagery', 'family': 'visual', 'evidence': 'Blurred green curtain-like forms and a red vertical shape partially obscure a tilted smartphone screen.', 'hypothesized_salience_pathway': 'Partial occlusion and motion-like blur could create visual tension and direct attention toward the revealed betting interface.'}, {'name': 'instant payout claim', 'family': 'reward', 'evidence': 'The largest text reads ""ON PAYE TON PARI DIRECT !"" in bold uppercase lettering.', 'hypothesized_salience_pathway': 'The explicit promise of immediate bet payment could cue reward availability and rapid gratification.'}, {'name': 'odds and betting interface', 'family': 'reward', 'evidence': 'A smartphone displays a betting interface with labels including ""Buteurs,"" ""Titulaires,"" and visible odds of ""2,75.""', 'hypothesized_salience_pathway': 'Recognizable betting controls and numerical odds could cue gambling-related memories and action possibilities.'}, {'name': 'hotness cue', 'family': 'urgency', 'evidence': 'A red badge labeled ""HOT"" appears beside the central payment message.', 'hypothesized_salience_pathway': 'The ""HOT"" label could signal heightened immediacy, importance, or timeliness.'}, {'name': 'direct second-person address', 'family': 'identity', 'evidence': 'The phrase ""TON PARI"" addresses the viewer using the informal French second-person possessive ""ton.""', 'hypothesized_salience_pathway': 'Direct personal address could increase perceived self-relevance by framing the bet as belonging to the viewer.'}, {'name': 'responsible-gambling warning', 'family': 'risk', 'evidence': 'A yellow footer states that gambling can be dangerous and lists risks including loss of money, family conflicts, and addiction; an ""-18"" icon and French government branding are also visible.', 'hypothesized_salience_pathway': 'The contrasting warning panel, concrete harms, age restriction, and official branding could cue risk awareness and regulatory associations.'}]}"
+1876356852465730,WINAMAX,Les meilleures cotes sur Winamax,Les meilleures cotes sur Winamax,betting,data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1876356852465730_6d1fc3a307b247dce0f0c147ad729ed8fc9935318ca31df2732cd9360689cb6c.png,1876356852465730,"{
+  ""summary"": ""The ad uses vivid tennis imagery, a prominent smartphone betting interface, live-broadcast cues, and high-contrast Winamax branding to make sports wagering visually central."",
+  ""features"": [
+    {
+      ""name"": ""Oversized tournament headline"",
+      ""family"": ""textual"",
+      ""evidence"": ""The white text \""LES MASTERS 1000\"" appears in very large type inside a bright red, outlined panel near the center-bottom."",
+      ""hypothesized_salience_pathway"": ""Large typography and strong red-white contrast could capture attention and create a compact verbal cue for later recognition.""
+    },
+    {
+      ""name"": ""Floating tennis iconography"",
+      ""family"": ""visual"",
+      ""evidence"": ""Multiple fluorescent yellow tennis balls surround the phone, including balls marked \""WTA,\"" \""ATP,\"" and \""ROLAND GARROS.\"""",
+      ""hypothesized_salience_pathway"": ""Repeated, brightly colored sport objects could quickly establish the tennis context and cue memories associated with major competitions.""
+    },
+    {
+      ""name"": ""Betting interface demonstration"",
+      ""family"": ""reward"",
+      ""evidence"": ""A large tilted smartphone displays a live tennis court, player names, match controls, and selectable numerical odds."",
+      ""hypothesized_salience_pathway"": ""Showing concrete odds and betting controls could make the wagering action and its potential rewards more mentally accessible.""
+    },
+    {
+      ""name"": ""Live-broadcast cue"",
+      ""family"": ""urgency"",
+      ""evidence"": ""A raised red sign reading \""ON AIR\"" and a nearby play-button icon appear above the phone."",
+      ""hypothesized_salience_pathway"": ""Broadcast and live-status symbols could emphasize immediacy and cue time-sensitive sports-viewing routines.""
+    },
+    {
+      ""name"": ""High-contrast action palette"",
+      ""family"": ""visual"",
+      ""evidence"": ""Saturated red panels, fluorescent yellow-green balls, dark phone graphics, and white text are set against a pale background."",
+      ""hypothesized_salience_pathway"": ""Strong color contrast and isolated saturated elements could guide visual attention toward the headline, sports objects, and betting screen.""
+    },
+    {
+      ""name"": ""Repeated advertiser branding"",
+      ""family"": ""identity"",
+      ""evidence"": ""The Winamax \""W\"" logo appears in a red square at the upper right, and \""#WINAMAX\"" is printed vertically along the left edge."",
+      ""hypothesized_salience_pathway"": ""Repeated brand identifiers in separate locations could support advertiser recognition and retrieval.""
+    },
+    {
+      ""name"": ""Best-odds value claim"",
+      ""family"": ""reward"",
+      ""evidence"": ""The supplied title and description both state \""Les meilleures cotes sur Winamax\"" (the best odds on Winamax)."",
+      ""hypothesized_salience_pathway"": ""A comparative odds claim could cue value-seeking and make favorable potential returns more cognitively prominent.""
+    },
+    {
+      ""name"": ""Gambling-risk warning block"",
+      ""family"": ""risk"",
+      ""evidence"": ""A bright yellow footer contains a warning that gambling can be dangerous, mentions losses, family conflict, and addiction, provides the joueurs-info-service.fr resource and phone number, and is accompanied by an \""-18\"" symbol."",
+      ""hypothesized_salience_pathway"": ""The contrasting warning strip and age restriction could cue awareness of financial, social, addiction, and eligibility risks.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'The ad uses vivid tennis imagery, a prominent smartphone betting interface, live-broadcast cues, and high-contrast Winamax branding to make sports wagering visually central.', 'features': [{'name': 'Oversized tournament headline', 'family': 'textual', 'evidence': 'The white text ""LES MASTERS 1000"" appears in very large type inside a bright red, outlined panel near the center-bottom.', 'hypothesized_salience_pathway': 'Large typography and strong red-white contrast could capture attention and create a compact verbal cue for later recognition.'}, {'name': 'Floating tennis iconography', 'family': 'visual', 'evidence': 'Multiple fluorescent yellow tennis balls surround the phone, including balls marked ""WTA,"" ""ATP,"" and ""ROLAND GARROS.""', 'hypothesized_salience_pathway': 'Repeated, brightly colored sport objects could quickly establish the tennis context and cue memories associated with major competitions.'}, {'name': 'Betting interface demonstration', 'family': 'reward', 'evidence': 'A large tilted smartphone displays a live tennis court, player names, match controls, and selectable numerical odds.', 'hypothesized_salience_pathway': 'Showing concrete odds and betting controls could make the wagering action and its potential rewards more mentally accessible.'}, {'name': 'Live-broadcast cue', 'family': 'urgency', 'evidence': 'A raised red sign reading ""ON AIR"" and a nearby play-button icon appear above the phone.', 'hypothesized_salience_pathway': 'Broadcast and live-status symbols could emphasize immediacy and cue time-sensitive sports-viewing routines.'}, {'name': 'High-contrast action palette', 'family': 'visual', 'evidence': 'Saturated red panels, fluorescent yellow-green balls, dark phone graphics, and white text are set against a pale background.', 'hypothesized_salience_pathway': 'Strong color contrast and isolated saturated elements could guide visual attention toward the headline, sports objects, and betting screen.'}, {'name': 'Repeated advertiser branding', 'family': 'identity', 'evidence': 'The Winamax ""W"" logo appears in a red square at the upper right, and ""#WINAMAX"" is printed vertically along the left edge.', 'hypothesized_salience_pathway': 'Repeated brand identifiers in separate locations could support advertiser recognition and retrieval.'}, {'name': 'Best-odds value claim', 'family': 'reward', 'evidence': 'The supplied title and description both state ""Les meilleures cotes sur Winamax"" (the best odds on Winamax).', 'hypothesized_salience_pathway': 'A comparative odds claim could cue value-seeking and make favorable potential returns more cognitively prominent.'}, {'name': 'Gambling-risk warning block', 'family': 'risk', 'evidence': 'A bright yellow footer contains a warning that gambling can be dangerous, mentions losses, family conflict, and addiction, provides the joueurs-info-service.fr resource and phone number, and is accompanied by an ""-18"" symbol.', 'hypothesized_salience_pathway': 'The contrasting warning strip and age restriction could cue awareness of financial, social, addiction, and eligibility risks.'}]}"
+1875911993674481,PERNOD RICARD ESPAÑA SA,No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.,No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.,alcohol,data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1875911993674481_1fe4d79d3f97d15eaca9a8cd84cf3611ffa7543a1821ed520d7211b2efab683c.png,1875911993674481,"{
+  ""summary"": ""The ad combines a tightly cropped, fashion-styled male-presenting figure in a dark cinematic setting with a concise Spanish slogan centered on spontaneous action."",
+  ""features"": [
+    {
+      ""name"": ""Close-up human figure"",
+      ""family"": ""visual"",
+      ""evidence"": ""A male-presenting person fills most of the vertically framed image, with the face and upper torso shown at close range."",
+      ""hypothesized_salience_pathway"": ""The large human figure and face provide a prominent focal point that could capture attention and support person-based memory encoding.""
+    },
+    {
+      ""name"": ""Obscured gaze"",
+      ""family"": ""affective"",
+      ""evidence"": ""The person wears narrow dark sunglasses and looks downward, leaving the eyes and immediate object of attention unclear."",
+      ""hypothesized_salience_pathway"": ""Concealed eyes and an ambiguous downward gaze could create visual uncertainty that encourages closer inspection.""
+    },
+    {
+      ""name"": ""Distinctive formal styling"",
+      ""family"": ""identity"",
+      ""evidence"": ""The figure wears a checked blazer, light collared shirt, dark tie, patterned tie section, and metal-framed sunglasses."",
+      ""hypothesized_salience_pathway"": ""The coordinated and visually distinctive clothing can cue fashion, sophistication, or occasion-related schemas in memory.""
+    },
+    {
+      ""name"": ""Warm low-key lighting"",
+      ""family"": ""affective"",
+      ""evidence"": ""The scene uses dim illumination, deep shadows, and warm brown and amber tones."",
+      ""hypothesized_salience_pathway"": ""The warm, shadowed palette could cue intimate, nocturnal, or cinematic associations and establish an emotionally toned context.""
+    },
+    {
+      ""name"": ""Tight partial cropping"",
+      ""family"": ""visual"",
+      ""evidence"": ""Parts of the person's head, body, and surrounding scene extend beyond the frame, while the background remains indistinct."",
+      ""hypothesized_salience_pathway"": ""Incomplete visual information can concentrate attention on selected details and invite viewers to mentally complete the scene.""
+    },
+    {
+      ""name"": ""Reason-rejecting slogan"",
+      ""family"": ""textual"",
+      ""evidence"": ""The supplied title and description state: \""No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.\"""",
+      ""hypothesized_salience_pathway"": ""The explicit dismissal of a reason followed by \""Porque Sí\"" creates a simple contrast that may be easy to rehearse and retrieve.""
+    },
+    {
+      ""name"": ""Second-person action language"",
+      ""family"": ""textual"",
+      ""evidence"": ""The slogan directly addresses the viewer through the second-person phrase \""Lo haces\"" and uses short, punctuated sentences."",
+      ""hypothesized_salience_pathway"": ""Direct address can increase perceived self-relevance, while the brief sentence structure may make the message easier to parse and remember.""
+    },
+    {
+      ""name"": ""Alcohol responsibility disclaimer"",
+      ""family"": ""risk"",
+      ""evidence"": ""Small white text at the bottom reads \""Disfruta de un consumo responsable. 40º\"", states that the content is for adults and should not be forwarded to minors under 18, and labels it \""Ficción publicitaria.\"""",
+      ""hypothesized_salience_pathway"": ""The alcohol-strength, adult-only, and responsible-consumption language can cue product-risk and age-restriction categories, although its small size reduces its visual prominence.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'The ad combines a tightly cropped, fashion-styled male-presenting figure in a dark cinematic setting with a concise Spanish slogan centered on spontaneous action.', 'features': [{'name': 'Close-up human figure', 'family': 'visual', 'evidence': 'A male-presenting person fills most of the vertically framed image, with the face and upper torso shown at close range.', 'hypothesized_salience_pathway': 'The large human figure and face provide a prominent focal point that could capture attention and support person-based memory encoding.'}, {'name': 'Obscured gaze', 'family': 'affective', 'evidence': 'The person wears narrow dark sunglasses and looks downward, leaving the eyes and immediate object of attention unclear.', 'hypothesized_salience_pathway': 'Concealed eyes and an ambiguous downward gaze could create visual uncertainty that encourages closer inspection.'}, {'name': 'Distinctive formal styling', 'family': 'identity', 'evidence': 'The figure wears a checked blazer, light collared shirt, dark tie, patterned tie section, and metal-framed sunglasses.', 'hypothesized_salience_pathway': 'The coordinated and visually distinctive clothing can cue fashion, sophistication, or occasion-related schemas in memory.'}, {'name': 'Warm low-key lighting', 'family': 'affective', 'evidence': 'The scene uses dim illumination, deep shadows, and warm brown and amber tones.', 'hypothesized_salience_pathway': 'The warm, shadowed palette could cue intimate, nocturnal, or cinematic associations and establish an emotionally toned context.'}, {'name': 'Tight partial cropping', 'family': 'visual', 'evidence': ""Parts of the person's head, body, and surrounding scene extend beyond the frame, while the background remains indistinct."", 'hypothesized_salience_pathway': 'Incomplete visual information can concentrate attention on selected details and invite viewers to mentally complete the scene.'}, {'name': 'Reason-rejecting slogan', 'family': 'textual', 'evidence': 'The supplied title and description state: ""No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.""', 'hypothesized_salience_pathway': 'The explicit dismissal of a reason followed by ""Porque Sí"" creates a simple contrast that may be easy to rehearse and retrieve.'}, {'name': 'Second-person action language', 'family': 'textual', 'evidence': 'The slogan directly addresses the viewer through the second-person phrase ""Lo haces"" and uses short, punctuated sentences.', 'hypothesized_salience_pathway': 'Direct address can increase perceived self-relevance, while the brief sentence structure may make the message easier to parse and remember.'}, {'name': 'Alcohol responsibility disclaimer', 'family': 'risk', 'evidence': 'Small white text at the bottom reads ""Disfruta de un consumo responsable. 40º"", states that the content is for adults and should not be forwarded to minors under 18, and labels it ""Ficción publicitaria.""', 'hypothesized_salience_pathway': 'The alcohol-strength, adult-only, and responsible-consumption language can cue product-risk and age-restriction categories, although its small size reduces its visual prominence.'}]}"
+1875988017549681,PERNOD RICARD ESPAÑA SA,No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.,No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.,alcohol,data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/frames/1875988017549681_f15c819fc0f1ca7b2cb27bbaebe99abce491203107c94a781aa54920e29c20f5.png,1875988017549681,"{
+  ""summary"": ""A tightly framed, low-light portrait combines a stylish male figure, warm nightlife-like tones, patterned formalwear, sunglasses, and a terse Spanish slogan centered on spontaneous action."",
+  ""features"": [
+    {
+      ""name"": ""Tight face-and-torso framing"",
+      ""family"": ""visual"",
+      ""evidence"": ""The vertically cropped image is dominated by a close view of one man's face, shoulders, jacket, shirt, and tie."",
+      ""hypothesized_salience_pathway"": ""A large human figure and partially visible face could concentrate visual attention and support person-centered encoding.""
+    },
+    {
+      ""name"": ""Concealed gaze"",
+      ""family"": ""identity"",
+      ""evidence"": ""The man wears dark, narrow sunglasses that obscure his eyes while his head is angled downward."",
+      ""hypothesized_salience_pathway"": ""The hidden gaze and incomplete facial information could create visual ambiguity that invites closer inspection or retrieval of familiar style archetypes.""
+    },
+    {
+      ""name"": ""Retro formal styling"",
+      ""family"": ""identity"",
+      ""evidence"": ""The figure wears a checked suit jacket, wide-collared cream shirt, patterned tie, facial hair, and tinted glasses."",
+      ""hypothesized_salience_pathway"": ""The coordinated, distinctive clothing could cue memories or schemas associated with retro fashion, nightlife, sophistication, or performative self-presentation.""
+    },
+    {
+      ""name"": ""Warm low-key lighting"",
+      ""family"": ""affective"",
+      ""evidence"": ""The scene uses dim illumination, deep shadows, and predominantly amber-brown tones."",
+      ""hypothesized_salience_pathway"": ""Warm color and darkness could establish an intimate or nocturnal emotional tone and make illuminated facial and clothing details more conspicuous.""
+    },
+    {
+      ""name"": ""Dense pattern contrast"",
+      ""family"": ""visual"",
+      ""evidence"": ""Fine checks on the jacket contrast with the cream shirt, dark tie section, and ornate patterned tie section."",
+      ""hypothesized_salience_pathway"": ""Multiple adjacent textures and high-frequency patterns could attract scrutiny and provide distinctive details for visual memory.""
+    },
+    {
+      ""name"": ""Reason-free action slogan"",
+      ""family"": ""textual"",
+      ""evidence"": ""The supplied title and description state: \""No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.\"""",
+      ""hypothesized_salience_pathway"": ""The short clauses, repetition of \""por qué/porque,\"" and justification-free action framing could make the phrase easy to rehearse while cueing spontaneity.""
+    },
+    {
+      ""name"": ""Alcohol responsibility disclaimer"",
+      ""family"": ""risk"",
+      ""evidence"": ""Small white text at the bottom includes \""Disfruta de un consumo responsable,\"" \""40º,\"" an adults-only notice, a warning not to forward to minors under 18, and \""Ficción publicitaria.\"""",
+      ""hypothesized_salience_pathway"": ""The explicit alcohol-strength, age, and responsibility language could cue alcohol-related risk and regulatory associations, although its small size makes it visually subordinate.""
+    }
+  ]
+}",,,0,0,0,,[],True,0.0,"{'summary': 'A tightly framed, low-light portrait combines a stylish male figure, warm nightlife-like tones, patterned formalwear, sunglasses, and a terse Spanish slogan centered on spontaneous action.', 'features': [{'name': 'Tight face-and-torso framing', 'family': 'visual', 'evidence': ""The vertically cropped image is dominated by a close view of one man's face, shoulders, jacket, shirt, and tie."", 'hypothesized_salience_pathway': 'A large human figure and partially visible face could concentrate visual attention and support person-centered encoding.'}, {'name': 'Concealed gaze', 'family': 'identity', 'evidence': 'The man wears dark, narrow sunglasses that obscure his eyes while his head is angled downward.', 'hypothesized_salience_pathway': 'The hidden gaze and incomplete facial information could create visual ambiguity that invites closer inspection or retrieval of familiar style archetypes.'}, {'name': 'Retro formal styling', 'family': 'identity', 'evidence': 'The figure wears a checked suit jacket, wide-collared cream shirt, patterned tie, facial hair, and tinted glasses.', 'hypothesized_salience_pathway': 'The coordinated, distinctive clothing could cue memories or schemas associated with retro fashion, nightlife, sophistication, or performative self-presentation.'}, {'name': 'Warm low-key lighting', 'family': 'affective', 'evidence': 'The scene uses dim illumination, deep shadows, and predominantly amber-brown tones.', 'hypothesized_salience_pathway': 'Warm color and darkness could establish an intimate or nocturnal emotional tone and make illuminated facial and clothing details more conspicuous.'}, {'name': 'Dense pattern contrast', 'family': 'visual', 'evidence': 'Fine checks on the jacket contrast with the cream shirt, dark tie section, and ornate patterned tie section.', 'hypothesized_salience_pathway': 'Multiple adjacent textures and high-frequency patterns could attract scrutiny and provide distinctive details for visual memory.'}, {'name': 'Reason-free action slogan', 'family': 'textual', 'evidence': 'The supplied title and description state: ""No hay un por qué. Ni falta que hace. Lo haces: Porque Sí.""', 'hypothesized_salience_pathway': 'The short clauses, repetition of ""por qué/porque,"" and justification-free action framing could make the phrase easy to rehearse while cueing spontaneity.'}, {'name': 'Alcohol responsibility disclaimer', 'family': 'risk', 'evidence': 'Small white text at the bottom includes ""Disfruta de un consumo responsable,"" ""40º,"" an adults-only notice, a warning not to forward to minors under 18, and ""Ficción publicitaria.""', 'hypothesized_salience_pathway': 'The explicit alcohol-strength, age, and responsibility language could cue alcohol-related risk and regulatory associations, although its small size makes it visually subordinate.'}]}"

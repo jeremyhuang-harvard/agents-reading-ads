@@ -1,0 +1,1 @@
+Interpret the advertisement from the supplied profile and viewing context. Return the required structured fields before any explanation. Do not claim to be a real person.

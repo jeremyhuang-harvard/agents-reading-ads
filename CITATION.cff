@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Agents reading ads: scraping ad libraries, representing firms by their ads, and how an AI agent reads ads in context"
+message: "If you use this code or data, please cite it as below."
+type: software
+authors:
+  - family-names: Huang
+    given-names: Jeremy
+repository-code: "https://github.com/jeremyhuang-harvard/agents-reading-ads"
+license: MIT
+date-released: "2026-11-11"

@@ -1,0 +1,99 @@
+{
+  "source": "https://www.yahoo.com/entertainment/every-game-day-outfit-taylor-154600935.html (Page Six via Yahoo, retrieved 2026-11-09)",
+  "note": "Brands identified in each Taylor Swift Chiefs game-day look. 'tier': luxury / mainstream / indie (small or one-off maker). 'affordable': described as low-priced or under ~$100 in the source. 'first' marks the first brand named for the look (headline item). Dec 25, 2023 (no brand) omitted.",
+  "appearances": [
+    {"date": "2023-09-24", "items": [
+      {"brand": "New Era", "query": "New Era jacket", "wiki": "New_Era_Cap_Company", "tier": "mainstream", "first": true},
+      {"brand": "New Balance", "query": "New Balance 550", "wiki": "New_Balance", "tier": "mainstream", "affordable": true}]},
+    {"date": "2023-10-12", "items": [
+      {"brand": "Wear by Erin Andrews", "query": "Wear by Erin Andrews", "wiki": null, "tier": "indie", "first": true}]},
+    {"date": "2023-10-22", "items": [
+      {"brand": "Ellie Mae Vintage", "query": "Ellie Mae Vintage", "wiki": null, "tier": "indie", "first": true},
+      {"brand": "Erimish", "query": "Erimish", "wiki": null, "tier": "indie"},
+      {"brand": "Nike", "query": "Nike Air Force 1", "wiki": "Nike_Air_Force_1", "tier": "mainstream", "affordable": true}]},
+    {"date": "2023-12-03", "items": [
+      {"brand": "Stella McCartney", "query": "Stella McCartney", "wiki": "Stella_McCartney", "tier": "luxury", "first": true},
+      {"brand": "Louis Vuitton", "query": "Louis Vuitton", "wiki": "Louis_Vuitton", "tier": "luxury"},
+      {"brand": "Stuart Weitzman", "query": "Stuart Weitzman", "wiki": "Stuart_Weitzman", "tier": "luxury"}]},
+    {"date": "2023-12-10", "items": [
+      {"brand": "Westside Storey", "query": "Westside Storey", "wiki": null, "tier": "indie", "first": true}]},
+    {"date": "2023-12-17", "items": [
+      {"brand": "Kut the Knit", "query": "Kut the Knit", "wiki": null, "tier": "indie", "first": true},
+      {"brand": "Rails", "query": "Rails clothing", "wiki": null, "tier": "mainstream"}]},
+    {"date": "2023-12-31", "items": [
+      {"brand": "Jeff Hamilton", "query": "Jeff Hamilton jacket", "wiki": null, "tier": "indie", "first": true}]},
+    {"date": "2024-01-13", "items": [
+      {"brand": "Kristin Juszczyk", "query": "Kristin Juszczyk", "wiki": "Kristin_Juszczyk", "tier": "indie", "first": true}]},
+    {"date": "2024-01-28", "items": [
+      {"brand": "Wove", "query": "Wove bracelet", "wiki": null, "tier": "indie", "first": true},
+      {"brand": "EB & Co", "query": "EB & Co", "wiki": null, "tier": "indie"},
+      {"brand": "Mejuri", "query": "Mejuri", "wiki": "Mejuri", "tier": "mainstream", "affordable": true},
+      {"brand": "Wwake", "query": "Wwake", "wiki": null, "tier": "indie"},
+      {"brand": "BaubleBar", "query": "BaubleBar", "wiki": "BaubleBar", "tier": "mainstream", "affordable": true}]},
+    {"date": "2024-02-11", "items": [
+      {"brand": "Stephanie Gottlieb", "query": "Stephanie Gottlieb", "wiki": null, "tier": "indie", "first": true},
+      {"brand": "Judith Leiber", "query": "Judith Leiber", "wiki": "Judith_Leiber", "tier": "luxury"},
+      {"brand": "Wear by Erin Andrews", "query": "Wear by Erin Andrews", "wiki": null, "tier": "indie"}]},
+    {"date": "2024-09-05", "items": [
+      {"brand": "Versace", "query": "Versace", "wiki": "Versace", "tier": "luxury", "first": true},
+      {"brand": "Grlfrnd", "query": "Grlfrnd", "wiki": null, "tier": "mainstream"},
+      {"brand": "Louis Vuitton", "query": "Louis Vuitton", "wiki": "Louis_Vuitton", "tier": "luxury"},
+      {"brand": "Giuseppe Zanotti", "query": "Giuseppe Zanotti", "wiki": "Giuseppe_Zanotti", "tier": "luxury"},
+      {"brand": "Retrouvai", "query": "Retrouvai", "wiki": null, "tier": "indie"},
+      {"brand": "Howl", "query": "Howl jewelry", "wiki": null, "tier": "indie"},
+      {"brand": "Susan Saffron", "query": "Susan Saffron", "wiki": null, "tier": "indie"},
+      {"brand": "EF Collection", "query": "EF Collection", "wiki": null, "tier": "indie"},
+      {"brand": "For Future Reference", "query": "For Future Reference jewelry", "wiki": null, "tier": "indie"}]},
+    {"date": "2024-09-15", "items": [
+      {"brand": "Westside Storey", "query": "Westside Storey", "wiki": null, "tier": "indie", "first": true},
+      {"brand": "Giuseppe Zanotti", "query": "Giuseppe Zanotti", "wiki": "Giuseppe_Zanotti", "tier": "luxury"},
+      {"brand": "Louis Vuitton", "query": "Louis Vuitton", "wiki": "Louis_Vuitton", "tier": "luxury"},
+      {"brand": "Melinda Maria", "query": "Melinda Maria", "wiki": null, "tier": "mainstream", "affordable": true},
+      {"brand": "Vitaly", "query": "Vitaly jewelry", "wiki": null, "tier": "mainstream", "affordable": true}]},
+    {"date": "2024-10-07", "items": [
+      {"brand": "Vivienne Westwood", "query": "Vivienne Westwood", "wiki": "Vivienne_Westwood_(fashion_brand)", "tier": "luxury", "first": true},
+      {"brand": "Fazit", "query": "Fazit", "wiki": null, "tier": "indie", "affordable": true}]},
+    {"date": "2024-11-04", "items": [
+      {"brand": "Christian Louboutin", "query": "Christian Louboutin", "wiki": "Christian_Louboutin", "tier": "luxury", "first": true},
+      {"brand": "Dior", "query": "Dior saddle bag", "wiki": "Dior", "tier": "luxury"},
+      {"brand": "Mugler", "query": "Mugler", "wiki": "Mugler", "tier": "luxury"},
+      {"brand": "Chanel", "query": "Chanel", "wiki": "Chanel", "tier": "luxury"},
+      {"brand": "Louis Vuitton", "query": "Louis Vuitton", "wiki": "Louis_Vuitton", "tier": "luxury"}]},
+    {"date": "2024-11-10", "items": [
+      {"brand": "Versace", "query": "Versace", "wiki": "Versace", "tier": "luxury", "first": true},
+      {"brand": "Retrouvai", "query": "Retrouvai", "wiki": null, "tier": "indie"},
+      {"brand": "Effy", "query": "Effy jewelry", "wiki": null, "tier": "mainstream"},
+      {"brand": "Louis Vuitton", "query": "Louis Vuitton", "wiki": "Louis_Vuitton", "tier": "luxury"},
+      {"brand": "Victoria's Secret", "query": "Victoria's Secret corset", "wiki": "Victoria's_Secret", "tier": "mainstream", "affordable": true}]},
+    {"date": "2024-11-29", "items": [
+      {"brand": "Louis Vuitton", "query": "Louis Vuitton", "wiki": "Louis_Vuitton", "tier": "luxury", "first": true},
+      {"brand": "Versace", "query": "Versace", "wiki": "Versace", "tier": "luxury"},
+      {"brand": "Paige", "query": "Paige jeans", "wiki": null, "tier": "mainstream"},
+      {"brand": "Alaia", "query": "Alaia", "wiki": "Alaïa", "tier": "luxury"},
+      {"brand": "Anita Ko", "query": "Anita Ko", "wiki": null, "tier": "indie"},
+      {"brand": "Dana Rebecca Designs", "query": "Dana Rebecca Designs", "wiki": null, "tier": "indie"}]},
+    {"date": "2024-12-21", "items": [
+      {"brand": "Charlotte Simone", "query": "Charlotte Simone", "wiki": null, "tier": "indie", "first": true},
+      {"brand": "Sheertex", "query": "Sheertex", "wiki": null, "tier": "mainstream", "affordable": true},
+      {"brand": "Manolo Blahnik", "query": "Manolo Blahnik", "wiki": "Manolo_Blahnik", "tier": "luxury"},
+      {"brand": "Chanel", "query": "Chanel", "wiki": "Chanel", "tier": "luxury"},
+      {"brand": "Tod's", "query": "Tod's", "wiki": "Tod's", "tier": "luxury"},
+      {"brand": "Effy", "query": "Effy jewelry", "wiki": null, "tier": "mainstream"},
+      {"brand": "Stephanie Gottlieb", "query": "Stephanie Gottlieb", "wiki": null, "tier": "indie"}]},
+    {"date": "2025-01-18", "items": [
+      {"brand": "Chanel", "query": "Chanel", "wiki": "Chanel", "tier": "luxury", "first": true},
+      {"brand": "Canada Goose", "query": "Canada Goose gloves", "wiki": "Canada_Goose", "tier": "mainstream"}]},
+    {"date": "2025-01-26", "items": [
+      {"brand": "Louis Vuitton", "query": "Louis Vuitton", "wiki": "Louis_Vuitton", "tier": "luxury", "first": true},
+      {"brand": "Cartier", "query": "Cartier Panthere", "wiki": "Cartier_(jeweler)", "tier": "luxury"}]},
+    {"date": "2025-02-09", "items": [
+      {"brand": "Lorraine Schwartz", "query": "Lorraine Schwartz", "wiki": "Lorraine_Schwartz", "tier": "luxury", "first": true},
+      {"brand": "Saint Laurent", "query": "Saint Laurent blazer", "wiki": "Yves_Saint_Laurent_(brand)", "tier": "luxury"},
+      {"brand": "Paris Texas", "query": "Paris Texas boots", "wiki": null, "tier": "mainstream"},
+      {"brand": "Givenchy", "query": "Givenchy", "wiki": "Givenchy", "tier": "luxury"},
+      {"brand": "Effy", "query": "Effy jewelry", "wiki": null, "tier": "mainstream"},
+      {"brand": "Retrouvai", "query": "Retrouvai", "wiki": null, "tier": "indie"},
+      {"brand": "Cartier", "query": "Cartier Panthere", "wiki": "Cartier_(jeweler)", "tier": "luxury"},
+      {"brand": "Logan Hollowell", "query": "Logan Hollowell", "wiki": null, "tier": "indie"}]}
+  ]
+}

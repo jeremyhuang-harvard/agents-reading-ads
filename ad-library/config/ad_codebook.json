@@ -1,0 +1,51 @@
+{
+  "spec_version": "ads_cues_v0.1.0",
+  "unit": "immutable creative bundle",
+  "missing_value_rule": "Use null plus unknown_reason when a construct is not observable. Zero means observable absence.",
+  "classifications": {
+    "gambling_ad_present": "Promotes wagering, sportsbook, casino, lottery, odds, prediction-market trading, or a gambling-linked offer.",
+    "financial_inducement_present": "Offers a bonus, free bet, odds boost, cashback, matched deposit, credit, prize, or similar wagering-linked incentive.",
+    "risk_minimization_claim": "Frames wagering or an offer as risk-free, no-sweat, protected, money-back, safe, or otherwise downplays potential loss.",
+    "live_betting_present": "Promotes or demonstrates wagering during an event or on rapidly changing in-play markets.",
+    "social_normalization_present": "Explicitly presents betting as routine, common, expected, or socially approved.",
+    "fandom_identity_present": "Links wagering to team loyalty, supporter identity, or fuller participation in an event.",
+    "celebrity_endorsement_present": "A recognizable public figure endorses, recommends, demonstrates, narrates, or normalizes the product."
+  },
+  "ratings_0_100": {
+    "inducement_strength": "Magnitude and perceptual prominence of promised value, considering only observable qualifying conditions.",
+    "win_salience": "Degree to which winning, payout, profit, jackpots, or successful users dominate the creative.",
+    "urgency_scarcity": "Strength of immediate-action pressure, countdowns, expiring offers, kickoff deadlines, or live-event timing.",
+    "betting_actionability": "How directly the viewer can translate the ad into a wager using selections, odds, CTA, promo code, QR code, or deep link.",
+    "perceived_ease": "Degree to which betting is depicted as fast, simple, effortless, or one-tap.",
+    "sensory_salience": "Visual contrast, motion, typography, sonic intensity, repetition, and foreground prominence.",
+    "arousal_excitement": "Suspense, celebration, crowd energy, rapid pacing, emphatic voice, music, and emotional intensity.",
+    "positive_affect": "Joy, humor, triumph, anticipation, or pleasure connected to gambling.",
+    "social_proof_normalization": "Degree to which betting is represented as common, socially approved, or integral to ordinary participation.",
+    "sport_fandom_linkage": "Degree to which wagering is fused with team loyalty, fan identity, or event enjoyment.",
+    "belonging_status_expertise": "Association with belonging, status, sophistication, insider knowledge, identity, or skill.",
+    "responsible_gambling_prominence": "Perceptual prominence and comprehensibility of safer-gambling messaging, not mere presence.",
+    "terms_prominence": "Legibility or audibility, duration, contrast, placement, and comprehensibility of material terms.",
+    "age_restriction_prominence": "Perceptual salience of age eligibility or exclusion."
+  },
+  "extractions": {
+    "operator_brand": "Exact operator or brand displayed or spoken.",
+    "product_type": "sportsbook, exchange, prediction_market, casino, poker, lottery, fantasy, other, none, or unknown.",
+    "sport_event": "Named sport, league, team, player, election, event, or market subject.",
+    "offer_type": "free_bet, odds_boost, matched_deposit, cashback, bonus_credit, prize, other, none, or unknown.",
+    "headline_amount": "Largest promoted monetary or percentage amount exactly as shown.",
+    "minimum_deposit": "Required deposit exactly as shown.",
+    "minimum_odds": "Qualifying minimum odds exactly as shown.",
+    "rollover_or_playthrough": "Exact wagering or playthrough requirement.",
+    "expiry": "Exact expiry, deadline, or event trigger.",
+    "eligibility": "New/existing customer, geography, age, payment method, and other conditions.",
+    "call_to_action": "Verbatim primary call to action.",
+    "responsible_gambling_text": "Verbatim safer-gambling message.",
+    "age_text": "Verbatim age restriction."
+  },
+  "evidence_required_for": [
+    "all positive classifications",
+    "ratings at or above 80",
+    "literal extraction fields",
+    "all adjudicated outputs"
+  ]
+}

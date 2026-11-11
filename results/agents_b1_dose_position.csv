@@ -1,0 +1,9 @@
+prime_set,position,chance_ahead,risk,pressure,norm,appeal
+drink_harm,before_k1,0.0435,-0.1588,0.3044,-0.3056,0.0615
+drink_harm,before_k3,0.2318,0.3036,1.348,-0.873,0.0496
+drink_harm,before_k5,1.2053,1.0393,2.6904,-1.11,-0.221
+drink_harm,ad_first,0.5682,0.6603,2.6964,-1.2145,-0.8204
+social_drink,before_k1,0.2581,-0.1429,0.0474,0.2977,0.0341
+social_drink,before_k3,0.5417,-0.2799,-0.0157,0.569,0.1055
+social_drink,before_k5,0.5569,-0.4527,0.1364,0.7511,0.1701
+social_drink,ad_first,0.4614,0.3923,0.8097,0.514,-0.3133

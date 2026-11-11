@@ -1,0 +1,104 @@
+coding_id,image_data,media_sha256,Identifier,Response,Web Search Sources,Time Taken,Input Tokens,Reasoning Tokens,Output Tokens,Reasoning Effort,Error Log,Successful,Cost,Response JSON
+SCV-003,,b7f29eadb85454e6363d48f435a8c241103e8c3749e6c351a1fd35e386c21525,SCV-003,"{""annotations"":[{""field"":""gambling_ad_present"",""value"":false,""evidence"":""Adidas apparel and footwear discount advertisement; no wagering product or gambling offer is shown."",""unknown_reason"":null},{""field"":""financial_inducement_present"",""value"":false,""evidence"":""The visible 30% discount is a retail promotion, not a wagering-linked incentive."",""unknown_reason"":null},{""field"":""risk_minimization_claim"",""value"":false,""evidence"":""No wagering or loss-minimization claim is present."",""unknown_reason"":null},{""field"":""social_normalization_present"",""value"":false,""evidence"":""No gambling participation or normalization is depicted."",""unknown_reason"":null},{""field"":""fandom_identity_present"",""value"":false,""evidence"":""Sportswear is shown, but there is no wagering or team-loyalty message."",""unknown_reason"":null},{""field"":""celebrity_endorsement_present"",""value"":false,""evidence"":""A model displays Adidas products without any observable identification as a public figure."",""unknown_reason"":null},{""field"":""urgency_scarcity"",""value"":0,""evidence"":""No deadline, countdown, scarcity statement, or immediate-action prompt is visible."",""unknown_reason"":null},{""field"":""betting_actionability"",""value"":0,""evidence"":""No betting selection, odds, code, wagering CTA, or path to a wager is present."",""unknown_reason"":null},{""field"":""sensory_salience"",""value"":55,""evidence"":""Large white typography, a vivid green gradient, and a full-body product model create moderate visual prominence."",""unknown_reason"":null},{""field"":""arousal_excitement"",""value"":15,""evidence"":""The static pose and uncluttered layout convey little excitement or emotional intensity."",""unknown_reason"":null},{""field"":""positive_affect"",""value"":25,""evidence"":""Bright colors and fashion presentation create a mildly pleasant promotional tone."",""unknown_reason"":null},{""field"":""social_proof_normalization"",""value"":0,""evidence"":""No gambling or portrayal of gambling as ordinary social participation is present."",""unknown_reason"":null},{""field"":""sport_fandom_linkage"",""value"":0,""evidence"":""Sportswear imagery appears, but no wagering is linked to sport or supporter identity."",""unknown_reason"":null},{""field"":""responsible_gambling_prominence"",""value"":0,""evidence"":""No safer-gambling message is visible."",""unknown_reason"":null},{""field"":""terms_prominence"",""value"":75,""evidence"":""The material offer qualifier and amount, “BIS ZU 30% RABATT,” are large, high-contrast, and immediately legible."",""unknown_reason"":null},{""field"":""age_restriction_prominence"",""value"":0,""evidence"":""No age eligibility or exclusion message is visible."",""unknown_reason"":null}],""overall_notes"":""Static retail-fashion creative with clearly legible discount text; no audio or motion is available to assess.""}",,,0,0,0,,[],True,0.0,"{'annotations': [{'field': 'gambling_ad_present', 'value': False, 'evidence': 'Adidas apparel and footwear discount advertisement; no wagering product or gambling offer is shown.', 'unknown_reason': None}, {'field': 'financial_inducement_present', 'value': False, 'evidence': 'The visible 30% discount is a retail promotion, not a wagering-linked incentive.', 'unknown_reason': None}, {'field': 'risk_minimization_claim', 'value': False, 'evidence': 'No wagering or loss-minimization claim is present.', 'unknown_reason': None}, {'field': 'social_normalization_present', 'value': False, 'evidence': 'No gambling participation or normalization is depicted.', 'unknown_reason': None}, {'field': 'fandom_identity_present', 'value': False, 'evidence': 'Sportswear is shown, but there is no wagering or team-loyalty message.', 'unknown_reason': None}, {'field': 'celebrity_endorsement_present', 'value': False, 'evidence': 'A model displays Adidas products without any observable identification as a public figure.', 'unknown_reason': None}, {'field': 'urgency_scarcity', 'value': 0, 'evidence': 'No deadline, countdown, scarcity statement, or immediate-action prompt is visible.', 'unknown_reason': None}, {'field': 'betting_actionability', 'value': 0, 'evidence': 'No betting selection, odds, code, wagering CTA, or path to a wager is present.', 'unknown_reason': None}, {'field': 'sensory_salience', 'value': 55, 'evidence': 'Large white typography, a vivid green gradient, and a full-body product model create moderate visual prominence.', 'unknown_reason': None}, {'field': 'arousal_excitement', 'value': 15, 'evidence': 'The static pose and uncluttered layout convey little excitement or emotional intensity.', 'unknown_reason': None}, {'field': 'positive_affect', 'value': 25, 'evidence': 'Bright colors and fashion presentation create a mildly pleasant promotional tone.', 'unknown_reason': None}, {'field': 'social_proof_normalization', 'value': 0, 'evidence': 'No gambling or portrayal of gambling as ordinary social participation is present.', 'unknown_reason': None}, {'field': 'sport_fandom_linkage', 'value': 0, 'evidence': 'Sportswear imagery appears, but no wagering is linked to sport or supporter identity.', 'unknown_reason': None}, {'field': 'responsible_gambling_prominence', 'value': 0, 'evidence': 'No safer-gambling message is visible.', 'unknown_reason': None}, {'field': 'terms_prominence', 'value': 75, 'evidence': 'The material offer qualifier and amount, “BIS ZU 30% RABATT,” are large, high-contrast, and immediately legible.', 'unknown_reason': None}, {'field': 'age_restriction_prominence', 'value': 0, 'evidence': 'No age eligibility or exclusion message is visible.', 'unknown_reason': None}], 'overall_notes': 'Static retail-fashion creative with clearly legible discount text; no audio or motion is available to assess.'}"
+SCV-004,,e505654fc7f5db7dcefeb4e8f1716e5d3ac37341c3213da052fb5d1e4929e934,SCV-004,"{""annotations"":[{""field"":""gambling_ad_present"",""value"":true,""evidence"":""bet365 is labeled “SPORTWETTEN,” and the creative advertises betting offers."",""unknown_reason"":null},{""field"":""financial_inducement_present"",""value"":true,""evidence"":""The creative promises “jeden Tag ein neues Angebot” and highlights “0% Wettgebühr.”"",""unknown_reason"":null},{""field"":""risk_minimization_claim"",""value"":false,""evidence"":"""",""unknown_reason"":null},{""field"":""social_normalization_present"",""value"":false,""evidence"":"""",""unknown_reason"":null},{""field"":""fandom_identity_present"",""value"":false,""evidence"":"""",""unknown_reason"":null},{""field"":""celebrity_endorsement_present"",""value"":false,""evidence"":"""",""unknown_reason"":null},{""field"":""urgency_scarcity"",""value"":70,""evidence"":""The offer is limited to “20. Dez. - 31. Dez.” with a new offer each day."",""unknown_reason"":null},{""field"":""betting_actionability"",""value"":55,""evidence"":""App Store and Google Play buttons provide a direct route to the sportsbook, but no selection or odds are shown."",""unknown_reason"":null},{""field"":""sensory_salience"",""value"":65,""evidence"":""Large high-contrast typography, bright neon-green graphics, gift imagery, and confetti create strong visual emphasis."",""unknown_reason"":null},{""field"":""arousal_excitement"",""value"":45,""evidence"":""Festive graphics and emphatic typography create moderate energy, but the static image shows no crowd or celebration."",""unknown_reason"":null},{""field"":""positive_affect"",""value"":55,""evidence"":""Holiday styling, gifts, confetti, and daily offers create a clearly upbeat promotional tone."",""unknown_reason"":null},{""field"":""social_proof_normalization"",""value"":0,""evidence"":"""",""unknown_reason"":null},{""field"":""sport_fandom_linkage"",""value"":0,""evidence"":"""",""unknown_reason"":null},{""field"":""responsible_gambling_prominence"",""value"":45,""evidence"":""A white footer strip visibly states “Suchtrisiken | Hilfe unter buwei.de,” though in relatively small text."",""unknown_reason"":null},{""field"":""terms_prominence"",""value"":25,""evidence"":""Eligibility and wagering-condition text is present near the bottom but is small relative to the main offer."",""unknown_reason"":null},{""field"":""age_restriction_prominence"",""value"":55,""evidence"":""“18+” appears in a contrasting white footer strip, clearly visible but not dominant."",""unknown_reason"":null}],""overall_notes"":""Static German-language sportsbook promotion; ratings reflect only visible elements. Fine-print conditions are legible but substantially less prominent than the offer.""}",,,0,0,0,,[],True,0.0,"{'annotations': [{'field': 'gambling_ad_present', 'value': True, 'evidence': 'bet365 is labeled “SPORTWETTEN,” and the creative advertises betting offers.', 'unknown_reason': None}, {'field': 'financial_inducement_present', 'value': True, 'evidence': 'The creative promises “jeden Tag ein neues Angebot” and highlights “0% Wettgebühr.”', 'unknown_reason': None}, {'field': 'risk_minimization_claim', 'value': False, 'evidence': '', 'unknown_reason': None}, {'field': 'social_normalization_present', 'value': False, 'evidence': '', 'unknown_reason': None}, {'field': 'fandom_identity_present', 'value': False, 'evidence': '', 'unknown_reason': None}, {'field': 'celebrity_endorsement_present', 'value': False, 'evidence': '', 'unknown_reason': None}, {'field': 'urgency_scarcity', 'value': 70, 'evidence': 'The offer is limited to “20. Dez. - 31. Dez.” with a new offer each day.', 'unknown_reason': None}, {'field': 'betting_actionability', 'value': 55, 'evidence': 'App Store and Google Play buttons provide a direct route to the sportsbook, but no selection or odds are shown.', 'unknown_reason': None}, {'field': 'sensory_salience', 'value': 65, 'evidence': 'Large high-contrast typography, bright neon-green graphics, gift imagery, and confetti create strong visual emphasis.', 'unknown_reason': None}, {'field': 'arousal_excitement', 'value': 45, 'evidence': 'Festive graphics and emphatic typography create moderate energy, but the static image shows no crowd or celebration.', 'unknown_reason': None}, {'field': 'positive_affect', 'value': 55, 'evidence': 'Holiday styling, gifts, confetti, and daily offers create a clearly upbeat promotional tone.', 'unknown_reason': None}, {'field': 'social_proof_normalization', 'value': 0, 'evidence': '', 'unknown_reason': None}, {'field': 'sport_fandom_linkage', 'value': 0, 'evidence': '', 'unknown_reason': None}, {'field': 'responsible_gambling_prominence', 'value': 45, 'evidence': 'A white footer strip visibly states “Suchtrisiken | Hilfe unter buwei.de,” though in relatively small text.', 'unknown_reason': None}, {'field': 'terms_prominence', 'value': 25, 'evidence': 'Eligibility and wagering-condition text is present near the bottom but is small relative to the main offer.', 'unknown_reason': None}, {'field': 'age_restriction_prominence', 'value': 55, 'evidence': '“18+” appears in a contrasting white footer strip, clearly visible but not dominant.', 'unknown_reason': None}], 'overall_notes': 'Static German-language sportsbook promotion; ratings reflect only visible elements. Fine-print conditions are legible but substantially less prominent than the offer.'}"
+SCV-007,,1944f0750eb7cd85ad8d35ea8f7e846bdb390b16081f47b3270afe3cf8157503,SCV-007,"{
+  ""annotations"": [
+    {
+      ""field"": ""gambling_ad_present"",
+      ""value"": false,
+      ""evidence"": ""The creative promotes Heineken beer, with no wagering or gambling content."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""financial_inducement_present"",
+      ""value"": false,
+      ""evidence"": ""No wagering-linked incentive is shown."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""risk_minimization_claim"",
+      ""value"": false,
+      ""evidence"": ""No wagering or claim minimizing financial risk is shown."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""social_normalization_present"",
+      ""value"": false,
+      ""evidence"": ""The creative does not present gambling as common or socially expected."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""fandom_identity_present"",
+      ""value"": false,
+      ""evidence"": ""No wagering, team loyalty, or supporter identity is depicted."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""celebrity_endorsement_present"",
+      ""value"": false,
+      ""evidence"": ""No person or recognizable public figure appears."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""urgency_scarcity"",
+      ""value"": 0,
+      ""evidence"": ""No deadline, countdown, scarcity cue, or immediate-action prompt is visible."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""betting_actionability"",
+      ""value"": 0,
+      ""evidence"": ""This is a beer advertisement with no path to a wager."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""sensory_salience"",
+      ""value"": 48,
+      ""evidence"": ""A bright golden beer glass and large white headline contrast strongly with the solid green background."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""arousal_excitement"",
+      ""value"": 18,
+      ""evidence"": ""The static product presentation is mildly appealing but contains no visible action, celebration, or suspense."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""positive_affect"",
+      ""value"": 40,
+      ""evidence"": ""The phrase \""Heerlijk Hè.\"" and an appetizing, freshly poured beer convey enjoyment and pleasure."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""social_proof_normalization"",
+      ""value"": 0,
+      ""evidence"": ""No gambling is depicted or normalized."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""sport_fandom_linkage"",
+      ""value"": 0,
+      ""evidence"": ""No wagering or sports-fandom imagery is present."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""responsible_gambling_prominence"",
+      ""value"": 0,
+      ""evidence"": ""No safer-gambling message is observable."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""terms_prominence"",
+      ""value"": 0,
+      ""evidence"": ""No material offer or offer terms are shown."",
+      ""unknown_reason"": null
+    },
+    {
+      ""field"": ""age_restriction_prominence"",
+      ""value"": 50,
+      ""evidence"": ""A clearly contrasting \""NIX18\"" age-exclusion mark appears in the upper-right corner."",
+      ""unknown_reason"": null
+    }
+  ],
+  ""overall_notes"": ""Static, clearly legible beer advertisement; no gambling content is observable.""
+}",,,0,0,0,,[],True,0.0,"{'annotations': [{'field': 'gambling_ad_present', 'value': False, 'evidence': 'The creative promotes Heineken beer, with no wagering or gambling content.', 'unknown_reason': None}, {'field': 'financial_inducement_present', 'value': False, 'evidence': 'No wagering-linked incentive is shown.', 'unknown_reason': None}, {'field': 'risk_minimization_claim', 'value': False, 'evidence': 'No wagering or claim minimizing financial risk is shown.', 'unknown_reason': None}, {'field': 'social_normalization_present', 'value': False, 'evidence': 'The creative does not present gambling as common or socially expected.', 'unknown_reason': None}, {'field': 'fandom_identity_present', 'value': False, 'evidence': 'No wagering, team loyalty, or supporter identity is depicted.', 'unknown_reason': None}, {'field': 'celebrity_endorsement_present', 'value': False, 'evidence': 'No person or recognizable public figure appears.', 'unknown_reason': None}, {'field': 'urgency_scarcity', 'value': 0, 'evidence': 'No deadline, countdown, scarcity cue, or immediate-action prompt is visible.', 'unknown_reason': None}, {'field': 'betting_actionability', 'value': 0, 'evidence': 'This is a beer advertisement with no path to a wager.', 'unknown_reason': None}, {'field': 'sensory_salience', 'value': 48, 'evidence': 'A bright golden beer glass and large white headline contrast strongly with the solid green background.', 'unknown_reason': None}, {'field': 'arousal_excitement', 'value': 18, 'evidence': 'The static product presentation is mildly appealing but contains no visible action, celebration, or suspense.', 'unknown_reason': None}, {'field': 'positive_affect', 'value': 40, 'evidence': 'The phrase ""Heerlijk Hè."" and an appetizing, freshly poured beer convey enjoyment and pleasure.', 'unknown_reason': None}, {'field': 'social_proof_normalization', 'value': 0, 'evidence': 'No gambling is depicted or normalized.', 'unknown_reason': None}, {'field': 'sport_fandom_linkage', 'value': 0, 'evidence': 'No wagering or sports-fandom imagery is present.', 'unknown_reason': None}, {'field': 'responsible_gambling_prominence', 'value': 0, 'evidence': 'No safer-gambling message is observable.', 'unknown_reason': None}, {'field': 'terms_prominence', 'value': 0, 'evidence': 'No material offer or offer terms are shown.', 'unknown_reason': None}, {'field': 'age_restriction_prominence', 'value': 50, 'evidence': 'A clearly contrasting ""NIX18"" age-exclusion mark appears in the upper-right corner.', 'unknown_reason': None}], 'overall_notes': 'Static, clearly legible beer advertisement; no gambling content is observable.'}"

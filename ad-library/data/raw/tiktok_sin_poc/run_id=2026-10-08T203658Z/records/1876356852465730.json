@@ -1,0 +1,27 @@
+{
+  "ad_id": "1876356852465730",
+  "sin_category": "betting",
+  "source": "TikTok Commercial Content Library",
+  "detail_url": "https://library.tiktok.com/ads/detail/?ad_id=1876356852465730",
+  "captured_at_utc": "2026-10-08T20:42:22.121000+00:00",
+  "first_shown": "09/15/2026",
+  "last_shown": "10/07/2026",
+  "advertising_objective": "App promotion",
+  "unique_users_seen": "10K-100K",
+  "advertiser_name": "WINAMAX",
+  "paid_for_by": "WINAMAX",
+  "registered_location": "France",
+  "title": "Les meilleures cotes sur Winamax",
+  "description": "Les meilleures cotes sur Winamax",
+  "call_to_action": "Go to Google Play",
+  "destination_url": "https://play.google.com/store/apps/details?id=com.winamax.winajs&hl=fr&gl=FR",
+  "ad_category": "News & Entertainment",
+  "raw_text_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/raw/1876356852465730.txt",
+  "video_media": {
+    "source_url": "https://library.tiktok.com/api/v1/cdn/1791492129/video/aHR0cHM6Ly92NTgudGlrdG9rY2RuLmNvbS92aWRlby90b3MvdXNlYXN0MmEvdG9zLXVzZWFzdDJhLXZlLTAwNTFjNzk5LWV1dHRwL29ZSGxEZm1WREV6UUllb2hJZ3FnRkJIdFFjTnRBQWxpRUJ6Q3o5Lw==/6a12bd99-6809-4360-ac1c-6fa4089c2fe7?VExpiration=1791513746&VSignature=XnrxkHIvasBYZVkkoBfndA&a=475769&bt=480&btag=e000b8000&bti=PDU2NmYwMy86&ft=.NpOcInz7ThOZmXGXq8Zmo&l=20261009044209EA76A4B4E4FDB0D88066&mime_type=video_mp4&rc=NTxpaDc3Nzw7OTc4ODNoPEBpajU4bnU5cnlnZDMzODYzNEBiY18xMC4tNmAxMS8uX2AuYSNeLmhxMmRrXl9hLS1kMDFzcw%3D%3D&signature=O2DUZJK1STUY616FQbP%2BrccZRNIZ808No3sCv7BLWwY%3D&vvpl=1",
+    "content_type": "video/mp4",
+    "byte_length": 1049341,
+    "sha256": "4338329ea51043526bf864104a1d18b077bded6fd62bb4ea7a5498ed6113571b",
+    "local_path": "data/raw/tiktok_sin_poc/run_id=2026-10-08T203658Z/media/1876356852465730_4338329ea51043526bf864104a1d18b077bded6fd62bb4ea7a5498ed6113571b.mp4"
+  }
+}

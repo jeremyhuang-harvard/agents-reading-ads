@@ -1,0 +1,26 @@
+{
+  "version": "2026-10-14-snap-1000-v1",
+  "purpose": "Declared 1,000-ad Snapchat pilot: 500 vice-product ads and 500 same-platform controls, with country blocks for France, Germany, and the Netherlands. This is a quota sample, not a representative estimate of platform prevalence.",
+  "target": 1000,
+  "storage_cap_gib": 30,
+  "strata": [
+    {"category": "betting", "advertiser": "Winamax", "country": "fr", "quota": 75},
+    {"category": "betting", "advertiser": "PMU", "country": "fr", "quota": 75},
+    {"category": "alcohol", "advertiser": "Pernod Ricard", "country": "fr", "quota": 150},
+    {"category": "betting", "advertiser": "bet365", "country": "de", "quota": 100},
+    {"category": "alcohol", "advertiser": "Heineken", "country": "nl", "quota": 83},
+    {"category": "alcohol", "advertiser": "Grolsch", "country": "nl", "quota": 17},
+
+    {"category": "control", "advertiser": "Nike", "country": "fr", "quota": 100},
+    {"category": "control", "advertiser": "Coca-Cola", "country": "fr", "quota": 100},
+    {"category": "control", "advertiser": "McDonald's", "country": "fr", "quota": 25},
+    {"category": "control", "advertiser": "Carrefour", "country": "fr", "quota": 75},
+    {"category": "control", "advertiser": "Adidas", "country": "de", "quota": 100},
+    {"category": "control", "advertiser": "Nike", "country": "nl", "quota": 70},
+    {"category": "control", "advertiser": "Adidas", "country": "nl", "quota": 30},
+
+    {"category": "control_fallback", "advertiser": "Amazon", "country": "fr", "quota": 150},
+    {"category": "control_fallback", "advertiser": "Carrefour", "country": "fr", "quota": 75},
+    {"category": "vice_fallback", "advertiser": "Grolsch", "country": "nl", "quota": 50}
+  ]
+}
